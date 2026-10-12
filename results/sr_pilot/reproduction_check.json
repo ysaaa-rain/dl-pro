@@ -1,0 +1,6 @@
+{
+  "cached_replay_metrics_identical": true,
+  "cached_replay_weights_identical": true,
+  "epochs": 12,
+  "seed": 42
+}

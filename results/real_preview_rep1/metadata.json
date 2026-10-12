@@ -1,0 +1,9 @@
+{
+  "command": "window",
+  "uri": "data/raw/GSE272159_37C_rep1.mapq_30.10.cool",
+  "chrom": "NC_000913.3",
+  "start": 50000,
+  "end": 60000,
+  "output": "results/real_preview_rep1",
+  "balance": false
+}

@@ -1,0 +1,12 @@
+{
+  "total": 344,
+  "counts": {
+    "CHIN": 250,
+    "OPCID": 68,
+    "CHID": 26
+  },
+  "coordinate_status": "Coordinates copied exactly; base convention not established by headers",
+  "reference_mapping": "MG1655 -> NC_000913.3; course reference and both Cooler axes agree",
+  "source": "data/annotations/标注数据.xlsx",
+  "output": "data/annotations/structures_source.csv"
+}

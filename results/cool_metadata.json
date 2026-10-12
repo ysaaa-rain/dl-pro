@@ -1,0 +1,24 @@
+[
+  {
+    "uri": "data/raw/GSE272159_37C_rep1.mapq_30.10.cool",
+    "binsize": 10,
+    "chromosomes": {
+      "NC_000913.3": 4641652
+    },
+    "nnz": 257522134,
+    "nbins": 464166,
+    "has_weights": false,
+    "storage_mode": "symmetric-upper"
+  },
+  {
+    "uri": "data/raw/GSE272159_37C_rep2.mapq_30.10.cool",
+    "binsize": 10,
+    "chromosomes": {
+      "NC_000913.3": 4641652
+    },
+    "nnz": 249673544,
+    "nbins": 464166,
+    "has_weights": false,
+    "storage_mode": "symmetric-upper"
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "seed": 42,
+  "epochs": 12,
+  "selected_epoch": 12,
+  "target_bin_bp": 10,
+  "input_bin_bp": 40,
+  "patch_bins": 128,
+  "window_bp": 1280,
+  "scale": 2.890371799468994,
+  "n_by_split": {
+    "train": 128,
+    "test": 32,
+    "val": 24
+  },
+  "blocks_by_split": {
+    "test": 8,
+    "train": 32,
+    "val": 6
+  },
+  "normalization": "log1p / training-only pooled .995 quantile; clip 0..1",
+  "limitations": [
+    "pilot windows cover only a sparse subset of genome",
+    "raw unbalanced contacts",
+    "1280 bp windows do not cover most complete annotated structures",
+    "both repeats participate in training on train blocks; this is spatial holdout, not repeat-disjoint training",
+    "metrics on transformed intensity, not proof of biological structure recovery",
+    "single seed pilot; no hyperparameter search"
+  ],
+  "python": "3.9.6 (default, Aug 25 2026, 21:26:21) \n[Clang 21.0.0 (clang-2100.3.34.2)]",
+  "torch": "2.8.0",
+  "numpy": "2.0.2"
+}

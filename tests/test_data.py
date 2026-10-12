@@ -1,3 +1,4 @@
+import json
 import numpy as np
 import pandas as pd
 import pytest
@@ -13,6 +14,7 @@ def test_real_cool_format_and_memory_guard(tmp_path):
     a, valid = read_window(path,'chr',0,20)
     np.testing.assert_array_equal(a, [[5,2],[2,6]])
     assert valid.all() and inspect_cool(path)['binsize'] == 10
+    assert json.loads(json.dumps(inspect_cool(path)))['binsize'] == 10
     assert len(inventory(tmp_path)[0]['sha256']) == 64
     with pytest.raises(ValueError): read_window(path,'chr',0,40,max_bins=2)
     with pytest.raises(ValueError): read_window(path,'chr',-10,10)

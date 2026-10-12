@@ -1,13 +1,13 @@
 # 基于深度学习的 Micro-C 接触矩阵实验
 
-当前阶段：实验要求已拆解，数据基础模块已实现；课程真实数据尚未到位，尚无训练指标或新结构发现结论。
+当前阶段：WT 两个重复和 344 条源结构注释已接入；首轮真实数据超分辨试验已跑通，CNN 相比双三次插值小幅提升。任务一、二及完整任务五仍待推进，任务三还缺另外两种条件。
 
 ## 环境与运行
 
 ```bash
 python3 -m venv .venv
 .venv/bin/python -m pip install --upgrade pip
-.venv/bin/python -m pip install -e '.[test]'
+.venv/bin/python -m pip install -e '.[test,experiment]'
 .venv/bin/python -m pytest -q
 .venv/bin/dlpro audit data
 .venv/bin/dlpro inspect data/raw/你的样本.cool
@@ -23,3 +23,11 @@ python3 -m venv .venv
 课程原始要求 PDF 与补充下载说明保留原位。不得以自动生成的测试样例替代课程数据，也不得把测试通过写成实验完成。
 
 详见 [实验计划](docs/实验计划.md) 和 [进度](docs/进度.md)。
+
+## 超分辨试验
+
+```bash
+.venv/bin/python -m dlpro.superresolution --dataset results/sr_pilot --output results/sr_reproduction --epochs 12 --seed 42
+```
+
+该命令使用已提交的小体积真实窗口数据复跑，不依赖本地约 907 MiB 的两份原始矩阵。完整矩阵仍保留本地；原始数据来源和 SHA256 见数据清单。训练协议与限制见 [超分辨试验协议](docs/超分辨试验协议.md)。提交前执行 `python scripts/check_staged_sizes.py`，防止误将大矩阵纳入普通 Git。

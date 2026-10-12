@@ -1,0 +1,20 @@
+[
+  {
+    "original_path": "data/数据/micro-c数据/GSE272159_37C_rep1.mapq_30.10.cool",
+    "path": "data/raw/GSE272159_37C_rep1.mapq_30.10.cool",
+    "bytes": 482254398,
+    "sha256": "0256e10da36abfe0238bf16952bc43bc78365f43c201e6e3ba0c49bd243549a8"
+  },
+  {
+    "original_path": "data/数据/micro-c数据/GSE272159_37C_rep2.mapq_30.10.cool",
+    "path": "data/raw/GSE272159_37C_rep2.mapq_30.10.cool",
+    "bytes": 468345755,
+    "sha256": "ede9b4f7c0c6b40c8f098e43cdd0abbc0a8987f05e8b37051a5e3cbf143ad106"
+  },
+  {
+    "original_path": "data/数据/micro-c数据/标注数据.xlsx",
+    "path": "data/annotations/标注数据.xlsx",
+    "bytes": 2698974,
+    "sha256": "a1fa9c0d359509a9eb319442c19e300cb5da85546eeb567368a390d22205167a"
+  }
+]

@@ -1,14 +1,44 @@
 [
   {
-    "path": "data/annotations/README.md",
-    "bytes": 150,
-    "sha256": "0c3e02de1c9e9d6f2dff26a5d96a4c9897668a8299df40a990a2faf18a17644b",
+    "path": "data/.DS_Store",
+    "bytes": 6148,
+    "sha256": "366424905face4fa8461de07313d39c7db3c7263bd670ffd257b95d8a7858c22",
     "git_size_status": "small"
   },
   {
+    "path": "data/annotations/README.md",
+    "bytes": 290,
+    "sha256": "3e22eb5ec2ed7443d0e873339f988a8762aabc02add27da3b202dccb2bf34b95",
+    "git_size_status": "small"
+  },
+  {
+    "path": "data/annotations/structures_source.csv",
+    "bytes": 48576,
+    "sha256": "697c2adf83731fae54e3b9a95bb1a53e8b3d8e8986d9a573d662398122595e22",
+    "git_size_status": "small"
+  },
+  {
+    "path": "data/annotations/\u6807\u6ce8\u6570\u636e.xlsx",
+    "bytes": 2698974,
+    "sha256": "a1fa9c0d359509a9eb319442c19e300cb5da85546eeb567368a390d22205167a",
+    "git_size_status": "small"
+  },
+  {
+    "path": "data/raw/GSE272159_37C_rep1.mapq_30.10.cool",
+    "bytes": 482254398,
+    "sha256": "0256e10da36abfe0238bf16952bc43bc78365f43c201e6e3ba0c49bd243549a8",
+    "git_size_status": "review-large-file"
+  },
+  {
+    "path": "data/raw/GSE272159_37C_rep2.mapq_30.10.cool",
+    "bytes": 468345755,
+    "sha256": "ede9b4f7c0c6b40c8f098e43cdd0abbc0a8987f05e8b37051a5e3cbf143ad106",
+    "git_size_status": "review-large-file"
+  },
+  {
     "path": "data/raw/README.md",
-    "bytes": 161,
-    "sha256": "e234537efc83bdb7f089a76d715f1e228e0e758289fa06801f80fa8e63101940",
+    "bytes": 365,
+    "sha256": "19c2abe11d48c696116a5f945623cb291c516b6f1cea765ab62876433dd5e10f",
     "git_size_status": "small"
   }
 ]

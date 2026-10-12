@@ -23,7 +23,7 @@ def inventory(root):
 
 def inspect_cool(uri):
     c = cooler.Cooler(uri)
-    return dict(uri=uri, binsize=c.binsize, chromosomes={k:int(v) for k,v in c.chromsizes.items()},
+    return dict(uri=uri, binsize=int(c.binsize) if c.binsize is not None else None, chromosomes={k:int(v) for k,v in c.chromsizes.items()},
                 nnz=int(c.info['nnz']), nbins=int(c.info['nbins']),
                 has_weights='weight' in c.bins().columns,
                 storage_mode=c.storage_mode)
