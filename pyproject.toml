@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "dlpro"
+version = "0.1.0"
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.26", "pandas>=2", "cooler>=0.10", "matplotlib>=3.8"]
+[project.optional-dependencies]
+test = ["pytest>=8"]
+[project.scripts]
+dlpro = "dlpro.cli:main"
+[tool.setuptools.packages.find]
+where = ["src"]
+[tool.pytest.ini_options]
+pythonpath = ["src"]

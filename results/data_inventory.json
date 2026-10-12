@@ -1,0 +1,14 @@
+[
+  {
+    "path": "data/annotations/README.md",
+    "bytes": 150,
+    "sha256": "0c3e02de1c9e9d6f2dff26a5d96a4c9897668a8299df40a990a2faf18a17644b",
+    "git_size_status": "small"
+  },
+  {
+    "path": "data/raw/README.md",
+    "bytes": 161,
+    "sha256": "e234537efc83bdb7f089a76d715f1e228e0e758289fa06801f80fa8e63101940",
+    "git_size_status": "small"
+  }
+]
