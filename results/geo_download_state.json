@@ -1,0 +1,168 @@
+{
+  "expected_files": 27,
+  "completed": [
+    {
+      "name": "GSE272159_rif25_rep2.MG1655.mapq_30.10.cool.gz",
+      "bytes": 101560283,
+      "sha256": "ae344b73831d0662bf676e549930c260d4a8bf9fcbdb978d666def34f97b74d6",
+      "status": "already-present-verified"
+    },
+    {
+      "name": "GSE272159_rif25_rep1.MG1655.mapq_30.10.cool.gz",
+      "bytes": 106655391,
+      "sha256": "406503353a4683810157e3863079bc21d95dc46c169b0736d538d4c61f126a26",
+      "status": "already-present-verified"
+    },
+    {
+      "name": "GSE272159_rif750_rep1.MG1655.mapq_30.10.cool.gz",
+      "bytes": 103463494,
+      "sha256": "28dc630a0915ef0e4817fe6940b19df044738c09fdf5dc08bc1e8fc282dc4271",
+      "status": "already-present-verified"
+    },
+    {
+      "name": "GSE272159_rif750_rep2.MG1655.mapq_30.10.cool.gz",
+      "bytes": 108302761,
+      "sha256": "a5ca2a373dbe406c9d2d3270902cf65773c001a13e531ab1cea950d898866fa2",
+      "status": "already-present-verified"
+    },
+    {
+      "name": "GSM8950761_DstpA_rep1.MG1655.mapq_30.10.cool.gz",
+      "bytes": 141016850,
+      "sha256": "0976f3418b7e0e7b0d912fda8d8f0287348232e4a5d92b06ebbd76c81e0c1c49",
+      "status": "already-present-verified"
+    },
+    {
+      "name": "GSM8950762_DstpA_rep2.MG1655.mapq_30.10.cool.gz",
+      "bytes": 142970528,
+      "sha256": "51a201ab5fd82f9b15c02c5f6281ae34bd000b39a63361650202d2be88851ea0",
+      "status": "already-present-verified"
+    },
+    {
+      "name": "GSE272159_44C_rep2.mapq_30.10.cool.gz",
+      "bytes": 463179550,
+      "sha256": "178742cf010d863d60ed7fef0e6fc7a3653d20fec801585912bbd4333a09899a",
+      "status": "already-present-verified"
+    },
+    {
+      "name": "GSE272159_44C_rep1.mapq_30.10.cool.gz",
+      "bytes": 477194953,
+      "sha256": "2ba6ed7e8bd110c513ed31ca0ed82f3369bf16a25a0e05ae2ab1ee92dde67c6f",
+      "status": "already-present-verified"
+    },
+    {
+      "name": "GSM8950765_NoLig_rep1.MG1655.mapq_30.10.cool.gz",
+      "bytes": 13020105,
+      "sha256": "3faf59d4094b65be757e6b76afe88cce96341cfcde1317f3e630d065d95389ff",
+      "status": "already-present-verified"
+    },
+    {
+      "name": "GSM8950763_DhnsDstpA_rep1.MG1655.mapq_30.10.cool.gz",
+      "bytes": 183628977,
+      "sha256": "a5cdbcab6f841727ab98561e8009a7241e69c76ee9baad61dd2e0f7ca9f10d7d",
+      "status": "already-present-verified"
+    },
+    {
+      "name": "GSM8950764_DhnsDstpA_rep2.MG1655.mapq_30.10.cool.gz",
+      "bytes": 243377378,
+      "sha256": "f8d7a9507003443f1ee1b8e34e81c60521c1beb8e826aeb082ffcb940159c632",
+      "status": "already-present-verified"
+    },
+    {
+      "name": "GSM8950767_37C_37C_fix_rep1.MG1655.mapq_30.10.cool.gz",
+      "bytes": 141006710,
+      "sha256": "fcc1d263ff71be8a433058dc1ba32edabcaa960c7a6ec6e847cd85dd80dc8309",
+      "status": "already-present-verified"
+    },
+    {
+      "name": "GSM8950768_RT_RT_fix_rep1.MG1655.mapq_30.10.cool.gz",
+      "bytes": 137223862,
+      "sha256": "7790e45b753148fdd49d82bf5f0a4b1f08a8f8f0ff37bdb4c0e2804e97eb3754",
+      "status": "already-present-verified"
+    },
+    {
+      "name": "GSM8950769_bleo_rep1.MG1655.mapq_30.10.cool.gz",
+      "bytes": 172677680,
+      "sha256": "d6282b629dcb17816067149161c95fe004ecf064792d3bfba975dbb79da8e6c5",
+      "status": "already-present-verified"
+    },
+    {
+      "name": "GSM8950770_bleo_rep2.MG1655.mapq_30.10.cool.gz",
+      "bytes": 180562893,
+      "sha256": "6ea16ad5cd3fd311b4e2e655dbf88bf7afb424d8d6f28d6e703177ca15294ac2",
+      "status": "already-present-verified"
+    },
+    {
+      "name": "GSM8950772_novo250.MG1655.mapq_30.10.cool.gz",
+      "bytes": 163109217,
+      "sha256": "22439ef1fc43aa7b9871efdc62da28c2989dab4bb1f5cb379b9dbc81c1f9b034",
+      "status": "already-present-verified"
+    },
+    {
+      "name": "GSM8950771_novo25.MG1655.mapq_30.10.cool.gz",
+      "bytes": 181730130,
+      "sha256": "224ef98dbcbc33c4027f145faee82cecb49195e39d8807dac105c3eac5915e76",
+      "status": "already-present-verified"
+    },
+    {
+      "name": "GSM8950773_cipro0025.MG1655.mapq_30.10.cool.gz",
+      "bytes": 146985366,
+      "sha256": "5575cc268808457c0df1d5a1cdf098e419e4bcd78776d2260e7bbc798b0dfe1d",
+      "status": "already-present-verified"
+    },
+    {
+      "name": "GSM8950774_cipro025.MG1655.mapq_30.10.cool.gz",
+      "bytes": 137518522,
+      "sha256": "5d81f12477ac6fb0de11dc2fed94a3142ab7c4c8cc783e720f9a27256fefc85b",
+      "status": "already-present-verified"
+    },
+    {
+      "name": "GSM8950777_muk_rep1.MG1655.mapq_30.10.cool.gz",
+      "bytes": 95643140,
+      "sha256": "a671dafa630e3e0e1f6b538b5bf6d6e4f8403738a242aa5b92f6ffbfe28688ba",
+      "status": "already-present-verified"
+    },
+    {
+      "name": "GSM8950775_net20.MG1655.mapq_30.10.cool.gz",
+      "bytes": 157284671,
+      "sha256": "5a5160643a6f651b6a3410004f40622a1e9a509abf42b1abc4d8cd71f7a4c01f",
+      "status": "already-present-verified"
+    },
+    {
+      "name": "GSM8950776_net200.MG1655.mapq_30.10.cool.gz",
+      "bytes": 160603542,
+      "sha256": "5ddc2050e43a9afe3a3d3b893faf67ca0b9a147e269080a0da7f7ee115d05324",
+      "status": "already-present-verified"
+    },
+    {
+      "name": "GSM8950778_muk_rep2.MG1655.mapq_30.10.cool.gz",
+      "bytes": 132649089,
+      "sha256": "a2a69e6a8462b257cb8fd493f0dc14d1828253cfc759bea735b452fe925a1c91",
+      "status": "already-present-verified"
+    },
+    {
+      "name": "GSM9678479_HNS_mut_rep2.MG1655.mapq_30.10.cool.gz",
+      "bytes": 598837701,
+      "sha256": "1e1eceb34cce1bb98990234d5b1a4b4127e8d82c17109da08dfff5e86bce8a23",
+      "status": "downloaded-verified"
+    },
+    {
+      "name": "GSM9078280_FIS_mut_rep1.MG1655.mapq_30.10.cool.gz",
+      "bytes": 563688886,
+      "sha256": "47bb6dd0937382e6cc1ec537e2e15f415ec14ef739222c11936686049711d661",
+      "status": "downloaded-verified"
+    },
+    {
+      "name": "GSM9078281_FIS_mut_rep2.MG1655.mapq_30.10.cool.gz",
+      "bytes": 608111367,
+      "sha256": "c11f00dc4c0f6595fe51ba236aeaf1c6894be96e7245499c8a8a7f4430f7ecb6",
+      "status": "downloaded-verified"
+    },
+    {
+      "name": "GSM9678478_HNS_mut_rep1.MG1655.mapq_30.10.cool.gz",
+      "bytes": 678658675,
+      "sha256": "54ade3926236888e016264f002062fb62514c4928a3f75299b309671e9f70e71",
+      "status": "downloaded-verified"
+    }
+  ],
+  "failures": []
+}
