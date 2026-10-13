@@ -1,0 +1,19 @@
+/Users/mac/Desktop/DEVELOP/code_brandnewme/dl-pro/.venv/lib/python3.9/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: divide by zero encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Users/mac/Desktop/DEVELOP/code_brandnewme/dl-pro/.venv/lib/python3.9/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: overflow encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Users/mac/Desktop/DEVELOP/code_brandnewme/dl-pro/.venv/lib/python3.9/site-packages/sklearn/linear_model/_linear_loss.py:200: RuntimeWarning: invalid value encountered in matmul
+  raw_prediction = X @ weights + intercept
+/Users/mac/Desktop/DEVELOP/code_brandnewme/dl-pro/.venv/lib/python3.9/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: divide by zero encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Users/mac/Desktop/DEVELOP/code_brandnewme/dl-pro/.venv/lib/python3.9/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: overflow encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Users/mac/Desktop/DEVELOP/code_brandnewme/dl-pro/.venv/lib/python3.9/site-packages/sklearn/linear_model/_linear_loss.py:330: RuntimeWarning: invalid value encountered in matmul
+  grad[:n_features] = X.T @ grad_pointwise + l2_reg_strength * weights
+/Users/mac/Desktop/DEVELOP/code_brandnewme/dl-pro/.venv/lib/python3.9/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/Users/mac/Desktop/DEVELOP/code_brandnewme/dl-pro/.venv/lib/python3.9/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/Users/mac/Desktop/DEVELOP/code_brandnewme/dl-pro/.venv/lib/python3.9/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+discovery 294 candidates; 0 tentative new clusters; representation {'n_background_train': 110, 'n_background_holdout': 25, 'window_purging': True, 'independent_probability_max_error': 3.219646771412954e-15, 'balanced_accuracy': 0.7230769230769232, 'roc_auc': 0.788923076923077}

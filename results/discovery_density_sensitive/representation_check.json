@@ -1,0 +1,7 @@
+{
+  "n_background_train": 110,
+  "n_background_holdout": 25,
+  "window_purging": true,
+  "balanced_accuracy": 0.6846153846153846,
+  "roc_auc": 0.7778461538461539
+}

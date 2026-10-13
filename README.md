@@ -1,51 +1,46 @@
-# 基于深度学习的 Micro-C 接触矩阵实验
+# Micro-C 接触矩阵深度学习实验
 
-当前阶段：GSE272159 官方完整接触矩阵集合已接入，含 29 个矩阵、19 个样本条件标签；344 条源结构注释已提取。首轮真实数据超分辨试验已跑通，CNN 相比双三次插值小幅提升。任务一、二、三及完整任务五仍待推进。
+已完成必做任务一至三及选做任务五的第一轮计算。数据来自GSE272159：29个矩阵、19种条件标签；结构注释344条。完整原始数据13.79 GB留在本地，小体积数据、处理窗口、模型和结果纳入Git，`.gitignore` 不隐藏数据。
 
-## 环境与运行
+## 第一轮结果与边界
+
+| 实验 | 实测结果 | 限制 |
+|---|---|---|
+| 分类 | 56个重叠组、五折344条折外预测，准确率73.8%，macro-F1 0.599 | CHID召回34.6%；同研究内部验证 |
+| 发现 | 726扫描窗口、294去重候选、37个未注释跨重复窗口 | 0个合格新簇；同预算随机召回优于检测器 |
+| 多轨道 | 37C、44C、rif25，各两个重复；465张图连续覆盖全基因组 | 局部±10 kb接触信号，无ICE平衡，不推断机制 |
+| 超分辨 | 40→10 bp，三个种子均改善原生PSNR/SSIM；49个完整上下文下游准确率65.3%→69.4% | O/E SSIM双三次0.991、CNN0.962，结构对比度反而退化 |
+
+报告为 [可编辑Word](output/实验报告_第一轮计算结果.docx)，原始指标位于 results 各实验目录；8项测试通过。macOS Accelerate矩阵运算警告保留，独立非BLAS计算复核预测、PCA和聚类有限且一致；跨平台仍应重验。没有新的生物学结构结论。成员信息、PPT视频与最终提交包尚待完成。
+
+## 环境与复跑
 
 ```bash
 python3 -m venv .venv
-.venv/bin/python -m pip install --upgrade pip
-.venv/bin/python -m pip install -e '.[test,experiment]'
+.venv/bin/python -m pip install -e '.[test,experiment,report]'
 .venv/bin/python -m pytest -q
-.venv/bin/dlpro audit data
-.venv/bin/dlpro inspect data/raw/你的样本.cool
-.venv/bin/dlpro window data/raw/你的样本.cool 染色体名称 0 10000 --output results/preview
-```
-
-最后两条命令需要真实文件与实际染色体名称。默认读取原始计数；`--balance` 明确要求输入已有权重，缺失时报错，不静默替代。窗口最大 2048 bins，避免 10 bp 全基因组稠密化。输出预览为**局部 O/E**，不是正式跨样本归一化结果。跨环状起点窗口暂不支持，明确报错。
-
-## 数据管理
-
-将课程矩阵放入 `data/raw/`，结构坐标放入 `data/annotations/`。`.gitignore` 不排除数据、矩阵、图表或模型权重。小体积数据按普通 Git 提交；单文件达到 50 MiB 先审查，超过 GitHub 普通 Git 限制的文件不能直接提交，采用 LFS 或保留来源和校验清单，不拆分文件规避限制。上传前核实课程数据的共享许可。
-
-课程原始要求 PDF 与补充下载说明保留原位。不得以自动生成的测试样例替代课程数据，也不得把测试通过写成实验完成。
-
-详见 [实验计划](docs/实验计划.md) 和 [进度](docs/进度.md)。
-
-## 超分辨试验
-
-```bash
-.venv/bin/python -m dlpro.superresolution --dataset results/sr_pilot --output results/sr_reproduction --epochs 12 --seed 42
-```
-
-该命令使用已提交的小体积真实窗口数据复跑，不依赖本地约 907 MiB 的两份原始矩阵。完整矩阵仍保留本地；原始数据来源和 SHA256 见数据清单。训练协议与限制见 [超分辨试验协议](docs/超分辨试验协议.md)。提交前执行 `python scripts/check_staged_sizes.py`，防止误将大矩阵纳入普通 Git。
-
-## 完整矩阵数据（2026-10-13）
-
-在原有两个 WT 基础上，从 NCBI GEO 补齐 27 份矩阵。压缩原件和解压矩阵均位于 `data/raw`，总计约 13.79 GB（12.84 GiB）。所有矩阵均已核验为 NC_000913.3、10 bp 分箱、4,641,652 bp，并完成局部原始计数读取。
-
-- `data/annotations/samples.csv`：样本、条件标签、重复、路径、来源和哈希。
-- `results/geo_download_summary.json`：完整性结论与总体积。
-- `results/geo_matrix_audit.json`：逐文件格式和校验记录。
-- 小体积 NoLig 阴性对照矩阵（约 13.7 MB）纳入普通 Git；其他大矩阵保留本地，数据目录未被忽略。
-
-从远程仓库恢复补充数据：
-
-```bash
-python3 scripts/download_geo.py
+# 首次恢复全部原始矩阵（约13.79 GB含压缩与解压）
+python3 scripts/download_geo.py --include-wt
 .venv/bin/python scripts/prepare_geo.py
+.venv/bin/python scripts/resolve_reference.py
+# 已提交缓存有SHA256核验；去掉参数可从原始矩阵重新提取
+.venv/bin/python scripts/prepare_experiments.py --reuse-cache
+.venv/bin/python scripts/train_classifier.py
+.venv/bin/python scripts/crossvalidate_classifier.py
+.venv/bin/python scripts/discover_structures.py
+.venv/bin/python scripts/multitrack.py
+.venv/bin/python scripts/sr_expanded.py
+.venv/bin/python scripts/coverage_qc.py
+.venv/bin/python scripts/validate_experiments.py
+.venv/bin/python scripts/summarize_results.py
+.venv/bin/python scripts/report_figures.py
+.venv/bin/python scripts/build_experiment_report.py
 ```
 
-补充下载器恢复 27 个样本；原有 WT 两个矩阵的公开入口见 `results/geo_matrix_audit.json` 的 `source_url`，需下载解压到清单路径。SHA256 是本地计算值；文件大小与官方清单一致，gzip 校验通过，但未取得发布者独立的 SHA256 供对比。
+MPS可用则用于SR，其他训练使用CPU；不同机器不保证逐位一致。报告叙述是已审阅的第一轮快照，重跑后除刷新表格外还需复核文字与排版。作者注释复用固定提交和哈希，不随main自动漂移。
+
+已提交 known/scan 缓存和SR压缩计数分片。单个大文件 raw_counts.npy、reconstruction_seed42.npy 与大原始矩阵保留本地，运行脚本可恢复；不为规避上限拆分大原始文件。发现旧强度对照保留模型与数值，重复热图仅留本地；主方法294张候选热图和465张轨道图纳入Git。提交前运行 `python3 scripts/check_staged_sizes.py`。
+
+基础CLI支持audit、inspect和window，局部预览为局部O/E，不能代替正式归一化；基础CLI不支持跨起点，但正式实验稀疏读取器支持环状起点及末端短bin面积校正。
+
+详见 [进度](docs/进度.md)、[设计与验收](docs/实验计划.md)。来源、下载大小和本地SHA256见 results/geo_download_summary.json、results/geo_matrix_audit.json；发布者未给独立SHA256，不能声称与官方哈希吻合。

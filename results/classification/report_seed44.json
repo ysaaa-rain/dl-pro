@@ -1,0 +1,33 @@
+{
+  "CHID": {
+    "precision": 0.25,
+    "recall": 1.0,
+    "f1-score": 0.4,
+    "support": 2.0
+  },
+  "CHIN": {
+    "precision": 0.8695652173913043,
+    "recall": 0.8163265306122449,
+    "f1-score": 0.8421052631578947,
+    "support": 49.0
+  },
+  "OPCID": {
+    "precision": 0.6363636363636364,
+    "recall": 0.5,
+    "f1-score": 0.56,
+    "support": 14.0
+  },
+  "accuracy": 0.7538461538461538,
+  "macro avg": {
+    "precision": 0.5853096179183135,
+    "recall": 0.7721088435374149,
+    "f1-score": 0.6007017543859648,
+    "support": 65.0
+  },
+  "weighted avg": {
+    "precision": 0.8002736394040741,
+    "recall": 0.7538461538461538,
+    "f1-score": 0.7677408906882591,
+    "support": 65.0
+  }
+}

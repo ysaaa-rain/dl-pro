@@ -1,1 +1,1 @@
-标注数据.xlsx 是未改写的原始工作簿。structures_source.csv 由 Supplementary Table 4/5/6 提取，保留源表、行号、坐标和类型，共 344 条。坐标起点约定尚未由源文件明确确认，因此文件名带 source，不视为已冻结的正式训练标注。
+原始工作簿与 structures_source.csv 保留课程源坐标。structures.csv 为正式训练注释：344条、0-based半开区间，按论文作者固定版本BED匹配，最大起止坐标改动绝对值之和45 bp，源坐标与差异列均保留。genes.csv 为NC_000913.3的4516条基因，GFF起点减1。source_reference 保留版本化BED/BEDPE/GFF；来源、提交与SHA256见 results/experiment/reference_resolution.json。samples.csv 保留29矩阵的来源、重复、参考版本、哈希与有效接触对总量。

@@ -1,0 +1,28 @@
+{
+  "seed": 42,
+  "groups": 56,
+  "counts": {
+    "CHID": {
+      "test": 2,
+      "train": 13,
+      "val": 11
+    },
+    "CHIN": {
+      "test": 49,
+      "train": 131,
+      "val": 70
+    },
+    "OPCID": {
+      "test": 14,
+      "train": 39,
+      "val": 15
+    }
+  },
+  "input_widths_bp": [
+    12800,
+    25600
+  ],
+  "max_window_groups_disjoint": true,
+  "repeats_share_split": true,
+  "full_structure_coverage": true
+}

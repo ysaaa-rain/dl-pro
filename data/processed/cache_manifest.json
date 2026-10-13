@@ -1,0 +1,23 @@
+{
+  "annotation_sha256": "d6235569d34d8e2d1c27d32ce84cd0db810c0027e9c9a2d1640e048bb7b710e2",
+  "window_manifest_sha256": "557b05e49858277222f9ddced5aa4ed020a9fc39cddde8f00238622f043f6e77",
+  "scan_manifest_sha256": "a898c138144d51cc9aed76162938b068a498283424fc1727accec15599d71cb8",
+  "caches": {
+    "data/processed/known_rep1.npz": {
+      "sha256": "b2e2e091f9b3f42e28c9c73c94bf3b5021d4f643c66c8815bfa3efd72ae2d70e",
+      "bytes": 11514185
+    },
+    "data/processed/known_rep2.npz": {
+      "sha256": "5dabc14f72079364052bb1f618623d344291fa0fea7286e1ddd90967d78527e2",
+      "bytes": 11640875
+    },
+    "data/processed/scan_rep1.npz": {
+      "sha256": "d4b6534f64ea29dfbc17a9ee6c144235d350435818460eee3ade2281312e8722",
+      "bytes": 23996299
+    },
+    "data/processed/scan_rep2.npz": {
+      "sha256": "2285687be5dbf54e2cd275e93fb72c7688808a815c3589e86d3e758d94c0b0c1",
+      "bytes": 24364030
+    }
+  }
+}

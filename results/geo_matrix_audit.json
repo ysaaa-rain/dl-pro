@@ -22,7 +22,8 @@
       "nnz": 258709299,
       "has_weights": false,
       "storage_mode": "symmetric-upper",
-      "window_read_validated": true
+      "window_read_validated": true,
+      "library_pairs": 376329169
     },
     {
       "sample_id": "GSE272159_44C_rep2",
@@ -42,7 +43,8 @@
       "nnz": 255923999,
       "has_weights": false,
       "storage_mode": "symmetric-upper",
-      "window_read_validated": true
+      "window_read_validated": true,
+      "library_pairs": 352932865
     },
     {
       "sample_id": "GSE272159_rif25_rep1",
@@ -62,7 +64,8 @@
       "nnz": 55639486,
       "has_weights": false,
       "storage_mode": "symmetric-upper",
-      "window_read_validated": true
+      "window_read_validated": true,
+      "library_pairs": 67457178
     },
     {
       "sample_id": "GSE272159_rif25_rep2",
@@ -82,7 +85,8 @@
       "nnz": 53061905,
       "has_weights": false,
       "storage_mode": "symmetric-upper",
-      "window_read_validated": true
+      "window_read_validated": true,
+      "library_pairs": 64526147
     },
     {
       "sample_id": "GSE272159_rif750_rep1",
@@ -102,7 +106,8 @@
       "nnz": 52879816,
       "has_weights": false,
       "storage_mode": "symmetric-upper",
-      "window_read_validated": true
+      "window_read_validated": true,
+      "library_pairs": 61997597
     },
     {
       "sample_id": "GSE272159_rif750_rep2",
@@ -122,7 +127,8 @@
       "nnz": 55116337,
       "has_weights": false,
       "storage_mode": "symmetric-upper",
-      "window_read_validated": true
+      "window_read_validated": true,
+      "library_pairs": 63995571
     },
     {
       "sample_id": "GSM8950761_DstpA_rep1",
@@ -142,7 +148,8 @@
       "nnz": 79536854,
       "has_weights": false,
       "storage_mode": "symmetric-upper",
-      "window_read_validated": true
+      "window_read_validated": true,
+      "library_pairs": 108552379
     },
     {
       "sample_id": "GSM8950762_DstpA_rep2",
@@ -162,7 +169,8 @@
       "nnz": 80751385,
       "has_weights": false,
       "storage_mode": "symmetric-upper",
-      "window_read_validated": true
+      "window_read_validated": true,
+      "library_pairs": 109486541
     },
     {
       "sample_id": "GSM8950763_DhnsDstpA_rep1",
@@ -182,7 +190,8 @@
       "nnz": 103310425,
       "has_weights": false,
       "storage_mode": "symmetric-upper",
-      "window_read_validated": true
+      "window_read_validated": true,
+      "library_pairs": 141567539
     },
     {
       "sample_id": "GSM8950764_DhnsDstpA_rep2",
@@ -202,7 +211,8 @@
       "nnz": 139016106,
       "has_weights": false,
       "storage_mode": "symmetric-upper",
-      "window_read_validated": true
+      "window_read_validated": true,
+      "library_pairs": 185894502
     },
     {
       "sample_id": "GSM8950765_NoLig_rep1",
@@ -222,7 +232,8 @@
       "nnz": 13422758,
       "has_weights": false,
       "storage_mode": "symmetric-upper",
-      "window_read_validated": true
+      "window_read_validated": true,
+      "library_pairs": 36139128
     },
     {
       "sample_id": "GSM8950767_37C_37C_fix_rep1",
@@ -242,7 +253,8 @@
       "nnz": 78545930,
       "has_weights": false,
       "storage_mode": "symmetric-upper",
-      "window_read_validated": true
+      "window_read_validated": true,
+      "library_pairs": 112829607
     },
     {
       "sample_id": "GSM8950768_RT_RT_fix_rep1",
@@ -262,7 +274,8 @@
       "nnz": 77300926,
       "has_weights": false,
       "storage_mode": "symmetric-upper",
-      "window_read_validated": true
+      "window_read_validated": true,
+      "library_pairs": 115874619
     },
     {
       "sample_id": "GSM8950769_bleo_rep1",
@@ -282,7 +295,8 @@
       "nnz": 97428767,
       "has_weights": false,
       "storage_mode": "symmetric-upper",
-      "window_read_validated": true
+      "window_read_validated": true,
+      "library_pairs": 127856616
     },
     {
       "sample_id": "GSM8950770_bleo_rep2",
@@ -302,7 +316,8 @@
       "nnz": 101636434,
       "has_weights": false,
       "storage_mode": "symmetric-upper",
-      "window_read_validated": true
+      "window_read_validated": true,
+      "library_pairs": 137714460
     },
     {
       "sample_id": "GSM8950771_novo25",
@@ -322,7 +337,8 @@
       "nnz": 99662057,
       "has_weights": false,
       "storage_mode": "symmetric-upper",
-      "window_read_validated": true
+      "window_read_validated": true,
+      "library_pairs": 126268530
     },
     {
       "sample_id": "GSM8950772_novo250",
@@ -342,7 +358,8 @@
       "nnz": 89815237,
       "has_weights": false,
       "storage_mode": "symmetric-upper",
-      "window_read_validated": true
+      "window_read_validated": true,
+      "library_pairs": 124669738
     },
     {
       "sample_id": "GSM8950773_cipro0025",
@@ -362,7 +379,8 @@
       "nnz": 85105615,
       "has_weights": false,
       "storage_mode": "symmetric-upper",
-      "window_read_validated": true
+      "window_read_validated": true,
+      "library_pairs": 121386199
     },
     {
       "sample_id": "GSM8950774_cipro025",
@@ -382,7 +400,8 @@
       "nnz": 79160674,
       "has_weights": false,
       "storage_mode": "symmetric-upper",
-      "window_read_validated": true
+      "window_read_validated": true,
+      "library_pairs": 115713561
     },
     {
       "sample_id": "GSM8950775_net20",
@@ -402,7 +421,8 @@
       "nnz": 90297276,
       "has_weights": false,
       "storage_mode": "symmetric-upper",
-      "window_read_validated": true
+      "window_read_validated": true,
+      "library_pairs": 133701642
     },
     {
       "sample_id": "GSM8950776_net200",
@@ -422,7 +442,8 @@
       "nnz": 87665815,
       "has_weights": false,
       "storage_mode": "symmetric-upper",
-      "window_read_validated": true
+      "window_read_validated": true,
+      "library_pairs": 134073110
     },
     {
       "sample_id": "GSM8950777_muk_rep1",
@@ -442,7 +463,8 @@
       "nnz": 54013634,
       "has_weights": false,
       "storage_mode": "symmetric-upper",
-      "window_read_validated": true
+      "window_read_validated": true,
+      "library_pairs": 75083137
     },
     {
       "sample_id": "GSM8950778_muk_rep2",
@@ -462,7 +484,8 @@
       "nnz": 75513035,
       "has_weights": false,
       "storage_mode": "symmetric-upper",
-      "window_read_validated": true
+      "window_read_validated": true,
+      "library_pairs": 101155417
     },
     {
       "sample_id": "GSM9078280_FIS_mut_rep1",
@@ -482,7 +505,8 @@
       "nnz": 332919030,
       "has_weights": false,
       "storage_mode": "symmetric-upper",
-      "window_read_validated": true
+      "window_read_validated": true,
+      "library_pairs": 390725834
     },
     {
       "sample_id": "GSM9078281_FIS_mut_rep2",
@@ -502,7 +526,8 @@
       "nnz": 362980240,
       "has_weights": false,
       "storage_mode": "symmetric-upper",
-      "window_read_validated": true
+      "window_read_validated": true,
+      "library_pairs": 424968792
     },
     {
       "sample_id": "GSM9678478_HNS_mut_rep1",
@@ -522,7 +547,8 @@
       "nnz": 396871379,
       "has_weights": false,
       "storage_mode": "symmetric-upper",
-      "window_read_validated": true
+      "window_read_validated": true,
+      "library_pairs": 450716303
     },
     {
       "sample_id": "GSM9678479_HNS_mut_rep2",
@@ -542,7 +568,8 @@
       "nnz": 346407606,
       "has_weights": false,
       "storage_mode": "symmetric-upper",
-      "window_read_validated": true
+      "window_read_validated": true,
+      "library_pairs": 395758867
     },
     {
       "sample_id": "GSE272159_37C_rep1",
@@ -562,7 +589,8 @@
       "nnz": 257522134,
       "has_weights": false,
       "storage_mode": "symmetric-upper",
-      "window_read_validated": true
+      "window_read_validated": true,
+      "library_pairs": 368695972
     },
     {
       "sample_id": "GSE272159_37C_rep2",
@@ -582,7 +610,8 @@
       "nnz": 249673544,
       "has_weights": false,
       "storage_mode": "symmetric-upper",
-      "window_read_validated": true
+      "window_read_validated": true,
+      "library_pairs": 358452621
     }
   ]
 }

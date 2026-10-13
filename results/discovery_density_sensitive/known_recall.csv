@@ -1,0 +1,9 @@
+split,method,n_structures,n_recalled,center_recall
+train,shape_before_nms,183,165,0.9016393442622951
+train,shape_after_nms,183,146,0.7978142076502732
+val,shape_before_nms,96,84,0.875
+val,shape_after_nms,96,73,0.7604166666666666
+test,shape_before_nms,65,59,0.9076923076923077
+test,shape_after_nms,65,49,0.7538461538461538
+all,shape_before_nms,344,308,0.8953488372093024
+all,shape_after_nms,344,268,0.7790697674418605

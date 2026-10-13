@@ -1,0 +1,14 @@
+[
+  {
+    "replicate": 1,
+    "accuracy": 0.7384615384615385,
+    "macro_f1": 0.6060606060606061,
+    "balanced_accuracy": 0.8163265306122449
+  },
+  {
+    "replicate": 2,
+    "accuracy": 0.7384615384615385,
+    "macro_f1": 0.6089931573802542,
+    "balanced_accuracy": 0.8163265306122449
+  }
+]

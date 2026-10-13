@@ -1,0 +1,41 @@
+{
+  "provenance": [
+    {
+      "kind": "OPCID",
+      "name": "TADS_25.bedpe",
+      "url": "https://raw.githubusercontent.com/irzhegalova/ecoli_microc/97d61efb980599c93deba6d3c1b651bc2bd4bb60/data/TADS_25.bedpe",
+      "commit": "97d61efb980599c93deba6d3c1b651bc2bd4bb60",
+      "bytes": 3728,
+      "sha256": "e1e4b509eb0d25cb095895c35dc2a330d87cef927b301809769d854c48f60fd4"
+    },
+    {
+      "kind": "CHIN",
+      "name": "hairpins_25.bed",
+      "url": "https://raw.githubusercontent.com/irzhegalova/ecoli_microc/97d61efb980599c93deba6d3c1b651bc2bd4bb60/data/hairpins_25.bed",
+      "commit": "97d61efb980599c93deba6d3c1b651bc2bd4bb60",
+      "bytes": 6890,
+      "sha256": "f60cd80c5158241c67757ddda4cf052d856e4d7e66e430111813c5cd36acfd2e"
+    },
+    {
+      "kind": "CHID",
+      "name": "hTADS_25.bedpe",
+      "url": "https://raw.githubusercontent.com/irzhegalova/ecoli_microc/97d61efb980599c93deba6d3c1b651bc2bd4bb60/data/hTADS_25.bedpe",
+      "commit": "97d61efb980599c93deba6d3c1b651bc2bd4bb60",
+      "bytes": 1436,
+      "sha256": "b46b75b04b91642124b5f704bcf39f38a5b9262f4281dfd19cdeaf371f294a73"
+    },
+    {
+      "kind": "genes",
+      "name": "NC_000913.gff",
+      "url": "https://raw.githubusercontent.com/irzhegalova/ecoli_microc/97d61efb980599c93deba6d3c1b651bc2bd4bb60/data/NC_000913.gff",
+      "commit": "97d61efb980599c93deba6d3c1b651bc2bd4bb60",
+      "bytes": 2366197,
+      "sha256": "59409ab22f6b0f727e597d397d9b08f4de4a1c5952837b49a7cb5b2a8444b456"
+    }
+  ],
+  "structures": 344,
+  "genes": 4516,
+  "max_total_coordinate_change_bp": 45,
+  "coordinate_convention": "BED: zero based half open; GFF: one based inclusive converted start-1",
+  "source_preserved": "structures_source.csv and original workbook retained"
+}

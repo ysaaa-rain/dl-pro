@@ -1,0 +1,21 @@
+{
+  "coverage": [
+    {
+      "replicate": 1,
+      "n_bins": 464166,
+      "zero_contact_bins": 8428,
+      "fraction_zero": 0.018157297173855905
+    },
+    {
+      "replicate": 2,
+      "n_bins": 464166,
+      "zero_contact_bins": 8428,
+      "fraction_zero": 0.018157297173855905
+    }
+  ],
+  "n_test_loci": 65,
+  "prediction_changes": 6,
+  "mean_probability_l1_change": 0.15934266321755086,
+  "interpretation": "Descriptive neutral-fill sensitivity only; zero counts do not establish mapping failure or biological absence",
+  "model": "Seed42 original classifier; no retraining or model selection"
+}

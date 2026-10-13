@@ -1,0 +1,1 @@
+candidate_id,scan_index,chrom,start,end,center,length_bp,wraps_origin,cluster,shape_score,rep2_shape_score,density,repeat_oe_correlation,reproducible,known_overlap,known_ids,classifier_label,classifier_max_probability,distinction,tentative_new_cluster

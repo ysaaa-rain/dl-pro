@@ -1,0 +1,8 @@
+{
+  "n_background_train": 110,
+  "n_background_holdout": 25,
+  "window_purging": true,
+  "independent_probability_max_error": 3.219646771412954e-15,
+  "balanced_accuracy": 0.7230769230769232,
+  "roc_auc": 0.788923076923077
+}

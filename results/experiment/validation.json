@@ -1,0 +1,27 @@
+{
+  "split_isolation": true,
+  "one_out_of_fold_prediction_per_structure": true,
+  "discovery_density_sensitive_numeric": {
+    "pca_eigen_relative_error": 1.3871662876003045e-15,
+    "pca_orthogonality_max_error": 1.6653345369377348e-15,
+    "kmeans_labels_match_independent_distance": true
+  },
+  "discovery_density_invariant_numeric": {
+    "pca_eigen_relative_error": 1.3469308728007968e-15,
+    "pca_orthogonality_max_error": 1.887379141862766e-15,
+    "kmeans_labels_match_independent_distance": true
+  },
+  "discovery_numeric": {
+    "pca_eigen_relative_error": 1.208004890932962e-15,
+    "pca_orthogonality_max_error": 1.167495836861773e-15,
+    "kmeans_labels_match_independent_distance": true
+  },
+  "whole_genome_465_tracks": true,
+  "sr_rep2_withheld_and_known_contexts_contained": true,
+  "random_candidate_baseline": {
+    "trials": 200,
+    "before_nms_mean": 0.9887692307692307,
+    "after_nms_mean": 0.813923076923077
+  },
+  "tests": "8 passed in 1.52 seconds; circular area correction and density nuisance tests included"
+}

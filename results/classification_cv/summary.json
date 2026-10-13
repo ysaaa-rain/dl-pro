@@ -1,0 +1,28 @@
+{
+  "n_loci": 344,
+  "n_groups": 56,
+  "accuracy": 0.7383720930232558,
+  "macro_f1": 0.5989672902476859,
+  "group_bootstrap_95_ci": {
+    "accuracy": [
+      0.6821794266196722,
+      0.7978925286145635
+    ],
+    "macro_f1": [
+      0.5366777657560081,
+      0.6664097774037788
+    ]
+  },
+  "split_seed": 42,
+  "training_seed": 42,
+  "folds": 5,
+  "epochs": 35,
+  "validation_rule": "Next cyclic fold; other three folds train; held-out fold never selects epoch",
+  "normalization": "Fit independently on training loci of each fold",
+  "fold0_reused": "Original seed42 held-out predictions, not retrained",
+  "limitations": [
+    "same-study cross-validation, not independent source validation",
+    "bootstrap intervals reflect overlap-group resampling, not biological replicate sampling",
+    "labels are manually annotated and class boundaries may overlap"
+  ]
+}

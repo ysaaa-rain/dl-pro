@@ -1,0 +1,7 @@
+cluster,members,known_members,reproducible_members,tentative_new_cluster,representative
+0,8,4,7,False,C0040
+1,87,45,13,False,C0002
+2,41,29,29,False,C0013
+3,65,44,27,False,C0003
+4,59,38,32,False,C0001
+5,34,18,20,False,C0011

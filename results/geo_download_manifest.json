@@ -222,5 +222,19 @@
   "status": "complete",
   "completed_date": "2026-10-13",
   "downloaded_files": 27,
-  "downloaded_bytes": 6340661721
+  "downloaded_bytes": 6340661721,
+  "existing_wt_sources": [
+    {
+      "name": "GSE272159_37C_rep1.mapq_30.10.cool.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE272nnn/GSE272159/suppl/GSE272159_37C_rep1.mapq_30.10.cool.gz",
+      "content_length": 470399779,
+      "source": "Optional cold-checkout restoration; existing WT .cool preserved"
+    },
+    {
+      "name": "GSE272159_37C_rep2.mapq_30.10.cool.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE272nnn/GSE272159/suppl/GSE272159_37C_rep2.mapq_30.10.cool.gz",
+      "content_length": 456862495,
+      "source": "Optional cold-checkout restoration; existing WT .cool preserved"
+    }
+  ]
 }

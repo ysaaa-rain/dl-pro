@@ -1,0 +1,32 @@
+{
+  "seed": 42,
+  "background_train": 157,
+  "background_val": 51,
+  "background_blocks_disjoint": true,
+  "normalization_fit": "Only WT rep1 unannotated training background windows",
+  "autoencoder_epochs": 30,
+  "selected_epoch": 30,
+  "n_genome_windows": 726,
+  "threshold": 0.016259610652923584,
+  "threshold_rule": "Largest reconstruction-error threshold reaching 90% center recall on classification-training known structures only",
+  "selected_before_nms": 497,
+  "retained_after_nms": 228,
+  "selected_genome_fraction": 0.6845730027548209,
+  "nms_min_center_separation_bp": 12800,
+  "repeat_correlation": "Pearson of untransformed O/E upper triangle k>=2; distance expectation from WT rep1 training backgrounds",
+  "repeat_threshold": 0.5,
+  "mismatched_background_pairs": 208,
+  "minimum_reproducible_cluster_members": 5,
+  "known_buffer_bp": 200,
+  "tentative_new_clusters": 0,
+  "density_shape_spearman": 0.7142436250584564,
+  "numeric_warning_count": 363,
+  "numeric_outputs_finite": true,
+  "limitations": [
+    "unannotated training background may contain unknown structures",
+    "classifier probability is closed-set resemblance, not a calibrated novelty score",
+    "shape score can still correlate with density; report the measured association",
+    "threshold calibrated on training labels; held-out recall reported separately",
+    "absence of annotations plus reproducibility does not confirm biological novelty"
+  ]
+}

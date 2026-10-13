@@ -1,0 +1,859 @@
+{
+  "date": "2026-10-13",
+  "classification_cv": {
+    "n_loci": 344,
+    "n_groups": 56,
+    "accuracy": 0.7383720930232558,
+    "macro_f1": 0.5989672902476859,
+    "group_bootstrap_95_ci": {
+      "accuracy": [
+        0.6821794266196722,
+        0.7978925286145635
+      ],
+      "macro_f1": [
+        0.5366777657560081,
+        0.6664097774037788
+      ]
+    },
+    "split_seed": 42,
+    "training_seed": 42,
+    "folds": 5,
+    "epochs": 35,
+    "validation_rule": "Next cyclic fold; other three folds train; held-out fold never selects epoch",
+    "normalization": "Fit independently on training loci of each fold",
+    "fold0_reused": "Original seed42 held-out predictions, not retrained",
+    "limitations": [
+      "same-study cross-validation, not independent source validation",
+      "bootstrap intervals reflect overlap-group resampling, not biological replicate sampling",
+      "labels are manually annotated and class boundaries may overlap"
+    ]
+  },
+  "per_class": {
+    "CHID": {
+      "precision": 0.2,
+      "recall": 0.34615384615384615,
+      "f1-score": 0.2535211267605634,
+      "support": 26.0
+    },
+    "CHIN": {
+      "precision": 0.9033816425120773,
+      "recall": 0.748,
+      "f1-score": 0.8183807439824945,
+      "support": 250.0
+    },
+    "OPCID": {
+      "precision": 0.6304347826086957,
+      "recall": 0.8529411764705882,
+      "f1-score": 0.725,
+      "support": 68.0
+    },
+    "accuracy": 0.7383720930232558,
+    "macro avg": {
+      "precision": 0.5779388083735909,
+      "recall": 0.6490316742081448,
+      "f1-score": 0.5989672902476859,
+      "support": 344.0
+    },
+    "weighted avg": {
+      "precision": 0.7962644646668913,
+      "recall": 0.7383720930232558,
+      "f1-score": 0.7572288816610416,
+      "support": 344.0
+    }
+  },
+  "classification_baselines": [
+    {
+      "method": "majority",
+      "accuracy": 0.7538461538461538,
+      "macro_f1": 0.2865497076023391,
+      "balanced_accuracy": 0.3333333333333333
+    },
+    {
+      "method": "density_only",
+      "accuracy": 0.6153846153846154,
+      "macro_f1": 0.4701213818860877,
+      "balanced_accuracy": 0.5850340136054423
+    },
+    {
+      "method": "annotation_length_only",
+      "accuracy": 0.8461538461538461,
+      "macro_f1": 0.6299603174603173,
+      "balanced_accuracy": 0.6870748299319728
+    },
+    {
+      "method": "shape_PCA_logreg",
+      "accuracy": 0.5846153846153846,
+      "macro_f1": 0.500768049155146,
+      "balanced_accuracy": 0.7482993197278912
+    }
+  ],
+  "classification_seeds": [
+    {
+      "seed": 42,
+      "selected_epoch": 33,
+      "val_macro_f1": 0.7045454545454546,
+      "accuracy": 0.7076923076923077,
+      "macro_f1": 0.5762626262626261,
+      "balanced_accuracy": 0.7857142857142857
+    },
+    {
+      "seed": 43,
+      "selected_epoch": 29,
+      "val_macro_f1": 0.7422657952069717,
+      "accuracy": 0.7692307692307693,
+      "macro_f1": 0.6601087084958053,
+      "balanced_accuracy": 0.8299319727891157
+    },
+    {
+      "seed": 44,
+      "selected_epoch": 29,
+      "val_macro_f1": 0.7076820238584944,
+      "accuracy": 0.7538461538461538,
+      "macro_f1": 0.6007017543859648,
+      "balanced_accuracy": 0.7721088435374149
+    }
+  ],
+  "discovery": {
+    "seed": 42,
+    "background_train": 157,
+    "background_val": 51,
+    "background_blocks_disjoint": true,
+    "normalization_fit": "Only WT rep1 unannotated training background windows; per-window O/E mean cancels contact amplitude",
+    "autoencoder_epochs": 30,
+    "selected_epoch": 30,
+    "n_genome_windows": 726,
+    "threshold": -1.232308460815593,
+    "shape_score_units": "Standardized log reconstruction error conditional on training-background coarse counts",
+    "noise_control": "Decreasing isotonic conditional mean plus 5 training-count bins of robust residual scale; no validation/test fit",
+    "threshold_rule": "Largest noise-adjusted shape-score threshold reaching 90% center recall on classification-training known structures only",
+    "selected_before_nms": 645,
+    "retained_after_nms": 294,
+    "selected_genome_fraction": 0.8884297520661157,
+    "nms_min_center_separation_bp": 12800,
+    "repeat_correlation": "Pearson of untransformed O/E upper triangle k>=2; distance expectation from WT rep1 training backgrounds",
+    "repeat_threshold": 0.5,
+    "mismatched_background_pairs": 208,
+    "minimum_reproducible_cluster_members": 5,
+    "known_buffer_bp": 200,
+    "tentative_new_clusters": 0,
+    "density_shape_spearman": 0.02689969975413223,
+    "numeric_warning_count": 363,
+    "numeric_outputs_finite": true,
+    "density_multiplication_invariance_max_error": 3.874301910400391e-06,
+    "limitations": [
+      "unannotated training background may contain unknown structures",
+      "classifier probability is closed-set resemblance, not a calibrated novelty score",
+      "conditional null assumes Poisson-like count sparsity effects are monotone; empirical validation remains necessary",
+      "threshold calibrated on training labels; held-out recall reported separately",
+      "absence of annotations plus reproducibility does not confirm biological novelty"
+    ]
+  },
+  "discovery_controls": [
+    {
+      "method": "保留整体强度",
+      "density_correlation": 0.7142436250584564,
+      "selected": 497,
+      "retained": 228,
+      "new_clusters": 0
+    },
+    {
+      "method": "去除整体强度",
+      "density_correlation": -0.850712826087212,
+      "selected": 567,
+      "retained": 260,
+      "new_clusters": 0
+    },
+    {
+      "method": "校正计数噪声",
+      "density_correlation": 0.02689969975413223,
+      "selected": 645,
+      "retained": 294,
+      "new_clusters": 0
+    }
+  ],
+  "known_recall": [
+    {
+      "split": "train",
+      "method": "shape_before_nms",
+      "n_structures": 183,
+      "n_recalled": 165,
+      "center_recall": 0.9016393442622952
+    },
+    {
+      "split": "train",
+      "method": "shape_after_nms",
+      "n_structures": 183,
+      "n_recalled": 151,
+      "center_recall": 0.825136612021858
+    },
+    {
+      "split": "val",
+      "method": "shape_before_nms",
+      "n_structures": 96,
+      "n_recalled": 94,
+      "center_recall": 0.9791666666666666
+    },
+    {
+      "split": "val",
+      "method": "shape_after_nms",
+      "n_structures": 96,
+      "n_recalled": 78,
+      "center_recall": 0.8125
+    },
+    {
+      "split": "test",
+      "method": "shape_before_nms",
+      "n_structures": 65,
+      "n_recalled": 62,
+      "center_recall": 0.953846153846154
+    },
+    {
+      "split": "test",
+      "method": "shape_after_nms",
+      "n_structures": 65,
+      "n_recalled": 48,
+      "center_recall": 0.7384615384615385
+    },
+    {
+      "split": "all",
+      "method": "shape_before_nms",
+      "n_structures": 344,
+      "n_recalled": 321,
+      "center_recall": 0.9331395348837208
+    },
+    {
+      "split": "all",
+      "method": "shape_after_nms",
+      "n_structures": 344,
+      "n_recalled": 277,
+      "center_recall": 0.8052325581395349
+    }
+  ],
+  "unannotated_reproducible": 37,
+  "example_candidate": {
+    "id": "C0144",
+    "center": 4460800,
+    "repeat_correlation": 0.9696258727625284
+  },
+  "representation": {
+    "n_background_train": 110,
+    "n_background_holdout": 25,
+    "window_purging": true,
+    "independent_probability_max_error": 3.219646771412954e-15,
+    "balanced_accuracy": 0.7230769230769232,
+    "roc_auc": 0.788923076923077
+  },
+  "multitrack": {
+    "conditions": [
+      "37C",
+      "44C",
+      "rif25"
+    ],
+    "repeats_per_condition": 2,
+    "bin_bp": 100,
+    "contact_radius_bp": 10000,
+    "diagonal_excluded": true,
+    "local_contact_definition": "Sum of symmetric-image contact densities within +/-100 coarse bins, excluding self; per-million library pair normalization",
+    "repeat_aggregation": "Arithmetic mean after depth normalization",
+    "panels": [
+      "condition curves with gray condition mean",
+      "mean signal",
+      "reference genes",
+      "known structures"
+    ],
+    "interval_bp": 10000,
+    "n_figures": 465,
+    "covered_bp": 4641652,
+    "full_genome_covered": true,
+    "circular_origin_supported": true,
+    "limitations": [
+      "local +/-10kb contacts, not total chromosome-wide row coverage",
+      "coarse image bins normalized by their actual area; no ICE balancing",
+      "same-study condition comparison; signals do not establish mechanism"
+    ]
+  },
+  "sr_native": [
+    {
+      "replicate": 1,
+      "method": "bicubic",
+      "psnr": 21.920635545353623,
+      "ssim": 0.4237824672939884,
+      "shape_ssim_160bp": 0.9592999395273192
+    },
+    {
+      "replicate": 1,
+      "method": "bilinear",
+      "psnr": 21.832129042396527,
+      "ssim": 0.4176161267732419,
+      "shape_ssim_160bp": 0.9676039602250908
+    },
+    {
+      "replicate": 1,
+      "method": "subpixel_cnn",
+      "psnr": 22.227082224250086,
+      "ssim": 0.44586629363840574,
+      "shape_ssim_160bp": 0.9972933445578375
+    },
+    {
+      "replicate": 2,
+      "method": "bicubic",
+      "psnr": 21.531019018149067,
+      "ssim": 0.4100991690609862,
+      "shape_ssim_160bp": 0.955680563285123
+    },
+    {
+      "replicate": 2,
+      "method": "bilinear",
+      "psnr": 21.452714178967828,
+      "ssim": 0.4035539309464387,
+      "shape_ssim_160bp": 0.9642231708489952
+    },
+    {
+      "replicate": 2,
+      "method": "subpixel_cnn",
+      "psnr": 21.857295756439356,
+      "ssim": 0.4327906356463432,
+      "shape_ssim_160bp": 0.9967555412332358
+    }
+  ],
+  "sr_recovery": [
+    {
+      "method": "bicubic",
+      "context_oe_ssim_original": 0.9911828954957719,
+      "context_oe_correlation_original": 0.9948337382155552
+    },
+    {
+      "method": "bilinear",
+      "context_oe_ssim_original": 0.9897921887165164,
+      "context_oe_correlation_original": 0.9955918574643823
+    },
+    {
+      "method": "clipped_target",
+      "context_oe_ssim_original": 0.9999953961651342,
+      "context_oe_correlation_original": 0.999993927847465
+    },
+    {
+      "method": "subpixel_cnn",
+      "context_oe_ssim_original": 0.9617703764618454,
+      "context_oe_correlation_original": 0.9964060849718746
+    }
+  ],
+  "sr_downstream": [
+    {
+      "method": "bicubic",
+      "n_loci": 49,
+      "accuracy": 0.6326530612244898,
+      "macro_f1": 0.5266769073220686,
+      "agreement_with_original_oof": 0.979591836734694
+    },
+    {
+      "method": "bilinear",
+      "n_loci": 49,
+      "accuracy": 0.6530612244897959,
+      "macro_f1": 0.5428571428571428,
+      "agreement_with_original_oof": 1.0
+    },
+    {
+      "method": "clipped_target",
+      "n_loci": 49,
+      "accuracy": 0.6530612244897959,
+      "macro_f1": 0.5428571428571428,
+      "agreement_with_original_oof": 1.0
+    },
+    {
+      "method": "original",
+      "n_loci": 49,
+      "accuracy": 0.6530612244897959,
+      "macro_f1": 0.5428571428571428,
+      "agreement_with_original_oof": 1.0
+    },
+    {
+      "method": "subpixel_cnn",
+      "n_loci": 49,
+      "accuracy": 0.6938775510204082,
+      "macro_f1": 0.6167043740573153,
+      "agreement_with_original_oof": 0.9183673469387756
+    }
+  ],
+  "sr_protocol": {
+    "seed_of_spatial_split": 42,
+    "training_seeds": [
+      42,
+      43,
+      44
+    ],
+    "device": "mps",
+    "epochs": 15,
+    "train_samples": 64,
+    "val_samples": 12,
+    "test_samples": 32,
+    "native_target_bp": 10,
+    "low_input_bp": 40,
+    "training_window_bp": 10240,
+    "known_context_bp": 25600,
+    "known_test_loci": 49,
+    "known_test_classes": {
+      "CHIN": 37,
+      "OPCID": 8,
+      "CHID": 4
+    },
+    "fit_only_repeat1": true,
+    "replicate2_only_evaluated": true,
+    "depth_normalization": "Both repeats scaled to WT rep1 library pair count before log transform",
+    "normalization_scale": 2.5649493574615367,
+    "normalization_fit": "Exact 99.5% training-only log-count quantile from integer histogram",
+    "checkpoint_selection": "Validation MSE; representative seed42 chosen in advance",
+    "loss": "Native MSE + 0.2 MSE of 160bp pooled intensity",
+    "full_known_contexts_in_test_blocks": true,
+    "downstream_classifier": "Per-locus out-of-fold classifier, no test-locus class labels in its fitting",
+    "reconstruction_file": "reconstruction_seed42.npy",
+    "compressed_source_shards": "data/processed/sr_expanded/counts_*.npz",
+    "limitations": [
+      "MPS bitwise determinism not guaranteed across machines",
+      "targets clip top 0.5% training intensity; clipping reference separately evaluated downstream",
+      "same-source spatial holdout and one withheld repeat, not external-source validation",
+      "classifier agreement is a recovery proxy, not independent biological confirmation",
+      "only annotated structures fully inside SR test blocks are evaluated downstream"
+    ]
+  },
+  "occlusion": [
+    {
+      "structure_id": "CHID_2",
+      "true_type": "CHID",
+      "center_probability_drop": -0.00069367886,
+      "corner_probability_drop": 0.07621163
+    },
+    {
+      "structure_id": "CHID_12",
+      "true_type": "CHID",
+      "center_probability_drop": -0.3000161,
+      "corner_probability_drop": 0.41205642
+    },
+    {
+      "structure_id": "CHIN_9",
+      "true_type": "CHIN",
+      "center_probability_drop": 0.02728039,
+      "corner_probability_drop": 0.001689136
+    },
+    {
+      "structure_id": "CHIN_10",
+      "true_type": "CHIN",
+      "center_probability_drop": -0.1443786,
+      "corner_probability_drop": -0.008900881
+    },
+    {
+      "structure_id": "CHIN_11",
+      "true_type": "CHIN",
+      "center_probability_drop": 0.14779022,
+      "corner_probability_drop": -0.49453202
+    },
+    {
+      "structure_id": "CHIN_12",
+      "true_type": "CHIN",
+      "center_probability_drop": 0.08271778,
+      "corner_probability_drop": -0.006647408
+    },
+    {
+      "structure_id": "CHIN_13",
+      "true_type": "CHIN",
+      "center_probability_drop": 0.009549677,
+      "corner_probability_drop": 0.00049620867
+    },
+    {
+      "structure_id": "CHIN_14",
+      "true_type": "CHIN",
+      "center_probability_drop": 0.006936908,
+      "corner_probability_drop": -0.13867491
+    },
+    {
+      "structure_id": "CHIN_15",
+      "true_type": "CHIN",
+      "center_probability_drop": 0.18679714,
+      "corner_probability_drop": -0.08501452
+    },
+    {
+      "structure_id": "CHIN_16",
+      "true_type": "CHIN",
+      "center_probability_drop": 0.12652904,
+      "corner_probability_drop": -0.28584334
+    },
+    {
+      "structure_id": "CHIN_17",
+      "true_type": "CHIN",
+      "center_probability_drop": 0.08852363,
+      "corner_probability_drop": -0.06790459
+    },
+    {
+      "structure_id": "CHIN_18",
+      "true_type": "CHIN",
+      "center_probability_drop": -0.0042429566,
+      "corner_probability_drop": -0.2723133
+    },
+    {
+      "structure_id": "CHIN_19",
+      "true_type": "CHIN",
+      "center_probability_drop": 0.0004913211,
+      "corner_probability_drop": -0.00013941526
+    },
+    {
+      "structure_id": "CHIN_20",
+      "true_type": "CHIN",
+      "center_probability_drop": 0.10136819,
+      "corner_probability_drop": -0.110771954
+    },
+    {
+      "structure_id": "CHIN_21",
+      "true_type": "CHIN",
+      "center_probability_drop": 0.098391,
+      "corner_probability_drop": -0.03925556
+    },
+    {
+      "structure_id": "CHIN_23",
+      "true_type": "CHIN",
+      "center_probability_drop": -0.55652666,
+      "corner_probability_drop": 0.24801771
+    },
+    {
+      "structure_id": "CHIN_37",
+      "true_type": "CHIN",
+      "center_probability_drop": 0.085707486,
+      "corner_probability_drop": -0.056222677
+    },
+    {
+      "structure_id": "CHIN_38",
+      "true_type": "CHIN",
+      "center_probability_drop": -7.683039e-05,
+      "corner_probability_drop": 0.0063218474
+    },
+    {
+      "structure_id": "CHIN_39",
+      "true_type": "CHIN",
+      "center_probability_drop": 0.05812168,
+      "corner_probability_drop": 0.1065529
+    },
+    {
+      "structure_id": "CHIN_40",
+      "true_type": "CHIN",
+      "center_probability_drop": 0.0058638453,
+      "corner_probability_drop": 0.0070687532
+    },
+    {
+      "structure_id": "CHIN_41",
+      "true_type": "CHIN",
+      "center_probability_drop": -0.00051134825,
+      "corner_probability_drop": 0.0027593374
+    },
+    {
+      "structure_id": "CHIN_42",
+      "true_type": "CHIN",
+      "center_probability_drop": 0.022861063,
+      "corner_probability_drop": -0.0030822754
+    },
+    {
+      "structure_id": "CHIN_109",
+      "true_type": "CHIN",
+      "center_probability_drop": 0.09043801,
+      "corner_probability_drop": 0.031244814
+    },
+    {
+      "structure_id": "CHIN_110",
+      "true_type": "CHIN",
+      "center_probability_drop": -8.3863735e-05,
+      "corner_probability_drop": 0.01745379
+    },
+    {
+      "structure_id": "CHIN_111",
+      "true_type": "CHIN",
+      "center_probability_drop": 0.23725724,
+      "corner_probability_drop": -0.3367607
+    },
+    {
+      "structure_id": "CHIN_112",
+      "true_type": "CHIN",
+      "center_probability_drop": 0.13827598,
+      "corner_probability_drop": -0.031579137
+    },
+    {
+      "structure_id": "CHIN_113",
+      "true_type": "CHIN",
+      "center_probability_drop": -0.5929163,
+      "corner_probability_drop": 0.024132743
+    },
+    {
+      "structure_id": "CHIN_124",
+      "true_type": "CHIN",
+      "center_probability_drop": 0.020761117,
+      "corner_probability_drop": -0.14614128
+    },
+    {
+      "structure_id": "CHIN_125",
+      "true_type": "CHIN",
+      "center_probability_drop": 0.03996992,
+      "corner_probability_drop": -0.0071417093
+    },
+    {
+      "structure_id": "CHIN_126",
+      "true_type": "CHIN",
+      "center_probability_drop": 0.0012079477,
+      "corner_probability_drop": -0.0025376678
+    },
+    {
+      "structure_id": "CHIN_127",
+      "true_type": "CHIN",
+      "center_probability_drop": 0.124180816,
+      "corner_probability_drop": -0.38616624
+    },
+    {
+      "structure_id": "CHIN_128",
+      "true_type": "CHIN",
+      "center_probability_drop": 0.20580278,
+      "corner_probability_drop": -0.5288746
+    },
+    {
+      "structure_id": "CHIN_129",
+      "true_type": "CHIN",
+      "center_probability_drop": 0.27327305,
+      "corner_probability_drop": -0.35805827
+    },
+    {
+      "structure_id": "CHIN_130",
+      "true_type": "CHIN",
+      "center_probability_drop": 0.105700225,
+      "corner_probability_drop": 0.104935974
+    },
+    {
+      "structure_id": "CHIN_131",
+      "true_type": "CHIN",
+      "center_probability_drop": -0.23307535,
+      "corner_probability_drop": 0.032544166
+    },
+    {
+      "structure_id": "CHIN_132",
+      "true_type": "CHIN",
+      "center_probability_drop": -0.2570028,
+      "corner_probability_drop": 0.006793879
+    },
+    {
+      "structure_id": "CHIN_133",
+      "true_type": "CHIN",
+      "center_probability_drop": -0.1585021,
+      "corner_probability_drop": 0.42665374
+    },
+    {
+      "structure_id": "CHIN_134",
+      "true_type": "CHIN",
+      "center_probability_drop": 0.013381839,
+      "corner_probability_drop": -0.0027035475
+    },
+    {
+      "structure_id": "CHIN_135",
+      "true_type": "CHIN",
+      "center_probability_drop": -0.5717465,
+      "corner_probability_drop": 0.045150064
+    },
+    {
+      "structure_id": "CHIN_160",
+      "true_type": "CHIN",
+      "center_probability_drop": 0.11965257,
+      "corner_probability_drop": -0.24893188
+    },
+    {
+      "structure_id": "CHIN_161",
+      "true_type": "CHIN",
+      "center_probability_drop": 0.07541686,
+      "corner_probability_drop": -0.08613485
+    },
+    {
+      "structure_id": "CHIN_162",
+      "true_type": "CHIN",
+      "center_probability_drop": 0.00949043,
+      "corner_probability_drop": -0.048860013
+    },
+    {
+      "structure_id": "CHIN_163",
+      "true_type": "CHIN",
+      "center_probability_drop": 0.0018398762,
+      "corner_probability_drop": 0.045420825
+    },
+    {
+      "structure_id": "CHIN_183",
+      "true_type": "CHIN",
+      "center_probability_drop": -0.64920735,
+      "corner_probability_drop": 0.3305391
+    },
+    {
+      "structure_id": "CHIN_184",
+      "true_type": "CHIN",
+      "center_probability_drop": -1.5497208e-05,
+      "corner_probability_drop": 0.02445978
+    },
+    {
+      "structure_id": "CHIN_219",
+      "true_type": "CHIN",
+      "center_probability_drop": 0.03267157,
+      "corner_probability_drop": 0.03287399
+    },
+    {
+      "structure_id": "CHIN_220",
+      "true_type": "CHIN",
+      "center_probability_drop": -0.11757177,
+      "corner_probability_drop": 0.7546701
+    },
+    {
+      "structure_id": "CHIN_226",
+      "true_type": "CHIN",
+      "center_probability_drop": -0.00011730194,
+      "corner_probability_drop": 0.06320405
+    },
+    {
+      "structure_id": "CHIN_227",
+      "true_type": "CHIN",
+      "center_probability_drop": -1.8119812e-05,
+      "corner_probability_drop": 0.023234427
+    },
+    {
+      "structure_id": "CHIN_228",
+      "true_type": "CHIN",
+      "center_probability_drop": -0.28377223,
+      "corner_probability_drop": 0.6983531
+    },
+    {
+      "structure_id": "CHIN_229",
+      "true_type": "CHIN",
+      "center_probability_drop": 0.008444071,
+      "corner_probability_drop": 0.020249963
+    },
+    {
+      "structure_id": "OPCID_9",
+      "true_type": "OPCID",
+      "center_probability_drop": 0.037420973,
+      "corner_probability_drop": -0.119857326
+    },
+    {
+      "structure_id": "OPCID_10",
+      "true_type": "OPCID",
+      "center_probability_drop": 0.86844224,
+      "corner_probability_drop": -0.051070154
+    },
+    {
+      "structure_id": "OPCID_12",
+      "true_type": "OPCID",
+      "center_probability_drop": 0.50361115,
+      "corner_probability_drop": -0.20834887
+    },
+    {
+      "structure_id": "OPCID_32",
+      "true_type": "OPCID",
+      "center_probability_drop": 0.16189463,
+      "corner_probability_drop": -0.21279082
+    },
+    {
+      "structure_id": "OPCID_33",
+      "true_type": "OPCID",
+      "center_probability_drop": 0.040937126,
+      "corner_probability_drop": -0.0009199977
+    },
+    {
+      "structure_id": "OPCID_46",
+      "true_type": "OPCID",
+      "center_probability_drop": 0.45125556,
+      "corner_probability_drop": -0.01644808
+    },
+    {
+      "structure_id": "OPCID_47",
+      "true_type": "OPCID",
+      "center_probability_drop": 0.8015837,
+      "corner_probability_drop": -0.036743402
+    },
+    {
+      "structure_id": "OPCID_48",
+      "true_type": "OPCID",
+      "center_probability_drop": 0.48448738,
+      "corner_probability_drop": -0.3949688
+    },
+    {
+      "structure_id": "OPCID_55",
+      "true_type": "OPCID",
+      "center_probability_drop": 0.0076019764,
+      "corner_probability_drop": -0.00023406744
+    },
+    {
+      "structure_id": "OPCID_56",
+      "true_type": "OPCID",
+      "center_probability_drop": 8.940697e-06,
+      "corner_probability_drop": -4.7683716e-07
+    },
+    {
+      "structure_id": "OPCID_57",
+      "true_type": "OPCID",
+      "center_probability_drop": 0.45544022,
+      "corner_probability_drop": -0.0061469674
+    },
+    {
+      "structure_id": "OPCID_61",
+      "true_type": "OPCID",
+      "center_probability_drop": 0.07676381,
+      "corner_probability_drop": -0.0015118122
+    },
+    {
+      "structure_id": "OPCID_65",
+      "true_type": "OPCID",
+      "center_probability_drop": 0.102484606,
+      "corner_probability_drop": -0.8789691
+    },
+    {
+      "structure_id": "OPCID_66",
+      "true_type": "OPCID",
+      "center_probability_drop": 0.061130993,
+      "corner_probability_drop": -0.7915439
+    }
+  ],
+  "coverage_qc": {
+    "coverage": [
+      {
+        "replicate": 1,
+        "n_bins": 464166,
+        "zero_contact_bins": 8428,
+        "fraction_zero": 0.018157297173855905
+      },
+      {
+        "replicate": 2,
+        "n_bins": 464166,
+        "zero_contact_bins": 8428,
+        "fraction_zero": 0.018157297173855905
+      }
+    ],
+    "n_test_loci": 65,
+    "prediction_changes": 6,
+    "mean_probability_l1_change": 0.15934266321755086,
+    "interpretation": "Descriptive neutral-fill sensitivity only; zero counts do not establish mapping failure or biological absence",
+    "model": "Seed42 original classifier; no retraining or model selection"
+  },
+  "validation": {
+    "split_isolation": true,
+    "one_out_of_fold_prediction_per_structure": true,
+    "discovery_density_sensitive_numeric": {
+      "pca_eigen_relative_error": 1.3871662876003045e-15,
+      "pca_orthogonality_max_error": 1.6653345369377348e-15,
+      "kmeans_labels_match_independent_distance": true
+    },
+    "discovery_density_invariant_numeric": {
+      "pca_eigen_relative_error": 1.3469308728007968e-15,
+      "pca_orthogonality_max_error": 1.887379141862766e-15,
+      "kmeans_labels_match_independent_distance": true
+    },
+    "discovery_numeric": {
+      "pca_eigen_relative_error": 1.208004890932962e-15,
+      "pca_orthogonality_max_error": 1.167495836861773e-15,
+      "kmeans_labels_match_independent_distance": true
+    },
+    "whole_genome_465_tracks": true,
+    "sr_rep2_withheld_and_known_contexts_contained": true,
+    "random_candidate_baseline": {
+      "trials": 200,
+      "before_nms_mean": 0.9887692307692307,
+      "after_nms_mean": 0.813923076923077
+    },
+    "tests": "8 passed in 1.52 seconds; circular area correction and density nuisance tests included"
+  }
+}

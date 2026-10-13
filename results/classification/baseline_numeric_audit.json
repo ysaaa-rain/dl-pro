@@ -1,0 +1,37 @@
+[
+  {
+    "method": "density_only",
+    "finite_features": true,
+    "finite_probabilities": true,
+    "independent_probability_max_error": 2.220446049250313e-16,
+    "independent_gradient_max_abs": 7.200800309203502e-05,
+    "blas_warning_count": 243,
+    "warnings": [
+      "divide by zero encountered in matmul",
+      "invalid value encountered in matmul",
+      "overflow encountered in matmul"
+    ]
+  },
+  {
+    "method": "annotation_length_only",
+    "finite_features": true,
+    "finite_probabilities": true,
+    "independent_probability_max_error": 0.0,
+    "independent_gradient_max_abs": 3.48171706234374e-05,
+    "blas_warning_count": 0,
+    "warnings": []
+  },
+  {
+    "method": "shape_PCA_logreg",
+    "finite_features": true,
+    "finite_probabilities": true,
+    "independent_probability_max_error": 7.993605777301127e-15,
+    "independent_gradient_max_abs": 6.923888776419198e-05,
+    "blas_warning_count": 696,
+    "warnings": [
+      "divide by zero encountered in matmul",
+      "invalid value encountered in matmul",
+      "overflow encountered in matmul"
+    ]
+  }
+]

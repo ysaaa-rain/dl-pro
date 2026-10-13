@@ -1,0 +1,25 @@
+{
+  "frozen_split_seed": 42,
+  "training_seeds": [
+    42,
+    43,
+    44
+  ],
+  "epochs": 35,
+  "normalization_fit": "training-only, both WT repeats",
+  "metric_unit": "structure locus; average repeat probabilities",
+  "model_choice": "validation macro-F1 then validation NLL; no test selection",
+  "input": "fixed 12.8kb and 25.6kb O/E shapes; no length/type metadata",
+  "diagonals_masked": 2,
+  "baselines": [
+    "density_only",
+    "annotation_length_only",
+    "shape_PCA_logreg"
+  ],
+  "length_baseline": "diagnostic shortcut using annotation metadata, not fair deployable image-only baseline",
+  "limitations": [
+    "same-study spatial holdout; not source-disjoint generalization",
+    "three seeds share same split and are not independent biological samples",
+    "saliency and occlusion are diagnostic, not proof of biological causality"
+  ]
+}

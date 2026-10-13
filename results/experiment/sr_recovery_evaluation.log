@@ -1,0 +1,67 @@
+SR device mps samples 108 scale 2.5649493574615367
+SR known recovery CHID_1
+SR known recovery CHID_5
+SR known recovery CHID_19
+SR known recovery CHID_20
+SR known recovery CHIN_3
+SR known recovery CHIN_4
+SR known recovery CHIN_5
+SR known recovery CHIN_6
+SR known recovery CHIN_7
+SR known recovery CHIN_8
+SR known recovery CHIN_9
+SR known recovery CHIN_10
+SR known recovery CHIN_11
+SR known recovery CHIN_12
+SR known recovery CHIN_13
+SR known recovery CHIN_50
+SR known recovery CHIN_51
+SR known recovery CHIN_77
+SR known recovery CHIN_78
+SR known recovery CHIN_79
+SR known recovery CHIN_82
+SR known recovery CHIN_83
+SR known recovery CHIN_84
+SR known recovery CHIN_85
+SR known recovery CHIN_86
+SR known recovery CHIN_183
+SR known recovery CHIN_184
+SR known recovery CHIN_185
+SR known recovery CHIN_189
+SR known recovery CHIN_190
+SR known recovery CHIN_191
+SR known recovery CHIN_192
+SR known recovery CHIN_193
+SR known recovery CHIN_194
+SR known recovery CHIN_195
+SR known recovery CHIN_196
+SR known recovery CHIN_197
+SR known recovery CHIN_198
+SR known recovery CHIN_235
+SR known recovery CHIN_236
+SR known recovery CHIN_237
+SR known recovery OPCID_4
+SR known recovery OPCID_5
+SR known recovery OPCID_9
+SR known recovery OPCID_24
+SR known recovery OPCID_25
+SR known recovery OPCID_54
+SR known recovery OPCID_58
+SR known recovery OPCID_67
+   seed  replicate        method       psnr      ssim  shape_ssim_160bp  off_diagonal_mse
+0     0          1       bicubic  21.920636  0.423782          0.959300          0.006812
+1     0          1      bilinear  21.832129  0.417616          0.967604          0.006920
+2     0          2       bicubic  21.531019  0.410099          0.955681          0.007455
+3     0          2      bilinear  21.452714  0.403554          0.964223          0.007560
+4    42          1  subpixel_cnn  22.204713  0.442388          0.997473          0.006387
+5    42          2  subpixel_cnn  21.832068  0.428974          0.996820          0.006961
+6    43          1  subpixel_cnn  22.246519  0.450929          0.998898          0.006326
+7    43          2  subpixel_cnn  21.879017  0.438048          0.998546          0.006887
+8    44          1  subpixel_cnn  22.230015  0.444282          0.995508          0.006351
+9    44          2  subpixel_cnn  21.860802  0.431349          0.994900          0.006916
+        method  n_loci  accuracy  macro_f1  agreement_with_original_oof
+       bicubic      49  0.632653  0.526677                     0.979592
+      bilinear      49  0.653061  0.542857                     1.000000
+clipped_target      49  0.653061  0.542857                     1.000000
+      original      49  0.653061  0.542857                     1.000000
+  subpixel_cnn      49  0.693878  0.616704                     0.918367

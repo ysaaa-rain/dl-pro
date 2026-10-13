@@ -1,5 +1,6 @@
 """Resumable download of all GEO GSE272159 Cooler matrices in the manifest."""
 import concurrent.futures
+import argparse
 import fcntl
 import gzip
 import hashlib
@@ -82,7 +83,10 @@ def download(item):
 
 def main():
     manifest=json.loads(MANIFEST.read_text())
-    items=manifest['files']; completed=[]; failures=[]
+    parser=argparse.ArgumentParser();parser.add_argument('--include-wt',action='store_true');args=parser.parse_args()
+    items=list(manifest['files'])
+    if args.include_wt:items+=manifest.get('existing_wt_sources',[])
+    completed=[]; failures=[]
     with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
         futures={pool.submit(download,x):x for x in items}
         for future in concurrent.futures.as_completed(futures):

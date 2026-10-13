@@ -39,7 +39,7 @@ def audit(path, compressed=None, url=None):
         gzip_sha256=sha256(compressed) if compressed else None,
         binsize=int(c.binsize),chrom='NC_000913.3',chromosome_length=4641652,
         nbins=int(c.info['nbins']),nnz=int(c.info['nnz']),
-        has_weights='weight' in c.bins().columns,storage_mode=c.storage_mode,
+        library_pairs=int(c.info['sum']),has_weights='weight' in c.bins().columns,storage_mode=c.storage_mode,
         window_read_validated=True)
 
 
@@ -64,6 +64,13 @@ def main():
             os.replace(tmp,dest)
         record=audit(dest,source,item['url']);records.append(record)
         print(f"Audited {dest.name} ({record['bytes']} bytes)",flush=True)
+    for source in sorted(Path('data/raw').glob('GSE272159_37C_rep*.cool.gz')):
+        dest=source.with_suffix('')
+        if not dest.exists():
+            tmp=Path(str(dest)+'.unpacking')
+            with gzip.open(source,'rb') as src,tmp.open('wb') as dst:
+                for chunk in iter(lambda:src.read(8*1024**2),b''):dst.write(chunk)
+            cooler.Cooler(str(tmp));os.replace(tmp,dest)
     for path in sorted(Path('data/raw').glob('GSE272159_37C_rep*.cool')):
         url='https://ftp.ncbi.nlm.nih.gov/geo/series/GSE272nnn/GSE272159/suppl/'+path.name+'.gz'
         records.append(audit(path,url=url))

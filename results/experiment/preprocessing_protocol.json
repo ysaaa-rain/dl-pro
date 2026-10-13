@@ -1,0 +1,26 @@
+{
+  "native_bp": 10,
+  "output_shape": [
+    2,
+    128,
+    128
+  ],
+  "scales_bp": [
+    100,
+    200
+  ],
+  "widths_bp": [
+    12800,
+    25600
+  ],
+  "matrix_view": "symmetric contact image; area-normalized coarse pixel mean",
+  "depth_units": "per million library pairs",
+  "circular_origin_supported": true,
+  "last_bin_area_corrected": true,
+  "n_scan_windows": 726,
+  "scan_stride_bp": 6400,
+  "coverage": "centers tiled across entire circular chromosome, including last partial interval",
+  "normalization": "No ICE; distance expectation and clipping scale fit only on classification training patches",
+  "source_records": "data/annotations/samples.csv",
+  "annotation_resolution": "paper BED pinned by commit; course source preserved"
+}
