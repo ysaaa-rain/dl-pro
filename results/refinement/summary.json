@@ -1,0 +1,355 @@
+{
+  "date": "2026-10-14",
+  "discovery": {
+    "primary_budget": 64,
+    "secondary_budget": 128,
+    "nms_bp": 12800,
+    "score_choice": "coherent_max",
+    "validation_choices": {
+      "coherent_max": 0.4166666666666667,
+      "coherent_mean": 0.3645833333333333,
+      "coherent_positive": 0.3645833333333333
+    },
+    "fit_background_windows": 157,
+    "feature_recipe": "Positive multiscale Gaussian local O/E contrasts in window central half; zero rows and |distance|<2 masked; two scales, sigma1/2/4/8 against sigma12",
+    "density_calibration": [
+      {
+        "feature": 0,
+        "slope": -0.3417775356195136,
+        "intercept": -3.274037531523743,
+        "location": -0.007760320244765362,
+        "scale": 0.39704083849190575
+      },
+      {
+        "feature": 1,
+        "slope": -0.23571451576371308,
+        "intercept": -2.81586439132421,
+        "location": 0.017210974702012383,
+        "scale": 0.4447987331927871
+      },
+      {
+        "feature": 2,
+        "slope": -0.046482901466446624,
+        "intercept": -1.9947349259426728,
+        "location": 0.0417819518409388,
+        "scale": 0.4352086983827994
+      },
+      {
+        "feature": 3,
+        "slope": 0.17140851856753317,
+        "intercept": -1.6053416234076066,
+        "location": 0.016492566920394136,
+        "scale": 0.515347897057814
+      },
+      {
+        "feature": 4,
+        "slope": 0.7106083529397393,
+        "intercept": 3.7344538288810543,
+        "location": 0.026372600336387775,
+        "scale": 0.4343022867398743
+      },
+      {
+        "feature": 5,
+        "slope": 0.9771936571256864,
+        "intercept": 5.272796244569075,
+        "location": 0.00023621414297303467,
+        "scale": 0.5175720111750285
+      },
+      {
+        "feature": 6,
+        "slope": 1.1766459560034228,
+        "intercept": 6.177634933147633,
+        "location": 0.0041118202203882515,
+        "scale": 0.580043163641201
+      },
+      {
+        "feature": 7,
+        "slope": 1.3860455933475664,
+        "intercept": 6.5784942119352525,
+        "location": 0.01892555885024505,
+        "scale": 0.5939151925939494
+      }
+    ],
+    "score_density_spearman": -0.26684048838063484,
+    "n_candidates": 64,
+    "unannotated_reproducible": 10,
+    "novel_clusters": [],
+    "replicate_threshold": 0.5,
+    "random_trials": 500,
+    "limitations": [
+      "Known validation labels choose morphology aggregation; partly supervised model selection, not fully unsupervised discovery",
+      "Test labels previously examined in first round; retrospective comparison, no fresh independent test",
+      "200bp exclusion and >=5 reproducible members required for new cluster",
+      "High 200bp repeat correlation does not establish new biology"
+    ]
+  },
+  "discovery_test": [
+    {
+      "budget": 64,
+      "method": "coherent_max",
+      "split": "test",
+      "center_recall": 0.3538461538461538
+    },
+    {
+      "budget": 64,
+      "method": "coherent_mean",
+      "split": "test",
+      "center_recall": 0.3230769230769231
+    },
+    {
+      "budget": 64,
+      "method": "coherent_positive",
+      "split": "test",
+      "center_recall": 0.3230769230769231
+    },
+    {
+      "budget": 64,
+      "method": "density",
+      "split": "test",
+      "center_recall": 0.1384615384615384
+    },
+    {
+      "budget": 64,
+      "method": "first_round_AE",
+      "split": "test",
+      "center_recall": 0.1846153846153846
+    },
+    {
+      "budget": 128,
+      "method": "coherent_max",
+      "split": "test",
+      "center_recall": 0.5692307692307692
+    },
+    {
+      "budget": 128,
+      "method": "coherent_mean",
+      "split": "test",
+      "center_recall": 0.5692307692307692
+    },
+    {
+      "budget": 128,
+      "method": "coherent_positive",
+      "split": "test",
+      "center_recall": 0.6
+    },
+    {
+      "budget": 128,
+      "method": "density",
+      "split": "test",
+      "center_recall": 0.2615384615384615
+    },
+    {
+      "budget": 128,
+      "method": "first_round_AE",
+      "split": "test",
+      "center_recall": 0.3384615384615385
+    }
+  ],
+  "random_test": [
+    {
+      "budget": 64,
+      "mean": 0.1778153846153846,
+      "std": 0.06239316276857663
+    },
+    {
+      "budget": 128,
+      "mean": 0.3516615384615384,
+      "std": 0.07519539081691838
+    }
+  ],
+  "discovery_group_bootstrap_primary_delta_vs_random_95": [
+    -0.05449641148325357,
+    0.31851341463414634
+  ],
+  "discovery_test_groups": 12,
+  "sr_native": [
+    {
+      "replicate": 1,
+      "method": "bicubic",
+      "psnr": 21.920514864026785,
+      "ssim": 0.4237852934920652
+    },
+    {
+      "replicate": 1,
+      "method": "bilinear",
+      "psnr": 21.831956631097317,
+      "ssim": 0.4176245967250951
+    },
+    {
+      "replicate": 1,
+      "method": "projected_bicubic",
+      "psnr": 21.972650163980056,
+      "ssim": 0.4467847743796549
+    },
+    {
+      "replicate": 1,
+      "method": "subpixel_cnn",
+      "psnr": 22.02840068092705,
+      "ssim": 0.447763539423409
+    },
+    {
+      "replicate": 2,
+      "method": "bicubic",
+      "psnr": 21.53081500546849,
+      "ssim": 0.4101048383089016
+    },
+    {
+      "replicate": 2,
+      "method": "bilinear",
+      "psnr": 21.452388092198735,
+      "ssim": 0.4035705733880744
+    },
+    {
+      "replicate": 2,
+      "method": "projected_bicubic",
+      "psnr": 21.57807478910634,
+      "ssim": 0.4337449430502614
+    },
+    {
+      "replicate": 2,
+      "method": "subpixel_cnn",
+      "psnr": 21.638155178822206,
+      "ssim": 0.43486703727489173
+    }
+  ],
+  "sr_native_seed42": [
+    {
+      "seed": 42,
+      "replicate": 1,
+      "method": "subpixel_cnn",
+      "psnr": 22.021877173792525,
+      "ssim": 0.4475424977320558,
+      "shape_ssim_160bp": 0.9684608851899432,
+      "off_diagonal_mse": 0.0066651911038206
+    },
+    {
+      "seed": 42,
+      "replicate": 2,
+      "method": "subpixel_cnn",
+      "psnr": 21.630355804277396,
+      "ssim": 0.4346073134302614,
+      "shape_ssim_160bp": 0.9650840605027734,
+      "off_diagonal_mse": 0.007295867864741
+    }
+  ],
+  "sr_projection_native": [
+    {
+      "replicate": 1,
+      "method": "first_round_cnn",
+      "psnr": 22.204713204826703,
+      "ssim": 0.4423882329553484
+    },
+    {
+      "replicate": 1,
+      "method": "projected_first_round_cnn",
+      "psnr": 22.03186753013506,
+      "ssim": 0.44794982842067904
+    },
+    {
+      "replicate": 2,
+      "method": "first_round_cnn",
+      "psnr": 21.832068448302174,
+      "ssim": 0.4289743735220867
+    },
+    {
+      "replicate": 2,
+      "method": "projected_first_round_cnn",
+      "psnr": 21.640324788884605,
+      "ssim": 0.43499176128147526
+    }
+  ],
+  "sr_shape": [
+    {
+      "method": "bicubic",
+      "context_oe_ssim_original": 0.9911829341793839,
+      "context_oe_ssim_original_100bp": 0.9026558822110093
+    },
+    {
+      "method": "bilinear",
+      "context_oe_ssim_original": 0.9897922735338713,
+      "context_oe_ssim_original_100bp": 0.8954326343964303
+    },
+    {
+      "method": "clipped_target",
+      "context_oe_ssim_original": 0.9999953961651342,
+      "context_oe_ssim_original_100bp": 0.9999599093423328
+    },
+    {
+      "method": "projected_bicubic",
+      "context_oe_ssim_original": 1.0000000018744852,
+      "context_oe_ssim_original_100bp": 0.9142574505896136
+    },
+    {
+      "method": "subpixel_cnn",
+      "context_oe_ssim_original": 1.000000000464208,
+      "context_oe_ssim_original_100bp": 0.9143699304702659
+    }
+  ],
+  "sr_projection_shape": [
+    {
+      "method": "first_round_cnn",
+      "oe_ssim_100bp": 0.8697015169929241,
+      "oe_ssim_200bp": 0.9617703764618454
+    },
+    {
+      "method": "projected_first_round_cnn",
+      "oe_ssim_100bp": 0.9148458559072288,
+      "oe_ssim_200bp": 1.000000002170745
+    }
+  ],
+  "sr_downstream": [
+    {
+      "method": "bicubic",
+      "n_loci": 49,
+      "accuracy": 0.6326530612244898,
+      "macro_f1": 0.5266769073220686,
+      "agreement_with_original_oof": 0.979591836734694
+    },
+    {
+      "method": "bilinear",
+      "n_loci": 49,
+      "accuracy": 0.6530612244897959,
+      "macro_f1": 0.5428571428571428,
+      "agreement_with_original_oof": 1.0
+    },
+    {
+      "method": "clipped_target",
+      "n_loci": 49,
+      "accuracy": 0.6530612244897959,
+      "macro_f1": 0.5428571428571428,
+      "agreement_with_original_oof": 1.0
+    },
+    {
+      "method": "original",
+      "n_loci": 49,
+      "accuracy": 0.6530612244897959,
+      "macro_f1": 0.5428571428571428,
+      "agreement_with_original_oof": 1.0
+    },
+    {
+      "method": "projected_bicubic",
+      "n_loci": 49,
+      "accuracy": 0.6530612244897959,
+      "macro_f1": 0.5428571428571428,
+      "agreement_with_original_oof": 1.0
+    },
+    {
+      "method": "subpixel_cnn",
+      "n_loci": 49,
+      "accuracy": 0.6530612244897959,
+      "macro_f1": 0.5428571428571428,
+      "agreement_with_original_oof": 1.0
+    }
+  ],
+  "sr_projection_100bp_delta_locus_bootstrap_95": [
+    0.043726750122467864,
+    0.04637090611873484
+  ],
+  "limitations": [
+    "Retrospective evaluation of previously exposed test positions; no independent external validation",
+    "Discovery partially supervised choice among three morphology aggregations on validation labels",
+    "200bp conservation imposed by40bp block constraint; not independent learning evidence",
+    "New SR training did not outperform projecting existing CNN; preserve negative experiment",
+    "Classification recipe unchanged and CHID recall remains34.6%"
+  ]
+}

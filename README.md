@@ -44,3 +44,23 @@ MPS可用则用于SR，其他训练使用CPU；不同机器不保证逐位一致
 基础CLI支持audit、inspect和window，局部预览为局部O/E，不能代替正式归一化；基础CLI不支持跨起点，但正式实验稀疏读取器支持环状起点及末端短bin面积校正。
 
 详见 [进度](docs/进度.md)、[设计与验收](docs/实验计划.md)。来源、下载大小和本地SHA256见 results/geo_download_summary.json、results/geo_matrix_audit.json；发布者未给独立SHA256，不能声称与官方哈希吻合。
+
+## 第二轮改进（2026-10-14）
+
+[第二轮Word报告](output/实验报告_第二轮改进对照.docx)与[对照记录](docs/第二轮实验.md)保留第一轮负面结果。
+
+- 任务二改用固定64/128候选预算，验证集选择形态评分。64候选原测试中心召回35.4%，随机均值17.8%、第一轮AE18.5%。但12个空间组的重采样差值区间包含零，尚不能声称稳健优于随机；10个未注释复现候选，仍0个合格新簇。
+- 任务五增加40bp计数一致性投影、100bp O/E损失与消融。对旧CNN直接投影，100bp O/E SSIM约0.870→0.915；WTrep1 PSNR22.205→22.032，结构改善有图像误差代价。新增三种子训练没有超过旧CNN加投影。200bp保真按约束保证，不能算独立学习证据；下游准确率没有保留第一轮69.4%的提升。
+- 新增WT/HNS_mut/FIS_mut的465张轨道图，独立缓存与目录，不覆盖第一轮图组。正式使用10矩阵，19矩阵仅审计，详见data/annotations/sample_usage.csv。
+- 10项测试通过，真实计数守恒、缓存条件拒绝、PCA/聚类独立复核和轨道连续覆盖已检查。所有原测试位置此前已观察，本轮是回顾性比较。
+
+```bash
+.venv/bin/python scripts/discovery_refinement.py
+.venv/bin/python scripts/sr_refinement.py
+.venv/bin/python scripts/sr_projection_ablation.py
+.venv/bin/python scripts/multitrack.py --conditions 37C HNS_mut FIS_mut --output results/multitrack_mutants
+.venv/bin/python scripts/summarize_refinement.py
+.venv/bin/python scripts/refinement_figures.py
+.venv/bin/python scripts/validate_refinement.py
+.venv/bin/python scripts/build_refinement_report.py
+```

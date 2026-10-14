@@ -1,0 +1,39 @@
+old columns ['center', 'known_overlap', 'background_block', 'training_background', 'raw_reconstruction_mse', 'effective_coarse_counts', 'shape_score_rep1', 'shape_score_rep2', 'density_rep1', 'selected_before_nms', 'retained']
+/Users/mac/Desktop/DEVELOP/code_brandnewme/dl-pro/.venv/lib/python3.9/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/mac/Desktop/DEVELOP/code_brandnewme/dl-pro/.venv/lib/python3.9/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/mac/Desktop/DEVELOP/code_brandnewme/dl-pro/.venv/lib/python3.9/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+ budget            method split  center_recall
+     64      coherent_max train       0.234973
+     64      coherent_max   val       0.416667
+     64      coherent_max  test       0.353846
+     64     coherent_mean train       0.311475
+     64     coherent_mean   val       0.364583
+     64     coherent_mean  test       0.323077
+     64 coherent_positive train       0.311475
+     64 coherent_positive   val       0.364583
+     64 coherent_positive  test       0.323077
+     64           density train       0.185792
+     64           density   val       0.166667
+     64           density  test       0.138462
+     64    first_round_AE train       0.202186
+     64    first_round_AE   val       0.260417
+     64    first_round_AE  test       0.184615
+    128      coherent_max train       0.519126
+    128      coherent_max   val       0.552083
+    128      coherent_max  test       0.569231
+    128     coherent_mean train       0.524590
+    128     coherent_mean   val       0.656250
+    128     coherent_mean  test       0.569231
+    128 coherent_positive train       0.508197
+    128 coherent_positive   val       0.593750
+    128 coherent_positive  test       0.600000
+    128           density train       0.377049
+    128           density   val       0.250000
+    128           density  test       0.261538
+    128    first_round_AE train       0.327869
+    128    first_round_AE   val       0.416667
+    128    first_round_AE  test       0.338462
+chosen coherent_max unannotated 10 new clusters []

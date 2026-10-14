@@ -1,0 +1,9 @@
+{
+  "seed": 42,
+  "n_test_patches": 32,
+  "n_test_loci": 49,
+  "training": "None; reuse first-round saved model, inference projection only",
+  "input": "Original model receives original clipped input; projection restores measured unclipped40bp block mean",
+  "interpretation": "200bp conservation follows by construction; compare100bp off-grid shapes and native metrics for learned benefit",
+  "test_status": "Retrospective positions already evaluated in first round"
+}

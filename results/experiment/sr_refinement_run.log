@@ -1,0 +1,86 @@
+SR device mps samples 108 scale 2.5649493574615367
+SR seed 42 epoch 1 val MSE 0.007904
+SR seed 42 epoch 4 val MSE 0.007884
+SR seed 42 epoch 7 val MSE 0.007870
+SR seed 42 epoch 10 val MSE 0.007861
+SR seed 42 epoch 13 val MSE 0.007849
+SR seed 43 epoch 1 val MSE 0.007901
+SR seed 43 epoch 4 val MSE 0.007867
+SR seed 43 epoch 7 val MSE 0.007850
+SR seed 43 epoch 10 val MSE 0.007834
+SR seed 43 epoch 13 val MSE 0.007821
+SR seed 44 epoch 1 val MSE 0.007901
+SR seed 44 epoch 4 val MSE 0.007876
+SR seed 44 epoch 7 val MSE 0.007857
+SR seed 44 epoch 10 val MSE 0.007842
+SR seed 44 epoch 13 val MSE 0.007830
+SR known recovery CHID_1
+SR known recovery CHID_5
+SR known recovery CHID_19
+SR known recovery CHID_20
+SR known recovery CHIN_3
+SR known recovery CHIN_4
+SR known recovery CHIN_5
+SR known recovery CHIN_6
+SR known recovery CHIN_7
+SR known recovery CHIN_8
+SR known recovery CHIN_9
+SR known recovery CHIN_10
+SR known recovery CHIN_11
+SR known recovery CHIN_12
+SR known recovery CHIN_13
+SR known recovery CHIN_50
+SR known recovery CHIN_51
+SR known recovery CHIN_77
+SR known recovery CHIN_78
+SR known recovery CHIN_79
+SR known recovery CHIN_82
+SR known recovery CHIN_83
+SR known recovery CHIN_84
+SR known recovery CHIN_85
+SR known recovery CHIN_86
+SR known recovery CHIN_183
+SR known recovery CHIN_184
+SR known recovery CHIN_185
+SR known recovery CHIN_189
+SR known recovery CHIN_190
+SR known recovery CHIN_191
+SR known recovery CHIN_192
+SR known recovery CHIN_193
+SR known recovery CHIN_194
+SR known recovery CHIN_195
+SR known recovery CHIN_196
+SR known recovery CHIN_197
+SR known recovery CHIN_198
+SR known recovery CHIN_235
+SR known recovery CHIN_236
+SR known recovery CHIN_237
+SR known recovery OPCID_4
+SR known recovery OPCID_5
+SR known recovery OPCID_9
+SR known recovery OPCID_24
+SR known recovery OPCID_25
+SR known recovery OPCID_54
+SR known recovery OPCID_58
+SR known recovery OPCID_67
+                                       psnr      ssim  shape_ssim_160bp  off_diagonal_mse
+seed replicate method
+0    1         bicubic            21.920515  0.423785          0.959299          0.006812
+               bilinear           21.831957  0.417625          0.967603          0.006921
+               projected_bicubic  21.972650  0.446785          0.968413          0.006741
+     2         bicubic            21.530815  0.410105          0.955679          0.007455
+               bilinear           21.452388  0.403571          0.964220          0.007561
+               projected_bicubic  21.578075  0.433745          0.965027          0.007382
+42   1         subpixel_cnn       22.021877  0.447542          0.968461          0.006665
+     2         subpixel_cnn       21.630356  0.434607          0.965084          0.007296
+43   1         subpixel_cnn       22.034242  0.447925          0.968386          0.006646
+     2         subpixel_cnn       21.645200  0.435060          0.964998          0.007271
+44   1         subpixel_cnn       22.029083  0.447823          0.968432          0.006654
+     2         subpixel_cnn       21.638909  0.434934          0.965050          0.007281
+           method  n_loci  accuracy  macro_f1  agreement_with_original_oof
+          bicubic      49  0.632653  0.526677                     0.979592
+         bilinear      49  0.653061  0.542857                     1.000000
+   clipped_target      49  0.653061  0.542857                     1.000000
+         original      49  0.653061  0.542857                     1.000000
+projected_bicubic      49  0.653061  0.542857                     1.000000
+     subpixel_cnn      49  0.653061  0.542857                     1.000000

@@ -1,5 +1,5 @@
 """Genome-wide four-panel tracks, three conditions, library-normalized local contacts."""
-import argparse,concurrent.futures
+import argparse,concurrent.futures,json
 from pathlib import Path
 import numpy as np
 import pandas as pd
@@ -10,12 +10,12 @@ from matplotlib.patches import Rectangle
 from dlpro.experiment_core import ContactReader,LENGTH,save_json
 
 OUT=Path('results/multitrack')
-COLORS={'37C':'#22577A','44C':'#D66B38','rif25':'#3D8361'}
+COLORS={'37C':'#22577A','44C':'#D66B38','rif25':'#3D8361','HNS_mut':'#D66B38','FIS_mut':'#3D8361'}
 STRUCT_COLORS={'CHIN':'#F5A623','OPCID':'#B96522','CHID':'#E07A35'}
 
 
 def draw_region(args):
-    start,end,centers,tracks,genes,structures=args
+    start,end,centers,tracks,genes,structures,output=args
     active=structures[(structures.start<end)&(structures.end>start)].sort_values('start')
     lanes=[];packed=[]
     for r in active.itertuples():
@@ -45,21 +45,29 @@ def draw_region(args):
         if hi-lo>=500:axes[3].text((lo+hi)/2,lane+.63,r.structure_id,ha='center',fontsize=7,clip_on=True)
     axes[3].set(ylim=(-.1,max(1,len(lanes))+.6),yticks=[],xlim=(start,end));axes[3].set_ylabel('Structures',fontsize=8);axes[3].set_xlabel('Genomic position (bp)')
     for ax in axes:ax.tick_params(labelsize=7);ax.spines[['top','right']].set_visible(False)
-    path=OUT/'tracks'/f'{start:07d}_{end:07d}.png';fig.savefig(path,dpi=100);plt.close(fig)
+    path=Path(output)/'tracks'/f'{start:07d}_{end:07d}.png';fig.savefig(path,dpi=100);plt.close(fig)
     return dict(start=start,end=end,path=str(path),genes=len(sub),structures=len(active))
 
 
 def main():
-    parser=argparse.ArgumentParser();parser.add_argument('--conditions',nargs='+',default=['37C','44C','rif25']);args=parser.parse_args()
-    if set(args.conditions)!=set(COLORS):raise ValueError('This preregistered run uses 37C/44C/rif25')
+    parser=argparse.ArgumentParser();parser.add_argument('--conditions',nargs='+',default=['37C','44C','rif25']);parser.add_argument('--output',default='results/multitrack');args=parser.parse_args()
+    global OUT
+    OUT=Path(args.output)
+    if len(args.conditions)<3 or len(set(args.conditions))!=len(args.conditions) or not set(args.conditions)<=set(COLORS):raise ValueError('Choose at least three distinct supported conditions')
     OUT.mkdir(exist_ok=True,parents=True);(OUT/'tracks').mkdir(exist_ok=True)
     samples=pd.read_csv('data/annotations/samples.csv');n=(LENGTH+99)//100
+    selected=samples[samples.condition.isin(args.conditions)]
+    if not selected.groupby('condition').size().reindex(args.conditions).eq(2).all():raise ValueError('Exactly two repeats per condition required')
+    source_signature={r.sample_id:r.sha256 for r in selected.itertuples()}
+    manifest=OUT/'cache_sources.json'
+    if manifest.exists() and json.loads(manifest.read_text())!=source_signature:raise ValueError('Source mismatch: use a new output directory')
     cache=OUT/'signals.npz';records=[]
     if cache.exists():
         obj=np.load(cache);signals={k:obj[k] for k in obj.files}
+        if set(signals)!=set(source_signature):raise ValueError('Cached samples differ: use a new output directory')
     else:
         signals={}
-        for sample in samples[samples.condition.isin(args.conditions)].itertuples():
+        for sample in selected.itertuples():
             reader=ContactReader(sample.path);signal=np.zeros(n,np.float32)
             for start in range(0,n,400):
                 count=min(400,n-start);a=reader.window(start-100,n=count+200,bin_bp=100)
@@ -70,12 +78,13 @@ def main():
             records.append(dict(sample_id=sample.sample_id,condition=sample.condition,replicate=int(sample.replicate),library_pairs=reader.library_size,path=sample.path))
         np.savez_compressed(cache,**signals)
         pd.DataFrame(records).to_csv(OUT/'sample_depths.csv',index=False)
-    tracks={condition:np.mean([signal for name,signal in signals.items() if name.split('_',1)[1].startswith(condition+'_rep')],axis=0) for condition in args.conditions}
+    manifest.write_text(json.dumps(source_signature,indent=2)+'\n')
+    tracks={condition:np.mean([signals[r.sample_id] for r in selected[selected.condition==condition].itertuples()],axis=0) for condition in args.conditions}
     centers=np.arange(n)*100+np.minimum(100,LENGTH-np.arange(n)*100)/2
     table=pd.DataFrame({'start':np.arange(n)*100,'end':np.minimum(np.arange(n)*100+100,LENGTH),**tracks})
     table.to_csv(OUT/'signals.csv.gz',index=False,compression={'method':'gzip','mtime':0})
     genes=pd.read_csv('data/annotations/genes.csv');structures=pd.read_csv('data/annotations/structures.csv')
-    jobs=[(s,min(s+10000,LENGTH),centers,tracks,genes,structures) for s in range(0,LENGTH,10000)]
+    jobs=[(s,min(s+10000,LENGTH),centers,tracks,genes,structures,str(OUT)) for s in range(0,LENGTH,10000)]
     with concurrent.futures.ProcessPoolExecutor(max_workers=2) as pool:
         index=[]
         for i,row in enumerate(pool.map(draw_region,jobs)):

@@ -1,0 +1,83 @@
+{
+  "primary_budget": 64,
+  "secondary_budget": 128,
+  "nms_bp": 12800,
+  "score_choice": "coherent_max",
+  "validation_choices": {
+    "coherent_max": 0.4166666666666667,
+    "coherent_mean": 0.3645833333333333,
+    "coherent_positive": 0.3645833333333333
+  },
+  "fit_background_windows": 157,
+  "feature_recipe": "Positive multiscale Gaussian local O/E contrasts in window central half; zero rows and |distance|<2 masked; two scales, sigma1/2/4/8 against sigma12",
+  "density_calibration": [
+    {
+      "feature": 0,
+      "slope": -0.3417775356195136,
+      "intercept": -3.274037531523743,
+      "location": -0.007760320244765362,
+      "scale": 0.39704083849190575
+    },
+    {
+      "feature": 1,
+      "slope": -0.23571451576371308,
+      "intercept": -2.81586439132421,
+      "location": 0.017210974702012383,
+      "scale": 0.4447987331927871
+    },
+    {
+      "feature": 2,
+      "slope": -0.046482901466446624,
+      "intercept": -1.9947349259426728,
+      "location": 0.0417819518409388,
+      "scale": 0.4352086983827994
+    },
+    {
+      "feature": 3,
+      "slope": 0.17140851856753317,
+      "intercept": -1.6053416234076066,
+      "location": 0.016492566920394136,
+      "scale": 0.515347897057814
+    },
+    {
+      "feature": 4,
+      "slope": 0.7106083529397393,
+      "intercept": 3.7344538288810543,
+      "location": 0.026372600336387775,
+      "scale": 0.4343022867398743
+    },
+    {
+      "feature": 5,
+      "slope": 0.9771936571256864,
+      "intercept": 5.272796244569075,
+      "location": 0.00023621414297303467,
+      "scale": 0.5175720111750285
+    },
+    {
+      "feature": 6,
+      "slope": 1.1766459560034228,
+      "intercept": 6.177634933147633,
+      "location": 0.0041118202203882515,
+      "scale": 0.580043163641201
+    },
+    {
+      "feature": 7,
+      "slope": 1.3860455933475664,
+      "intercept": 6.5784942119352525,
+      "location": 0.01892555885024505,
+      "scale": 0.5939151925939494
+    }
+  ],
+  "score_density_spearman": -0.26684048838063484,
+  "n_candidates": 64,
+  "unannotated_reproducible": 10,
+  "novel_clusters": [],
+  "replicate_threshold": 0.5,
+  "random_trials": 500,
+  "limitations": [
+    "Known validation labels choose morphology aggregation; partly supervised model selection, not fully unsupervised discovery",
+    "Test labels previously examined in first round; retrospective comparison, no fresh independent test",
+    "200bp exclusion and >=5 reproducible members required for new cluster",
+    "High 200bp repeat correlation does not establish new biology"
+  ]
+}

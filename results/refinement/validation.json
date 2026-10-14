@@ -1,0 +1,13 @@
+{
+  "fixed_budget_and_spacing": true,
+  "pca_eigen_max_relative_error": 1.0277499184442933e-15,
+  "independent_pca_and_cluster_labels": true,
+  "count_conservation_max_absolute_error": 4.76837158203125e-06,
+  "count_conservation_max_relative_error": 4.5548623006652633e-07,
+  "unclipped_log_reconstruction_finite": true,
+  "sr_rep2_not_fitted_and_49_known_contexts": true,
+  "mutant_tracks_full_coverage": true,
+  "mutant_cache_correct_samples": true,
+  "wrong_condition_cache_rejected": true,
+  "tests": "10 passed in1.74s"
+}
