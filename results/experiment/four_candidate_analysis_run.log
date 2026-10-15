@@ -1,0 +1,14 @@
+candidate_id  rank structure_id  type  annotation_start  annotation_end  context_edge_gap_bp  center_distance_bp
+        U001     1     OPCID_19 OPCID           1140550         1145025                  575               15613
+        U004     1     CHIN_108  CHIN           1869825         1873975                14025               28900
+        U005     1     OPCID_37 OPCID           2529575         2532275                 1575               15725
+        U007     1     CHIN_159  CHIN           2804275         2805825                10175               23750
+candidate_id  bin_bp  region condition  mean_ratio  all_pair_ratio_min  all_pair_ratio_max  both_repeats_below_all_wt  both_repeats_above_all_wt
+        U001     100 central   HNS_mut    0.361595            0.350933            0.372425                       True                      False
+        U001     100 central   FIS_mut    0.495710            0.486511            0.505055                       True                      False
+        U004     100 central   HNS_mut    0.494149            0.474805            0.514036                       True                      False
+        U004     100 central   FIS_mut    0.530347            0.515719            0.545386                       True                      False
+        U005     100 central   HNS_mut    0.621751            0.581969            0.663447                       True                      False
+        U005     100 central   FIS_mut    0.717156            0.688306            0.747393                       True                      False
+        U007     100 central   HNS_mut    0.348231            0.334878            0.361726                       True                      False
+        U007     100 central   FIS_mut    0.381272            0.370893            0.391760                       True                      False

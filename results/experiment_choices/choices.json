@@ -1,0 +1,41 @@
+{
+  "status": "Post-analysis operational freeze, not preregistration or independent test selection",
+  "classification": {
+    "primary": "fine_consistent_ensemble",
+    "location": "results/classification_fine",
+    "reason": "Keep fixed three-scale repeat-consistency ensemble; avoid choosing recipe by maximum observed test accuracy",
+    "input": "50/100/200bp contact images only; no label-derived length or bounds",
+    "labels": "Original344 mutually exclusive course rows retained; overlapping/nested biological annotations explicitly audited, not silently relabelled",
+    "imbalance": "Balanced location sampling and macroF1 validation;26CHID limit remains",
+    "rejected_claim": "CHID recognition solved",
+    "alternatives": "Matched extended training, span auxiliary, shape forest, kernel and gate retained as comparators; gate high accuracy has lower CHID recall"
+  },
+  "superresolution": {
+    "primary": "projected_first_round_cnn",
+    "location": "results/sr_refined/projection_ablation_*",
+    "reason": "Use simple measured-count projection of established CNN for count-consistent reconstruction; deeper model adds small native gain without clear100bp structural or downstream gain",
+    "required_comparators": [
+      "bilinear",
+      "bicubic",
+      "projected_bicubic",
+      "first_round_cnn",
+      "projected_first_round_cnn",
+      "context_count_cnn"
+    ],
+    "tradeoff": "UnconstrainedCNN retains better nativePSNR/downstream in this benchmark; primary choice prioritizes count fidelity and100bp shape with explicit loss of those benefits",
+    "not_learned_evidence": "200bp preservation guaranteed by40bp projection",
+    "limitation": "Choice made after exploratory outcomes; no independent final-test claim"
+  },
+  "discovery": {
+    "primary": "support-aware morphology,64candidate fixed budget",
+    "high_recall_alternative": "Training90%recall calibration,6400bp spacing;widebudget",
+    "candidate_followup": [
+      "U001",
+      "U004",
+      "U005",
+      "U007"
+    ],
+    "new_structure_class_confirmed": false
+  },
+  "report_generation": "Paused; do not execute document builders"
+}

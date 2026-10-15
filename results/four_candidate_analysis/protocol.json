@@ -1,0 +1,23 @@
+{
+  "candidates": [
+    "U001",
+    "U004",
+    "U005",
+    "U007"
+  ],
+  "fixed_before_analysis": true,
+  "central_region": "32x32 pixels centered in each128x128 image; physical widths3200/6400bp",
+  "context_widths_bp": [
+    12800,
+    25600
+  ],
+  "normalization": "Per-million library count density; WT train fold0 expectation shared; amplitude normalization for heatmap only",
+  "distance": "Circular interval edge gap, complete25.6kb candidate context to annotation; no extra buffer in reported distance",
+  "limitations": [
+    "Selection exploratory, no independent confirmatory test",
+    "Two repeats per condition; four cross-repeat ratios are not four independent biological samples",
+    "Ratios descriptive, not significance or causal protein effects",
+    "Central rectangle is a fixed geometric summary, not a learned structural boundary",
+    "Heatmaps show unmasked pixels; supported summaries use identical WT80%native-support plus all-six-sample nonzero-row mask; center support retained explicitly, particularly important forU005"
+  ]
+}

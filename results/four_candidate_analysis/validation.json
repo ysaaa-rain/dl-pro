@@ -1,0 +1,8 @@
+{
+  "unique_measurements": 192,
+  "all_six_sr_methods_compared": true,
+  "known_context_distances_above_buffer": true,
+  "finite_region_metrics": true,
+  "tests": "17 passed in1.63s",
+  "visual_review": "U005 two-scale six-sample panel inspected; central gap retained and support flagged"
+}

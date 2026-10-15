@@ -1,0 +1,9 @@
+{
+  "results/model_validation/classification_comparison.csv": "8bb9bb61e1db66f5953cdd6e28ad87f8f35b242007c12cfa49eeec6d417b35e0",
+  "results/sr_refined/projection_ablation_native.csv": "e9dacde4157e52ee5925224bc37ab60c744dc214d53120a1cfdaabff52dd3633",
+  "results/sr_refined/projection_ablation_shape.csv": "458b884f84cee38213d920ab1cbee25b9e16a39642e7f419c09211d22aa33fa2",
+  "results/sr_context/metrics_per_window.csv": "9adf3366417a7b85c937aecb25305a421cb51fc9ecd22af11b15fb4c8c538c9b",
+  "results/sr_context/known_recovery.csv": "7e0f580d4e2d06e55b7112d192785e12dab9f1fe35987c5c13b980a9209ff4d2",
+  "results/sr_context/downstream_summary.csv": "875fee20f5eeb67e1c1a9fd8ea94e26f43f61b2afe21a80ff66019ba4e6ab3a2",
+  "results/sr_refined/projection_ablation_predictions.csv": "fa5c6dffe91bce60c5ad5a7f6f5e46b0c52ff6e7180e3b6513639f63820272a8"
+}

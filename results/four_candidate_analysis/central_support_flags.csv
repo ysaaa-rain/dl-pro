@@ -1,0 +1,9 @@
+candidate_id,bin_bp,supported_fraction,central_support_below_half
+U001,100,1.0,False
+U001,200,1.0,False
+U004,100,1.0,False
+U004,200,1.0,False
+U005,100,0.36989247311827955,True
+U005,200,0.6473118279569893,False
+U007,100,1.0,False
+U007,200,1.0,False
