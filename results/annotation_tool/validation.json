@@ -1,0 +1,42 @@
+{
+  "n_oof_loci": 344,
+  "max_probability_error": 1.1920928966180355e-07,
+  "models_sha256": "abbec819a9f54682661c57a6d15ca506abd721a6001336bb352069d6081b8770",
+  "model_artifacts": {
+    "results/classification_fine/fine_consistent_seed42_fold0.pt": "0997dc1455b61864db590e2d1991551888348ecd676df7d26b6abb33c17fad98",
+    "results/classification_fine/fine_consistent_seed42_fold1.pt": "52fd6c9b84f8b6c20800456ee3b49061abb0c0cb212d8bd0a9f8ddf94538b8dd",
+    "results/classification_fine/fine_consistent_seed42_fold2.pt": "faec7b3c9cf6d32a2d9f0f80d5f501d88d31d6000fd156c064735d8647cc24c2",
+    "results/classification_fine/fine_consistent_seed42_fold3.pt": "a1314620c87ab2ab05ef60755a8e5b4aa9422b7d0d4ad0aa71477cf473584f97",
+    "results/classification_fine/fine_consistent_seed42_fold4.pt": "375cf1925bd0c49e4945609d80d7c0edebc7701fd045bc7a2204ecaa18d77cb8",
+    "results/classification_fine/fine_consistent_seed43_fold0.pt": "d5c9268827fdd03ff21d2aa0565cf508401f3fa56ded8ef5fcadff2d6b357e51",
+    "results/classification_fine/fine_consistent_seed43_fold1.pt": "4cb6927a902c2449449c2a2ee94cb9c7fc0debe3ff92920589ad30e41d662b3b",
+    "results/classification_fine/fine_consistent_seed43_fold2.pt": "2f8a2a7c77477ee5fd39db08d12d97135da56f89630a0412666f6f7c971797fa",
+    "results/classification_fine/fine_consistent_seed43_fold3.pt": "950eb4e67b8f5c8e4a507514112c8d51cc171a58175173be59ddcda0e894a2b8",
+    "results/classification_fine/fine_consistent_seed43_fold4.pt": "fd57c0b5f4d91f87a2bdb1357f46918ac5edc836aed17bfe6dfde5ab740ca3ea",
+    "results/classification_fine/fine_consistent_seed44_fold0.pt": "e38934c1c5be2eab16b8c3cc7eaa5f9948bae71a568beec419981750b3a22936",
+    "results/classification_fine/fine_consistent_seed44_fold1.pt": "0f794da3e9fcf858c6f45190e45c0cd9e3766cb82e1cdc68ca9f285cbd410556",
+    "results/classification_fine/fine_consistent_seed44_fold2.pt": "8ab645363821f7d6ac08e22c74fa548a25367b474a5b5051f92e941b400292fd",
+    "results/classification_fine/fine_consistent_seed44_fold3.pt": "0b999e73f9054570d17cc382884dad044d39afb59ec2249b44d723fd52ff97af",
+    "results/classification_fine/fine_consistent_seed44_fold4.pt": "f585c40a1fd7776fb7a098a6157da671ab3f333f644cff2cad8f6eb0642f6c6f",
+    "results/classification_fine/transform_fold0.npz": "f0d02b6d6f8498e1236178246dacfd31098cbf75c6eb64aaeba668218a444ec2",
+    "results/classification_fine/transform_fold1.npz": "37aa7e3b8d5274a4139f97dfe1e87a533ac758fa3539af4fe5168109699de3f1",
+    "results/classification_fine/transform_fold2.npz": "4dcbf81292ab2302b98bdbddefadacb93b9ed4dc550e5d6931c10d8d259ebf75",
+    "results/classification_fine/transform_fold3.npz": "e4390a0a99bf20269ff414ff6ad23fd041f799d3bb0fd3c90d844468f5a4db5a",
+    "results/classification_fine/transform_fold4.npz": "c9771d90c839a6b901b9f48edce1ded7e2486ce38fa610ca3c4a39caf38803d2"
+  },
+  "raw_circular_coordinate": 12345,
+  "raw_source": "WT two repeats verified against sample hashes",
+  "raw_circular_shape": [
+    2,
+    3,
+    128,
+    128
+  ],
+  "review_storage": "Append-onlySQLite; restart/read/export verified in test suite",
+  "llm": "Not integrated; no external data transmission",
+  "limitations": [
+    "Closed-set classifier cannot establish novel structure types",
+    "Probabilities uncalibrated; gradients are sensitivity, not statistical significance",
+    "UI uses frozen fold with training/validation overlap notice; exploratory positions remain retrospective"
+  ]
+}

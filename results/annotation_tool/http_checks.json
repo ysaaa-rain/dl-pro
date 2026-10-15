@@ -1,0 +1,12 @@
+{
+  "forbidden_session": 403,
+  "invalid_coordinate": 400,
+  "boolean_coordinate": 400,
+  "non_object_json": 400,
+  "missing_prediction": 400,
+  "known_cache_prediction": 200,
+  "csv_export": 200,
+  "ui_save_restart_and_download": "Observed in browser with isolated.qa test database; no real annotation synthesized",
+  "untrusted_host": 403,
+  "tests": "19 passed in2.23s"
+}
