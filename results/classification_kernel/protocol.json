@@ -1,0 +1,22 @@
+{
+  "seed": 42,
+  "pca_rank": 32,
+  "preprocessing": "ShapeTransform and PCA/whitening fitted on training rows only per fold",
+  "kernel": "RBF on whitened image PCA; distances computed by independent einsum, no BLAS matmul",
+  "validation_grid_C": [
+    0.1,
+    1,
+    10
+  ],
+  "validation_gamma_factor": [
+    0.25,
+    1
+  ],
+  "selection": "Validation macroF1 then balanced accuracy then smaller C/gamma",
+  "unit": "Average OVR decision scores of the two repeats per location; scores are not probabilities",
+  "limitations": [
+    "Retrospective same-study grouped CV, previously observed test positions",
+    "Only26CHID labels and nested categories",
+    "No annotated length or boundary metadata input"
+  ]
+}

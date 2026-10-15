@@ -1,0 +1,6 @@
+kernel fold 0 C 10 gamma factor 0.25 valmacro 0.6761284184948307
+kernel fold 1 C 10 gamma factor 1 valmacro 0.6263955342902711
+kernel fold 2 C 1 gamma factor 0.25 valmacro 0.6389671361502347
+kernel fold 3 C 0.1 gamma factor 1 valmacro 0.5355691056910569
+kernel fold 4 C 1 gamma factor 0.25 valmacro 0.5672771672771673
+{'accuracy': 0.7965116279069767, 'macro avg': {'precision': 0.619207729468599, 'recall': 0.6198250377073906, 'f1-score': 0.6194727350794332, 'support': 344.0}, 'CHID': {'precision': 0.24, 'recall': 0.23076923076923078, 'f1-score': 0.23529411764705882, 'support': 26.0}}

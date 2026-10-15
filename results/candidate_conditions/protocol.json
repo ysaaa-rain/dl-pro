@@ -1,0 +1,23 @@
+{
+  "consensus_threshold_folds": 3,
+  "primary_budget_per_fit": 64,
+  "consensus_windows": 61,
+  "unannotated_consensus_windows": 11,
+  "wt_reproducible_windows": 11,
+  "conditions": [
+    "37C",
+    "HNS_mut",
+    "FIS_mut"
+  ],
+  "repeats_per_condition": 2,
+  "window_width_bp": 12800,
+  "oe_distance_expectation": "WT training backgrounds of outer fold0; shared reference across conditions",
+  "signal": "Per-million library pair off-diagonal100bp pixel density; no ICE balancing",
+  "selection": "Consensus of five spatial fits; exclude all known annotations plus200bp; mutants never used for selection",
+  "limitations": [
+    "Exploratory consensus aggregates fits that can see a location in training or validation; not out-of-fold novel discovery",
+    "Only two biological repeats per condition; descriptive differences, no causal inference or significance claims",
+    "Shared WT expectation and per-window amplitude normalization retain shape but may conceal overall condition intensity changes",
+    "No qualifying new-type cluster established; unannotated consensus does not confirm novel biology"
+  ]
+}

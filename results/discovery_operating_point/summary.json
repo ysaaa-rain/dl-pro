@@ -1,0 +1,36 @@
+[
+  {
+    "separation_bp": 6400,
+    "center_recall": 0.9011627906976745,
+    "random_mean": 0.8391453488372095,
+    "candidate_counts_by_fold": [
+      403,
+      443,
+      455,
+      461,
+      419
+    ],
+    "training_target_reached_folds": 5,
+    "delta_group95": [
+      0.0098098371292373,
+      0.10702355290170745
+    ]
+  },
+  {
+    "separation_bp": 12800,
+    "center_recall": 0.936046511627907,
+    "random_mean": 0.8354122609552969,
+    "candidate_counts_by_fold": [
+      284,
+      300,
+      310,
+      306,
+      313
+    ],
+    "training_target_reached_folds": 3,
+    "delta_group95": [
+      0.0671256219572041,
+      0.12889199631535453
+    ]
+  }
+]

@@ -1,0 +1,559 @@
+{
+  "seed": 42,
+  "outer_folds": 5,
+  "budgets": [
+    64,
+    128
+  ],
+  "nms_bp": 12800,
+  "random_trials": 500,
+  "fold_protocols": [
+    {
+      "fold": 0,
+      "n_background_train": 79,
+      "n_background_val": 40,
+      "held_input_overlap_purged": true,
+      "train_blocks": [
+        44,
+        25,
+        12,
+        38,
+        37,
+        34,
+        10,
+        31,
+        39,
+        17,
+        28,
+        29,
+        14,
+        11,
+        27,
+        4,
+        0,
+        24,
+        26,
+        35,
+        19
+      ],
+      "val_blocks": [
+        18,
+        23,
+        43,
+        3,
+        8,
+        41,
+        1,
+        20,
+        13
+      ],
+      "morphology_choice": "maximum",
+      "validation_choices": {
+        "maximum": 0.4583333333333333,
+        "mean": 0.34375,
+        "positive_mean": 0.34375
+      },
+      "density_calibration": [
+        {
+          "feature": 0,
+          "slope": -1.0635047464221004,
+          "intercept": -8.342947841213801,
+          "location": 0.023887915070668786,
+          "scale": 0.40250590183241886
+        },
+        {
+          "feature": 1,
+          "slope": -1.0580819848311103,
+          "intercept": -8.564626175386328,
+          "location": 0.049000831344746976,
+          "scale": 0.4334526117455216
+        },
+        {
+          "feature": 2,
+          "slope": -1.0056016965259384,
+          "intercept": -8.668635630547719,
+          "location": 0.010969147817679215,
+          "scale": 0.5055445208439333
+        },
+        {
+          "feature": 3,
+          "slope": -0.7224005315857035,
+          "intercept": -7.79484703891616,
+          "location": 0.028162804608601544,
+          "scale": 0.4531981727808731
+        },
+        {
+          "feature": 4,
+          "slope": 0.44699370554993584,
+          "intercept": 1.979569779625159,
+          "location": -0.018205741329920366,
+          "scale": 0.3412217638587613
+        },
+        {
+          "feature": 5,
+          "slope": 0.5546139070501345,
+          "intercept": 2.469853334866076,
+          "location": -0.0018273435881739353,
+          "scale": 0.3887864907765098
+        },
+        {
+          "feature": 6,
+          "slope": 0.6560765267408253,
+          "intercept": 2.717108118932964,
+          "location": 0.005092154914823066,
+          "scale": 0.40347245757490735
+        },
+        {
+          "feature": 7,
+          "slope": 1.2460995856485404,
+          "intercept": 5.701547638234549,
+          "location": -0.0007235444024158433,
+          "scale": 0.5208341373955117
+        }
+      ],
+      "ae_selected_epoch": 30
+    },
+    {
+      "fold": 1,
+      "n_background_train": 93,
+      "n_background_val": 38,
+      "held_input_overlap_purged": true,
+      "train_blocks": [
+        19,
+        39,
+        42,
+        6,
+        13,
+        1,
+        24,
+        8,
+        10,
+        22,
+        44,
+        18,
+        31,
+        2,
+        34,
+        11,
+        14,
+        43,
+        25,
+        41,
+        12
+      ],
+      "val_blocks": [
+        20,
+        23,
+        27,
+        4,
+        35,
+        26,
+        21,
+        28,
+        0,
+        3
+      ],
+      "morphology_choice": "mean",
+      "validation_choices": {
+        "maximum": 0.16071428571428573,
+        "mean": 0.26785714285714285,
+        "positive_mean": 0.26785714285714285
+      },
+      "density_calibration": [
+        {
+          "feature": 0,
+          "slope": -0.47553176230647687,
+          "intercept": -4.2668820437549515,
+          "location": 0.02005266441980802,
+          "scale": 0.4017497433624319
+        },
+        {
+          "feature": 1,
+          "slope": -0.34281297693508045,
+          "intercept": -3.626582108795609,
+          "location": 0.04729856700014312,
+          "scale": 0.45357161684575903
+        },
+        {
+          "feature": 2,
+          "slope": -0.1827904089362208,
+          "intercept": -2.996974796778751,
+          "location": -0.006111391426234736,
+          "scale": 0.5426950935357411
+        },
+        {
+          "feature": 3,
+          "slope": 0.020495195065687838,
+          "intercept": -2.6865755090025156,
+          "location": 0.028427984311460985,
+          "scale": 0.559236510092137
+        },
+        {
+          "feature": 4,
+          "slope": 0.47779197633376774,
+          "intercept": 2.1846960625568412,
+          "location": -0.01193160996210807,
+          "scale": 0.4039312802690121
+        },
+        {
+          "feature": 5,
+          "slope": 0.6335157784278133,
+          "intercept": 2.98399685315269,
+          "location": -0.007034287614978929,
+          "scale": 0.47516175435828756
+        },
+        {
+          "feature": 6,
+          "slope": 0.8020908352701487,
+          "intercept": 3.688407221493386,
+          "location": -0.006849935156586717,
+          "scale": 0.5226948257129894
+        },
+        {
+          "feature": 7,
+          "slope": 1.1278154650175176,
+          "intercept": 4.880088195960643,
+          "location": 0.03982910447577348,
+          "scale": 0.5659951238820489
+        }
+      ],
+      "ae_selected_epoch": 30
+    },
+    {
+      "fold": 2,
+      "n_background_train": 95,
+      "n_background_val": 51,
+      "held_input_overlap_purged": true,
+      "train_blocks": [
+        16,
+        12,
+        28,
+        40,
+        2,
+        41,
+        9,
+        42,
+        21,
+        35,
+        44,
+        0,
+        20,
+        34,
+        26,
+        13,
+        45,
+        18,
+        39,
+        22,
+        6,
+        23,
+        4,
+        14,
+        30
+      ],
+      "val_blocks": [
+        15,
+        31,
+        46,
+        43,
+        36,
+        27,
+        3,
+        25,
+        19,
+        10,
+        11
+      ],
+      "morphology_choice": "maximum",
+      "validation_choices": {
+        "maximum": 0.42857142857142855,
+        "mean": 0.3673469387755102,
+        "positive_mean": 0.3673469387755102
+      },
+      "density_calibration": [
+        {
+          "feature": 0,
+          "slope": -0.40446465630167544,
+          "intercept": -3.694649944402877,
+          "location": -0.051670413644855806,
+          "scale": 0.41440857929596303
+        },
+        {
+          "feature": 1,
+          "slope": -0.34119291147737235,
+          "intercept": -3.5335934939911966,
+          "location": -0.013256261159732219,
+          "scale": 0.43827792451400777
+        },
+        {
+          "feature": 2,
+          "slope": -0.24583098545463755,
+          "intercept": -3.362478684571259,
+          "location": 0.01694172836904717,
+          "scale": 0.42130884840852023
+        },
+        {
+          "feature": 3,
+          "slope": -0.05641334971108216,
+          "intercept": -3.162948498711403,
+          "location": -0.007996599152002126,
+          "scale": 0.5054116100832751
+        },
+        {
+          "feature": 4,
+          "slope": 0.6608631872743427,
+          "intercept": 3.4238081934369813,
+          "location": 0.0013881472142911466,
+          "scale": 0.49556221449163995
+        },
+        {
+          "feature": 5,
+          "slope": 0.8832978742621562,
+          "intercept": 4.656547719539249,
+          "location": 0.010930971875061424,
+          "scale": 0.5892936386167883
+        },
+        {
+          "feature": 6,
+          "slope": 1.1175706605151634,
+          "intercept": 5.779786706045945,
+          "location": 0.028570963386178816,
+          "scale": 0.5734524058692099
+        },
+        {
+          "feature": 7,
+          "slope": 1.43916923040084,
+          "intercept": 6.882878128497521,
+          "location": 0.03995221952708672,
+          "scale": 0.6953516778987763
+        }
+      ],
+      "ae_selected_epoch": 30
+    },
+    {
+      "fold": 3,
+      "n_background_train": 85,
+      "n_background_val": 48,
+      "held_input_overlap_purged": true,
+      "train_blocks": [
+        3,
+        41,
+        19,
+        9,
+        38,
+        20,
+        36,
+        18,
+        15,
+        46,
+        30,
+        16,
+        32,
+        23,
+        6,
+        44,
+        35,
+        2,
+        22,
+        11,
+        45,
+        39,
+        17,
+        14,
+        27
+      ],
+      "val_blocks": [
+        40,
+        4,
+        31,
+        10,
+        0,
+        34,
+        8,
+        29,
+        33,
+        28,
+        37
+      ],
+      "morphology_choice": "maximum",
+      "validation_choices": {
+        "maximum": 0.2692307692307692,
+        "mean": 0.2564102564102564,
+        "positive_mean": 0.2564102564102564
+      },
+      "density_calibration": [
+        {
+          "feature": 0,
+          "slope": -0.47786596980960955,
+          "intercept": -4.209581876977105,
+          "location": 0.0005310392590531787,
+          "scale": 0.3906925592642271
+        },
+        {
+          "feature": 1,
+          "slope": -0.4358762877448725,
+          "intercept": -4.194240966321675,
+          "location": 0.0230563350087154,
+          "scale": 0.456171053964369
+        },
+        {
+          "feature": 2,
+          "slope": -0.39107939892729576,
+          "intercept": -4.378937856557026,
+          "location": 0.030700594757936406,
+          "scale": 0.4871648298275479
+        },
+        {
+          "feature": 3,
+          "slope": -0.33001861780097735,
+          "intercept": -5.062862252001877,
+          "location": 0.01673392905413218,
+          "scale": 0.5434847262144595
+        },
+        {
+          "feature": 4,
+          "slope": 0.5794135507282716,
+          "intercept": 2.911036579823356,
+          "location": 0.01411712819527744,
+          "scale": 0.4052879358023981
+        },
+        {
+          "feature": 5,
+          "slope": 0.7260377068984752,
+          "intercept": 3.667800544864009,
+          "location": 0.00727887323947074,
+          "scale": 0.4710778558234983
+        },
+        {
+          "feature": 6,
+          "slope": 0.8752672574188751,
+          "intercept": 4.262013023143872,
+          "location": -0.01134692145184002,
+          "scale": 0.46988604130724543
+        },
+        {
+          "feature": 7,
+          "slope": 1.164864890851263,
+          "intercept": 5.234697935773639,
+          "location": 0.023674911198291237,
+          "scale": 0.3998451242439211
+        }
+      ],
+      "ae_selected_epoch": 30
+    },
+    {
+      "fold": 4,
+      "n_background_train": 87,
+      "n_background_val": 34,
+      "held_input_overlap_purged": true,
+      "train_blocks": [
+        23,
+        29,
+        17,
+        46,
+        14,
+        44,
+        35,
+        0,
+        1,
+        24,
+        31,
+        37,
+        30,
+        3,
+        9,
+        16,
+        19,
+        41,
+        11,
+        45,
+        28,
+        34
+      ],
+      "val_blocks": [
+        32,
+        15,
+        10,
+        38,
+        18,
+        40,
+        36,
+        39,
+        27,
+        8
+      ],
+      "morphology_choice": "maximum",
+      "validation_choices": {
+        "maximum": 0.38461538461538464,
+        "mean": 0.3384615384615385,
+        "positive_mean": 0.35384615384615387
+      },
+      "density_calibration": [
+        {
+          "feature": 0,
+          "slope": -0.510195766490008,
+          "intercept": -4.495848038098279,
+          "location": 0.0015294538710052263,
+          "scale": 0.405885336148953
+        },
+        {
+          "feature": 1,
+          "slope": -0.4583778381592131,
+          "intercept": -4.417553326291039,
+          "location": 0.0006716851169485949,
+          "scale": 0.4107866057086675
+        },
+        {
+          "feature": 2,
+          "slope": -0.41636899177073206,
+          "intercept": -4.61818210250666,
+          "location": -0.016232980850940715,
+          "scale": 0.4897023271606815
+        },
+        {
+          "feature": 3,
+          "slope": -0.37176018330458765,
+          "intercept": -5.396276906053316,
+          "location": 0.06190285457288658,
+          "scale": 0.5038366064844346
+        },
+        {
+          "feature": 4,
+          "slope": 0.9596164425026282,
+          "intercept": 5.4478333245420885,
+          "location": 0.04198265031875015,
+          "scale": 0.34549522905467356
+        },
+        {
+          "feature": 5,
+          "slope": 1.1179287271788492,
+          "intercept": 6.283983553446812,
+          "location": -0.022684761442476553,
+          "scale": 0.4162565888164104
+        },
+        {
+          "feature": 6,
+          "slope": 1.2046297212104213,
+          "intercept": 6.4482114320778114,
+          "location": -0.027192248226575177,
+          "scale": 0.43535781243859195
+        },
+        {
+          "feature": 7,
+          "slope": 1.5010475882464847,
+          "intercept": 7.427906095087111,
+          "location": 0.020296215052288957,
+          "scale": 0.4835346167409178
+        }
+      ],
+      "ae_selected_epoch": 30
+    }
+  ],
+  "scope": "Known-structure center recovery proxy; not biological novelty detection",
+  "limitations": [
+    "Partly supervised choice of morphology aggregation on validation known structures",
+    "Previously examined outer test labels; retrospective cross-validation",
+    "Background excludes full25.6kb held-out known inputs but genomic scan ranking is transductive",
+    "Same-study spatial groups, not independent source or biological replicate bootstrap"
+  ]
+}

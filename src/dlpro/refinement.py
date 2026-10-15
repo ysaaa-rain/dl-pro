@@ -7,9 +7,12 @@ from torch.nn import functional as F
 from dlpro.experiment_core import SubpixelSR
 
 
-def morphology_features(raw, expected):
+def morphology_features(raw, expected, valid_rows=None):
     """Positive coherent enrichment; mask zero rows and near diagonals before smoothing."""
     n=raw.shape[-1];d=abs(np.arange(n)[:,None]-np.arange(n)[None,:]);rows=raw.sum(-1)>0
+    if valid_rows is not None:
+        if valid_rows.shape!=rows.shape:raise ValueError("Support mask shape mismatch")
+        rows=rows&valid_rows
     valid=(d[None,None]>=2)&rows[:,:,:,None]&rows[:,:,None,:]
     oe=raw/expected[:,d][None];amplitude=(oe*valid).sum((-2,-1))/np.maximum(valid.sum((-2,-1)),1)
     z=np.log1p(oe/np.maximum(amplitude[:,:,None,None],1e-12));z=np.where(valid,z,0)
@@ -41,3 +44,18 @@ class CountConsistentSR(SubpixelSR):
         correction=self.net(low);correction=(correction+correction.transpose(-1,-2))/2
         counts=project_counts(prior*torch.exp(correction.clamp(-4,4)),low_counts)
         return torch.log1p(counts)/self.scale
+
+
+class DilatedResidual(nn.Module):
+    def __init__(self,channels,dilation):
+        super().__init__();self.layers=nn.Sequential(nn.Conv2d(channels,channels,3,padding=dilation,dilation=dilation),nn.ReLU(),nn.Conv2d(channels,channels,3,padding=1))
+    def forward(self,x):return x+.1*self.layers(x)
+
+
+class ContextCountSR(nn.Module):
+    def __init__(self,scale):
+        super().__init__();self.scale=float(scale);self.encoder=nn.Sequential(nn.Conv2d(1,16,3,padding=1),nn.ReLU(),*[DilatedResidual(16,d) for d in [1,2,4,8,16,32]])
+        self.output=nn.Sequential(nn.Conv2d(16,16,3,padding=1),nn.PixelShuffle(4));nn.init.zeros_(self.output[0].weight);nn.init.zeros_(self.output[0].bias)
+    def forward(self,low):
+        counts=torch.expm1(low*self.scale);prior=F.interpolate(counts,scale_factor=4,mode='bicubic',align_corners=False).clamp_min(1e-5);correction=self.output(self.encoder(low));correction=(correction+correction.transpose(-1,-2))/2
+        result=project_counts(prior*torch.exp(correction.clamp(-4,4)),counts);return torch.log1p(result)/self.scale

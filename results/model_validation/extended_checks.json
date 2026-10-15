@@ -1,0 +1,7 @@
+{
+  "context_sr_count_relative_error": 4.5548623006652633e-07,
+  "context_reconstruction_finite_nonnegative": true,
+  "calibrated_candidate_spacing_all_folds": true,
+  "344_unique_oof_recall_per_policy": true,
+  "background_train_purged_heldout_maximum_contexts": true
+}

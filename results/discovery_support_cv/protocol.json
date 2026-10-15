@@ -1,0 +1,354 @@
+{
+  "minimum_observed_native_bp_fraction": 0.8,
+  "scoring_source": "WTrep1 coverage only; rep2 not used for scoring or selection",
+  "expectation": "Distance expectation from eligible training-background pixels whose two bins satisfy support threshold",
+  "selection": "Same three morphology aggregations selected by cyclic validation64candidate recall",
+  "fold_protocols": [
+    {
+      "fold": 0,
+      "choice": "maximum",
+      "validation_choices": {
+        "maximum": 0.375,
+        "mean": 0.3541666666666667,
+        "positive_mean": 0.3541666666666667
+      },
+      "calibration": [
+        {
+          "feature": 0,
+          "slope": -0.7765475209604309,
+          "intercept": -6.324173657477076,
+          "location": 0.031915182469345216,
+          "spread": 0.38001796370536917
+        },
+        {
+          "feature": 1,
+          "slope": -0.6769676331831379,
+          "intercept": -5.901449250536639,
+          "location": 0.03080614196866427,
+          "spread": 0.44306960202743856
+        },
+        {
+          "feature": 2,
+          "slope": -0.6860140858716808,
+          "intercept": -6.425581410996813,
+          "location": -0.014966992477155605,
+          "spread": 0.4868451482642147
+        },
+        {
+          "feature": 3,
+          "slope": -0.5507247085937877,
+          "intercept": -6.583362798787892,
+          "location": 0.03801744526617279,
+          "spread": 0.45785317125929853
+        },
+        {
+          "feature": 4,
+          "slope": 0.7599440057697894,
+          "intercept": 4.064876727259137,
+          "location": -0.004568803614245498,
+          "spread": 0.3244263224225696
+        },
+        {
+          "feature": 5,
+          "slope": 1.0465536373210171,
+          "intercept": 5.748161971829692,
+          "location": 0.022014886292941016,
+          "spread": 0.38048964523898177
+        },
+        {
+          "feature": 6,
+          "slope": 1.041243884512471,
+          "intercept": 5.2606384735302205,
+          "location": 0.02337050178282718,
+          "spread": 0.4326261695870308
+        },
+        {
+          "feature": 7,
+          "slope": 1.3465353819435393,
+          "intercept": 6.287938810601256,
+          "location": 0.01863516317707825,
+          "spread": 0.5057177266439893
+        }
+      ],
+      "n_background_train": 79
+    },
+    {
+      "fold": 1,
+      "choice": "mean",
+      "validation_choices": {
+        "maximum": 0.14285714285714285,
+        "mean": 0.21428571428571427,
+        "positive_mean": 0.21428571428571427
+      },
+      "calibration": [
+        {
+          "feature": 0,
+          "slope": -0.45820261847385685,
+          "intercept": -4.116629854314025,
+          "location": 0.007499057476470616,
+          "spread": 0.4160107842952399
+        },
+        {
+          "feature": 1,
+          "slope": -0.38785854753326665,
+          "intercept": -3.907538773752267,
+          "location": 0.043922974540144155,
+          "spread": 0.47782310190081806
+        },
+        {
+          "feature": 2,
+          "slope": -0.2894487393258984,
+          "intercept": -3.7135527988647756,
+          "location": -0.011687725284530659,
+          "spread": 0.5647076648126506
+        },
+        {
+          "feature": 3,
+          "slope": -0.09405931036881424,
+          "intercept": -3.4717385722385243,
+          "location": 0.02875734704427968,
+          "spread": 0.5723450114175996
+        },
+        {
+          "feature": 4,
+          "slope": 0.7577382564624588,
+          "intercept": 3.9953632646120925,
+          "location": -0.015555640348274835,
+          "spread": 0.3725330879519493
+        },
+        {
+          "feature": 5,
+          "slope": 1.0363635175750276,
+          "intercept": 5.606499125994656,
+          "location": 0.02507718049125418,
+          "spread": 0.3500298796616648
+        },
+        {
+          "feature": 6,
+          "slope": 1.1331370079121386,
+          "intercept": 5.800018801982338,
+          "location": 0.010399942279376573,
+          "spread": 0.442077601197523
+        },
+        {
+          "feature": 7,
+          "slope": 1.2482520687018397,
+          "intercept": 5.530734356123977,
+          "location": 0.032903727689632234,
+          "spread": 0.5855625917880538
+        }
+      ],
+      "n_background_train": 93
+    },
+    {
+      "fold": 2,
+      "choice": "maximum",
+      "validation_choices": {
+        "maximum": 0.5510204081632653,
+        "mean": 0.3877551020408163,
+        "positive_mean": 0.3877551020408163
+      },
+      "calibration": [
+        {
+          "feature": 0,
+          "slope": -0.48694845839658113,
+          "intercept": -4.224680231016685,
+          "location": -0.04079320572959222,
+          "spread": 0.42953342772483255
+        },
+        {
+          "feature": 1,
+          "slope": -0.39750946857346364,
+          "intercept": -3.8891079701392903,
+          "location": 0.007681416928855711,
+          "spread": 0.45127711968955553
+        },
+        {
+          "feature": 2,
+          "slope": -0.26168384721541715,
+          "intercept": -3.449374015821569,
+          "location": 0.014477779809432434,
+          "spread": 0.4455652964830849
+        },
+        {
+          "feature": 3,
+          "slope": -0.1501654121946381,
+          "intercept": -3.791411008976488,
+          "location": -0.011615010639969725,
+          "spread": 0.46963468642739614
+        },
+        {
+          "feature": 4,
+          "slope": 0.873750544398788,
+          "intercept": 4.727645685015911,
+          "location": 0.0004127488239128452,
+          "spread": 0.429460718933778
+        },
+        {
+          "feature": 5,
+          "slope": 1.1620921089624427,
+          "intercept": 6.3876954609457925,
+          "location": 0.01766337998636547,
+          "spread": 0.49825285086065985
+        },
+        {
+          "feature": 6,
+          "slope": 1.383648206226622,
+          "intercept": 7.407515199184292,
+          "location": -0.017287175114446995,
+          "spread": 0.6050776810866919
+        },
+        {
+          "feature": 7,
+          "slope": 1.5744502634249815,
+          "intercept": 7.601428243237685,
+          "location": -0.017500735504349496,
+          "spread": 0.729978007322309
+        }
+      ],
+      "n_background_train": 95
+    },
+    {
+      "fold": 3,
+      "choice": "maximum",
+      "validation_choices": {
+        "maximum": 0.2564102564102564,
+        "mean": 0.2564102564102564,
+        "positive_mean": 0.2564102564102564
+      },
+      "calibration": [
+        {
+          "feature": 0,
+          "slope": -0.430964559759518,
+          "intercept": -3.8620193950749613,
+          "location": 0.019149357579421822,
+          "spread": 0.4167112804237552
+        },
+        {
+          "feature": 1,
+          "slope": -0.36195527919866877,
+          "intercept": -3.6665772021851786,
+          "location": 0.021078489345434548,
+          "spread": 0.47315095953559216
+        },
+        {
+          "feature": 2,
+          "slope": -0.3078629792237311,
+          "intercept": -3.797000621171786,
+          "location": 0.03569487575081398,
+          "spread": 0.4766069268527795
+        },
+        {
+          "feature": 3,
+          "slope": -0.380014357809598,
+          "intercept": -5.381956473302952,
+          "location": 0.00882478964107447,
+          "spread": 0.533810108128496
+        },
+        {
+          "feature": 4,
+          "slope": 0.7439389012222848,
+          "intercept": 3.913568247601394,
+          "location": 0.0009841750549355321,
+          "spread": 0.4087477284506119
+        },
+        {
+          "feature": 5,
+          "slope": 0.9085813614488009,
+          "intercept": 4.768116791098559,
+          "location": -0.008333035169399983,
+          "spread": 0.5186584373604152
+        },
+        {
+          "feature": 6,
+          "slope": 0.81948423702325,
+          "intercept": 3.746368750170868,
+          "location": 0.005836850245583669,
+          "spread": 0.5094394665555071
+        },
+        {
+          "feature": 7,
+          "slope": 0.8507661333068863,
+          "intercept": 2.9523758959159574,
+          "location": 0.0805950908104136,
+          "spread": 0.4338932169191921
+        }
+      ],
+      "n_background_train": 85
+    },
+    {
+      "fold": 4,
+      "choice": "maximum",
+      "validation_choices": {
+        "maximum": 0.38461538461538464,
+        "mean": 0.3384615384615385,
+        "positive_mean": 0.36923076923076925
+      },
+      "calibration": [
+        {
+          "feature": 0,
+          "slope": -0.4527541358347265,
+          "intercept": -4.086192523194147,
+          "location": 0.010696504841362309,
+          "spread": 0.40504609632829014
+        },
+        {
+          "feature": 1,
+          "slope": -0.37421218000834755,
+          "intercept": -3.823138381866401,
+          "location": 0.0071383175979824465,
+          "spread": 0.45238633284551155
+        },
+        {
+          "feature": 2,
+          "slope": -0.3026892360302384,
+          "intercept": -3.8202836515624585,
+          "location": 0.01733597194414971,
+          "spread": 0.4976943127757473
+        },
+        {
+          "feature": 3,
+          "slope": -0.283944968848594,
+          "intercept": -4.771221526429091,
+          "location": 0.06104430796944671,
+          "spread": 0.5189688901965026
+        },
+        {
+          "feature": 4,
+          "slope": 0.8757595192280988,
+          "intercept": 4.8156113843101105,
+          "location": -0.002765692815493548,
+          "spread": 0.35491600109107185
+        },
+        {
+          "feature": 5,
+          "slope": 1.0798808680400418,
+          "intercept": 5.952421176001985,
+          "location": -0.028314106487270507,
+          "spread": 0.4867870479239939
+        },
+        {
+          "feature": 6,
+          "slope": 1.1030798098878511,
+          "intercept": 5.680380273292305,
+          "location": 0.009755391640545064,
+          "spread": 0.5040166884017331
+        },
+        {
+          "feature": 7,
+          "slope": 1.233331983226768,
+          "intercept": 5.532577779946888,
+          "location": 0.04236131900237883,
+          "spread": 0.5115771652447147
+        }
+      ],
+      "n_background_train": 87
+    }
+  ],
+  "limitations": [
+    "Operational sensitivity analysis; zero-contact bins are not assigned mapping or biological causes",
+    "Previously observed test positions; retrospective spatial evaluation",
+    "Coverage is measured chromosome-wide, analogous to library-size preprocessing",
+    "Same-study, no independent source validation"
+  ]
+}

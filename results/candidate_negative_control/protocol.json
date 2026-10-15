@@ -1,0 +1,17 @@
+{
+  "n_windows": 11,
+  "negative_control_sample": "GSM8950765_NoLig_rep1",
+  "negative_control_source_sha256": "cae3f100a27c08e0fd99be3af8dbe60e673aca3979bef6f214d5467236592a93",
+  "n_negative_repeats": 1,
+  "minimum_native_bp_support": 0.8,
+  "mask_source": "Intersection of WTrep1/rep2 observed native-bin coverage; exclude|distance|<2 coarse bins",
+  "wt_reproducible_supported": 10,
+  "wt_reproducible_with_half_supported_pixels": 9,
+  "minimum_supported_triangle_fraction_for_high_confidence": 0.5,
+  "limitations": [
+    "NoLig has one sample and different depth; no inferential significance or ligation-specific causality claims",
+    "Per-million normalization can amplify sparse negative-control noise; raw count sum retained",
+    "Support mask is observed-contact QC, not proof of mapping failure or biological absence",
+    "Consensus candidates exploratory; no qualified novel-type conclusion"
+  ]
+}

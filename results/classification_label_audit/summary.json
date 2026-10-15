@@ -1,0 +1,9 @@
+{
+  "n_chid": 26,
+  "near_chin_centers_100bp": 3,
+  "near_chin_centers_500bp": 12,
+  "near_chin_centers_2000bp": 24,
+  "different_class_exact_two_scale_collisions": 1,
+  "fine_view_collision_count": 0,
+  "interpretation": "Input quantization and nested annotation ambiguity; labels retained exactly, no relabeling or test-derived deletion"
+}

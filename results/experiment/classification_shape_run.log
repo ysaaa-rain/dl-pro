@@ -1,0 +1,8 @@
+shape fold 0 depth 3 choice original_cnn forest val 0.6501067117782678 CNN val 0.7045454545454546
+shape fold 1 depth 6 choice original_cnn forest val 0.4605183845690175 CNN val 0.6436507936507937
+shape fold 2 depth 3 choice geometric_forest forest val 0.7269772481040087 CNN val 0.6557999476302697
+shape fold 3 depth 6 choice original_cnn forest val 0.5165087568188343 CNN val 0.5410462008400153
+shape fold 4 depth 3 choice original_cnn forest val 0.6027930402930403 CNN val 0.6612836438923395
+             recipe  accuracy  macro_f1  chid_recall  chid_precision
+   geometric_forest  0.747093  0.561248     0.153846        0.153846
+validation_selected  0.715116  0.572085     0.307692        0.170213

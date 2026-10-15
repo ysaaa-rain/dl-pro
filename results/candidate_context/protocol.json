@@ -1,0 +1,16 @@
+{
+  "core_candidates": 11,
+  "repeat_supported": 9,
+  "whole_context_unannotated": 4,
+  "independent_members": 4,
+  "context_bp": 25600,
+  "annotation_buffer_bp": 200,
+  "minimum_center_separation_bp": 25600,
+  "selection": "Fixed genomic-order greedy subset after QC; no test-driven threshold tuning",
+  "limitations": [
+    "Consensus candidates exploratory and previously exposed",
+    "These are candidate windows, not confirmed new structural classes",
+    "No clustering-based novelty claim can be inferred from member counts alone",
+    "Mask excludes low observed-contact support, not demonstrated mapping errors"
+  ]
+}

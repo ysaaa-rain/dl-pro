@@ -1,0 +1,12 @@
+{
+  "n_group_bootstrap": 2000,
+  "unit": "56maximum-window overlap groups; paired models on identical344loci",
+  "primary_new_recipe": "fine/fine_consistent_ensemble",
+  "model_selection": "No overall-test-score selection of primary recipe; ablations retained",
+  "limitations": [
+    "Multiple exploratory recipes on previously observed test locations; cannot claim independent generalization",
+    "Only26CHID labels; macroF1, accuracy and recall have different tradeoffs",
+    "Bootstrap resamples spatial groups, not independent biological studies"
+  ],
+  "report_generation": "Paused at user request; no document authoring"
+}

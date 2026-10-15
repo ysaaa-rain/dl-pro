@@ -1,0 +1,74 @@
+[
+  {
+    "method": "density",
+    "budget": 64,
+    "n_loci": 344,
+    "center_recall": 0.17151162790697674,
+    "random_mean": 0.1769709302325581,
+    "delta_group_bootstrap_95": [
+      -0.08061618391095368,
+      0.09390437695166683
+    ],
+    "n_groups": 56
+  },
+  {
+    "method": "density",
+    "budget": 128,
+    "n_loci": 344,
+    "center_recall": 0.31976744186046513,
+    "random_mean": 0.35433139534883723,
+    "delta_group_bootstrap_95": [
+      -0.12804205285942127,
+      0.0807710332337354
+    ],
+    "n_groups": 56
+  },
+  {
+    "method": "morphology",
+    "budget": 64,
+    "n_loci": 344,
+    "center_recall": 0.3023255813953488,
+    "random_mean": 0.1769709302325581,
+    "delta_group_bootstrap_95": [
+      0.04318990734529601,
+      0.20569178204657979
+    ],
+    "n_groups": 56
+  },
+  {
+    "method": "morphology",
+    "budget": 128,
+    "n_loci": 344,
+    "center_recall": 0.5755813953488372,
+    "random_mean": 0.35433139534883723,
+    "delta_group_bootstrap_95": [
+      0.134552420678007,
+      0.3008793728169076
+    ],
+    "n_groups": 56
+  },
+  {
+    "method": "noise_adjusted_ae",
+    "budget": 64,
+    "n_loci": 344,
+    "center_recall": 0.20930232558139536,
+    "random_mean": 0.1769709302325581,
+    "delta_group_bootstrap_95": [
+      -0.05175384297002383,
+      0.13227527320004215
+    ],
+    "n_groups": 56
+  },
+  {
+    "method": "noise_adjusted_ae",
+    "budget": 128,
+    "n_loci": 344,
+    "center_recall": 0.40406976744186046,
+    "random_mean": 0.35433139534883723,
+    "delta_group_bootstrap_95": [
+      -0.061115882164585335,
+      0.17500394828510177
+    ],
+    "n_groups": 56
+  }
+]

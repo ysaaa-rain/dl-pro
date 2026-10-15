@@ -1,0 +1,12 @@
+scan_index,center,selected_folds,known_overlap,candidate_id
+181,1158400,5,False,U001
+197,1260800,5,False,U002
+224,1433600,3,False,U003
+297,1900800,3,False,U004
+393,2515200,3,False,U005
+427,2732800,4,False,U006
+442,2828800,5,False,U007
+517,3308800,5,False,U008
+608,3891200,5,False,U009
+663,4243200,5,False,U010
+698,4467200,5,False,U011

@@ -1,0 +1,29 @@
+{
+  "context_minus_projected_cnn_native_psnr": {
+    "n": 32,
+    "n_spatial_blocks": 8,
+    "mean": 0.04525717703779797,
+    "block95": [
+      0.04032480199019028,
+      0.05065708279523828
+    ]
+  },
+  "context_minus_projected_cnn_native_ssim": {
+    "n": 32,
+    "n_spatial_blocks": 8,
+    "mean": 0.001575552724052646,
+    "block95": [
+      0.0012138362288272595,
+      0.0019623913931027673
+    ]
+  },
+  "context_minus_projected_cnn_100bp_oe_ssim": {
+    "n": 98,
+    "n_spatial_blocks": 8,
+    "mean": 0.00025297640420756426,
+    "block95": [
+      -3.1509929586960646e-06,
+      0.0005151277276693331
+    ]
+  }
+}

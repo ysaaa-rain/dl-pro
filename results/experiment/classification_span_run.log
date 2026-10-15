@@ -1,0 +1,39 @@
+{'fold': 0, 'recipe': 'matched_control', 'seed': 42, 'selected_epoch': 12, 'val_macro_f1': 0.6819964349376114, 'test_accuracy': 0.7692307692307693, 'test_macro_f1': 0.5989736070381232}
+{'fold': 0, 'recipe': 'matched_control', 'seed': 43, 'selected_epoch': 11, 'val_macro_f1': 0.6744595274007038, 'test_accuracy': 0.7846153846153846, 'test_macro_f1': 0.6160618192776272}
+{'fold': 0, 'recipe': 'matched_control', 'seed': 44, 'selected_epoch': 9, 'val_macro_f1': 0.6810440168104401, 'test_accuracy': 0.8461538461538461, 'test_macro_f1': 0.7185185185185184}
+{'fold': 0, 'recipe': 'span_auxiliary', 'seed': 42, 'selected_epoch': 12, 'val_macro_f1': 0.6628345782757546, 'test_accuracy': 0.7692307692307693, 'test_macro_f1': 0.5989736070381232}
+{'fold': 0, 'recipe': 'span_auxiliary', 'seed': 43, 'selected_epoch': 4, 'val_macro_f1': 0.6630875485837318, 'test_accuracy': 0.7230769230769231, 'test_macro_f1': 0.567948717948718}
+{'fold': 0, 'recipe': 'span_auxiliary', 'seed': 44, 'selected_epoch': 9, 'val_macro_f1': 0.6810440168104401, 'test_accuracy': 0.8461538461538461, 'test_macro_f1': 0.7185185185185184}
+{'fold': 1, 'recipe': 'matched_control', 'seed': 42, 'selected_epoch': 9, 'val_macro_f1': 0.7143866555631261, 'test_accuracy': 0.78125, 'test_macro_f1': 0.6721841458683565}
+{'fold': 1, 'recipe': 'matched_control', 'seed': 43, 'selected_epoch': 13, 'val_macro_f1': 0.7239300783604582, 'test_accuracy': 0.7708333333333334, 'test_macro_f1': 0.6166437335167986}
+{'fold': 1, 'recipe': 'matched_control', 'seed': 44, 'selected_epoch': 8, 'val_macro_f1': 0.7024676850763808, 'test_accuracy': 0.7395833333333334, 'test_macro_f1': 0.6151616499442586}
+{'fold': 1, 'recipe': 'span_auxiliary', 'seed': 42, 'selected_epoch': 5, 'val_macro_f1': 0.7323688969258589, 'test_accuracy': 0.75, 'test_macro_f1': 0.6034564021995287}
+{'fold': 1, 'recipe': 'span_auxiliary', 'seed': 43, 'selected_epoch': 15, 'val_macro_f1': 0.7047397047397047, 'test_accuracy': 0.78125, 'test_macro_f1': 0.6301916591966535}
+{'fold': 1, 'recipe': 'span_auxiliary', 'seed': 44, 'selected_epoch': 12, 'val_macro_f1': 0.7057017543859648, 'test_accuracy': 0.71875, 'test_macro_f1': 0.5810479375696768}
+{'fold': 2, 'recipe': 'matched_control', 'seed': 42, 'selected_epoch': 4, 'val_macro_f1': 0.6888888888888888, 'test_accuracy': 0.6428571428571429, 'test_macro_f1': 0.5495077994850825}
+{'fold': 2, 'recipe': 'matched_control', 'seed': 43, 'selected_epoch': 3, 'val_macro_f1': 0.6508980785296575, 'test_accuracy': 0.8392857142857143, 'test_macro_f1': 0.6639291465378422}
+{'fold': 2, 'recipe': 'matched_control', 'seed': 44, 'selected_epoch': 2, 'val_macro_f1': 0.6888888888888888, 'test_accuracy': 0.6964285714285714, 'test_macro_f1': 0.5800042466709133}
+{'fold': 2, 'recipe': 'span_auxiliary', 'seed': 42, 'selected_epoch': 4, 'val_macro_f1': 0.6888888888888888, 'test_accuracy': 0.625, 'test_macro_f1': 0.5313503700600475}
+{'fold': 2, 'recipe': 'span_auxiliary', 'seed': 43, 'selected_epoch': 3, 'val_macro_f1': 0.6508980785296575, 'test_accuracy': 0.8571428571428571, 'test_macro_f1': 0.7269858741515317}
+{'fold': 2, 'recipe': 'span_auxiliary', 'seed': 44, 'selected_epoch': 2, 'val_macro_f1': 0.6767909356725147, 'test_accuracy': 0.6964285714285714, 'test_macro_f1': 0.5800042466709133}
+{'fold': 3, 'recipe': 'matched_control', 'seed': 42, 'selected_epoch': 5, 'val_macro_f1': 0.5857207055387035, 'test_accuracy': 0.6326530612244898, 'test_macro_f1': 0.5656084656084656}
+{'fold': 3, 'recipe': 'matched_control', 'seed': 43, 'selected_epoch': 12, 'val_macro_f1': 0.6119404407839548, 'test_accuracy': 0.7142857142857143, 'test_macro_f1': 0.6243990133366779}
+{'fold': 3, 'recipe': 'matched_control', 'seed': 44, 'selected_epoch': 7, 'val_macro_f1': 0.6143147724383423, 'test_accuracy': 0.673469387755102, 'test_macro_f1': 0.5823906485671192}
+{'fold': 3, 'recipe': 'span_auxiliary', 'seed': 42, 'selected_epoch': 5, 'val_macro_f1': 0.5857207055387035, 'test_accuracy': 0.6326530612244898, 'test_macro_f1': 0.5656084656084656}
+{'fold': 3, 'recipe': 'span_auxiliary', 'seed': 43, 'selected_epoch': 12, 'val_macro_f1': 0.6010252852297255, 'test_accuracy': 0.7142857142857143, 'test_macro_f1': 0.6243990133366779}
+{'fold': 3, 'recipe': 'span_auxiliary', 'seed': 44, 'selected_epoch': 7, 'val_macro_f1': 0.6031718091214658, 'test_accuracy': 0.673469387755102, 'test_macro_f1': 0.5823906485671192}
+{'fold': 4, 'recipe': 'matched_control', 'seed': 42, 'selected_epoch': 15, 'val_macro_f1': 0.5894821406501051, 'test_accuracy': 0.7564102564102564, 'test_macro_f1': 0.5781187564932471}
+{'fold': 4, 'recipe': 'matched_control', 'seed': 43, 'selected_epoch': 12, 'val_macro_f1': 0.596969696969697, 'test_accuracy': 0.7051282051282052, 'test_macro_f1': 0.5838605838605838}
+{'fold': 4, 'recipe': 'matched_control', 'seed': 44, 'selected_epoch': 6, 'val_macro_f1': 0.6220660713414335, 'test_accuracy': 0.7564102564102564, 'test_macro_f1': 0.5848484848484848}
+{'fold': 4, 'recipe': 'span_auxiliary', 'seed': 42, 'selected_epoch': 3, 'val_macro_f1': 0.5949611053059328, 'test_accuracy': 0.7435897435897436, 'test_macro_f1': 0.6025132275132274}
+{'fold': 4, 'recipe': 'span_auxiliary', 'seed': 43, 'selected_epoch': 12, 'val_macro_f1': 0.5925925925925926, 'test_accuracy': 0.7051282051282052, 'test_macro_f1': 0.5838605838605838}
+{'fold': 4, 'recipe': 'span_auxiliary', 'seed': 44, 'selected_epoch': 6, 'val_macro_f1': 0.6128747795414462, 'test_accuracy': 0.7564102564102564, 'test_macro_f1': 0.5848484848484848}
+                  recipe  accuracy  macro_f1  chid_recall  chid_precision
+matched_control_ensemble  0.761628  0.627569     0.346154        0.183673
+  matched_control_seed42  0.729651  0.606127     0.384615        0.188679
+  matched_control_seed43  0.761628  0.625001     0.307692        0.156863
+  matched_control_seed44  0.747093  0.622087     0.384615        0.192308
+ span_auxiliary_ensemble  0.747093  0.617734     0.346154        0.166667
+   span_auxiliary_seed42  0.715116  0.588650     0.346154        0.166667
+   span_auxiliary_seed43  0.755814  0.626915     0.346154        0.166667
+   span_auxiliary_seed44  0.741279  0.612071     0.346154        0.173077

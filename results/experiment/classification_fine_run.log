@@ -1,0 +1,26 @@
+{'fold': 0, 'recipe': 'fine_multiscale_seed42', 'selected_epoch': 18, 'val_macro_f1': 0.7122852049910873, 'test_accuracy': 0.7538461538461538, 'test_macro_f1': 0.5822040631029396}
+{'fold': 0, 'recipe': 'fine_consistent_seed42', 'selected_epoch': 18, 'val_macro_f1': 0.698242588486491, 'test_accuracy': 0.7692307692307693, 'test_macro_f1': 0.5949611053059328}
+{'fold': 0, 'recipe': 'fine_consistent_seed43', 'selected_epoch': 13, 'val_macro_f1': 0.6873440285204991, 'test_accuracy': 0.7230769230769231, 'test_macro_f1': 0.559040210725604}
+{'fold': 0, 'recipe': 'fine_consistent_seed44', 'selected_epoch': 26, 'val_macro_f1': 0.6743005502596295, 'test_accuracy': 0.8461538461538461, 'test_macro_f1': 0.7337962962962963}
+{'fold': 1, 'recipe': 'fine_multiscale_seed42', 'selected_epoch': 26, 'val_macro_f1': 0.7354248366013071, 'test_accuracy': 0.75, 'test_macro_f1': 0.6437263701890384}
+{'fold': 1, 'recipe': 'fine_consistent_seed42', 'selected_epoch': 27, 'val_macro_f1': 0.7478070175438596, 'test_accuracy': 0.7708333333333334, 'test_macro_f1': 0.6639900770335553}
+{'fold': 1, 'recipe': 'fine_consistent_seed43', 'selected_epoch': 18, 'val_macro_f1': 0.7386724386724387, 'test_accuracy': 0.8229166666666666, 'test_macro_f1': 0.6955962502725092}
+{'fold': 1, 'recipe': 'fine_consistent_seed44', 'selected_epoch': 17, 'val_macro_f1': 0.7143234799327085, 'test_accuracy': 0.75, 'test_macro_f1': 0.624923576781316}
+{'fold': 2, 'recipe': 'fine_multiscale_seed42', 'selected_epoch': 4, 'val_macro_f1': 0.7052631578947368, 'test_accuracy': 0.6428571428571429, 'test_macro_f1': 0.5371717484393541}
+{'fold': 2, 'recipe': 'fine_consistent_seed42', 'selected_epoch': 4, 'val_macro_f1': 0.7052631578947368, 'test_accuracy': 0.625, 'test_macro_f1': 0.5245673866363522}
+{'fold': 2, 'recipe': 'fine_consistent_seed43', 'selected_epoch': 26, 'val_macro_f1': 0.6767909356725147, 'test_accuracy': 0.8392857142857143, 'test_macro_f1': 0.6611111111111111}
+{'fold': 2, 'recipe': 'fine_consistent_seed44', 'selected_epoch': 6, 'val_macro_f1': 0.6745098039215686, 'test_accuracy': 0.6607142857142857, 'test_macro_f1': 0.5093951093951093}
+{'fold': 3, 'recipe': 'fine_multiscale_seed42', 'selected_epoch': 24, 'val_macro_f1': 0.6237667747965231, 'test_accuracy': 0.6530612244897959, 'test_macro_f1': 0.5880952380952381}
+{'fold': 3, 'recipe': 'fine_consistent_seed42', 'selected_epoch': 22, 'val_macro_f1': 0.5943037336486722, 'test_accuracy': 0.6530612244897959, 'test_macro_f1': 0.5531788472964944}
+{'fold': 3, 'recipe': 'fine_consistent_seed43', 'selected_epoch': 34, 'val_macro_f1': 0.5873271724335555, 'test_accuracy': 0.7142857142857143, 'test_macro_f1': 0.6444444444444445}
+{'fold': 3, 'recipe': 'fine_consistent_seed44', 'selected_epoch': 22, 'val_macro_f1': 0.5907755057730631, 'test_accuracy': 0.6326530612244898, 'test_macro_f1': 0.5656084656084656}
+{'fold': 4, 'recipe': 'fine_multiscale_seed42', 'selected_epoch': 31, 'val_macro_f1': 0.6347842507789633, 'test_accuracy': 0.782051282051282, 'test_macro_f1': 0.5723905723905723}
+{'fold': 4, 'recipe': 'fine_consistent_seed42', 'selected_epoch': 29, 'val_macro_f1': 0.6052545155993432, 'test_accuracy': 0.7051282051282052, 'test_macro_f1': 0.572716585277627}
+{'fold': 4, 'recipe': 'fine_consistent_seed43', 'selected_epoch': 11, 'val_macro_f1': 0.6122087132725431, 'test_accuracy': 0.7051282051282052, 'test_macro_f1': 0.572716585277627}
+{'fold': 4, 'recipe': 'fine_consistent_seed44', 'selected_epoch': 32, 'val_macro_f1': 0.6220660713414335, 'test_accuracy': 0.7435897435897436, 'test_macro_f1': 0.6070683956267481}
+                  recipe  accuracy  macro_f1  chid_recall  chid_precision
+fine_consistent_ensemble  0.747093  0.616123     0.384615        0.196078
+  fine_consistent_seed42  0.715116  0.592946     0.384615        0.175439
+  fine_consistent_seed43  0.764535  0.631128     0.346154        0.173077
+  fine_consistent_seed44  0.735465  0.613085     0.384615        0.185185
+  fine_multiscale_seed42  0.726744  0.603030     0.384615        0.181818

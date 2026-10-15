@@ -1,0 +1,14 @@
+{'fold': 0, 'recipe': 'balanced_shared', 'selected_epoch': 31, 'val_macro_f1': 0.6862961599803704, 'test_accuracy': 0.8307692307692308, 'test_macro_f1': 0.6899185087590886}
+{'fold': 0, 'recipe': 'balanced_multiscale', 'selected_epoch': 31, 'val_macro_f1': 0.722353404171586, 'test_accuracy': 0.7692307692307693, 'test_macro_f1': 0.6493177916327822}
+{'fold': 1, 'recipe': 'balanced_shared', 'selected_epoch': 21, 'val_macro_f1': 0.7835294117647059, 'test_accuracy': 0.7604166666666666, 'test_macro_f1': 0.6676922394629324}
+{'fold': 1, 'recipe': 'balanced_multiscale', 'selected_epoch': 30, 'val_macro_f1': 0.7458839406207827, 'test_accuracy': 0.7604166666666666, 'test_macro_f1': 0.6368685842370053}
+{'fold': 2, 'recipe': 'balanced_shared', 'selected_epoch': 4, 'val_macro_f1': 0.7142857142857143, 'test_accuracy': 0.5357142857142857, 'test_macro_f1': 0.4064425770308124}
+{'fold': 2, 'recipe': 'balanced_multiscale', 'selected_epoch': 33, 'val_macro_f1': 0.6959001782531195, 'test_accuracy': 0.7321428571428571, 'test_macro_f1': 0.5822360822360823}
+{'fold': 3, 'recipe': 'balanced_shared', 'selected_epoch': 20, 'val_macro_f1': 0.5651046015787657, 'test_accuracy': 0.673469387755102, 'test_macro_f1': 0.5960161842514784}
+{'fold': 3, 'recipe': 'balanced_multiscale', 'selected_epoch': 27, 'val_macro_f1': 0.5805152979066023, 'test_accuracy': 0.6530612244897959, 'test_macro_f1': 0.5637254901960785}
+{'fold': 4, 'recipe': 'balanced_shared', 'selected_epoch': 23, 'val_macro_f1': 0.5989417989417989, 'test_accuracy': 0.6538461538461539, 'test_macro_f1': 0.5242844865751712}
+{'fold': 4, 'recipe': 'balanced_multiscale', 'selected_epoch': 14, 'val_macro_f1': 0.5989076634237924, 'test_accuracy': 0.7307692307692307, 'test_macro_f1': 0.5827734711455642}
+             recipe  accuracy  macro_f1  chid_recall  chid_precision
+balanced_multiscale  0.735465  0.613422     0.384615        0.175439
+    balanced_shared  0.700581  0.585270     0.461538        0.193548
+validation_selected  0.686047  0.573555     0.423077        0.169231

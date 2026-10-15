@@ -1,0 +1,15 @@
+{
+  "primary_separation_bp": 6400,
+  "control_separation_bp": 12800,
+  "window_width_bp": 12800,
+  "target_training_recall": 0.9,
+  "score": "Frozen support-aware fold-specific morphology scoring; validation choice unchanged",
+  "calibration": "Minimum retained candidate count reaching90% center recall on training annotations only; report if unreachable",
+  "clustering_independence": "Overlapping detection windows must not be counted as independent members of a new cluster; require25600bp separation within any proposed cluster",
+  "limitations": [
+    "Partly supervised operating-point calibration, not fully unsupervised discovery",
+    "Retrospective existing test positions; same-study spatial groups",
+    "Random orders without sufficient NMS cardinality skipped; feasible trial counts reported",
+    "Detection overlap permitted for high recall, separate from independent cluster support"
+  ]
+}

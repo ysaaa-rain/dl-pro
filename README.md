@@ -1,3 +1,5 @@
+> 当前实验状态（2026-10-15）：报告暂停编写，已有Word为暂存草稿。最新数值与限制见 [实验状态](docs/进度.md) 和 `results/model_validation/`；下方较早结果保留作为对照。
+
 # Micro-C 接触矩阵深度学习实验
 
 已完成必做任务一至三及选做任务五的第一轮计算。数据来自GSE272159：29个矩阵、19种条件标签；结构注释344条。完整原始数据13.79 GB留在本地，小体积数据、处理窗口、模型和结果纳入Git，`.gitignore` 不隐藏数据。
@@ -64,3 +66,36 @@ MPS可用则用于SR，其他训练使用CPU；不同机器不保证逐位一致
 .venv/bin/python scripts/validate_refinement.py
 .venv/bin/python scripts/build_refinement_report.py
 ```
+
+## 空间验证与模型对照
+
+正式使用11个矩阵（NoLig作为单样本控制），18个仅审计。分类新增50bp输入、重复一致性、多种子、跨度辅助匹配对照、核方法和几何森林。任务二采用五折背景隔离、固定预算随机对照及训练召回校准；完整上下文与支持像素筛选剩4个独立探索候选，未确认新结构簇。大感受野SR相对计数投影旧CNN略改善原生指标，100bp结构收益区间包含零。
+
+可按以下顺序恢复新增实验。各训练脚本会重写其结果目录；模型选择规则和缓存来源在对应protocol/sources文件中。报告脚本不属于当前执行流程。
+
+```bash
+.venv/bin/python scripts/prepare_fine_windows.py
+.venv/bin/python scripts/prepare_fine_scan.py
+.venv/bin/python scripts/classification_balanced_cv.py
+.venv/bin/python scripts/classification_shape_cv.py
+.venv/bin/python scripts/classification_kernel_cv.py
+.venv/bin/python scripts/classification_hybrid_cv.py
+.venv/bin/python scripts/classification_fine_cv.py
+.venv/bin/python scripts/classification_span_cv.py
+.venv/bin/python scripts/audit_classification_labels.py
+.venv/bin/python scripts/explain_fine_classifier.py
+.venv/bin/python scripts/discovery_spatial_cv.py
+.venv/bin/python scripts/discovery_support_cv.py
+.venv/bin/python scripts/discovery_recall_operating_point.py
+.venv/bin/python scripts/candidate_condition_validation.py
+.venv/bin/python scripts/candidate_negative_control.py
+.venv/bin/python scripts/audit_candidate_context.py
+.venv/bin/python scripts/sr_distance_prior.py
+.venv/bin/python scripts/sr_context.py
+.venv/bin/python scripts/summarize_model_validation.py
+.venv/bin/python scripts/audit_extended_experiments.py
+.venv/bin/python scripts/audit_portable_forest.py
+.venv/bin/python -m pytest -q
+```
+
+SR置信区间按8个100kb空间块重采样；分类按56个最大窗口重叠组重采样。所有测试位置已被探索性比较观察，不能解释为外部独立验证。大计数缓存和完整重建数组留本地，可由已提交压缩计数分片及训练脚本恢复。

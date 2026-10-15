@@ -1,0 +1,6 @@
+hybrid fold 0 threshold 0.6 valmacro 0.6569539791507755
+hybrid fold 1 threshold 0.6 valmacro 0.7768284347231714
+hybrid fold 2 threshold 0.5 valmacro 0.6634469031729306
+hybrid fold 3 threshold 0.6 valmacro 0.6172839506172839
+hybrid fold 4 threshold 0.8 valmacro 0.6604301896398116
+{'accuracy': 0.8168604651162791, 'macro avg': {'precision': 0.6503663003663004, 'recall': 0.6141025641025641, 'f1-score': 0.6238277919863597, 'support': 344.0}, 'CHID': {'precision': 0.35714285714285715, 'recall': 0.19230769230769232, 'f1-score': 0.25, 'support': 26.0}}

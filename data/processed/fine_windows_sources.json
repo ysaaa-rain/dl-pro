@@ -1,0 +1,9 @@
+{
+  "known_plan_sha256": "557b05e49858277222f9ddced5aa4ed020a9fc39cddde8f00238622f043f6e77",
+  "sources": {
+    "GSE272159_37C_rep1": "0256e10da36abfe0238bf16952bc43bc78365f43c201e6e3ba0c49bd243549a8",
+    "GSE272159_37C_rep2": "ede9b4f7c0c6b40c8f098e43cdd0abbc0a8987f05e8b37051a5e3cbf143ad106"
+  },
+  "binsize": 50,
+  "width": 6400
+}

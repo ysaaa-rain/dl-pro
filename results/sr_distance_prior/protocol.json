@@ -1,0 +1,60 @@
+{
+  "seed": 42,
+  "n_test_patches": 32,
+  "n_test_loci": 49,
+  "training": "Native distance expectation from64training matrices only; no new CNN training; Gaussian smoothing sigma1",
+  "input": "Original model receives original clipped input; projection restores measured unclipped40bp block mean",
+  "validation_choices": [
+    {
+      "source": "cnn",
+      "gamma": 0,
+      "val_native_mse": 0.006592414807528257,
+      "val_100bp_oe_mse": 0.012156518797079722,
+      "objective": 0.0078080666872362295
+    },
+    {
+      "source": "cnn",
+      "gamma": 0.5,
+      "val_native_mse": 0.006615523753377299,
+      "val_100bp_oe_mse": 0.012162485625594854,
+      "objective": 0.007831772315936784
+    },
+    {
+      "source": "cnn",
+      "gamma": 1,
+      "val_native_mse": 0.00673500921887656,
+      "val_100bp_oe_mse": 0.012180420337244868,
+      "objective": 0.007953051252601047
+    },
+    {
+      "source": "bicubic",
+      "gamma": 0,
+      "val_native_mse": 0.006684052137037118,
+      "val_100bp_oe_mse": 0.012262580295403799,
+      "objective": 0.007910310166577499
+    },
+    {
+      "source": "bicubic",
+      "gamma": 0.5,
+      "val_native_mse": 0.006651226431131363,
+      "val_100bp_oe_mse": 0.012268867421274384,
+      "objective": 0.007878113173258802
+    },
+    {
+      "source": "bicubic",
+      "gamma": 1,
+      "val_native_mse": 0.006743539629193644,
+      "val_100bp_oe_mse": 0.01228728525650998,
+      "objective": 0.007972268154844642
+    }
+  ],
+  "selected_recipe": {
+    "source": "cnn",
+    "gamma": 0,
+    "val_native_mse": 0.006592414807528257,
+    "val_100bp_oe_mse": 0.012156518797079722,
+    "objective": 0.0078080666872362295
+  },
+  "interpretation": "Within-block distance allocation plus40bp count conservation;200bp preservation by construction; near/far200bp native metrics isolate diagonal-band gain",
+  "test_status": "Retrospective positions already evaluated in first round"
+}

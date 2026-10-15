@@ -1,0 +1,48 @@
+{
+  "seed_of_spatial_split": 42,
+  "training_seeds": [
+    42,
+    43,
+    44
+  ],
+  "device": "mps",
+  "epochs": 15,
+  "train_samples": 64,
+  "val_samples": 12,
+  "test_samples": 32,
+  "native_target_bp": 10,
+  "low_input_bp": 40,
+  "training_window_bp": 10240,
+  "known_context_bp": 25600,
+  "known_test_loci": 49,
+  "known_test_classes": {
+    "CHIN": 37,
+    "OPCID": 8,
+    "CHID": 4
+  },
+  "fit_only_repeat1": true,
+  "replicate2_only_evaluated": true,
+  "depth_normalization": "Both repeats scaled to WT rep1 library pair count before log transform",
+  "normalization_scale": 2.5649493574615367,
+  "normalization_fit": "Exact 99.5% training-only log-count quantile from integer histogram",
+  "checkpoint_selection": "Validation clipped native MSE + .1 100bp O/E MSE; seed42 representative chosen before evaluation",
+  "loss": "Clipped native MSE + 0.1 count-domain O/E loss at 100bp; exact 40bp count projection",
+  "full_known_contexts_in_test_blocks": true,
+  "downstream_classifier": "Per-locus out-of-fold classifier, no test-locus class labels in its fitting",
+  "reconstruction_file": "reconstruction_seed42.npy",
+  "compressed_source_shards": "data/processed/sr_expanded/counts_*.npz",
+  "limitations": [
+    "MPS bitwise determinism not guaranteed across machines",
+    "Native image metrics clip at training99.5% scale; structural metrics decode untruncated counts for projected methods",
+    "same-source spatial holdout and one withheld repeat, not external-source validation",
+    "classifier agreement is a recovery proxy, not independent biological confirmation",
+    "only annotated structures fully inside SR test blocks are evaluated downstream",
+    "200bp preservation follows directly from40bp count conservation; not independent proof of learned structure",
+    "100bp off-grid shape and projected-bicubic ablation needed to assess learned gain",
+    "retrospective existing test positions; same-study benchmark",
+    "Low-resolution receptive field143pixels=5.72kb, compared with7pixels=280bp shallow model",
+    "Deep residual context is an architecture ablation; same training split, loss and epochs as count-consistent model"
+  ],
+  "low_resolution_receptive_field_pixels": 143,
+  "receptive_field_bp": 5720
+}
