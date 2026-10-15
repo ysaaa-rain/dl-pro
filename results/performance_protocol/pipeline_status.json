@@ -1,0 +1,37 @@
+[
+  {
+    "script": "train_classifier_repeat_ssl.py",
+    "status": "complete",
+    "started_utc": "2026-10-15T16:35:37Z",
+    "ended_utc": "2026-10-15T18:49:21Z",
+    "returncode": 0
+  },
+  {
+    "script": "evaluate_classifier_repeat_ssl.py",
+    "status": "complete",
+    "started_utc": "2026-10-15T18:49:21Z",
+    "ended_utc": "2026-10-15T18:49:35Z",
+    "returncode": 0
+  },
+  {
+    "script": "summarize_performance_controls.py",
+    "status": "complete",
+    "started_utc": "2026-10-15T18:49:35Z",
+    "ended_utc": "2026-10-15T18:49:37Z",
+    "returncode": 0
+  },
+  {
+    "script": "audit_performance_controls.py",
+    "status": "complete",
+    "started_utc": "2026-10-15T18:49:37Z",
+    "ended_utc": "2026-10-15T18:49:39Z",
+    "returncode": 0
+  },
+  {
+    "script": "plot_performance_controls.py",
+    "status": "complete",
+    "started_utc": "2026-10-15T18:49:39Z",
+    "ended_utc": "2026-10-15T18:49:40Z",
+    "returncode": 0
+  }
+]

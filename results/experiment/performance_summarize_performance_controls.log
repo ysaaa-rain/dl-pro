@@ -1,0 +1,249 @@
+                      recipe  accuracy  macro_f1  chid_precision  chid_recall  chid_f1
+         fixed_fine_baseline  0.747093  0.616123        0.196078     0.384615 0.259740
+  matched_control_calibrated  0.755814  0.612304        0.186047     0.307692 0.231884
+         matched_control_raw  0.738372  0.607538        0.176471     0.346154 0.233766
+repeat_pretrained_calibrated  0.761628  0.610666        0.170732     0.269231 0.208955
+       repeat_pretrained_raw  0.747093  0.615215        0.180000     0.346154 0.236842
+         validation_selected  0.752907  0.605537        0.162791     0.269231 0.202899
+[
+  {
+    "comparison": "sparse_matched_mean_seed_metric_minus_projected_bicubic_native_psnr",
+    "n_cases": 32,
+    "n_groups": 8,
+    "mean": 0.15651738558885087,
+    "group95": [
+      0.14952507757369463,
+      0.16354804086205088
+    ]
+  },
+  {
+    "comparison": "sparse_matched_minus_projected_bicubic_rep1_psnr",
+    "n_cases": 16,
+    "n_groups": 8,
+    "mean": 0.15012058873322331,
+    "group95": [
+      0.1430955566384533,
+      0.15656864656931715
+    ]
+  },
+  {
+    "comparison": "sparse_matched_minus_projected_bicubic_rep2_psnr",
+    "n_cases": 16,
+    "n_groups": 8,
+    "mean": 0.16291418244447842,
+    "group95": [
+      0.15456036126321188,
+      0.17198752891645586
+    ]
+  },
+  {
+    "comparison": "sparse_matched_mean_seed_metric_minus_projected_bicubic_native_ssim",
+    "n_cases": 32,
+    "n_groups": 8,
+    "mean": 0.004761964296700507,
+    "group95": [
+      0.003651681271304182,
+      0.005998353085806022
+    ]
+  },
+  {
+    "comparison": "sparse_matched_minus_projected_bicubic_rep1_ssim",
+    "n_cases": 16,
+    "n_groups": 8,
+    "mean": 0.004407756311474869,
+    "group95": [
+      0.0034513066719277525,
+      0.0055408266503368135
+    ]
+  },
+  {
+    "comparison": "sparse_matched_minus_projected_bicubic_rep2_ssim",
+    "n_cases": 16,
+    "n_groups": 8,
+    "mean": 0.005116172281926144,
+    "group95": [
+      0.003914401185846428,
+      0.006414087653060326
+    ]
+  },
+  {
+    "comparison": "dense_matched_mean_seed_metric_minus_projected_bicubic_native_psnr",
+    "n_cases": 32,
+    "n_groups": 8,
+    "mean": 0.15701075626479177,
+    "group95": [
+      0.1498863121783618,
+      0.1638369277146582
+    ]
+  },
+  {
+    "comparison": "dense_matched_minus_projected_bicubic_rep1_psnr",
+    "n_cases": 16,
+    "n_groups": 8,
+    "mean": 0.1507876624549247,
+    "group95": [
+      0.1444196847724302,
+      0.1567069763468422
+    ]
+  },
+  {
+    "comparison": "dense_matched_minus_projected_bicubic_rep2_psnr",
+    "n_cases": 16,
+    "n_groups": 8,
+    "mean": 0.16323385007465885,
+    "group95": [
+      0.15452775674238067,
+      0.17188222145621915
+    ]
+  },
+  {
+    "comparison": "dense_matched_mean_seed_metric_minus_projected_bicubic_native_ssim",
+    "n_cases": 32,
+    "n_groups": 8,
+    "mean": 0.004716627987872354,
+    "group95": [
+      0.003562873580794651,
+      0.005938557910500501
+    ]
+  },
+  {
+    "comparison": "dense_matched_minus_projected_bicubic_rep1_ssim",
+    "n_cases": 16,
+    "n_groups": 8,
+    "mean": 0.0043924052236258785,
+    "group95": [
+      0.003339953841586311,
+      0.005546781713526835
+    ]
+  },
+  {
+    "comparison": "dense_matched_minus_projected_bicubic_rep2_ssim",
+    "n_cases": 16,
+    "n_groups": 8,
+    "mean": 0.00504085075211883,
+    "group95": [
+      0.0038580352111357063,
+      0.006420262735553332
+    ]
+  },
+  {
+    "comparison": "dense_multiscale_mean_seed_metric_minus_projected_bicubic_native_psnr",
+    "n_cases": 32,
+    "n_groups": 8,
+    "mean": 0.15048495406155382,
+    "group95": [
+      0.14458635831051775,
+      0.15622749411476533
+    ]
+  },
+  {
+    "comparison": "dense_multiscale_minus_projected_bicubic_rep1_psnr",
+    "n_cases": 16,
+    "n_groups": 8,
+    "mean": 0.1438022523481015,
+    "group95": [
+      0.1375334319904915,
+      0.14914871624718273
+    ]
+  },
+  {
+    "comparison": "dense_multiscale_minus_projected_bicubic_rep2_psnr",
+    "n_cases": 16,
+    "n_groups": 8,
+    "mean": 0.15716765577500613,
+    "group95": [
+      0.14967089583005513,
+      0.16491200422727148
+    ]
+  },
+  {
+    "comparison": "dense_multiscale_mean_seed_metric_minus_projected_bicubic_native_ssim",
+    "n_cases": 32,
+    "n_groups": 8,
+    "mean": 0.005676991703649042,
+    "group95": [
+      0.004499531653173447,
+      0.006947487611092676
+    ]
+  },
+  {
+    "comparison": "dense_multiscale_minus_projected_bicubic_rep1_ssim",
+    "n_cases": 16,
+    "n_groups": 8,
+    "mean": 0.005300669458347821,
+    "group95": [
+      0.0041825149983339,
+      0.006502254645096129
+    ]
+  },
+  {
+    "comparison": "dense_multiscale_minus_projected_bicubic_rep2_ssim",
+    "n_cases": 16,
+    "n_groups": 8,
+    "mean": 0.006053313948950263,
+    "group95": [
+      0.004737828195633141,
+      0.007418949233542844
+    ]
+  },
+  {
+    "comparison": "dense_matched_minus_sparse_matched_native_psnr",
+    "n_cases": 32,
+    "n_groups": 8,
+    "mean": 0.0004933706759409073,
+    "group95": [
+      -0.0013633045775341634,
+      0.0021116600763147974
+    ]
+  },
+  {
+    "comparison": "dense_matched_minus_sparse_matched_native_ssim",
+    "n_cases": 32,
+    "n_groups": 8,
+    "mean": -4.5336308828152275e-05,
+    "group95": [
+      -0.00011479516214436326,
+      2.8672160785772293e-05
+    ]
+  },
+  {
+    "comparison": "sparse_matched_mean_seed_metric_minus_projected_bicubic_shape_oe_ssim_100bp",
+    "n_cases": 98,
+    "n_groups": 8,
+    "mean": 0.0014817217378933648,
+    "group95": [
+      0.0011055341327980835,
+      0.0018180646727210456
+    ]
+  },
+  {
+    "comparison": "dense_matched_mean_seed_metric_minus_projected_bicubic_shape_oe_ssim_100bp",
+    "n_cases": 98,
+    "n_groups": 8,
+    "mean": 0.001408512755151922,
+    "group95": [
+      0.001016658915867161,
+      0.0017495720938282252
+    ]
+  },
+  {
+    "comparison": "dense_multiscale_mean_seed_metric_minus_projected_bicubic_shape_oe_ssim_100bp",
+    "n_cases": 98,
+    "n_groups": 8,
+    "mean": 0.0020773544112014214,
+    "group95": [
+      0.001508495392267199,
+      0.002479244424426981
+    ]
+  },
+  {
+    "comparison": "dense_matched_minus_sparse_matched_shape_oe_ssim_100bp",
+    "n_cases": 98,
+    "n_groups": 8,
+    "mean": -7.320898274144299e-05,
+    "group95": [
+      -0.00011861324991399684,
+      -2.586449048962535e-05
+    ]
+  }
+]

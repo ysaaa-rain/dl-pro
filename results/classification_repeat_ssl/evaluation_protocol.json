@@ -1,0 +1,12 @@
+{
+  "decisions_sha256": "470957d328206b15cf81e2b9530637ddfe1ae8deb5157495e9ff09a3f135ed96",
+  "protocol_sha256": "227dcd913a8beb985944e240f2fdbe2abb5fdafc0b4bbbf57a69281f7c3fd564",
+  "test_evaluated_after_all_five_selections": true,
+  "original_labels_unchanged": true,
+  "limitations": [
+    "Same previously exposed groups, retrospective comparison",
+    "Validation gate protects otherclassF1 on validation only; not a test guarantee",
+    "Closed-set image labels include nested/overlapping biological annotations",
+    "No external independent test set"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "bootstrap_samples": 2000,
+  "sr_unit": "Eight100kbblocks, bothrepeats sharegroup; per-recipe mean ofthree seed metrics, not image ensemble",
+  "classification_unit": "56maximum-input overlapgroups; original344loci",
+  "no_test_based_model_selection": true,
+  "limitations": [
+    "Retrospective same-study comparisons",
+    "Three seeds do not increase biological sample size",
+    "Only26CHIDloci",
+    "Shape confidence and classification must accompany native gains; no single-score success criterion"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "dense_train_only_352_and_sparse_subset64": true,
+  "all_ssl_pools_purged_and_nonoverlap": true,
+  "ssl_pool_counts_by_fold": {
+    "0": 105,
+    "1": 112,
+    "2": 133,
+    "3": 118,
+    "4": 105
+  },
+  "each_classification_recipe_344_unique_oof": true,
+  "shared_fixed_protocol_and_validation_selections": true,
+  "all9_sr_models_and5_baselines_complete": true
+}

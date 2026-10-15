@@ -1,0 +1,11 @@
+type,transition,n_loci
+CHID,both_correct,7
+CHID,both_wrong,16
+CHID,regressed,3
+CHIN,both_correct,179
+CHIN,both_wrong,47
+CHIN,corrected,12
+CHIN,regressed,12
+OPCID,both_correct,56
+OPCID,both_wrong,7
+OPCID,corrected,5

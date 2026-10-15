@@ -1,0 +1,97 @@
+{
+  "protocol_sha256": "227dcd913a8beb985944e240f2fdbe2abb5fdafc0b4bbbf57a69281f7c3fd564",
+  "folds": [
+    {
+      "fold": 0,
+      "selected_recipe": "matched_control",
+      "n_unlabelled_train": 105,
+      "control_chid_factor": 0.75,
+      "ssl_chid_factor": 1.25,
+      "control_val_f1": [
+        0.2222222222222222,
+        0.8714285714285714,
+        0.8823529411764706
+      ],
+      "ssl_val_f1": [
+        0.3448275862068966,
+        0.8307692307692308,
+        0.9090909090909091
+      ],
+      "selection_only_validation": true
+    },
+    {
+      "fold": 1,
+      "selected_recipe": "matched_control",
+      "n_unlabelled_train": 112,
+      "control_chid_factor": 1.25,
+      "ssl_chid_factor": 0.75,
+      "control_val_f1": [
+        0.4,
+        0.868421052631579,
+        0.9523809523809523
+      ],
+      "ssl_val_f1": [
+        0.3076923076923077,
+        0.8461538461538461,
+        0.8571428571428571
+      ],
+      "selection_only_validation": true
+    },
+    {
+      "fold": 2,
+      "selected_recipe": "matched_control",
+      "n_unlabelled_train": 133,
+      "control_chid_factor": 1,
+      "ssl_chid_factor": 1,
+      "control_val_f1": [
+        0.4,
+        0.7936507936507936,
+        0.9333333333333333
+      ],
+      "ssl_val_f1": [
+        0.4,
+        0.7936507936507936,
+        0.9333333333333333
+      ],
+      "selection_only_validation": true
+    },
+    {
+      "fold": 3,
+      "selected_recipe": "repeat_pretrained",
+      "n_unlabelled_train": 118,
+      "control_chid_factor": 1,
+      "ssl_chid_factor": 1.25,
+      "control_val_f1": [
+        0.1111111111111111,
+        0.7872340425531915,
+        0.8636363636363636
+      ],
+      "ssl_val_f1": [
+        0.2222222222222222,
+        0.8043478260869565,
+        0.8695652173913043
+      ],
+      "selection_only_validation": true
+    },
+    {
+      "fold": 4,
+      "selected_recipe": "matched_control",
+      "n_unlabelled_train": 105,
+      "control_chid_factor": 0.5,
+      "ssl_chid_factor": 0.5,
+      "control_val_f1": [
+        0.3333333333333333,
+        0.9032258064516129,
+        0.7741935483870968
+      ],
+      "ssl_val_f1": [
+        0.3333333333333333,
+        0.9032258064516129,
+        0.7741935483870968
+      ],
+      "selection_only_validation": true
+    }
+  ],
+  "test_evaluated": false,
+  "device": "mps"
+}

@@ -1,0 +1,9 @@
+{
+  "unit": "Same344 OOF loci; paired predictions,26CHID subset",
+  "geometry": "NearestCHINcenter circular distance used only after evaluation for error diagnosis, never as model input",
+  "limitations": [
+    "Retrospective diagnostic, not a new model-selection signal",
+    "Nested biological structures can retain distinct course labels",
+    "Small strata do not establish a causal reason for errors"
+  ]
+}

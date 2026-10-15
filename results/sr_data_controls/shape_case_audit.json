@@ -1,0 +1,55 @@
+{
+  "improved_cases": 98,
+  "total_cases": 98,
+  "negative_cases": [],
+  "by_type": {
+    "CHID": {
+      "mean": 0.0022065782999451666,
+      "min": 0.0011601875284436014,
+      "max": 0.003590472343574014
+    },
+    "CHIN": {
+      "mean": 0.0018297583779147682,
+      "min": 0.00011603090327094723,
+      "max": 0.004807359755471863
+    },
+    "OPCID": {
+      "mean": 0.0031578741207803213,
+      "min": 0.00036567396575337696,
+      "max": 0.007496727958039906
+    }
+  },
+  "classification_changes_vs_projected_bicubic": {
+    "dense_multiscale_seed42": 0,
+    "dense_multiscale_seed43": 0,
+    "dense_multiscale_seed44": 0
+  },
+  "per_seed": {
+    "dense_multiscale_seed42": {
+      "improved": 98,
+      "total": 98,
+      "minimum_delta": 0.00019035862197613884,
+      "negative_cases": []
+    },
+    "dense_multiscale_seed43": {
+      "improved": 97,
+      "total": 98,
+      "minimum_delta": -5.1317235930103955e-05,
+      "negative_cases": [
+        {
+          "structure_id": "CHIN_13",
+          "type": "CHIN",
+          "group": 2,
+          "replicate": 1,
+          "delta": -5.1317235930103955e-05
+        }
+      ]
+    },
+    "dense_multiscale_seed44": {
+      "improved": 98,
+      "total": 98,
+      "minimum_delta": 0.00015218836250119328,
+      "negative_cases": []
+    }
+  }
+}

@@ -1,0 +1,6 @@
+                      recipe  accuracy  macro_f1  chid_precision  chid_recall  chid_f1
+  matched_control_calibrated  0.755814  0.612304        0.186047     0.307692 0.231884
+         matched_control_raw  0.738372  0.607538        0.176471     0.346154 0.233766
+repeat_pretrained_calibrated  0.761628  0.610666        0.170732     0.269231 0.208955
+       repeat_pretrained_raw  0.747093  0.615215        0.180000     0.346154 0.236842
+         validation_selected  0.752907  0.605537        0.162791     0.269231 0.202899

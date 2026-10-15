@@ -1,0 +1,4 @@
+nested_distance_stratum,n_loci,baseline_recalled,selected_recalled
+0-500bp,12,6,4
+501-2000bp,12,4,3
+>2000bp,2,0,0
