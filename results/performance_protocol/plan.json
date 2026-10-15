@@ -1,0 +1,41 @@
+{
+  "status": "Fixed before new training; retrospective same-study evaluation, not an untouched external test",
+  "priority": ["sr_data_and_structure_loss", "classification_unlabelled_repeat_pretraining"],
+  "sr": {
+    "architecture": "Existing ContextCountSR, unchanged",
+    "recipes": ["sparse_matched", "dense_matched", "dense_multiscale"],
+    "training_windows": "Keep original64; dense union adds nine fixed10kb-spaced starts per original training100kb block,352total",
+    "input_target_bp": [40,10],
+    "window_bp": 10240,
+    "train_repeat": 1,
+    "validation": "Original12 rep1 windows unchanged",
+    "test": "Original32 windows and49full known contexts unchanged; rep2never fitted",
+    "steps_per_recipe_seed": 960,
+    "batch_size": 4,
+    "seeds": [42,43,44],
+    "optimizer": "Adam lr0.001; cosine decay to0.0001; genome reversal shared acrossbothaxes",
+    "check_every_steps": 80,
+    "scale_expectation": "Original64 training windows only; same frozen logcount scale acrossallrecipes",
+    "matched_loss": "Clipped native MSE +0.1offdiagonal100bp logOE MSE",
+    "multiscale_loss": "Clipped native MSE +0.1mean offdiagonal logOE MSE at50/100/160bp +0.05mean offdiagonal SSIM loss at50/100/160bp; exclude physical distance<200bp",
+    "selection": "Checkpoint and recipe by common validation objective: nativeMSE +0.1mean multiscale offdiagonal logOE MSE +0.05multiscale SSIMloss; recipe scores averaged overthree seeds; ties prefer dense_matched then sparse_matched then dense_multiscale",
+    "evaluation": "Evaluate all fixed arms once after selection; paired100kb block bootstrap vs count-projected bicubic; report all seeds; no test-based additional search",
+    "stop": "These three arms only; retain null results; no expansion based on test outcomes"
+  },
+  "classification": {
+    "architecture": "Existing FineScaleClassifier,50/100/200bp",
+    "seeds": [42,43,44],
+    "folds": "Same56overlapgroups,5outerfolds; cyclicnextfold validation",
+    "pretraining": "Thirty fixed epochs of cross-WT-repeat contrastive InfoNCE temperature0.2, batch24locations; shared genome reversal, independent amplitude augmentation; train-only unlabeled scan inputs purged of all known validation/test maximum-window extents, select25600bp-spaced pool",
+    "control": "Matched random initialization, identical35epoch balanced CE+0.2pairedJS fine-tuning",
+    "normalization": "Same per-fold original training-only three-scale transforms for both arms and pretraining",
+    "checkpoint": "Cyclic validation macroF1 then NLL",
+    "calibration": "CHID probabilitymultipliers0.5/0.75/1/1.25; choose validation macroF1 thenCHIDF1; samegridforbotharms",
+    "method_selection": "Use pretrained ensemble only if validationmacroF1 notlower,CHIDF1higher,and bothotherclassF1no morethan0.03lower than calibratedcontrol; otherwise control. Save decisionsbeforeOOFevaluation",
+    "labels": "Preserve original344 rows; no relabeling or annotation-derived bounds/length inputs",
+    "stop": "One selfsupervision hypothesis and matchedcontrol; no test-driven model search"
+  },
+  "reports": "Paused",
+  "annotation_tool": "Unchanged",
+  "choices_json": "Preserved as baseline, not a prohibition on further experiments"
+}
