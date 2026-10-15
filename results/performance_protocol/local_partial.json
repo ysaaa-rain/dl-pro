@@ -1,0 +1,25 @@
+{
+  "status": "Interrupted local CPU/MPS runs; retained locally and not included in formal CUDA comparisons",
+  "checkpoints": {
+    "sr_data_controls_local_partial": {
+      "results/sr_data_controls_local_partial/dense_matched_seed44.pt": "4e1947c7a092e6686098aea7eb393c27858b008aa500e6ca4fd574a8aec6fee3",
+      "results/sr_data_controls_local_partial/sparse_matched_seed42.pt": "79b28a90bddc0b3e4c83fd38b3fc0dfa64103245b89e36d9ff7bcdf933bd9842",
+      "results/sr_data_controls_local_partial/sparse_matched_seed43.pt": "3f59f39d6a20ebfb45de6abc0088e94abb2530519ae7b63e195769c94e05612d",
+      "results/sr_data_controls_local_partial/dense_matched_seed42.pt": "8d37956086ace6858ddc15cc5d0710ba8d0d1a66ef72c29f09c0c322f0d3c5c9",
+      "results/sr_data_controls_local_partial/sparse_matched_seed44.pt": "c1c0aafed7a0e6838273047db0e662646b2189377d092dc1fd7903d9134d535b",
+      "results/sr_data_controls_local_partial/dense_matched_seed43.pt": "d48ddbbc8cd6e45bac5d5c7f7e44323f53047af568f5e726c3f36353a33adeb8"
+    },
+    "classification_repeat_ssl_local_partial": {
+      "results/classification_repeat_ssl_local_partial/matched_control_seed42_fold1.pt": "daacd4dc54072de47777cdce3153fa702c7ef826487e393f2e2fec8a2766eada",
+      "results/classification_repeat_ssl_local_partial/repeat_pretrained_seed43_fold0.pt": "be72e4b6ef92b7356d6da2180df34d415d34b877f654f91a005edc5a0bb28533",
+      "results/classification_repeat_ssl_local_partial/repeat_pretrained_seed42_fold0.pt": "f0806db611abb8dfe15b8cd51fd8f32f79e45db08c8df294268bdb3850f98e8c",
+      "results/classification_repeat_ssl_local_partial/matched_control_seed42_fold0.pt": "3cae7201d6d38ab8ee5eb21455807363176d68ad2dfcd081c4080d8d911f8466",
+      "results/classification_repeat_ssl_local_partial/matched_control_seed43_fold0.pt": "0e773dab640c094a2f1426d835c3212f4e1c34b448cac46d3261989143bd4232",
+      "results/classification_repeat_ssl_local_partial/repeat_pretrained_seed44_fold0.pt": "e493ed275910c351278864a23925d2fa00369d9ded41fca647bf1db31e970ddc",
+      "results/classification_repeat_ssl_local_partial/matched_control_seed44_fold0.pt": "b2cacc4c986530f16b84f6d981814ccb4d80509a96b624bc8e581206de2ee5dd",
+      "results/classification_repeat_ssl_local_partial/pretrained_seed44_fold0.pt": "b59b289797adcee619c015aaa313d4dee3b08686b1e044ed4f4cd2cda5f3c5f8",
+      "results/classification_repeat_ssl_local_partial/pretrained_seed42_fold0.pt": "e1e1736bc1be929efdd2bcad80c54056f756342bcb0b0210896f5fbd1dcd8415",
+      "results/classification_repeat_ssl_local_partial/pretrained_seed43_fold0.pt": "b1c3dbd46b334974bd891a831ffec75b13d03f61de8cd430632d8183939d3208"
+    }
+  }
+}

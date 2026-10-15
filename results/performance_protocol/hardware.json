@@ -1,0 +1,7 @@
+{
+  "primary_compute": "Existing user-configured elder host, RTX4090",
+  "local_partial": "CPU/MPS incomplete outputs retained separately; excluded from formal comparison",
+  "backend": "All new formal arms rerun on CUDA with same protocol; torch2.7.1cu126",
+  "algorithm_changes": false,
+  "report_generation": "Paused"
+}

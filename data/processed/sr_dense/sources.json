@@ -1,0 +1,7 @@
+{
+  "source_sha256": "0256e10da36abfe0238bf16952bc43bc78365f43c201e6e3ba0c49bd243549a8",
+  "original_plan_sha256": "dc41544257bb26254b368515f032304138bcbe4d0460bd0073df49d740c1d808",
+  "train_windows": 352,
+  "window_bp": 10240,
+  "holdout": "Original val/test unchanged, all new windows wholly within training100kbblocks"
+}
