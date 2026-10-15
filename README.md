@@ -109,3 +109,17 @@ SR置信区间按8个100kb空间块重采样；分类按56个最大窗口重叠�
 ## 辅助标注工具
 
 运行 `.venv/bin/python scripts/annotation_server.py`，打开 http://127.0.0.1:8765 。支持任意0-based中心坐标、WT两个重复、三尺度矩阵/概率/梯度敏感性、人工确认修正、SQLite持久化与CSV/JSON导出。输入示例U004/U007可直接使用已提交缓存；其他坐标需要原始WT矩阵。工具使用固定折与归一化，明确显示训练/验证重叠限制。来源和完整使用方法见[辅助标注工具](docs/辅助标注工具.md)；数值复核见results/annotation_tool/。这是功能实现与复现核验，尚无人工效率提升实验；报告保持暂停。
+
+## 数据规模与自监督性能对照
+
+当前基准选择保留在`results/experiment_choices/choices.json`，不限制继续改善性能。新计算方案在训练前固定并提交于`results/performance_protocol/plan.json`：SR对比64/352窗口及多尺度对角线外结构损失，架构、960优化步、三种子及空间留出保持一致；分类对比训练区跨重复对比预训练和匹配随机初始化。所有新方案只通过验证选择，现有测试位置仍属于回顾性评价。运行状态见`results/performance_protocol/pipeline_status.json`；正式报告和辅助标注模型保持原样。
+
+```bash
+.venv/bin/python scripts/prepare_sr_dense.py
+# 从已提交压缩计数分片恢复大数组时：
+.venv/bin/python scripts/restore_sr_counts.py
+.venv/bin/python scripts/train_sr_data_controls.py
+.venv/bin/python scripts/run_performance_followup.py
+```
+
+后续脚本顺序执行分类训练、固定SR评价、分类评价、空间组置信区间及完整性检查和图表；任一步失败即停止。远程GPU数据恢复未成功，实际使用本机MPS串行运行，设备记录见hardware.json。未完成的CPU分类产物单独保留，不纳入正式比较。扩展训练缓存来自原训练块，验证、测试和WT重复2均未加入拟合。

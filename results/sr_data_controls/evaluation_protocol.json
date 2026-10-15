@@ -1,0 +1,17 @@
+{
+  "frozen_selection_sha256": "f62b5307b9d30293386c2b2bea91defba08e0d70f7f6df2143beb8d86a8ca1eb",
+  "selected_recipe": "dense_multiscale",
+  "n_native_test": 32,
+  "n_known_test": 49,
+  "max_count_relative_error": 1.9702547433553264e-06,
+  "n_count_probes": 1430,
+  "old_classifier": "Unchanged existing two-scale OOF classifier, same as previousSRbenchmark",
+  "old_checkpoint": "results/sr_expanded/model_seed42.pt",
+  "all_9_new_models_evaluated": true,
+  "limitations": [
+    "Same previously exposed spatial test blocks, retrospective comparison",
+    "200bp preservation follows by construction",
+    "Three training seeds are not independent biological repeats",
+    "No test-based recipe replacement or new training"
+  ]
+}

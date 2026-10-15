@@ -18,6 +18,7 @@ def test_masked_structure_losses_ignore_forbidden_diagonal_and_backpropagate():
 def test_cross_repeat_infonce_correspondence_and_symmetry():
     identity=torch.eye(8,requires_grad=True);loss=paired_info_nce(identity,identity)
     assert loss<paired_info_nce(identity,identity.flip(0))
-    assert torch.allclose(loss,paired_info_nce(identity,identity))
+    first=torch.randn(8,5);second=torch.randn(8,5)
+    assert torch.allclose(paired_info_nce(first,second),paired_info_nce(second,first))
     loss.backward();assert torch.isfinite(identity.grad).all()
     with pytest.raises(ValueError):paired_info_nce(torch.ones(1,4),torch.ones(1,4))

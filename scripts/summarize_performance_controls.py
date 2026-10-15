@@ -1,6 +1,6 @@
 """Paired spatial uncertainty; compare frozen recipes without test-based reselection."""
 from pathlib import Path
-import json
+import json,sys
 import numpy as np
 import pandas as pd
 from dlpro.experiment_core import LABELS,save_json
@@ -22,6 +22,8 @@ for kind,data,keys,metrics in [('native',native,['sample_index','group','replica
  sparse=data[data.method.str.startswith('sparse_matched_seed')].groupby(keys)[metrics].mean();dense=data[data.method.str.startswith('dense_matched_seed')].groupby(keys)[metrics].mean();delta=(dense-sparse).reset_index()
  for metric in metrics:intervals.append(difference(delta,'group',metric,f'dense_matched_minus_sparse_matched_{kind}_{metric}'))
 save_json(out/'sr_intervals.json',intervals)
+if '--sr-only' in sys.argv:
+ print(json.dumps(intervals,indent=2),flush=True);raise SystemExit(0)
 known=pd.read_csv('data/processed/known_windows.csv');new=pd.read_csv('results/classification_repeat_ssl/out_of_fold_predictions.csv');old=pd.read_csv('results/classification_fine/out_of_fold_predictions.csv');old=old[old.recipe=='fine_consistent_ensemble'].copy();old['recipe']='fixed_fine_baseline';all_rows=pd.concat([new,old]);names=sorted(all_rows.recipe.unique());truth=known.type.map(dict(zip(LABELS,range(3)))).to_numpy();groups=known.group.unique();cm=np.zeros((len(names),len(groups),3,3),int)
 for m,name in enumerate(names):
  g=all_rows[all_rows.recipe==name].set_index('structure_id').loc[known.structure_id];assert len(g)==344;pred=g.predicted_type.map(dict(zip(LABELS,range(3)))).to_numpy()

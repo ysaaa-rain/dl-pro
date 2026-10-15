@@ -1,0 +1,40 @@
+{
+  "architecture": "Existing ContextCountSR, unchanged",
+  "recipes": [
+    "sparse_matched",
+    "dense_matched",
+    "dense_multiscale"
+  ],
+  "training_windows": "Keep original64; dense union adds nine fixed10kb-spaced starts per original training100kb block,352total",
+  "input_target_bp": [
+    40,
+    10
+  ],
+  "window_bp": 10240,
+  "train_repeat": 1,
+  "validation": "Original12 rep1 windows unchanged",
+  "test": "Original32 windows and49full known contexts unchanged; rep2never fitted",
+  "steps_per_recipe_seed": 960,
+  "batch_size": 4,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "optimizer": "Adam lr0.001; cosine decay to0.0001; genome reversal shared acrossbothaxes",
+  "check_every_steps": 80,
+  "scale_expectation": "Original64 training windows only; same frozen logcount scale acrossallrecipes",
+  "matched_loss": "Clipped native MSE +0.1offdiagonal100bp logOE MSE",
+  "multiscale_loss": "Clipped native MSE +0.1mean offdiagonal logOE MSE at50/100/160bp +0.05mean offdiagonal SSIM loss at50/100/160bp; exclude physical distance<200bp",
+  "selection": "Checkpoint and recipe by common validation objective: nativeMSE +0.1mean multiscale offdiagonal logOE MSE +0.05multiscale SSIMloss; recipe scores averaged overthree seeds; ties prefer dense_matched then sparse_matched then dense_multiscale",
+  "evaluation": "Evaluate all fixed arms once after selection; paired100kb block bootstrap vs count-projected bicubic; report all seeds; no test-based additional search",
+  "stop": "These three arms only; retain null results; no expansion based on test outcomes",
+  "device": "mps",
+  "scale": 2.5649493574615367,
+  "n_dense_train": 352,
+  "n_sparse_train": 64,
+  "gradient_norm_clip": 1,
+  "ssim_log_oe_dynamic_range": 4,
+  "expectation_fit": "Original64 training windows only",
+  "protocol_sha256": "227dcd913a8beb985944e240f2fdbe2abb5fdafc0b4bbbf57a69281f7c3fd564"
+}

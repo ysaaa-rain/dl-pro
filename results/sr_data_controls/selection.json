@@ -1,0 +1,16 @@
+{
+  "selected_recipe": "dense_multiscale",
+  "validation_objectives": {
+    "dense_matched": 0.015729462148414718,
+    "dense_multiscale": 0.015660472959280015,
+    "sparse_matched": 0.015729178653823003
+  },
+  "selection_only_validation": true,
+  "protocol_sha256": "227dcd913a8beb985944e240f2fdbe2abb5fdafc0b4bbbf57a69281f7c3fd564",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "test_evaluated": false
+}

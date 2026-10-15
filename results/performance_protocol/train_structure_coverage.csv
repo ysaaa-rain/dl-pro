@@ -1,0 +1,7 @@
+pool,type,windows_overlapping_type,distinct_annotations_intersected
+sparse64,CHID,8,8
+sparse64,CHIN,27,38
+sparse64,OPCID,13,14
+dense352,CHID,36,21
+dense352,CHIN,140,168
+dense352,OPCID,77,44

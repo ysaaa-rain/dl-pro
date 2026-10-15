@@ -1,7 +1,9 @@
 {
-  "primary_compute": "Existing user-configured elder host, RTX4090",
-  "local_partial": "CPU/MPS incomplete outputs retained separately; excluded from formal comparison",
-  "backend": "All new formal arms rerun on CUDA with same protocol; torch2.7.1cu126",
+  "primary_compute": "Local MPS; sequential SR then classification to avoid contention",
+  "remote_probe": "User-configured elderRTX4090 finite-gradient probe passed, but bulk input transfer repeatedly stalled; no CUDA formal training results",
+  "sr": "All formal SR models useMPS; original locally computed completed checkpoints resumed without changing protocol",
+  "classification": "All formal control/pretrained models useMPS; CPU incomplete outputs retained separately and excluded",
   "algorithm_changes": false,
+  "limitations": "Backend bitwise determinism not guaranteed; no hardware-mixture comparison",
   "report_generation": "Paused"
 }

@@ -1,0 +1,12 @@
+dense extraction 0 352
+dense extraction 32 352
+dense extraction 64 352
+dense extraction 96 352
+dense extraction 128 352
+dense extraction 160 352
+dense extraction 192 352
+dense extraction 224 352
+dense extraction 256 352
+dense extraction 288 352
+dense extraction 320 352
+Dense train352; original sparse64; validation/test untouched

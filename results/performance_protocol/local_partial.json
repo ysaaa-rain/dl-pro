@@ -1,5 +1,5 @@
 {
-  "status": "Interrupted local CPU/MPS runs; retained locally and not included in formal CUDA comparisons",
+  "status": "Interruption-time checkpoint snapshot; SR MPS checkpoints resumed into results/sr_data_controls; CPU classification partials retained separately and excluded from formal MPS comparisons",
   "checkpoints": {
     "sr_data_controls_local_partial": {
       "results/sr_data_controls_local_partial/dense_matched_seed44.pt": "4e1947c7a092e6686098aea7eb393c27858b008aa500e6ca4fd574a8aec6fee3",
@@ -21,5 +21,8 @@
       "results/classification_repeat_ssl_local_partial/pretrained_seed42_fold0.pt": "e1e1736bc1be929efdd2bcad80c54056f756342bcb0b0210896f5fbd1dcd8415",
       "results/classification_repeat_ssl_local_partial/pretrained_seed43_fold0.pt": "b1c3dbd46b334974bd891a831ffec75b13d03f61de8cd430632d8183939d3208"
     }
+  },
+  "sr_path_remap": {
+    "results/sr_data_controls_local_partial": "results/sr_data_controls"
   }
 }
