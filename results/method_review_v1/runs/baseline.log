@@ -1,0 +1,53 @@
+{
+  "original344_labels_and56_spatial_groups_unchanged": true,
+  "both_dense_scan_repeats_exactly_reproduce_original_grid": true,
+  "discovery_oof_unique_and_original_fold_assignments_match": true,
+  "sr64train12val_and8test_blocks_disjoint": true,
+  "all_sr_fixed_arms_complete_finite_and_budget_matched": true,
+  "four_independent_qc_candidates_but_zero_qualified_new_clusters": true,
+  "official_WT_and_NoLig_coolers_match_registered_SHA256": true,
+  "original_sr_array_exactly_matches_all_tracked_shards": true,
+  "train_and_validation_repeat2_targets_match_direct_Cooler_reads": true,
+  "conditional_checkpoints_are_validation_selected_and_count_consistent": true,
+  "canonical_known_plan_bytes_match_original_signature": true,
+  "pytest_passed": true
+}
+SR paired test 125000
+SR paired test 175000
+SR paired test 225000
+SR paired test 275000
+SR paired test 825000
+SR paired test 875000
+SR paired test 1325000
+SR paired test 1375000
+SR paired test 1425000
+SR paired test 1475000
+SR paired test 3325000
+SR paired test 3375000
+SR paired test 3625000
+SR paired test 3675000
+SR paired test 4425000
+SR paired test 4475000
+                                                 psnr  ...  oe_100bp_masked_ssim
+split                  method                          ...                      
+cross_repeat_native    conditional_rep1     21.148373  ...              0.348246
+                       conditional_rep2     21.147892  ...              0.348632
+                       cross_repeat_target  21.154971  ...              0.346165
+                       dense_multiscale     21.147598  ...              0.345603
+                       projected_bicubic    21.030263  ...              0.344058
+                       sparse_matched       21.154519  ...              0.347459
+cross_repeat_projected conditional_rep1     22.256878  ...              0.951544
+                       conditional_rep2     22.255973  ...              0.951317
+                       cross_repeat_target  22.264606  ...              0.952233
+                       dense_multiscale     22.255685  ...              0.952146
+                       projected_bicubic    22.102130  ...              0.950090
+                       sparse_matched       22.264793  ...              0.951714
+same_repeat            conditional_rep1     21.925956  ...              0.922225
+                       conditional_rep2     21.921188  ...              0.922045
+                       cross_repeat_target  21.927479  ...              0.922994
+                       dense_multiscale     21.925196  ...              0.923152
+                       projected_bicubic    21.775362  ...              0.920571
+                       sparse_matched       21.932521  ...              0.922320
+
+[18 rows x 3 columns]
+reproduced {(64, 1): 0.29651162790697677, (64, 2): 0.313953488372093, (128, 1): 0.5784883720930233, (128, 2): 0.5901162790697675} {'psnr': 0.0, 'ssim': 0.0, 'oe_100bp_masked_ssim': 0.0} {'psnr': 9.370293057031631e-07, 'ssim': 1.5843674150417542e-09}

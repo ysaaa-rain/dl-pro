@@ -77,9 +77,12 @@ def main():
     global OUT, METHODS
     parser = argparse.ArgumentParser()
     parser.add_argument("--conditional", action="store_true")
+    parser.add_argument("--output", type=Path)
     args = parser.parse_args()
     if args.conditional:
         OUT = Path("results/sr_conditional")
+    if args.output is not None:
+        OUT = args.output
     OUT.mkdir(parents=True, exist_ok=True)
     torch.set_num_threads(8)
     models = {}
@@ -90,7 +93,7 @@ def main():
         ("cross_repeat_target", "results/sr_repeat_target/model_seed42.pt"),
     ]
     if args.conditional:
-        locations.extend((name, OUT / f"{name}_seed42.pt")
+        locations.extend((name, Path("results/sr_conditional") / f"{name}_seed42.pt")
                          for name in ("conditional_rep1", "conditional_rep2"))
     METHODS = ("projected_bicubic", *[name for name, _ in locations])
     for name, path in locations:

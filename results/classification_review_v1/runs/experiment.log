@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "D:\大三上小学期\深度学习综合实践\dl-pro-open\scripts\experiment_classification_review.py", line 86, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "D:\大三上小学期\深度学习综合实践\dl-pro-open\scripts\experiment_classification_review.py", line 35, in main
+    transform=ShapeTransform.load(Path(cc['source'])/f'transform_fold{fold}.npz');refit=ShapeTransform().fit(raw[train_views]);np.testing.assert_allclose(transform.expected,refit.expected,rtol=1e-7);np.testing.assert_allclose(transform.scale,refit.scale,rtol=1e-7)
+                                                                                                                                                                                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\36046\anaconda3\Lib\site-packages\numpy\testing\_private\utils.py", line 1691, in assert_allclose
+    assert_array_compare(compare, actual, desired, err_msg=str(err_msg),
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                         verbose=verbose, header=header, equal_nan=equal_nan,
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                         strict=strict)
+                         ^^^^^^^^^^^^^^
+  File "D:\Users\36046\anaconda3\Lib\contextlib.py", line 85, in inner
+    return func(*args, **kwds)
+  File "D:\Users\36046\anaconda3\Lib\site-packages\numpy\testing\_private\utils.py", line 889, in assert_array_compare
+    raise AssertionError(msg)
+AssertionError: 
+Not equal to tolerance rtol=1e-07, atol=0
+
+Mismatched elements: 1 / 3 (33.3%)
+Max absolute difference among violations: 2.3841858e-07
+Max relative difference among violations: 1.0902359e-07
+ ACTUAL: array([2.186853, 2.082608, 2.001456], dtype=float32)
+ DESIRED: array([2.186853, 2.082608, 2.001456], dtype=float32)

@@ -1,0 +1,6 @@
+{
+  "max_expected_absolute_difference": 0.0,
+  "max_scale_absolute_difference": 2.384185791015625e-07,
+  "relative_tolerance": 1e-06,
+  "reason": "Float32 quantile reduction can differ at a few machine epsilon across NumPy/runtime versions; frozen transform is always used for CNN inference"
+}

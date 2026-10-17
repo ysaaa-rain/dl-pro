@@ -1,0 +1,168 @@
+{
+  "seed": 42,
+  "head": "balanced_shared CNN trained on outer training loci",
+  "rest_classifier": "Image PCA RBF SVM trained on same outer training loci",
+  "fold_choices": [
+    {
+      "fold": 0,
+      "threshold": 0.6,
+      "val_macro_f1": 0.6569539791507755,
+      "validation_grid": [
+        {
+          "threshold": 0.3,
+          "val_macro_f1": 0.621186117467582
+        },
+        {
+          "threshold": 0.4,
+          "val_macro_f1": 0.6368674985145574
+        },
+        {
+          "threshold": 0.5,
+          "val_macro_f1": 0.6341189674523008
+        },
+        {
+          "threshold": 0.6,
+          "val_macro_f1": 0.6569539791507755
+        },
+        {
+          "threshold": 0.7,
+          "val_macro_f1": 0.6316173316173316
+        },
+        {
+          "threshold": 0.8,
+          "val_macro_f1": 0.536693847294292
+        }
+      ]
+    },
+    {
+      "fold": 1,
+      "threshold": 0.6,
+      "val_macro_f1": 0.7768284347231714,
+      "validation_grid": [
+        {
+          "threshold": 0.3,
+          "val_macro_f1": 0.6999123930183974
+        },
+        {
+          "threshold": 0.4,
+          "val_macro_f1": 0.748382066276803
+        },
+        {
+          "threshold": 0.5,
+          "val_macro_f1": 0.7621259029927759
+        },
+        {
+          "threshold": 0.6,
+          "val_macro_f1": 0.7768284347231714
+        },
+        {
+          "threshold": 0.7,
+          "val_macro_f1": 0.7696356275303643
+        },
+        {
+          "threshold": 0.8,
+          "val_macro_f1": 0.6796448953709575
+        }
+      ]
+    },
+    {
+      "fold": 2,
+      "threshold": 0.5,
+      "val_macro_f1": 0.6634469031729306,
+      "validation_grid": [
+        {
+          "threshold": 0.3,
+          "val_macro_f1": 0.3781612519682509
+        },
+        {
+          "threshold": 0.4,
+          "val_macro_f1": 0.6303030303030304
+        },
+        {
+          "threshold": 0.5,
+          "val_macro_f1": 0.6634469031729306
+        },
+        {
+          "threshold": 0.6,
+          "val_macro_f1": 0.551768906199286
+        },
+        {
+          "threshold": 0.7,
+          "val_macro_f1": 0.551768906199286
+        },
+        {
+          "threshold": 0.8,
+          "val_macro_f1": 0.551768906199286
+        }
+      ]
+    },
+    {
+      "fold": 3,
+      "threshold": 0.6,
+      "val_macro_f1": 0.6172839506172839,
+      "validation_grid": [
+        {
+          "threshold": 0.3,
+          "val_macro_f1": 0.545
+        },
+        {
+          "threshold": 0.4,
+          "val_macro_f1": 0.5666542195668409
+        },
+        {
+          "threshold": 0.5,
+          "val_macro_f1": 0.6172839506172839
+        },
+        {
+          "threshold": 0.6,
+          "val_macro_f1": 0.6172839506172839
+        },
+        {
+          "threshold": 0.7,
+          "val_macro_f1": 0.5321907273126786
+        },
+        {
+          "threshold": 0.8,
+          "val_macro_f1": 0.5355691056910569
+        }
+      ]
+    },
+    {
+      "fold": 4,
+      "threshold": 0.8,
+      "val_macro_f1": 0.6604301896398116,
+      "validation_grid": [
+        {
+          "threshold": 0.3,
+          "val_macro_f1": 0.4976470588235294
+        },
+        {
+          "threshold": 0.4,
+          "val_macro_f1": 0.5305213155111735
+        },
+        {
+          "threshold": 0.5,
+          "val_macro_f1": 0.5808574141907475
+        },
+        {
+          "threshold": 0.6,
+          "val_macro_f1": 0.64076278659612
+        },
+        {
+          "threshold": 0.7,
+          "val_macro_f1": 0.64076278659612
+        },
+        {
+          "threshold": 0.8,
+          "val_macro_f1": 0.6604301896398116
+        }
+      ]
+    }
+  ],
+  "selection": "Only cyclic validation macroF1 selects CHID threshold0.3..0.8; ties prefer larger threshold",
+  "limitations": [
+    "Retrospective existing test positions; not an unbiased model-search final benchmark",
+    "Only26CHID examples; gate threshold can vary across folds",
+    "Kernel OVR scores are not probabilities; CHID gate not clinically or externally calibrated"
+  ]
+}

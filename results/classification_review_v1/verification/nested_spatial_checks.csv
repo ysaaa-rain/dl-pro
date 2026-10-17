@@ -1,0 +1,6 @@
+fold,full_contexts_disjoint,calibration_only_inner_validation,three_training_inner_folds_disjoint,chosen_C_matches_inner_scores,final_scaler_samples_match_training,all_outer_predictions_retained
+0,True,True,True,True,True,True
+1,True,True,True,True,True,True
+2,True,True,True,True,True,True
+3,True,True,True,True,True,True
+4,True,True,True,True,True,True

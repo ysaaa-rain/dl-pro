@@ -1,0 +1,10 @@
+stage,status,exit_code,seconds
+audit,completed,0,13.134623699996155
+blind,completed,0,167.81533480000508
+materials,completed,0,20.650108699992415
+metadata,completed,0,7.828588000003947
+novelty,completed,0,10.034849799994845
+report,completed,0,8.411007700007758
+superresolution,completed,0,145.46568869998737
+test,completed,0,1.3156319999980042
+test_final,completed,0,1.2480686999915633

@@ -1,0 +1,31 @@
+{
+  "config_sha256": "a7ecc74a3c135230b72f3509d1fbdb58cf68d317ea015884011ebab1ce6f48fe",
+  "source_sha256": {
+    "1": "0256e10da36abfe0238bf16952bc43bc78365f43c201e6e3ba0c49bd243549a8",
+    "2": "ede9b4f7c0c6b40c8f098e43cdd0abbc0a8987f05e8b37051a5e3cbf143ad106"
+  },
+  "library_sizes": {
+    "1": 368695972,
+    "2": 358452621
+  },
+  "cache_sha256": {
+    "raw_rep1.npy": "3fd39f091264ddd871897481c1c81992a12ce9094eaa52810339674965b38bbc",
+    "raw_rep2.npy": "58e6cb6006b470a35c463a119cbbf5b7aef886db10b4da68a65ab518b43dccfd"
+  },
+  "samples": 269,
+  "counts_by_split": {
+    "train": 231,
+    "historical_test": 16,
+    "new_test": 12,
+    "val": 10
+  },
+  "groups_by_split": {
+    "historical_test": 8,
+    "new_test": 6,
+    "train": 21,
+    "val": 5
+  },
+  "sparse_training_samples": 42,
+  "known_eligibility": "{('CHID', False): 8, ('CHID', True): 18, ('CHIN', False): 77, ('CHIN', True): 173, ('OPCID', False): 15, ('OPCID', True): 53}",
+  "test_status": "New reservation within historically exposed genome; no external validation"
+}

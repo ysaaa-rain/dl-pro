@@ -1,0 +1,9 @@
+stage,status,exit_code,seconds,started_utc,ended_utc,source_archive,archive_sha256
+audit,completed,0,41.172767099997145,2026-10-17T14:45:12.935148+00:00,2026-10-17T14:45:54.107951+00:00,results/classification_review_v1/runs/audit_source.zip,87c62bdc2f440a50e0010346345bf97d54cb97a3051dcbc7776d556e36404258
+evidence,completed,0,66.38033410000207,2026-10-17T14:53:40.604648+00:00,2026-10-17T14:54:46.985067+00:00,results/classification_review_v1/runs/evidence_source.zip,5c15d600b29bf87e30e132e3587a0898044d44f3e4a3a6ed00e4ae9f20b94af2
+experiment,failed,1,5.621609299996635,2026-10-17T14:49:17.208472+00:00,2026-10-17T14:49:22.830078+00:00,results/classification_review_v1/runs/experiment_source.zip,df8e2ab66b9978dcb11d4466dedd88eaec776e81d3e6d32e14f2e604a5466d30
+experiment_precision,completed,0,559.5964590999938,2026-10-17T14:49:44.389961+00:00,2026-10-17T14:59:03.986996+00:00,results/classification_review_v1/runs/experiment_precision_source.zip,02068545519d9e00337761cc44da25fed976381f89c3ccb92f3d35597ff42356
+explain,completed,0,63.60041609998734,2026-10-17T14:51:37.758161+00:00,2026-10-17T14:52:41.358653+00:00,results/classification_review_v1/runs/explain_source.zip,18fe6bec4c5f913949c11e043aa5af63cc0c693414de82fd3d630ba60dc4e370
+plot,completed,0,5.696420200009015,2026-10-17T15:02:02.683618+00:00,2026-10-17T15:02:08.380035+00:00,results/classification_review_v1/runs/plot_source.zip,b828b47d32d55b2d4fdac3accb624d6ee5b0a025c22c4e3be4d6d52b43c9f2db
+report,completed,0,7.1939119000016944,2026-10-17T15:00:20.252960+00:00,2026-10-17T15:00:27.446870+00:00,results/classification_review_v1/runs/report_source.zip,ec88c80598d64fa149b4a99e5ce3133c5e409047cbedbe0fd16f2908e6384496
+test,completed,0,5.454408299992792,2026-10-17T14:46:28.298240+00:00,2026-10-17T14:46:33.752644+00:00,results/classification_review_v1/runs/test_source.zip,c30eb611d66563aab7102757e893a61ab2f4ee427490e2c863bc2742748ea3f1

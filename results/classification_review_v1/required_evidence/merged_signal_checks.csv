@@ -1,0 +1,7 @@
+directory,condition,repeats,bins,mean_merged_correct
+multitrack,37C,2,46417,True
+multitrack,44C,2,46417,True
+multitrack,rif25,2,46417,True
+multitrack_mutants,37C,2,46417,True
+multitrack_mutants,HNS_mut,2,46417,True
+multitrack_mutants,FIS_mut,2,46417,True

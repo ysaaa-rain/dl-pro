@@ -1,0 +1,23 @@
+{
+  "utc": "2026-10-17T13:05:00.376868+00:00",
+  "checkpoints": {
+    "results/method_review_v1/sr_corrected/legacy_sparse_mse_seed42.pt": "66bb9968fbc994fd9dcf42f8362315b48efe11f1fa4d74aebdeb35356b3e7eb0",
+    "results/method_review_v1/sr_corrected/legacy_sparse_mse_seed43.pt": "11f10577860741305fd997b488bbbdc83bd850d220e31eb9670ec9e491b6f38a",
+    "results/method_review_v1/sr_corrected/context_sparse_shape_seed42.pt": "2b9b75cbbb80f6ca226f758e0f0ae260ded4e556b031419f9f718134b9811336",
+    "results/method_review_v1/sr_corrected/context_sparse_shape_seed43.pt": "57162e4083d832d4e50312f6afdc72c7e7727fe171361693c567e8493d660be7",
+    "results/method_review_v1/sr_corrected/context_expanded_shape_seed42.pt": "a9553d39068a7c14d7f0230e4aafe40d97c6cb476cdc436a1d1601f38c15c2fc",
+    "results/method_review_v1/sr_corrected/context_expanded_shape_seed43.pt": "4adb28fd61dd8355eec872328ad9897aaa5c85f1b1274a800e21e709fbf22bb9",
+    "results/method_review_v1/sr_corrected/allocation_expanded_cross_seed42.pt": "0f6d94fbc781a9b005338075c87faeb0d88c77d0305c39929c37b35ee7927780",
+    "results/method_review_v1/sr_corrected/allocation_expanded_cross_seed43.pt": "9c14465912cc10e2bacd8e744301aea955a6710258cd9502d5ccd79d70195ac7",
+    "results/method_review_v1/sr_corrected/allocation_expanded_mixed_seed42.pt": "7c2d855a34a809188c803c70abbae54c635a21ed0d734b79e9a119c427a8189e",
+    "results/method_review_v1/sr_corrected/allocation_expanded_mixed_seed43.pt": "a09318b8913f16fe411dee4315f62b2208c87c38c29740dd284a271b189bcebd",
+    "results/targeted_review_v1/shared_same/allocation_single_same_seed42.pt": "1ef015e6f8275f850af9783723e1f1742a264201992e69e962c81f4122ac5cbc",
+    "results/targeted_review_v1/shared_same/allocation_single_same_seed43.pt": "a77dcb4667aaee33a48dadf6a1a7ded331161eb9d5999ef4704ac21649b77d59",
+    "results/targeted_review_v1/shared_same/allocation_shared_same_seed42.pt": "a6beed31cce24a8c370d972859cac74c48549f41fb85763d1510ccc5d8c766a7",
+    "results/targeted_review_v1/shared_same/allocation_shared_same_seed43.pt": "c3ef1048dc710c01dcbf06ef3cd5a200dbc56c49bb77fb6a3a683205207265a6"
+  },
+  "parameter_sha256": "45b1eb08dfa7fcafe74af456bad9049c274cff86ee6f5d4821bd58ee85aa02f7",
+  "selection_sha256": "1ab925231723c8f7331055aa0b6bcb9ee7444ff1726f970df1db624ea16414fb",
+  "historical_rows_sha256": "352f483191d5fa8189574b2fb41b607a28771e5926b86476fd1bd0f0f9e735c5",
+  "scope": "All test positions previously exposed; no independent held-out generalization claim"
+}

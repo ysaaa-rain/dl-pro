@@ -1,0 +1,12 @@
+{
+  "completed_models": 4,
+  "normalization_sha256": "45b1eb08dfa7fcafe74af456bad9049c274cff86ee6f5d4821bd58ee85aa02f7",
+  "train_windows": 231,
+  "train_spatial_groups": 21,
+  "source_semantics": "mean16 native symmetric image counts",
+  "test_read_during_training": false,
+  "paired_validation_repeats": [
+    1,
+    2
+  ]
+}

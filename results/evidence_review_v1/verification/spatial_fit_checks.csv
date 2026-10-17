@@ -1,0 +1,16 @@
+hidden_type,fold,background_only_AE,reference_hidden_class_excluded,spatial_disjoint,checkpoint_training_indices_match
+CHID,0,True,True,True,True
+CHID,1,True,True,True,True
+CHID,2,True,True,True,True
+CHID,3,True,True,True,True
+CHID,4,True,True,True,True
+CHIN,0,True,True,True,True
+CHIN,1,True,True,True,True
+CHIN,2,True,True,True,True
+CHIN,3,True,True,True,True
+CHIN,4,True,True,True,True
+OPCID,0,True,True,True,True
+OPCID,1,True,True,True,True
+OPCID,2,True,True,True,True
+OPCID,3,True,True,True,True
+OPCID,4,True,True,True,True

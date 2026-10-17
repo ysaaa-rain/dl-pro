@@ -1,0 +1,22 @@
+{
+  "windows": 241,
+  "all_spatial_train_val_windows_included": true,
+  "per_block_cache": "data/processed/targeted_review_v1/block_repeat_diagnostics.npy",
+  "per_block_sha256": "e730789fedb301b9f01ee9b3cafa9fdd6a15e6acc14eecf8342ab23b16cea13d",
+  "per_block_shape": [
+    241,
+    32896,
+    4
+  ],
+  "per_block_fields": [
+    "source1_depth_normalized_image_mass",
+    "source2_depth_normalized_image_mass",
+    "unique_probability_mse",
+    "unique_probability_cosine"
+  ],
+  "coarse_unique_triangle_order": "numpy.triu_indices(256)",
+  "direct_raw_data_checks": 20,
+  "selection": "All distance/count cells, including empty and zero-only cells; pair mean count strata",
+  "caveat": "Empirical repeatability; not a theoretical recoverability bound. Biological variation and count noise are not separable with two repeats.",
+  "test_data_read": false
+}

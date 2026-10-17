@@ -1,0 +1,25 @@
+outer 0 inner 2 features and paired arms complete
+outer 0 inner 3 features and paired arms complete
+outer 0 inner 4 features and paired arms complete
+Outer fold 0 choices locked and evaluated
+outer 1 inner 0 features and paired arms complete
+outer 1 inner 3 features and paired arms complete
+outer 1 inner 4 features and paired arms complete
+Outer fold 1 choices locked and evaluated
+outer 2 inner 0 features and paired arms complete
+outer 2 inner 1 features and paired arms complete
+outer 2 inner 4 features and paired arms complete
+Outer fold 2 choices locked and evaluated
+outer 3 inner 0 features and paired arms complete
+outer 3 inner 1 features and paired arms complete
+outer 3 inner 2 features and paired arms complete
+Outer fold 3 choices locked and evaluated
+outer 4 inner 1 features and paired arms complete
+outer 4 inner 2 features and paired arms complete
+outer 4 inner 3 features and paired arms complete
+Outer fold 4 choices locked and evaluated
+               method  accuracy  macro_f1  n_loci  n_groups
+           frozen_cnn  0.747093  0.616123     344        56
+    geometric_control  0.796512  0.630946     344        56
+geometric_directional  0.808140  0.651934     344        56
+       symmetric_bias  0.776163  0.620395     344        56

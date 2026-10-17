@@ -1,0 +1,15 @@
+fitted CHID 0 background 57 reference 74 calibration 20
+fitted CHID 1 background 72 reference 82 calibration 10
+fitted CHID 2 background 66 reference 85 calibration 27
+fitted CHID 3 background 50 reference 93 calibration 27
+fitted CHID 4 background 52 reference 77 calibration 25
+fitted CHIN 0 background 39 reference 10 calibration 20
+fitted CHIN 1 background 51 reference 6 calibration 10
+fitted CHIN 2 background 42 reference 4 calibration 27
+fitted CHIN 3 background 30 reference 8 calibration 27
+fitted CHIN 4 background 30 reference 11 calibration 25
+fitted OPCID 0 background 39 reference 66 calibration 20
+fitted OPCID 1 background 57 reference 68 calibration 10
+fitted OPCID 2 background 52 reference 65 calibration 27
+fitted OPCID 3 background 38 reference 65 calibration 27
+fitted OPCID 4 background 39 reference 66 calibration 25

@@ -1,0 +1,73 @@
+{
+  "selected_method": "train_distance_prior",
+  "alternatives": [
+    {
+      "method": "allocation_expanded_cross",
+      "eligible": true,
+      "cross100": 0.40611408054828646
+    },
+    {
+      "method": "allocation_expanded_mixed",
+      "eligible": true,
+      "cross100": 0.4059795901179314
+    },
+    {
+      "method": "allocation_shared_same",
+      "eligible": true,
+      "cross100": 0.406124921143055
+    },
+    {
+      "method": "allocation_single_same",
+      "eligible": true,
+      "cross100": 0.4061109319329262
+    },
+    {
+      "method": "bicubic_unprojected",
+      "eligible": false,
+      "cross100": 0.40504204034805297
+    },
+    {
+      "method": "bilinear_unprojected",
+      "eligible": false,
+      "cross100": 0.41634770631790163
+    },
+    {
+      "method": "context_expanded_shape",
+      "eligible": true,
+      "cross100": 0.40168821811676025
+    },
+    {
+      "method": "context_sparse_shape",
+      "eligible": true,
+      "cross100": 0.40154705196619034
+    },
+    {
+      "method": "legacy_sparse_mse",
+      "eligible": true,
+      "cross100": 0.40185623317956926
+    },
+    {
+      "method": "projected_bicubic",
+      "eligible": false,
+      "cross100": 0.4006056755781174
+    },
+    {
+      "method": "projected_bilinear",
+      "eligible": false,
+      "cross100": 0.40222821831703187
+    },
+    {
+      "method": "train_distance_prior",
+      "eligible": true,
+      "cross100": 0.4061515241861343
+    },
+    {
+      "method": "uniform",
+      "eligible": false,
+      "cross100": 0.4059989094734192
+    }
+  ],
+  "rule": "Same as fifth round: constrained, same/cross native safety vs retrained legacy, then maximum cross100bp SSIM; mean seed metrics",
+  "completed_utc": "2026-10-17T13:05:00.375409+00:00",
+  "test_data_used": false
+}

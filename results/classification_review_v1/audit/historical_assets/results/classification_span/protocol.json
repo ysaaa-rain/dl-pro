@@ -1,0 +1,25 @@
+{
+  "epochs": 15,
+  "initialization": "Per-fold corresponding-seed fixed fine_consistent checkpoints; no extra samples",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "learning_rate": 0.0003,
+  "span_loss_weights": {
+    "matched_control": 0,
+    "span_auxiliary": 0.1
+  },
+  "span_target": "log1p(annotation length) standardized from training loci only; never supplied at inference",
+  "loss": "Balanced CE smoothing.05 +.2pairedJS +coefficient*normalized span MSE",
+  "selection": "Validation macroF1 then NLL chooses checkpoint, never held-out span or class metrics",
+  "primary": "span_auxiliary_ensemble",
+  "matched_control": "Identical architecture, initialization, optimization schedule and15epochs, auxiliary loss weight0",
+  "limitations": [
+    "Retrospective same-study grouped CV, repeatedly observed test positions",
+    "Only26CHID loci and nested label ambiguity",
+    "Auxiliary span predictions can reflect category priors rather than actual boundaries; within-class correlations retained",
+    "Source checkpoints already selected on same validation fold; not an independent confirmatory experiment"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "extends": "targeted_review_v1.json",
+  "version": "evidence_review_v1",
+  "output": "results/evidence_review_v1",
+  "sixth_output": "results/targeted_review_v1",
+  "teacher_pdf": "../基于深度学习的接触矩阵处理实践方案.pdf",
+  "evidence": {
+    "metadata_max_bytes": 2097152,
+    "network_timeout_seconds": 35,
+    "geo_series": ["GSE272159", "GSE272158", "GSE272161"],
+    "author_repository": "irzhegalova/ecoli_microc",
+    "review_context_bp": 25600,
+    "review_window_bp": 12800,
+    "review_image_bins": 128,
+    "review_image_bp": 100,
+    "review_shape_vmax": 4.0,
+    "support_edges": [0.0, 0.25, 0.5, 0.75, 1.000001],
+    "review_categories": ["known_form", "possible_boundary_change", "possible_nested_form", "adjacent_form", "background_variation", "distinct_repeatable_candidate", "insufficient_evidence"],
+    "stratified_methods": ["train_distance_prior", "allocation_expanded_cross", "allocation_expanded_mixed", "allocation_shared_same", "allocation_single_same", "context_expanded_shape", "legacy_sparse_mse", "bicubic_unprojected", "bilinear_unprojected", "projected_bicubic", "projected_bilinear", "uniform"],
+    "stratified_primary_seed": 42,
+    "nearby_context_buffer_bp": 200,
+    "new_training_authorized_by_evidence": false
+  }
+}

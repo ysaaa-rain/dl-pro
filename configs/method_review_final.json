@@ -1,0 +1,8 @@
+{
+  "extends": ["method_review_v1_corrected.json", "candidate_review_v1.json"],
+  "discovery": {
+    "result_subdir": "novelty_corrected",
+    "partition_policy": "full_blocks_only"
+  },
+  "diagnostics_subdir": "diagnostics_corrected"
+}

@@ -1,0 +1,13 @@
+{
+  "model": "Three-seed fine_consistent ensemble; per-locus OOF models",
+  "n_loci": 344,
+  "gradient": "Mean true-class logit gradient for rep1; magnitude normalized jointly across3views per example",
+  "example_choice": "First encountered held-out example of each type; no success filtering",
+  "occlusion": "Center32x32 versus four16x16corners, both zero and training-OE1 neutral fill; near diagonals re-masked; repeat probabilities averaged",
+  "limitations": [
+    "Sensitivity diagnostics, not causal proof or calibrated attention",
+    "Zero occlusion creates atypical holes; neutral counterpart retained",
+    "Fixed equal-pixel masks cover different physical lengths in the three views",
+    "True-class gradient is shown even if the model predicts a different class"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "historical_ae_reproduced": true,
+  "historical_ae_training_rerun": false,
+  "old_scan_covered_bp": 4641652,
+  "genome_bp": 4641652,
+  "unexposed_spatial_region_established": false,
+  "all_results_retrospective": true,
+  "previous_shared_training_already_implemented": true,
+  "previous_shared_training_source": "train_allocation_review.py: rng.integers(0,2) + make_batch",
+  "new_question": "Matched unique-count same-repeat NLL: repeat1-only versus a shared mapping trained from both biological repeats",
+  "same_aggregation": "Cooler coarse pixels are area-averaged native image counts; 40bp input equals avg_pool2d(native,4)",
+  "prior_source": {
+    "completed_models": 10,
+    "scale": 2.5909858316536427,
+    "config_sha256": "4af690132eee3021d370dd17412318f68e3ca9572f00b1edaefd36c04ccc5016",
+    "train_windows": 231,
+    "sparse_windows": 42,
+    "validation_windows": 10,
+    "test_read_during_training": false
+  },
+  "elapsed_seconds": 8.38947979999648
+}

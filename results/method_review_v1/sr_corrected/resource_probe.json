@@ -1,0 +1,32 @@
+[
+  {
+    "arm": "legacy_sparse_mse",
+    "seconds_per_step": 0.11180978333262222,
+    "estimated_training_seconds": 71.55826133287822,
+    "parameters": 1832
+  },
+  {
+    "arm": "context_sparse_shape",
+    "seconds_per_step": 0.8162220083334736,
+    "estimated_training_seconds": 522.3820853334231,
+    "parameters": 30320
+  },
+  {
+    "arm": "context_expanded_shape",
+    "seconds_per_step": 0.8125722999999804,
+    "estimated_training_seconds": 520.0462719999874,
+    "parameters": 30320
+  },
+  {
+    "arm": "allocation_expanded_cross",
+    "seconds_per_step": 0.8988574750001135,
+    "estimated_training_seconds": 575.2687840000726,
+    "parameters": 30320
+  },
+  {
+    "arm": "allocation_expanded_mixed",
+    "seconds_per_step": 1.0754535083336425,
+    "estimated_training_seconds": 688.2902453335312,
+    "parameters": 30320
+  }
+]

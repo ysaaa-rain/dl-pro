@@ -1,0 +1,34 @@
+{
+  "hidden_type": "OPCID",
+  "fold": 1,
+  "validation_auc": {
+    "ae": 0.580952380952381,
+    "morphology": 0.6690476190476191,
+    "joint": 0.7238095238095239
+  },
+  "validation_signal_spearman": 0.41818181818181815,
+  "joint_allowed": true,
+  "joint_fallback": "ae_residual",
+  "checkpoints": {
+    "seed42": "faa41730e50f59d2c39f5d1ff7fb70b9b5f71ad653a879bb7a8cb4b2df4a4cc0",
+    "seed43": "bad4e776546bdc94811274c7955411a4d215726739b405ff3064e3358498ed35"
+  },
+  "scale": 1.663251388349674,
+  "seed_diagnostics": [
+    {
+      "seed": 42,
+      "selected_epoch": 30,
+      "train_selected": 0.04641356598585844,
+      "validation_selected": 0.0441557839512825,
+      "elapsed_seconds": 4.675835200003348
+    },
+    {
+      "seed": 43,
+      "selected_epoch": 30,
+      "train_selected": 0.04741596803069115,
+      "validation_selected": 0.045178141444921494,
+      "elapsed_seconds": 4.672784099995624
+    }
+  ],
+  "test_labels_used": false
+}

@@ -1,0 +1,11 @@
+{
+  "protected_existing_artifacts_unchanged": true,
+  "source_archives_match": true,
+  "incumbent_morphology_scores_reproduced": true,
+  "incumbent_max_abs_difference": 0.0,
+  "known_once_per_hidden_method_repeat": true,
+  "new_constraints_pass": true,
+  "full_candidate_condition_coverage": true,
+  "all_train_val_windows_in_noise_diagnostics": true,
+  "all_evaluations_exploratory": true
+}

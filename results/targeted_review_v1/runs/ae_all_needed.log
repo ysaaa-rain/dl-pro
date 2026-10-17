@@ -1,0 +1,15 @@
+AE complete CHID 0 background 57 val {'ae': 0.753, 'morphology': 0.833, 'joint': 0.846} fusion False
+AE complete CHID 1 background 72 val {'ae': 0.4883333333333333, 'morphology': 0.6316666666666666, 'joint': 0.565} fusion False
+AE complete CHID 2 background 66 val {'ae': 0.4545454545454546, 'morphology': 0.7003367003367003, 'joint': 0.6161616161616161} fusion False
+AE complete CHID 3 background 50 val {'ae': 0.3451178451178451, 'morphology': 0.6186868686868686, 'joint': 0.3602693602693603} fusion False
+AE complete CHID 4 background 52 val {'ae': 0.65, 'morphology': 0.6494736842105262, 'joint': 0.6652631578947368} fusion False
+AE complete CHIN 0 background 39 val {'ae': 0.925, 'morphology': 0.9500000000000001, 'joint': 0.9500000000000001} fusion False
+AE complete CHIN 1 background 51 val {'ae': 0.75, 'morphology': 0.87, 'joint': 0.7400000000000001} fusion False
+AE complete CHIN 2 background 42 val {'ae': 0.763888888888889, 'morphology': 0.8796296296296298, 'joint': 0.7870370370370371} fusion False
+AE complete CHIN 3 background 30 val {'ae': 0.6666666666666667, 'morphology': 0.8333333333333334, 'joint': 0.7037037037037037} fusion False
+AE complete CHIN 4 background 30 val {'ae': 0.12, 'morphology': 0.86, 'joint': 0.19999999999999996} fusion False
+AE complete OPCID 0 background 39 val {'ae': 0.6749999999999999, 'morphology': 0.7845238095238095, 'joint': 0.8202380952380952} fusion True
+AE complete OPCID 1 background 57 val {'ae': 0.580952380952381, 'morphology': 0.6690476190476191, 'joint': 0.7238095238095239} fusion True
+AE complete OPCID 2 background 52 val {'ae': 0.38657407407407407, 'morphology': 0.8240740740740742, 'joint': 0.6774691358024691} fusion False
+AE complete OPCID 3 background 38 val {'ae': 0.6225749559082893, 'morphology': 0.828042328042328, 'joint': 0.6199294532627867} fusion False
+AE complete OPCID 4 background 39 val {'ae': 0.5260869565217391, 'morphology': 0.7730434782608696, 'joint': 0.6660869565217391} fusion False

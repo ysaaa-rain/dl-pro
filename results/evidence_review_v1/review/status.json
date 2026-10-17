@@ -1,0 +1,10 @@
+{
+  "report_generated": true,
+  "new_models_trained": 0,
+  "formal_choices_changed": false,
+  "confirmed_new_clusters": 0,
+  "independent_human_review_completed": false,
+  "paired_auc_rows": 36,
+  "all_fold_rows": 240,
+  "no_claim_of_material_sr_breakthrough": true
+}

@@ -1,0 +1,16 @@
+{
+  "completed_outer_folds": 5,
+  "all_cases_retained": 344,
+  "baseline_predictions_reproduced": true,
+  "maximum_contexts_disjoint": true,
+  "model_families": [
+    "symmetric_log_probability_bias",
+    "directional_shape_representation"
+  ],
+  "feature_control_not_extra_search": true,
+  "C_selected_by_training_only_three_inner_spatial_folds": true,
+  "probability_bias_selected_by_cyclic_inner_validation_only": true,
+  "frozen_CNN_not_retrained": true,
+  "independent_external_test": false,
+  "formal_choices_modified": false
+}

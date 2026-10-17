@@ -1,0 +1,15 @@
+{
+  "tests/test_allocation_model.py": "0b8e69ded8254a3f4f7f1583d517cff9d19a8f50d481942bb9f71cf718a742df",
+  "tests/test_annotation_tool.py": "08008bc5e1881622ce461388d0cdeddc3daf3c04781a7c4a48ca83fdc8b01cd0",
+  "tests/test_candidate_audit.py": "6b54f57975ff10e7c612f9a78969915c6a41dbf4a9fcc80cb17a408d2bff0709",
+  "tests/test_classification_models.py": "e89c92a010016f7ff661cef1ae2da8ad99e48b0de768019ce5ab487e2c84a86a",
+  "tests/test_count_allocation.py": "bee11c9d8a304788c55016b13df815e50faa2577dd56773dd17a175e8958961a",
+  "tests/test_data.py": "104e2cbbc2e3219a9e89af8dd53ceb83ed7b84ff3d885cf14a0c3bb4c4fda9ae",
+  "tests/test_experiment_core.py": "1ca3f859bddf09f5a6e9c853046ceb427f39b46b3e639e25e6bd4a5cf0730d64",
+  "tests/test_method_review.py": "fc215f5936d52ffe6f88dc7d41ce86494c4fa8195f21cf60cf164a392afe3cf8",
+  "tests/test_novelty.py": "665fff9ac388c22a3ad93fb7ab73c5b2ef761c1f56476838555d3609bfed96d5",
+  "tests/test_performance_controls.py": "49e380f0c58b84491f442aa09f5bb7b64854f75d1a132684b24cc8c09cf3cee4",
+  "tests/test_refinement.py": "e504188019bcc4421f11ae22255e87a09490d39ef3e7147ad889e507d29f3f63",
+  "tests/test_ridge_features.py": "f16b87c47210e87f53f4c61f80da254caed958c39f2e940670af4da8affec227",
+  "tests/test_superresolution.py": "f2939b73f120c438ae978e97106e28b1b669a9eefadef6ca777cc8d2914fd035"
+}

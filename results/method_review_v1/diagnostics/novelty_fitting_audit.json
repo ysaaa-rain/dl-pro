@@ -1,0 +1,92 @@
+[
+  {
+    "hidden_type": "CHID",
+    "fold": 0,
+    "hidden_context_overlap": false,
+    "held_fold_used_in_fit": false
+  },
+  {
+    "hidden_type": "CHID",
+    "fold": 1,
+    "hidden_context_overlap": false,
+    "held_fold_used_in_fit": false
+  },
+  {
+    "hidden_type": "CHID",
+    "fold": 2,
+    "hidden_context_overlap": false,
+    "held_fold_used_in_fit": false
+  },
+  {
+    "hidden_type": "CHID",
+    "fold": 3,
+    "hidden_context_overlap": false,
+    "held_fold_used_in_fit": false
+  },
+  {
+    "hidden_type": "CHID",
+    "fold": 4,
+    "hidden_context_overlap": false,
+    "held_fold_used_in_fit": false
+  },
+  {
+    "hidden_type": "CHIN",
+    "fold": 0,
+    "hidden_context_overlap": false,
+    "held_fold_used_in_fit": false
+  },
+  {
+    "hidden_type": "CHIN",
+    "fold": 1,
+    "hidden_context_overlap": false,
+    "held_fold_used_in_fit": false
+  },
+  {
+    "hidden_type": "CHIN",
+    "fold": 2,
+    "hidden_context_overlap": false,
+    "held_fold_used_in_fit": false
+  },
+  {
+    "hidden_type": "CHIN",
+    "fold": 3,
+    "hidden_context_overlap": false,
+    "held_fold_used_in_fit": false
+  },
+  {
+    "hidden_type": "CHIN",
+    "fold": 4,
+    "hidden_context_overlap": false,
+    "held_fold_used_in_fit": false
+  },
+  {
+    "hidden_type": "OPCID",
+    "fold": 0,
+    "hidden_context_overlap": false,
+    "held_fold_used_in_fit": false
+  },
+  {
+    "hidden_type": "OPCID",
+    "fold": 1,
+    "hidden_context_overlap": false,
+    "held_fold_used_in_fit": false
+  },
+  {
+    "hidden_type": "OPCID",
+    "fold": 2,
+    "hidden_context_overlap": false,
+    "held_fold_used_in_fit": false
+  },
+  {
+    "hidden_type": "OPCID",
+    "fold": 3,
+    "hidden_context_overlap": false,
+    "held_fold_used_in_fit": false
+  },
+  {
+    "hidden_type": "OPCID",
+    "fold": 4,
+    "hidden_context_overlap": false,
+    "held_fold_used_in_fit": false
+  }
+]

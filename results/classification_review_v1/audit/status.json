@@ -1,0 +1,19 @@
+{
+  "original_teacher_read": true,
+  "seventh_manifest_verified": 658,
+  "protected_files": 1623,
+  "n_loci": 344,
+  "n_groups": 56,
+  "baseline_metrics": {
+    "accuracy": 0.747093023255814,
+    "macro_f1": 0.6161229745851928
+  },
+  "historical_methods": 26,
+  "actual_primary_checkpoint_files": 15,
+  "actual_primary_transform_files": 5,
+  "not_fifteen_weight_hyperparameter_recipes": true,
+  "exact_cross_label_input_pairs": 0,
+  "outer_context_overlap_pass": true,
+  "independent_final_test": false,
+  "new_experiments_started": false
+}

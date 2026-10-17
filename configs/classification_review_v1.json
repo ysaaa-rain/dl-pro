@@ -1,0 +1,36 @@
+{
+  "version": "classification_review_v1",
+  "output": "results/classification_review_v1",
+  "previous_output": "results/evidence_review_v1",
+  "seed": 42,
+  "threads": 4,
+  "bootstrap_draws": 2000,
+  "teacher_pdf": "../基于深度学习的接触矩阵处理实践方案.pdf",
+  "source_revision": "f44d34892b2786f9804f1d40a5f24b7d9f21b89a",
+  "timeout_seconds": 35,
+  "maximum_small_asset_bytes": 5242880,
+  "classifier": {
+    "baseline": "fine_consistent_ensemble",
+    "source": "results/classification_fine",
+    "seeds": [42, 43, 44],
+    "physical_bins_bp": [50, 100, 200],
+    "support_fraction": 0.8,
+    "outer_folds": 5,
+    "validation": "next cyclic outer fold; source CNN trained on remaining three folds",
+    "methods_frozen_after_audit": true,
+    "method_families": ["symmetric_log_probability_bias", "directional_shape_representation"],
+    "bias_grid": [-0.6931471805599453, 0.0, 0.6931471805599453],
+    "logistic_C": [0.1, 1.0, 10.0],
+    "logistic_max_iter": 2000,
+    "inner_folds": "three existing training folds; one at a time held out; excludes cyclic validation and outer test",
+    "retention": "MacroF1 paired lower95 bound>0; no point decrease in any class F1; at least3of5 folds improved; no formal switch in this round"
+  },
+  "occlusion": {
+    "fills": ["zero", "training_neutral", "training_distance_median"],
+    "max_annotation_width_fraction": 0.5,
+    "region_definition": "intersection of the annotated interval with each view on both axes, excluding distance<2; proxy, not an annotated contact-pixel segmentation",
+    "control_definition": "same row/column diagonal-distance histogram, outside annotated square, supported in both repeats; infeasible cells retained"
+  },
+  "formal_choices_may_change": false,
+  "remote_push_authorized": false
+}

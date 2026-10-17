@@ -1,0 +1,27 @@
+{
+  "extends": "method_review_final.json",
+  "version": "targeted_review_v1",
+  "output": "results/targeted_review_v1",
+  "previous_output": "results/method_review_v1",
+  "discovery": {"result_subdir": "background_ae"},
+  "ae": {
+    "epochs": 30, "batch_size": 16, "learning_rate": 0.001,
+    "seeds": [42, 43], "channel": 0, "quantile": 0.995,
+    "calibration_ridge": 10.0, "joint_weight": 0.5,
+    "joint_min_validation_auc_gain": 0.02,
+    "joint_max_validation_spearman": 0.9,
+    "random_trials": 500
+  },
+  "sr": {
+    "result_subdir": "shared_same",
+    "arms": ["allocation_single_same", "allocation_shared_same"],
+    "primary_arm": "allocation_shared_same",
+    "primary_comparator": "allocation_single_same"
+  },
+  "diagnostic": {
+    "count_edges": [0, 1, 4, 16, 64, 256, 1000000000],
+    "distance_edges_bp": [0, 200, 1000, 100000],
+    "condition_names": ["HNS_mut", "FIS_mut", "44C", "rif25", "NoLig"],
+    "condition_bins": 128, "condition_bp": 100
+  }
+}

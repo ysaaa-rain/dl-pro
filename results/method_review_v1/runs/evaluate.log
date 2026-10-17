@@ -1,0 +1,67 @@
+validation selection metrics 425000
+validation selection metrics 475000
+validation selection metrics 2825000
+validation selection metrics 2875000
+validation selection metrics 3425000
+validation selection metrics 3475000
+validation selection metrics 3725000
+validation selection metrics 3775000
+validation selection metrics 4125000
+validation selection metrics 4175000
+validation-selected method train_distance_prior
+evaluated historical_test 125000 source 1
+evaluated historical_test 125000 source 2
+evaluated historical_test 175000 source 1
+evaluated historical_test 175000 source 2
+evaluated historical_test 225000 source 1
+evaluated historical_test 225000 source 2
+evaluated historical_test 275000 source 1
+evaluated historical_test 275000 source 2
+evaluated new_test 625000 source 1
+evaluated new_test 625000 source 2
+evaluated new_test 675000 source 1
+evaluated new_test 675000 source 2
+evaluated historical_test 825000 source 1
+evaluated historical_test 825000 source 2
+evaluated historical_test 875000 source 1
+evaluated historical_test 875000 source 2
+evaluated new_test 925000 source 1
+evaluated new_test 925000 source 2
+evaluated new_test 975000 source 1
+evaluated new_test 975000 source 2
+evaluated historical_test 1325000 source 1
+evaluated historical_test 1325000 source 2
+evaluated historical_test 1375000 source 1
+evaluated historical_test 1375000 source 2
+evaluated historical_test 1425000 source 1
+evaluated historical_test 1425000 source 2
+evaluated historical_test 1475000 source 1
+evaluated historical_test 1475000 source 2
+evaluated new_test 1725000 source 1
+evaluated new_test 1725000 source 2
+evaluated new_test 1775000 source 1
+evaluated new_test 1775000 source 2
+evaluated new_test 2625000 source 1
+evaluated new_test 2625000 source 2
+evaluated new_test 2675000 source 1
+evaluated new_test 2675000 source 2
+evaluated new_test 2725000 source 1
+evaluated new_test 2725000 source 2
+evaluated new_test 2775000 source 1
+evaluated new_test 2775000 source 2
+evaluated historical_test 3325000 source 1
+evaluated historical_test 3325000 source 2
+evaluated historical_test 3375000 source 1
+evaluated historical_test 3375000 source 2
+evaluated historical_test 3625000 source 1
+evaluated historical_test 3625000 source 2
+evaluated historical_test 3675000 source 1
+evaluated historical_test 3675000 source 2
+evaluated historical_test 4425000 source 1
+evaluated historical_test 4425000 source 2
+evaluated historical_test 4475000 source 1
+evaluated historical_test 4475000 source 2
+evaluated new_test 4525000 source 1
+evaluated new_test 4525000 source 2
+evaluated new_test 4575000 source 1
+evaluated new_test 4575000 source 2

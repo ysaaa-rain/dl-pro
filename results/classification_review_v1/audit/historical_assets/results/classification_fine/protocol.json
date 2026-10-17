@@ -1,0 +1,31 @@
+{
+  "epochs": 35,
+  "primary": "fine_consistent_ensemble",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "ablation": "fine_multiscale_seed42 coefficient0 vs fine_consistent_seed42 coefficient0.2",
+  "scales_bp": [
+    50,
+    100,
+    200
+  ],
+  "widths_bp": [
+    6400,
+    12800,
+    25600
+  ],
+  "split": "Existing maximum25.6kb overlap groups and outer folds unchanged;50bp view lies entirely within original extent",
+  "sampling": "Five training locations per class per batch; both repeats with shared genome reversal",
+  "normalization": "Three-channel transform fit only on outer training locations",
+  "loss": "Balanced CE smoothing0.05 + coefficient*paired Jensen-Shannon divergence",
+  "selection": "Epoch chosen on cyclic validation macroF1 then NLL; no test selection; fixed three-seed average",
+  "limitations": [
+    "Retrospective existing test locations, not independent external validation",
+    "Only26CHID labels and overlapping/nested structures",
+    "Both repeats are fitted at training locations; test is spatially held out",
+    "No annotated boundaries or lengths as model inputs"
+  ]
+}

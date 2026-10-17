@@ -1,0 +1,13 @@
+{
+  "fits": 15,
+  "models": 30,
+  "fusion_allowed_fits": 2,
+  "background_channel_bp": 100,
+  "same_partition_as_fifth_round": true,
+  "retrospective": true,
+  "repeat2_not_used_for_fitting": true,
+  "score": "Mean of two fixed-seed residual ECDF ranks; joint falls back when validation complementarity gate fails",
+  "reference_diagnostic": "Latent reference novelty is separate diagnostic, never candidate selection",
+  "all_known_available": 243,
+  "scan_available": 540
+}

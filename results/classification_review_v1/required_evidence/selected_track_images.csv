@@ -1,0 +1,15 @@
+directory,start,end,reason,local_path,genes,structures,width,height,image_not_blank
+multitrack,0,10000,first,results/classification_review_v1/required_evidence/committed_assets/results/multitrack/tracks/0000000_0010000.png,10,0,1200,530,True
+multitrack,190000,200000,most_OPCID,results/classification_review_v1/required_evidence/committed_assets/results/multitrack/tracks/0190000_0200000.png,9,3,1200,530,True
+multitrack,570000,580000,most_CHID,results/classification_review_v1/required_evidence/committed_assets/results/multitrack/tracks/0570000_0580000.png,20,5,1200,542,True
+multitrack,1640000,1650000,most_genes,results/classification_review_v1/required_evidence/committed_assets/results/multitrack/tracks/1640000_1650000.png,23,1,1200,530,True
+multitrack,2320000,2330000,"middle,background_middle",results/classification_review_v1/required_evidence/committed_assets/results/multitrack/tracks/2320000_2330000.png,9,0,1200,530,True
+multitrack,3790000,3800000,most_CHIN,results/classification_review_v1/required_evidence/committed_assets/results/multitrack/tracks/3790000_3800000.png,10,11,1200,710,True
+multitrack,4640000,4641652,last_short_bin,results/classification_review_v1/required_evidence/committed_assets/results/multitrack/tracks/4640000_4641652.png,3,0,1200,530,True
+multitrack_mutants,0,10000,first,results/classification_review_v1/required_evidence/committed_assets/results/multitrack_mutants/tracks/0000000_0010000.png,10,0,1200,530,True
+multitrack_mutants,190000,200000,most_OPCID,results/classification_review_v1/required_evidence/committed_assets/results/multitrack_mutants/tracks/0190000_0200000.png,9,3,1200,530,True
+multitrack_mutants,570000,580000,most_CHID,results/classification_review_v1/required_evidence/committed_assets/results/multitrack_mutants/tracks/0570000_0580000.png,20,5,1200,542,True
+multitrack_mutants,1640000,1650000,most_genes,results/classification_review_v1/required_evidence/committed_assets/results/multitrack_mutants/tracks/1640000_1650000.png,23,1,1200,530,True
+multitrack_mutants,2320000,2330000,"middle,background_middle",results/classification_review_v1/required_evidence/committed_assets/results/multitrack_mutants/tracks/2320000_2330000.png,9,0,1200,530,True
+multitrack_mutants,3790000,3800000,most_CHIN,results/classification_review_v1/required_evidence/committed_assets/results/multitrack_mutants/tracks/3790000_3800000.png,10,11,1200,710,True
+multitrack_mutants,4640000,4641652,last_short_bin,results/classification_review_v1/required_evidence/committed_assets/results/multitrack_mutants/tracks/4640000_4641652.png,3,0,1200,530,True

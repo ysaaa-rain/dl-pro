@@ -1,0 +1,14 @@
+{
+  "original344_labels_and56_spatial_groups_unchanged": true,
+  "both_dense_scan_repeats_exactly_reproduce_original_grid": true,
+  "discovery_oof_unique_and_original_fold_assignments_match": true,
+  "sr64train12val_and8test_blocks_disjoint": true,
+  "all_sr_fixed_arms_complete_finite_and_budget_matched": true,
+  "candidate_qc_context_independence_and_cluster_rules_consistent": true,
+  "official_WT_and_NoLig_coolers_match_registered_SHA256": true,
+  "original_sr_array_exactly_matches_all_tracked_shards": true,
+  "train_and_validation_repeat2_targets_match_direct_Cooler_reads": true,
+  "conditional_checkpoints_are_validation_selected_and_count_consistent": true,
+  "canonical_known_plan_bytes_match_original_signature": true,
+  "pytest_passed": true
+}

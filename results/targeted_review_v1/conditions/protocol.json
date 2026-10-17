@@ -1,0 +1,106 @@
+{
+  "unique_selected_centers": 243,
+  "ranked_records": 2682,
+  "all_selected_centers_measured": true,
+  "wt_heatmaps": 243,
+  "sources": [
+    {
+      "sample_id": "GSE272159_37C_rep1",
+      "condition": "37C",
+      "replicate": 1,
+      "source_sha256": "0256e10da36abfe0238bf16952bc43bc78365f43c201e6e3ba0c49bd243549a8",
+      "cache": "data/processed/targeted_review_v1/candidate_GSE272159_37C_rep1.npy",
+      "cache_sha256": "4d6932659f3131de120fcd3059b7925034114bb3df379bf1de658558381f3364"
+    },
+    {
+      "sample_id": "GSE272159_37C_rep2",
+      "condition": "37C",
+      "replicate": 2,
+      "source_sha256": "ede9b4f7c0c6b40c8f098e43cdd0abbc0a8987f05e8b37051a5e3cbf143ad106",
+      "cache": "data/processed/targeted_review_v1/candidate_GSE272159_37C_rep2.npy",
+      "cache_sha256": "aa43ad43c1c79cb3403d31af880c5693ae65fb4a0b6e5f9fe947917d871e7561"
+    },
+    {
+      "sample_id": "GSE272159_44C_rep1",
+      "condition": "44C",
+      "replicate": 1,
+      "source_sha256": "ee5c0d2c47bc04d3205e489bebc387930e42bbb7769227ad4caca28042ad9574",
+      "cache": "data/processed/targeted_review_v1/candidate_GSE272159_44C_rep1.npy",
+      "cache_sha256": "27956200e41e3c7a02b81b90693c5ad370f2c578d666d91fe75d815687bd7e6a"
+    },
+    {
+      "sample_id": "GSE272159_44C_rep2",
+      "condition": "44C",
+      "replicate": 2,
+      "source_sha256": "003e3e1e899cab965c3ce924bd2ff0c540f0052c24a96d26b9fce31fb378a2b1",
+      "cache": "data/processed/targeted_review_v1/candidate_GSE272159_44C_rep2.npy",
+      "cache_sha256": "d72b94f3c9b4b04e285d0994fddd778f5f3aa3721d6477182862508892a54614"
+    },
+    {
+      "sample_id": "GSM9078280_FIS_mut_rep1",
+      "condition": "FIS_mut",
+      "replicate": 1,
+      "source_sha256": "7f4b5bfbbb1e18aae63d2cb5444115030d646c714e40a34143c24b5d3f1892ed",
+      "cache": "data/processed/targeted_review_v1/candidate_GSM9078280_FIS_mut_rep1.npy",
+      "cache_sha256": "d35863d3543966593514a55d1c732f1357a94578e9db4901a5e2dbf785214fd4"
+    },
+    {
+      "sample_id": "GSM9078281_FIS_mut_rep2",
+      "condition": "FIS_mut",
+      "replicate": 2,
+      "source_sha256": "af6680949302c200e5e5c9609d7ab2fd2820aec5d0b1d364f791a354ea6ebd68",
+      "cache": "data/processed/targeted_review_v1/candidate_GSM9078281_FIS_mut_rep2.npy",
+      "cache_sha256": "95f6739154db0b873435a7be570c4ea7753b79a60e7e846559564b682609c0ee"
+    },
+    {
+      "sample_id": "GSM9678478_HNS_mut_rep1",
+      "condition": "HNS_mut",
+      "replicate": 1,
+      "source_sha256": "8f9ac631df2228edd75ac8d984e8e88a106c2bbd81cd43deebc1b8367cce6d9a",
+      "cache": "data/processed/targeted_review_v1/candidate_GSM9678478_HNS_mut_rep1.npy",
+      "cache_sha256": "7cf09c176d64eb086fb83bc4f9f7a608e4bd1bb5b00d8194aa89e985f2e7ee8f"
+    },
+    {
+      "sample_id": "GSM9678479_HNS_mut_rep2",
+      "condition": "HNS_mut",
+      "replicate": 2,
+      "source_sha256": "224b27e6f3cef71c0c3d20058674567f406c7fa9de9c451bca113c26277a5515",
+      "cache": "data/processed/targeted_review_v1/candidate_GSM9678479_HNS_mut_rep2.npy",
+      "cache_sha256": "a884e705f4451c6b536b33cc641b9a0bd559be00b72471729cbf8e8c88988dbe"
+    },
+    {
+      "sample_id": "GSM8950765_NoLig_rep1",
+      "condition": "NoLig",
+      "replicate": 1,
+      "source_sha256": "cae3f100a27c08e0fd99be3af8dbe60e673aca3979bef6f214d5467236592a93",
+      "cache": "data/processed/targeted_review_v1/candidate_GSM8950765_NoLig_rep1.npy",
+      "cache_sha256": "6ef298cdbb48045b5a8d81097e934bd8c7c5ce531cb64b9edc7b0c970e5f6435"
+    },
+    {
+      "sample_id": "GSE272159_rif25_rep1",
+      "condition": "rif25",
+      "replicate": 1,
+      "source_sha256": "9ba9499ac126366b2a263fa1e6f3d6254c5a183c7d40ceadd11bc8e9d4f72312",
+      "cache": "data/processed/targeted_review_v1/candidate_GSE272159_rif25_rep1.npy",
+      "cache_sha256": "a1a2e05b0a67014489902b9684088e3de38499b1c7427ef67c744507b16255c5"
+    },
+    {
+      "sample_id": "GSE272159_rif25_rep2",
+      "condition": "rif25",
+      "replicate": 2,
+      "source_sha256": "5e0923a17fde9f929b5d8dff1fb63277f82f13f6b3ce18522916668f7e5a1e91",
+      "cache": "data/processed/targeted_review_v1/candidate_GSE272159_rif25_rep2.npy",
+      "cache_sha256": "ea153a2c0bf78ab8a899e6b3a4c84b58b0d1e4d81620f05d42893cfc3b39eb87"
+    }
+  ],
+  "unavailable_sources": [],
+  "common_display_range": [
+    0,
+    4
+  ],
+  "reference": "Lexicographically first hidden-type recipe for each OOF center; same reference for every condition at this center",
+  "intensity": "Depth-normalized counts per million; reported separately from amplitude-normalized log shape",
+  "mask": "WT common native80percent support; condition nonzero coarse rows; effective fraction reported per sample",
+  "NoLig": "Single sample, descriptive only; no significance or causal claim",
+  "selection": "Frozen ranked list; no condition data used in scoring or filtering"
+}

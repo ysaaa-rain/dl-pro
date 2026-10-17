@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "D:\大三上小学期\深度学习综合实践\dl-pro-open\scripts\audit_targeted_review.py", line 66, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "D:\大三上小学期\深度学习综合实践\dl-pro-open\scripts\audit_targeted_review.py", line 28, in main
+    assert json.loads((out/'protected_existing_files.json').read_text(encoding='utf-8'))==protected
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

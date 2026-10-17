@@ -16,6 +16,8 @@ from torch.nn import functional as F
 
 from dlpro.experiment_core import ContactReader, LENGTH
 from dlpro.refinement import ContextCountSR
+from dlpro.coverage_support import MINIMUM_COMMON_TRIANGLE_FRACTION, validate_candidate_table
+from dlpro.method_review import load_config
 
 
 OUT = Path("results/iteration_review")
@@ -36,9 +38,12 @@ def digest_code(path):
 
 
 def main():
+    global OUT
     parser = argparse.ArgumentParser()
+    parser.add_argument("--output", type=Path, default=OUT)
     parser.add_argument("--run-tests", action="store_true")
     args = parser.parse_args()
+    OUT = args.output
     OUT.mkdir(parents=True, exist_ok=True)
     checks = {}
     known = pd.read_csv("data/processed/known_windows.csv")
@@ -83,18 +88,18 @@ def main():
         assert np.isfinite(metrics[["psnr", "ssim", "oe_100bp_masked_ssim"]]).all().all()
     checks["all_sr_fixed_arms_complete_finite_and_budget_matched"] = True
     candidate = pd.read_csv("results/discovery_directional_cv/candidate_context_audit.csv")
+    candidate_protocol = load_config()["discovery"]
     independent = candidate[candidate.independent_context_member]
-    assert len(independent) == 4
     assert not independent.known_full_25_6kb_context_overlap.any()
-    assert independent.wt_oe_correlation_supported.ge(.5).all()
-    assert independent.supported_triangle_fraction.ge(.5).all()
+    assert independent.wt_oe_correlation_supported.ge(candidate_protocol["repeat_correlation_min"]).all()
+    assert independent.supported_triangle_fraction.ge(MINIMUM_COMMON_TRIANGLE_FRACTION).all()
     centers = independent.center.to_numpy()
     distance = abs(centers[:, None] - centers[None])
     distance = np.minimum(distance, LENGTH-distance)
-    assert (distance[np.triu_indices(len(centers), 1)] >= 25600).all()
+    assert (distance[np.triu_indices(len(centers), 1)] >= candidate_protocol["independent_spacing_bp"]).all()
     clusters = pd.read_csv("results/discovery_directional_cv/candidate_clusters.csv")
-    assert not clusters.tentative_new_cluster.any()
-    checks["four_independent_qc_candidates_but_zero_qualified_new_clusters"] = True
+    candidate_counts = validate_candidate_table(candidate, clusters, candidate_protocol)
+    checks["candidate_qc_context_independence_and_cluster_rules_consistent"] = True
     samples = pd.read_csv("data/annotations/samples.csv")
     sources = {}
     for row in samples[samples.condition.isin(["37C", "NoLig"])].itertuples():
@@ -171,6 +176,7 @@ def main():
         checks=checks, baseline_git_revision=subprocess.check_output(["git", "rev-parse", "HEAD"], text=True).strip(),
         source_sha256=sources, code_sha256={str(path).replace("\\", "/"): digest_code(path) for path in code_paths},
         count_constraint_probes=constraints,
+        observed_candidate_counts=candidate_counts,
         model_sha256={str(path).replace("\\", "/"): digest(path) for path in
                       [Path("results/sr_repeat_target/model_seed42.pt"),
                        Path("results/sr_conditional/conditional_rep1_seed42.pt"),

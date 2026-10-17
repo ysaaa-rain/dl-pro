@@ -1,0 +1,21 @@
+{
+  "seed": 42,
+  "outer_folds": 5,
+  "epochs": 35,
+  "split_source": "Same immutable overlap groups and outer folds as classification_cv",
+  "validation": "Next cyclic fold; every model and recipe chosen only on validation macroF1 then NLL",
+  "sampling": "Each batch30:10 examples per class, with replacement from training only; two repeats share locus split",
+  "augmentation": "Reverse both genome axes with probability0.5",
+  "loss": "Unweighted cross entropy with label smoothing0.05; no extra class weights on balanced batches",
+  "recipes": [
+    "balanced_shared",
+    "balanced_multiscale"
+  ],
+  "normalization": "Training-only ShapeTransform per outer fold; no length/type metadata",
+  "limitations": [
+    "Existing outer test positions were examined previously; retrospective comparison",
+    "Validation recipe choice is internal; no independent source validation",
+    "Repeats share training locations; not cross-replicate training isolation",
+    "Only26CHID loci, metrics and model choice may be unstable"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "completed_models": 10,
+  "scale": 2.5909858316536427,
+  "config_sha256": "4af690132eee3021d370dd17412318f68e3ca9572f00b1edaefd36c04ccc5016",
+  "train_windows": 231,
+  "sparse_windows": 42,
+  "validation_windows": 10,
+  "test_read_during_training": false
+}

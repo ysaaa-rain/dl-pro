@@ -1,0 +1,277 @@
+workbook,start,end,chrom,overlapping_known,overlap_types,minimum_CHIN_endpoint_L1_bp,within_genome,condition_scope,independent_labels,used_for_algorithm
+Hp.xlsx,58260,59420,MG1655,2,"CHIN,OPCID",15,True,not established from workbook alone,False,False
+Hp.xlsx,83460,85860,MG1655,1,CHIN,25,True,not established from workbook alone,False,False
+Hp.xlsx,150060,152600,MG1655,4,"CHID,CHIN",35,True,not established from workbook alone,False,False
+Hp.xlsx,150060,153540,MG1655,5,"CHID,CHIN",20,True,not established from workbook alone,False,False
+Hp.xlsx,150060,154620,MG1655,5,"CHID,CHIN",15,True,not established from workbook alone,False,False
+Hp.xlsx,153540,155700,MG1655,4,"CHID,CHIN",40,True,not established from workbook alone,False,False
+Hp.xlsx,156170,157290,MG1655,2,"CHID,CHIN",30,True,not established from workbook alone,False,False
+Hp.xlsx,179740,181020,MG1655,1,CHIN,20,True,not established from workbook alone,False,False
+Hp.xlsx,237000,238940,MG1655,1,CHIN,10,True,not established from workbook alone,False,False
+Hp.xlsx,252280,253840,MG1655,2,CHIN,15,True,not established from workbook alone,False,False
+Hp.xlsx,252280,260520,MG1655,3,CHIN,10,True,not established from workbook alone,False,False
+Hp.xlsx,258700,260480,MG1655,2,CHIN,20,True,not established from workbook alone,False,False
+Hp.xlsx,262320,263560,MG1655,1,CHIN,35,True,not established from workbook alone,False,False
+Hp.xlsx,292430,295450,MG1655,2,CHIN,30,True,not established from workbook alone,False,False
+Hp.xlsx,294940,296400,MG1655,2,CHIN,40,True,not established from workbook alone,False,False
+Hp.xlsx,296440,298020,MG1655,1,CHIN,20,True,not established from workbook alone,False,False
+Hp.xlsx,302620,304120,MG1655,1,CHIN,25,True,not established from workbook alone,False,False
+Hp.xlsx,312500,314520,MG1655,2,"CHID,CHIN",5,True,not established from workbook alone,False,False
+Hp.xlsx,318290,319970,MG1655,2,"CHID,CHIN",20,True,not established from workbook alone,False,False
+Hp.xlsx,335190,336930,MG1655,1,CHIN,35,True,not established from workbook alone,False,False
+Hp.xlsx,343740,345280,MG1655,1,CHIN,35,True,not established from workbook alone,False,False
+Hp.xlsx,431650,432910,MG1655,2,"CHIN,OPCID",15,True,not established from workbook alone,False,False
+Hp.xlsx,479730,481550,MG1655,1,CHIN,30,True,not established from workbook alone,False,False
+Hp.xlsx,515700,516920,MG1655,1,CHIN,5,True,not established from workbook alone,False,False
+Hp.xlsx,526710,529470,MG1655,1,CHIN,15,True,not established from workbook alone,False,False
+Hp.xlsx,535810,538250,MG1655,2,CHIN,35,True,not established from workbook alone,False,False
+Hp.xlsx,537490,539170,MG1655,2,CHIN,20,True,not established from workbook alone,False,False
+Hp.xlsx,545170,546710,MG1655,1,CHIN,35,True,not established from workbook alone,False,False
+Hp.xlsx,558190,560310,MG1655,3,"CHID,CHIN",30,True,not established from workbook alone,False,False
+Hp.xlsx,558190,561210,MG1655,3,"CHID,CHIN",30,True,not established from workbook alone,False,False
+Hp.xlsx,562020,564760,MG1655,3,"CHID,CHIN",35,True,not established from workbook alone,False,False
+Hp.xlsx,563970,568970,MG1655,4,"CHID,CHIN",25,True,not established from workbook alone,False,False
+Hp.xlsx,568090,570890,MG1655,5,"CHID,CHIN",25,True,not established from workbook alone,False,False
+Hp.xlsx,569420,572480,MG1655,4,"CHID,CHIN",40,True,not established from workbook alone,False,False
+Hp.xlsx,570750,572390,MG1655,4,"CHID,CHIN",10,True,not established from workbook alone,False,False
+Hp.xlsx,582900,585780,MG1655,2,"CHID,CHIN",20,True,not established from workbook alone,False,False
+Hp.xlsx,617720,619520,MG1655,1,CHIN,25,True,not established from workbook alone,False,False
+Hp.xlsx,636260,638180,MG1655,1,CHIN,30,True,not established from workbook alone,False,False
+Hp.xlsx,655540,657040,MG1655,1,CHIN,25,True,not established from workbook alone,False,False
+Hp.xlsx,660590,662490,MG1655,1,CHIN,25,True,not established from workbook alone,False,False
+Hp.xlsx,676260,677580,MG1655,2,CHIN,30,True,not established from workbook alone,False,False
+Hp.xlsx,676260,680280,MG1655,2,CHIN,30,True,not established from workbook alone,False,False
+Hp.xlsx,715620,717120,MG1655,1,CHIN,25,True,not established from workbook alone,False,False
+Hp.xlsx,720100,721340,MG1655,1,CHIN,10,True,not established from workbook alone,False,False
+Hp.xlsx,732990,736410,MG1655,2,CHIN,30,True,not established from workbook alone,False,False
+Hp.xlsx,735680,739080,MG1655,2,CHIN,25,True,not established from workbook alone,False,False
+Hp.xlsx,748180,749460,MG1655,1,CHIN,20,True,not established from workbook alone,False,False
+Hp.xlsx,751750,753190,MG1655,1,CHIN,10,True,not established from workbook alone,False,False
+Hp.xlsx,799970,802230,MG1655,1,CHIN,40,True,not established from workbook alone,False,False
+Hp.xlsx,820280,821760,MG1655,1,CHIN,20,True,not established from workbook alone,False,False
+Hp.xlsx,872520,876840,MG1655,2,"CHID,CHIN",30,True,not established from workbook alone,False,False
+Hp.xlsx,997460,998920,MG1655,2,CHIN,15,True,not established from workbook alone,False,False
+Hp.xlsx,998130,999910,MG1655,2,CHIN,20,True,not established from workbook alone,False,False
+Hp.xlsx,1049000,1051220,MG1655,2,CHIN,5,True,not established from workbook alone,False,False
+Hp.xlsx,1050610,1052710,MG1655,2,CHIN,25,True,not established from workbook alone,False,False
+Hp.xlsx,1064050,1065830,MG1655,1,CHIN,20,True,not established from workbook alone,False,False
+Hp.xlsx,1086240,1089040,MG1655,4,"CHID,CHIN",25,True,not established from workbook alone,False,False
+Hp.xlsx,1087590,1089310,MG1655,4,"CHID,CHIN",30,True,not established from workbook alone,False,False
+Hp.xlsx,1086240,1093920,MG1655,6,"CHID,CHIN",20,True,not established from workbook alone,False,False
+Hp.xlsx,1090720,1094340,MG1655,4,"CHID,CHIN",30,True,not established from workbook alone,False,False
+Hp.xlsx,1092650,1096790,MG1655,4,"CHID,CHIN",10,True,not established from workbook alone,False,False
+Hp.xlsx,1101500,1103860,MG1655,2,"CHID,CHIN",15,True,not established from workbook alone,False,False
+Hp.xlsx,1103980,1105420,MG1655,2,"CHID,CHIN",10,True,not established from workbook alone,False,False
+Hp.xlsx,1117780,1119480,MG1655,2,CHIN,25,True,not established from workbook alone,False,False
+Hp.xlsx,1118940,1121440,MG1655,2,CHIN,25,True,not established from workbook alone,False,False
+Hp.xlsx,1180270,1181990,MG1655,1,CHIN,30,True,not established from workbook alone,False,False
+Hp.xlsx,1196620,1200380,MG1655,2,CHIN,40,True,not established from workbook alone,False,False
+Hp.xlsx,1197850,1200030,MG1655,2,CHIN,20,True,not established from workbook alone,False,False
+Hp.xlsx,1201850,1203350,MG1655,1,CHIN,25,True,not established from workbook alone,False,False
+Hp.xlsx,1209910,1212870,MG1655,2,"CHID,CHIN",15,True,not established from workbook alone,False,False
+Hp.xlsx,1214260,1217180,MG1655,4,"CHID,CHIN",30,True,not established from workbook alone,False,False
+Hp.xlsx,1215940,1218880,MG1655,5,"CHID,CHIN",35,True,not established from workbook alone,False,False
+Hp.xlsx,1215940,1221040,MG1655,6,"CHID,CHIN",25,True,not established from workbook alone,False,False
+Hp.xlsx,1217950,1220390,MG1655,5,"CHID,CHIN",10,True,not established from workbook alone,False,False
+Hp.xlsx,1219500,1220780,MG1655,4,"CHID,CHIN",20,True,not established from workbook alone,False,False
+Hp.xlsx,1228980,1230740,MG1655,1,CHIN,15,True,not established from workbook alone,False,False
+Hp.xlsx,1314540,1316520,MG1655,1,CHIN,20,True,not established from workbook alone,False,False
+Hp.xlsx,1369780,1372400,MG1655,1,CHIN,30,True,not established from workbook alone,False,False
+Hp.xlsx,1381410,1383750,MG1655,1,CHIN,35,True,not established from workbook alone,False,False
+Hp.xlsx,1393890,1396230,MG1655,1,CHIN,35,True,not established from workbook alone,False,False
+Hp.xlsx,1411210,1412610,MG1655,2,CHIN,25,True,not established from workbook alone,False,False
+Hp.xlsx,1412520,1414160,MG1655,2,CHIN,35,True,not established from workbook alone,False,False
+Hp.xlsx,1417480,1419240,MG1655,1,CHIN,15,True,not established from workbook alone,False,False
+Hp.xlsx,1419250,1420750,MG1655,1,CHIN,25,True,not established from workbook alone,False,False
+Hp.xlsx,1475330,1477350,MG1655,2,CHIN,30,True,not established from workbook alone,False,False
+Hp.xlsx,1475330,1479670,MG1655,2,CHIN,10,True,not established from workbook alone,False,False
+Hp.xlsx,1519960,1521340,MG1655,1,CHIN,20,True,not established from workbook alone,False,False
+Hp.xlsx,1526710,1530630,MG1655,2,CHIN,30,True,not established from workbook alone,False,False
+Hp.xlsx,1529440,1532720,MG1655,2,CHIN,20,True,not established from workbook alone,False,False
+Hp.xlsx,1566010,1567870,MG1655,1,CHIN,15,True,not established from workbook alone,False,False
+Hp.xlsx,1575090,1577150,MG1655,1,CHIN,40,True,not established from workbook alone,False,False
+Hp.xlsx,1577970,1580910,MG1655,1,CHIN,35,True,not established from workbook alone,False,False
+Hp.xlsx,1581250,1584230,MG1655,1,CHIN,20,True,not established from workbook alone,False,False
+Hp.xlsx,1586080,1590460,MG1655,2,"CHID,CHIN",20,True,not established from workbook alone,False,False
+Hp.xlsx,1596300,1598600,MG1655,1,CHIN,25,True,not established from workbook alone,False,False
+Hp.xlsx,1615310,1617130,MG1655,1,CHIN,30,True,not established from workbook alone,False,False
+Hp.xlsx,1630880,1632680,MG1655,1,CHIN,25,True,not established from workbook alone,False,False
+Hp.xlsx,1636990,1639070,MG1655,1,CHIN,20,True,not established from workbook alone,False,False
+Hp.xlsx,1646300,1649960,MG1655,1,CHIN,15,True,not established from workbook alone,False,False
+Hp.xlsx,1753290,1755370,MG1655,1,CHIN,20,True,not established from workbook alone,False,False
+Hp.xlsx,1771840,1774000,MG1655,2,"CHID,CHIN",40,True,not established from workbook alone,False,False
+Hp.xlsx,1775480,1776960,MG1655,2,"CHID,CHIN",20,True,not established from workbook alone,False,False
+Hp.xlsx,1802700,1805220,MG1655,2,"CHIN,OPCID",5,True,not established from workbook alone,False,False
+Hp.xlsx,1843870,1845130,MG1655,1,CHIN,40,True,not established from workbook alone,False,False
+Hp.xlsx,1852690,1854510,MG1655,1,CHIN,30,True,not established from workbook alone,False,False
+Hp.xlsx,1856500,1858100,MG1655,1,CHIN,25,True,not established from workbook alone,False,False
+Hp.xlsx,1869840,1872100,MG1655,2,CHIN,40,True,not established from workbook alone,False,False
+Hp.xlsx,1869840,1873960,MG1655,2,CHIN,30,True,not established from workbook alone,False,False
+Hp.xlsx,2010930,2012450,MG1655,1,CHIN,30,True,not established from workbook alone,False,False
+Hp.xlsx,2023320,2024820,MG1655,1,CHIN,25,True,not established from workbook alone,False,False
+Hp.xlsx,2035550,2037570,MG1655,1,CHIN,5,True,not established from workbook alone,False,False
+Hp.xlsx,2052200,2053560,MG1655,1,CHIN,15,True,not established from workbook alone,False,False
+Hp.xlsx,2056360,2057820,MG1655,1,CHIN,15,True,not established from workbook alone,False,False
+Hp.xlsx,2102940,2104420,MG1655,5,"CHID,CHIN",20,True,not established from workbook alone,False,False
+Hp.xlsx,2102940,2105920,MG1655,7,"CHID,CHIN",20,True,not established from workbook alone,False,False
+Hp.xlsx,2102940,2106440,MG1655,7,"CHID,CHIN",25,True,not established from workbook alone,False,False
+Hp.xlsx,2103970,2107410,MG1655,8,"CHID,CHIN",35,True,not established from workbook alone,False,False
+Hp.xlsx,2105150,2107890,MG1655,7,"CHID,CHIN",10,True,not established from workbook alone,False,False
+Hp.xlsx,2105150,2108710,MG1655,7,"CHID,CHIN",15,True,not established from workbook alone,False,False
+Hp.xlsx,2106480,2109140,MG1655,6,"CHID,CHIN",15,True,not established from workbook alone,False,False
+Hp.xlsx,2108740,2110960,MG1655,3,"CHID,CHIN",30,True,not established from workbook alone,False,False
+Hp.xlsx,2114070,2115310,MG1655,1,CHIN,35,True,not established from workbook alone,False,False
+Hp.xlsx,2128380,2130680,MG1655,1,CHIN,25,True,not established from workbook alone,False,False
+Hp.xlsx,2167780,2170120,MG1655,2,CHIN,10,True,not established from workbook alone,False,False
+Hp.xlsx,2169510,2173210,MG1655,3,CHIN,25,True,not established from workbook alone,False,False
+Hp.xlsx,2172240,2175080,MG1655,2,CHIN,35,True,not established from workbook alone,False,False
+Hp.xlsx,2178150,2180190,MG1655,1,CHIN,10,True,not established from workbook alone,False,False
+Hp.xlsx,2187330,2188810,MG1655,4,"CHID,CHIN",20,True,not established from workbook alone,False,False
+Hp.xlsx,2188010,2189870,MG1655,4,"CHID,CHIN",15,True,not established from workbook alone,False,False
+Hp.xlsx,2187330,2192810,MG1655,5,"CHID,CHIN",20,True,not established from workbook alone,False,False
+Hp.xlsx,2190110,2192670,MG1655,3,"CHID,CHIN",15,True,not established from workbook alone,False,False
+Hp.xlsx,2233020,2234220,MG1655,1,CHIN,25,True,not established from workbook alone,False,False
+Hp.xlsx,2237570,2239470,MG1655,1,CHIN,25,True,not established from workbook alone,False,False
+Hp.xlsx,2254830,2256110,MG1655,1,CHIN,20,True,not established from workbook alone,False,False
+Hp.xlsx,2257770,2259530,MG1655,2,"CHIN,OPCID",40,True,not established from workbook alone,False,False
+Hp.xlsx,2343360,2344660,MG1655,1,CHIN,25,True,not established from workbook alone,False,False
+Hp.xlsx,2383080,2385200,MG1655,2,"CHID,CHIN",30,True,not established from workbook alone,False,False
+Hp.xlsx,2385750,2387030,MG1655,3,"CHID,CHIN",20,True,not established from workbook alone,False,False
+Hp.xlsx,2385750,2388850,MG1655,3,"CHID,CHIN",25,True,not established from workbook alone,False,False
+Hp.xlsx,2454600,2456380,MG1655,1,CHIN,20,True,not established from workbook alone,False,False
+Hp.xlsx,2462580,2464380,MG1655,1,CHIN,25,True,not established from workbook alone,False,False
+Hp.xlsx,2480930,2483750,MG1655,4,"CHID,CHIN",30,True,not established from workbook alone,False,False
+Hp.xlsx,2480930,2486830,MG1655,5,"CHID,CHIN",25,True,not established from workbook alone,False,False
+Hp.xlsx,2482490,2486530,MG1655,5,"CHID,CHIN",35,True,not established from workbook alone,False,False
+Hp.xlsx,2485190,2488290,MG1655,5,"CHID,CHIN",25,True,not established from workbook alone,False,False
+Hp.xlsx,2488280,2490700,MG1655,3,"CHID,CHIN",30,True,not established from workbook alone,False,False
+Hp.xlsx,2491890,2493890,MG1655,2,"CHID,CHIN",25,True,not established from workbook alone,False,False
+Hp.xlsx,2628290,2630530,MG1655,1,CHIN,35,True,not established from workbook alone,False,False
+Hp.xlsx,2653160,2654340,MG1655,2,"CHIN,OPCID",20,True,not established from workbook alone,False,False
+Hp.xlsx,2699740,2700840,MG1655,1,CHIN,25,True,not established from workbook alone,False,False
+Hp.xlsx,2757510,2759670,MG1655,3,"CHID,CHIN",15,True,not established from workbook alone,False,False
+Hp.xlsx,2757510,2761530,MG1655,3,"CHID,CHIN",30,True,not established from workbook alone,False,False
+Hp.xlsx,2773010,2775530,MG1655,1,CHIN,30,True,not established from workbook alone,False,False
+Hp.xlsx,2781040,2785900,MG1655,4,"CHID,CHIN",40,True,not established from workbook alone,False,False
+Hp.xlsx,2784290,2786430,MG1655,4,"CHID,CHIN",35,True,not established from workbook alone,False,False
+Hp.xlsx,2784290,2789230,MG1655,5,"CHID,CHIN",35,True,not established from workbook alone,False,False
+Hp.xlsx,2787400,2788660,MG1655,3,"CHID,CHIN",15,True,not established from workbook alone,False,False
+Hp.xlsx,2797390,2798750,MG1655,1,CHIN,40,True,not established from workbook alone,False,False
+Hp.xlsx,2804290,2805810,MG1655,1,CHIN,30,True,not established from workbook alone,False,False
+Hp.xlsx,2882860,2884500,MG1655,1,CHIN,585,True,not established from workbook alone,False,False
+Hp.xlsx,2899270,2900870,MG1655,1,CHIN,25,True,not established from workbook alone,False,False
+Hp.xlsx,2903620,2906340,MG1655,1,CHIN,30,True,not established from workbook alone,False,False
+Hp.xlsx,2933470,2934890,MG1655,1,CHIN,30,True,not established from workbook alone,False,False
+Hp.xlsx,2986330,2988010,MG1655,4,"CHID,CHIN",20,True,not established from workbook alone,False,False
+Hp.xlsx,2986330,2990830,MG1655,4,"CHID,CHIN",25,True,not established from workbook alone,False,False
+Hp.xlsx,2986330,2997430,MG1655,6,"CHID,CHIN",25,True,not established from workbook alone,False,False
+Hp.xlsx,2993620,2996420,MG1655,4,"CHID,CHIN",25,True,not established from workbook alone,False,False
+Hp.xlsx,2995130,2999070,MG1655,4,"CHID,CHIN",10,True,not established from workbook alone,False,False
+Hp.xlsx,3053730,3055230,MG1655,1,CHIN,25,True,not established from workbook alone,False,False
+Hp.xlsx,3076900,3079440,MG1655,1,CHIN,10,True,not established from workbook alone,False,False
+Hp.xlsx,3185610,3187830,MG1655,4,"CHID,CHIN",30,True,not established from workbook alone,False,False
+Hp.xlsx,3187520,3189020,MG1655,5,"CHID,CHIN",25,True,not established from workbook alone,False,False
+Hp.xlsx,3187520,3191480,MG1655,7,"CHID,CHIN",40,True,not established from workbook alone,False,False
+Hp.xlsx,3188660,3192060,MG1655,6,"CHID,CHIN",25,True,not established from workbook alone,False,False
+Hp.xlsx,3189930,3192250,MG1655,5,"CHID,CHIN",30,True,not established from workbook alone,False,False
+Hp.xlsx,3190810,3192830,MG1655,5,"CHID,CHIN",30,True,not established from workbook alone,False,False
+Hp.xlsx,3205500,3206720,MG1655,1,CHIN,5,True,not established from workbook alone,False,False
+Hp.xlsx,3225680,3228200,MG1655,1,CHIN,30,True,not established from workbook alone,False,False
+Hp.xlsx,3262150,3263750,MG1655,1,CHIN,25,True,not established from workbook alone,False,False
+Hp.xlsx,3264890,3266490,MG1655,1,CHIN,25,True,not established from workbook alone,False,False
+Hp.xlsx,3267680,3269860,MG1655,2,"CHIN,OPCID",20,True,not established from workbook alone,False,False
+Hp.xlsx,3286970,3288890,MG1655,1,CHIN,30,True,not established from workbook alone,False,False
+Hp.xlsx,3320530,3322310,MG1655,1,CHIN,20,True,not established from workbook alone,False,False
+Hp.xlsx,3329880,3331180,MG1655,1,CHIN,25,True,not established from workbook alone,False,False
+Hp.xlsx,3360590,3362710,MG1655,1,CHIN,30,True,not established from workbook alone,False,False
+Hp.xlsx,3412610,3414130,MG1655,1,CHIN,30,True,not established from workbook alone,False,False
+Hp.xlsx,3581640,3583480,MG1655,2,CHIN,35,True,not established from workbook alone,False,False
+Hp.xlsx,3582640,3585100,MG1655,2,CHIN,40,True,not established from workbook alone,False,False
+Hp.xlsx,3631380,3633920,MG1655,4,"CHID,CHIN",10,True,not established from workbook alone,False,False
+Hp.xlsx,3631380,3634760,MG1655,5,"CHID,CHIN",20,True,not established from workbook alone,False,False
+Hp.xlsx,3631380,3636320,MG1655,5,"CHID,CHIN",10,True,not established from workbook alone,False,False
+Hp.xlsx,3634410,3635870,MG1655,4,"CHID,CHIN",15,True,not established from workbook alone,False,False
+Hp.xlsx,3651080,3654040,MG1655,3,"CHID,CHIN",15,True,not established from workbook alone,False,False
+Hp.xlsx,3653170,3655470,MG1655,4,"CHID,CHIN",25,True,not established from workbook alone,False,False
+Hp.xlsx,3655000,3658720,MG1655,4,"CHID,CHIN",5,True,not established from workbook alone,False,False
+Hp.xlsx,3656690,3658770,MG1655,3,"CHID,CHIN",20,True,not established from workbook alone,False,False
+Hp.xlsx,3664320,3665980,MG1655,1,CHIN,40,True,not established from workbook alone,False,False
+Hp.xlsx,3673940,3675060,MG1655,1,CHIN,30,True,not established from workbook alone,False,False
+Hp.xlsx,3720060,3722320,MG1655,1,CHIN,15,True,not established from workbook alone,False,False
+Hp.xlsx,3730830,3733310,MG1655,1,CHIN,20,True,not established from workbook alone,False,False
+Hp.xlsx,3743830,3746470,MG1655,1,CHIN,10,True,not established from workbook alone,False,False
+Hp.xlsx,3766010,3768530,MG1655,3,"CHID,CHIN",30,True,not established from workbook alone,False,False
+Hp.xlsx,3767450,3770090,MG1655,3,"CHID,CHIN",10,True,not established from workbook alone,False,False
+Hp.xlsx,3788920,3790480,MG1655,1,CHIN,40,True,not established from workbook alone,False,False
+Hp.xlsx,3796820,3799260,MG1655,10,"CHID,CHIN",35,True,not established from workbook alone,False,False
+Hp.xlsx,3796820,3800060,MG1655,10,"CHID,CHIN",35,True,not established from workbook alone,False,False
+Hp.xlsx,3796820,3801260,MG1655,10,"CHID,CHIN",35,True,not established from workbook alone,False,False
+Hp.xlsx,3796820,3802940,MG1655,10,"CHID,CHIN",30,True,not established from workbook alone,False,False
+Hp.xlsx,3796820,3804000,MG1655,12,"CHID,CHIN",45,True,not established from workbook alone,False,False
+Hp.xlsx,3796820,3806500,MG1655,12,"CHID,CHIN",45,True,not established from workbook alone,False,False
+Hp.xlsx,3796820,3807720,MG1655,12,"CHID,CHIN",25,True,not established from workbook alone,False,False
+Hp.xlsx,3796820,3808240,MG1655,12,"CHID,CHIN",30,True,not established from workbook alone,False,False
+Hp.xlsx,3798700,3807820,MG1655,12,"CHID,CHIN",5,True,not established from workbook alone,False,False
+Hp.xlsx,3803270,3807830,MG1655,8,"CHID,CHIN",40,True,not established from workbook alone,False,False
+Hp.xlsx,3803910,3808030,MG1655,8,"CHID,CHIN",30,True,not established from workbook alone,False,False
+Hp.xlsx,3836700,3838100,MG1655,1,CHIN,25,True,not established from workbook alone,False,False
+Hp.xlsx,3842940,3844140,MG1655,1,CHIN,25,True,not established from workbook alone,False,False
+Hp.xlsx,3874630,3876290,MG1655,1,CHIN,15,True,not established from workbook alone,False,False
+Hp.xlsx,3900640,3902720,MG1655,1,CHIN,20,True,not established from workbook alone,False,False
+Hp.xlsx,3905540,3906960,MG1655,1,CHIN,30,True,not established from workbook alone,False,False
+Hp.xlsx,4061600,4065400,MG1655,4,"CHID,CHIN",25,True,not established from workbook alone,False,False
+Hp.xlsx,4063250,4065170,MG1655,4,"CHID,CHIN",5,True,not established from workbook alone,False,False
+Hp.xlsx,4063900,4065500,MG1655,4,"CHID,CHIN",25,True,not established from workbook alone,False,False
+Hp.xlsx,4214840,4216080,MG1655,1,CHIN,35,True,not established from workbook alone,False,False
+Hp.xlsx,4220330,4222730,MG1655,1,CHIN,25,True,not established from workbook alone,False,False
+Hp.xlsx,4250240,4252640,MG1655,2,"CHIN,OPCID",25,True,not established from workbook alone,False,False
+Hp.xlsx,4259950,4261730,MG1655,2,"CHIN,OPCID",20,True,not established from workbook alone,False,False
+Hp.xlsx,4268140,4269400,MG1655,1,CHIN,40,True,not established from workbook alone,False,False
+Hp.xlsx,4281710,4283310,MG1655,2,"CHIN,OPCID",25,True,not established from workbook alone,False,False
+Hp.xlsx,4310500,4312380,MG1655,1,CHIN,20,True,not established from workbook alone,False,False
+Hp.xlsx,4336710,4338650,MG1655,1,CHIN,35,True,not established from workbook alone,False,False
+Hp.xlsx,4359540,4361040,MG1655,1,CHIN,25,True,not established from workbook alone,False,False
+Hp.xlsx,4383690,4384710,MG1655,1,CHIN,30,True,not established from workbook alone,False,False
+Hp.xlsx,4409780,4412680,MG1655,1,CHIN,25,True,not established from workbook alone,False,False
+Hp.xlsx,4426690,4427830,MG1655,1,CHIN,35,True,not established from workbook alone,False,False
+Hp.xlsx,4475240,4477300,MG1655,1,CHIN,40,True,not established from workbook alone,False,False
+Hp.xlsx,4479470,4480810,MG1655,2,"CHIN,OPCID",35,True,not established from workbook alone,False,False
+Hp.xlsx,4495410,4497470,MG1655,1,CHIN,15,True,not established from workbook alone,False,False
+Hp.xlsx,4503670,4504910,MG1655,3,"CHID,CHIN",35,True,not established from workbook alone,False,False
+Hp.xlsx,4503670,4505470,MG1655,3,"CHID,CHIN",25,True,not established from workbook alone,False,False
+Hp.xlsx,4524820,4526100,MG1655,1,CHIN,45,True,not established from workbook alone,False,False
+Hp.xlsx,4537470,4539730,MG1655,3,"CHID,CHIN",40,True,not established from workbook alone,False,False
+Hp.xlsx,4537470,4542770,MG1655,4,"CHID,CHIN",25,True,not established from workbook alone,False,False
+Hp.xlsx,4540460,4542540,MG1655,3,"CHID,CHIN",20,True,not established from workbook alone,False,False
+Hp.xlsx,4544360,4546580,MG1655,2,"CHID,CHIN",30,True,not established from workbook alone,False,False
+Hp.xlsx,4555270,4556750,MG1655,1,CHIN,45,True,not established from workbook alone,False,False
+Hp.xlsx,4576950,4579290,MG1655,2,"CHID,CHIN",10,True,not established from workbook alone,False,False
+Hp.xlsx,4594330,4596410,MG1655,1,CHIN,20,True,not established from workbook alone,False,False
+Hp.xlsx,4602820,4604820,MG1655,1,CHIN,25,True,not established from workbook alone,False,False
+Hp.xlsx,4616400,4617480,MG1655,1,CHIN,20,True,not established from workbook alone,False,False
+Hp newly emerged.xlsx,41594,42740,MG1655,0,,33341,True,not established from workbook alone,False,False
+Hp newly emerged.xlsx,557928,559346,MG1655,3,"CHID,CHIN",1226,True,not established from workbook alone,False,False
+Hp newly emerged.xlsx,577017,579221,MG1655,1,CHID,12462,True,not established from workbook alone,False,False
+Hp newly emerged.xlsx,872566,874546,MG1655,2,"CHID,CHIN",2370,True,not established from workbook alone,False,False
+Hp newly emerged.xlsx,1196790,1199200,MG1655,2,CHIN,1390,True,not established from workbook alone,False,False
+Hp newly emerged.xlsx,1526687,1528087,MG1655,1,CHIN,2576,True,not established from workbook alone,False,False
+Hp newly emerged.xlsx,1543697,1545015,MG1655,1,CHID,26562,True,not established from workbook alone,False,False
+Hp newly emerged.xlsx,1812267,1813669,MG1655,0,,18011,True,not established from workbook alone,False,False
+Hp newly emerged.xlsx,2001108,2066662,MG1655,5,CHIN,63529,True,not established from workbook alone,False,False
+Hp newly emerged.xlsx,2150709,2152021,MG1655,0,,35170,True,not established from workbook alone,False,False
+Hp newly emerged.xlsx,2190906,2192812,MG1655,3,"CHID,CHIN",943,True,not established from workbook alone,False,False
+Hp newly emerged.xlsx,2493134,2495072,MG1655,1,CHIN,2431,True,not established from workbook alone,False,False
+Hp newly emerged.xlsx,2758919,2761077,MG1655,3,"CHID,CHIN",1892,True,not established from workbook alone,False,False
+Hp newly emerged.xlsx,2783674,2785164,MG1655,4,"CHID,CHIN",1887,True,not established from workbook alone,False,False
+Hp newly emerged.xlsx,2783901,2785979,MG1655,4,"CHID,CHIN",845,True,not established from workbook alone,False,False
+Hp newly emerged.xlsx,2784185,2787065,MG1655,4,"CHID,CHIN",705,True,not established from workbook alone,False,False
+Hp newly emerged.xlsx,2987196,2988444,MG1655,4,"CHID,CHIN",1290,True,not established from workbook alone,False,False
+Hp newly emerged.xlsx,2989927,2991997,MG1655,3,"CHID,CHIN",4749,True,not established from workbook alone,False,False
+Hp newly emerged.xlsx,2990276,2992640,MG1655,3,"CHID,CHIN",5741,True,not established from workbook alone,False,False
+Hp newly emerged.xlsx,2990663,2995913,MG1655,5,"CHID,CHIN",3449,True,not established from workbook alone,False,False
+Hp newly emerged.xlsx,2991807,2995555,MG1655,4,"CHID,CHIN",2663,True,not established from workbook alone,False,False
+Hp newly emerged.xlsx,2993320,2995720,MG1655,4,"CHID,CHIN",985,True,not established from workbook alone,False,False
+Hp newly emerged.xlsx,3581444,3582418,MG1655,1,CHIN,1263,True,not established from workbook alone,False,False
+Hp newly emerged.xlsx,3631099,3632869,MG1655,4,"CHID,CHIN",1332,True,not established from workbook alone,False,False
+Hp newly emerged.xlsx,3802796,3806454,MG1655,9,"CHID,CHIN",1850,True,not established from workbook alone,False,False
+Hp newly emerged.xlsx,4002223,4003723,MG1655,1,OPCID,121079,True,not established from workbook alone,False,False

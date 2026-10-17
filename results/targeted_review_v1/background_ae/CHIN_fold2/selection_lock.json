@@ -1,0 +1,34 @@
+{
+  "hidden_type": "CHIN",
+  "fold": 2,
+  "validation_auc": {
+    "ae": 0.763888888888889,
+    "morphology": 0.8796296296296298,
+    "joint": 0.7870370370370371
+  },
+  "validation_signal_spearman": 0.4149618514054827,
+  "joint_allowed": false,
+  "joint_fallback": "ae_residual",
+  "checkpoints": {
+    "seed42": "4defee7b277c22a84b353553c8e3168ea60ec348f2739a05616b87358a42a266",
+    "seed43": "d5552e54597cfeb1a4bc79790854cb935ab691a676a5331cf815a55409a9d2ab"
+  },
+  "scale": 1.6497036432316745,
+  "seed_diagnostics": [
+    {
+      "seed": 42,
+      "selected_epoch": 29,
+      "train_selected": 0.04861289511124293,
+      "validation_selected": 0.047073133289813995,
+      "elapsed_seconds": 5.111279399992782
+    },
+    {
+      "seed": 43,
+      "selected_epoch": 30,
+      "train_selected": 0.04924384877085686,
+      "validation_selected": 0.047453563660383224,
+      "elapsed_seconds": 5.0672623999998905
+    }
+  ],
+  "test_labels_used": false
+}

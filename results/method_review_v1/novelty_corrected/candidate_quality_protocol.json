@@ -1,0 +1,10 @@
+{
+  "minimum_common_triangle_fraction": 0.5,
+  "formal_source": "results/discovery_directional_cv/candidate_audit_protocol.json",
+  "independent_spacing_bp": 25600,
+  "known_exclusion_width_bp": 25600,
+  "known_buffer_bp": 200,
+  "scope": "Pseudo-held-type models on spatially eligible scan windows, not a selected full-genome production model",
+  "joint_repeat_caveat": "Joint method already uses both repeats; its correlation is descriptive, not independent validation",
+  "cluster_interpretation": "Enough members is only a size prerequisite; no candidate count alone establishes a new cluster"
+}

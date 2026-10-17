@@ -1,0 +1,38 @@
+{
+  "selection": "First eligible annotation per type sorted by coordinate/start, source repeat1; no model gain selection",
+  "examples": [
+    {
+      "type": "CHIN",
+      "structure_id": "CHIN_8",
+      "start": 175000,
+      "annotation_start": 179725,
+      "annotation_end": 181025,
+      "roi_lo": 45,
+      "roi_hi": 63
+    },
+    {
+      "type": "OPCID",
+      "structure_id": "OPCID_5",
+      "start": 175000,
+      "annotation_start": 182450,
+      "annotation_end": 184375,
+      "roi_lo": 72,
+      "roi_hi": 96
+    },
+    {
+      "type": "CHID",
+      "structure_id": "CHID_26",
+      "start": 4575000,
+      "annotation_start": 4576950,
+      "annotation_end": 4581300,
+      "roi_lo": 17,
+      "roi_hi": 65
+    }
+  ],
+  "common_log_oe_range": [
+    0,
+    2
+  ],
+  "neural_seed": 42,
+  "scope": "19 complete annotation subset only; not full-context classifier accuracy"
+}
