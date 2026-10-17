@@ -1,0 +1,24 @@
+{
+  "purpose": "Known-structure ranking control, not novel-class confirmation",
+  "input": "Existing eight support-aware morphology features per spatial fold",
+  "labels": "Training-fold annotations only, 6400 bp center radius",
+  "negatives": "At least 12800 bp from training-fold centers",
+  "purge": "Exclude scan windows intersecting validation or test maximum input extents",
+  "recipes": [
+    "morphology",
+    "logistic",
+    "forest"
+  ],
+  "selection": "Per-fold validation recall at 64 candidates; ties favor morphology",
+  "budgets": [
+    64,
+    128
+  ],
+  "separation_bp": 12800,
+  "limitations": [
+    "Previously observed test positions; retrospective comparison",
+    "Existing feature construction uses the original background protocol",
+    "Known-like ranking can suppress genuinely novel morphologies",
+    "Center recall does not establish exact boundaries or new biology"
+  ]
+}

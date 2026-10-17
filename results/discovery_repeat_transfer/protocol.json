@@ -1,0 +1,10 @@
+{
+  "training": "Fixed forest on repeat1 fold-purged scan features and training annotations",
+  "transfer": "Repeat2 contact windows; repeat1 expectation and density calibration frozen",
+  "test": "Known-center recall at identical 64/128 budgets and 12800bp center separation",
+  "limitations": [
+    "The forest recipe was explored on the same annotated loci in repeat1",
+    "Repeat2 provides independent contact counts, not independent biological labels",
+    "No novel cluster conclusion follows from known-center recall"
+  ]
+}

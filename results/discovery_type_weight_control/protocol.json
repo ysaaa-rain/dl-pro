@@ -1,0 +1,88 @@
+{
+  "fixed_after_observed_type_tradeoff": true,
+  "n_trees": 200,
+  "max_depth": 4,
+  "min_leaf": 8,
+  "feature_source": "Frozen directional48-dimensional OOF scan features",
+  "sole_change": "Positive sample weights inverse nearest-training-annotation type count; three type totals equal",
+  "inference_metadata": false,
+  "no_recipe_selection": true,
+  "fold_fits": [
+    {
+      "fold": 0,
+      "positive_type_counts": {
+        "CHIN": 129,
+        "OPCID": 56,
+        "CHID": 3
+      },
+      "positive_weights": {
+        "CHIN": 0.48578811369509045,
+        "OPCID": 1.119047619047619,
+        "CHID": 20.88888888888889
+      },
+      "n_positive": 188,
+      "n_negative": 122
+    },
+    {
+      "fold": 1,
+      "positive_type_counts": {
+        "CHIN": 152,
+        "OPCID": 61,
+        "CHID": 3
+      },
+      "positive_weights": {
+        "CHIN": 0.47368421052631576,
+        "OPCID": 1.180327868852459,
+        "CHID": 24.0
+      },
+      "n_positive": 216,
+      "n_negative": 131
+    },
+    {
+      "fold": 2,
+      "positive_type_counts": {
+        "CHIN": 194,
+        "OPCID": 77,
+        "CHID": 4
+      },
+      "positive_weights": {
+        "CHIN": 0.4725085910652921,
+        "OPCID": 1.1904761904761905,
+        "CHID": 22.916666666666668
+      },
+      "n_positive": 275,
+      "n_negative": 141
+    },
+    {
+      "fold": 3,
+      "positive_type_counts": {
+        "CHIN": 175,
+        "OPCID": 59,
+        "CHID": 4
+      },
+      "positive_weights": {
+        "CHIN": 0.4533333333333333,
+        "OPCID": 1.344632768361582,
+        "CHID": 19.833333333333332
+      },
+      "n_positive": 238,
+      "n_negative": 123
+    },
+    {
+      "fold": 4,
+      "positive_type_counts": {
+        "CHIN": 146,
+        "OPCID": 47,
+        "CHID": 7
+      },
+      "positive_weights": {
+        "CHIN": 0.45662100456621,
+        "OPCID": 1.4184397163120568,
+        "CHID": 9.523809523809524
+      },
+      "n_positive": 200,
+      "n_negative": 117
+    }
+  ],
+  "limitation": "Exploratory known-structure detection; no novel-cluster inference"
+}

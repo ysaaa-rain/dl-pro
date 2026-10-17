@@ -1,0 +1,22 @@
+[
+  {
+    "sample_id": "GSE272159_37C_rep1",
+    "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE272nnn/GSE272159/suppl/GSE272159_37C_rep1.mapq_30.10.cool.gz",
+    "gzip_bytes": 470399779,
+    "gzip_sha256": "b172a11994068937df76c7cfbad4f21f68e88eeccd72840726d19d9a671125fd",
+    "gzip_hash_previously_registered": false,
+    "cooler_sha256": "0256e10da36abfe0238bf16952bc43bc78365f43c201e6e3ba0c49bd243549a8",
+    "cooler_bytes": 482254398,
+    "registered_cooler_sha256": "0256e10da36abfe0238bf16952bc43bc78365f43c201e6e3ba0c49bd243549a8"
+  },
+  {
+    "sample_id": "GSE272159_37C_rep2",
+    "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE272nnn/GSE272159/suppl/GSE272159_37C_rep2.mapq_30.10.cool.gz",
+    "gzip_bytes": 456862495,
+    "gzip_sha256": "b416e68934b4af054c8a4c1b8a7096064fcb8a51a9692ed04f4cef9537cb67b9",
+    "gzip_hash_previously_registered": false,
+    "cooler_sha256": "ede9b4f7c0c6b40c8f098e43cdd0abbc0a8987f05e8b37051a5e3cbf143ad106",
+    "cooler_bytes": 468345755,
+    "registered_cooler_sha256": "ede9b4f7c0c6b40c8f098e43cdd0abbc0a8987f05e8b37051a5e3cbf143ad106"
+  }
+]

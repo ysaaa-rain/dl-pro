@@ -1,0 +1,372 @@
+{
+  "scan_stride_bp": 3200,
+  "old_stride_bp": 6400,
+  "budgets": [
+    64,
+    128
+  ],
+  "min_center_spacing_bp": 12800,
+  "known_center_radius_bp": 6400,
+  "random_trials": 500,
+  "folds": 5,
+  "fold_protocols": [
+    {
+      "fold": 0,
+      "n_background": 144,
+      "n_positive": 386,
+      "n_negative": 312,
+      "morphology_choice": "maximum",
+      "validation_choices": {
+        "maximum": 0.4166666666666667,
+        "mean": 0.3229166666666667,
+        "positive_mean": 0.3229166666666667
+      },
+      "calibration": [
+        {
+          "feature": 0,
+          "slope": -1.0051548130617334,
+          "intercept": -7.78747411428306,
+          "location": 0.0046633024988116945,
+          "spread": 0.3487460515633782
+        },
+        {
+          "feature": 1,
+          "slope": -1.033925638299871,
+          "intercept": -8.247372258231236,
+          "location": 0.02034575824110829,
+          "spread": 0.36818017635118994
+        },
+        {
+          "feature": 2,
+          "slope": -0.9197118294732132,
+          "intercept": -7.941991863331789,
+          "location": 0.02528111660257748,
+          "spread": 0.4015698380803665
+        },
+        {
+          "feature": 3,
+          "slope": -0.6012788071788121,
+          "intercept": -6.859990638817047,
+          "location": -0.01061399828363796,
+          "spread": 0.43516789043765386
+        },
+        {
+          "feature": 4,
+          "slope": 0.5674099908822388,
+          "intercept": 2.7626811613798212,
+          "location": 0.0033202472856248555,
+          "spread": 0.39290597321305026
+        },
+        {
+          "feature": 5,
+          "slope": 0.7856881782469843,
+          "intercept": 3.977258228660123,
+          "location": -0.00028679600979425457,
+          "spread": 0.46129143583981846
+        },
+        {
+          "feature": 6,
+          "slope": 0.8495478104171876,
+          "intercept": 3.956719638339092,
+          "location": -0.00292176296391089,
+          "spread": 0.5620493592801684
+        },
+        {
+          "feature": 7,
+          "slope": 0.9690054145595574,
+          "intercept": 3.721493292828122,
+          "location": 0.03174370603284915,
+          "spread": 0.6005223780644268
+        }
+      ]
+    },
+    {
+      "fold": 1,
+      "n_background": 156,
+      "n_positive": 432,
+      "n_negative": 310,
+      "morphology_choice": "mean",
+      "validation_choices": {
+        "maximum": 0.2857142857142857,
+        "mean": 0.4642857142857143,
+        "positive_mean": 0.4642857142857143
+      },
+      "calibration": [
+        {
+          "feature": 0,
+          "slope": -0.7684062180975789,
+          "intercept": -6.212258199562749,
+          "location": 0.0072764343371301,
+          "spread": 0.4175505149133314
+        },
+        {
+          "feature": 1,
+          "slope": -0.7989080415934829,
+          "intercept": -6.695143595923254,
+          "location": 0.012068939862616035,
+          "spread": 0.45137224168267254
+        },
+        {
+          "feature": 2,
+          "slope": -0.7514926968756587,
+          "intercept": -6.856055731448177,
+          "location": -0.012574388025593075,
+          "spread": 0.4977397015652595
+        },
+        {
+          "feature": 3,
+          "slope": -0.6017150718750767,
+          "intercept": -6.912315333521831,
+          "location": 0.016268454053612436,
+          "spread": 0.51865567406677
+        },
+        {
+          "feature": 4,
+          "slope": 0.5920141845473442,
+          "intercept": 2.96350981832727,
+          "location": 0.008675567570646858,
+          "spread": 0.38108001721015594
+        },
+        {
+          "feature": 5,
+          "slope": 0.7513296981908384,
+          "intercept": 3.802003225857163,
+          "location": 0.003543676735268564,
+          "spread": 0.4766960326127164
+        },
+        {
+          "feature": 6,
+          "slope": 0.696179589254328,
+          "intercept": 3.0057171258755186,
+          "location": 0.0017793684032048063,
+          "spread": 0.5252828138038388
+        },
+        {
+          "feature": 7,
+          "slope": 0.7914007354856759,
+          "intercept": 2.6132899883738885,
+          "location": 0.04428773588095147,
+          "spread": 0.5307777384196354
+        }
+      ]
+    },
+    {
+      "fold": 2,
+      "n_background": 160,
+      "n_positive": 555,
+      "n_negative": 309,
+      "morphology_choice": "maximum",
+      "validation_choices": {
+        "maximum": 0.40816326530612246,
+        "mean": 0.3877551020408163,
+        "positive_mean": 0.3877551020408163
+      },
+      "calibration": [
+        {
+          "feature": 0,
+          "slope": -0.6902384791093582,
+          "intercept": -5.732604110019698,
+          "location": 0.017856091654233852,
+          "spread": 0.36751109220061473
+        },
+        {
+          "feature": 1,
+          "slope": -0.6674624435422716,
+          "intercept": -5.840532677163638,
+          "location": 0.03821845967199444,
+          "spread": 0.3913948012582316
+        },
+        {
+          "feature": 2,
+          "slope": -0.5175229148585297,
+          "intercept": -5.294340724699264,
+          "location": 0.03218308676687465,
+          "spread": 0.40924693809150614
+        },
+        {
+          "feature": 3,
+          "slope": -0.3353283304426907,
+          "intercept": -5.1388713888209345,
+          "location": 0.00887837549332704,
+          "spread": 0.3979027266792248
+        },
+        {
+          "feature": 4,
+          "slope": 0.597400189835825,
+          "intercept": 2.9061325049475757,
+          "location": 0.005426773746577851,
+          "spread": 0.32844135510234573
+        },
+        {
+          "feature": 5,
+          "slope": 0.8016462096056619,
+          "intercept": 4.025727075053786,
+          "location": 0.0290846271306075,
+          "spread": 0.40705181587838
+        },
+        {
+          "feature": 6,
+          "slope": 0.7659908263293248,
+          "intercept": 3.3379748749277085,
+          "location": 0.03072145358846956,
+          "spread": 0.49757518308511056
+        },
+        {
+          "feature": 7,
+          "slope": 0.8188915381008814,
+          "intercept": 2.6433911267525256,
+          "location": 0.07342609631142705,
+          "spread": 0.5247765271256039
+        }
+      ]
+    },
+    {
+      "fold": 3,
+      "n_background": 145,
+      "n_positive": 485,
+      "n_negative": 311,
+      "morphology_choice": "positive_mean",
+      "validation_choices": {
+        "maximum": 0.3076923076923077,
+        "mean": 0.3333333333333333,
+        "positive_mean": 0.34615384615384615
+      },
+      "calibration": [
+        {
+          "feature": 0,
+          "slope": -0.9466159611215056,
+          "intercept": -7.499077591879141,
+          "location": 0.0110079023058538,
+          "spread": 0.3574351153154123
+        },
+        {
+          "feature": 1,
+          "slope": -0.9423942582743163,
+          "intercept": -7.7351590684480875,
+          "location": 0.012417400453741623,
+          "spread": 0.3689032349768272
+        },
+        {
+          "feature": 2,
+          "slope": -0.919225028363748,
+          "intercept": -8.0705413888749,
+          "location": 0.01354669790702423,
+          "spread": 0.39737530237139146
+        },
+        {
+          "feature": 3,
+          "slope": -0.8040143917979908,
+          "intercept": -8.372851481232022,
+          "location": 0.013817915764081867,
+          "spread": 0.4545815955763719
+        },
+        {
+          "feature": 4,
+          "slope": 0.7836062086377212,
+          "intercept": 4.259855469104423,
+          "location": 0.01371994266723453,
+          "spread": 0.38199664348712337
+        },
+        {
+          "feature": 5,
+          "slope": 0.9716241168192661,
+          "intercept": 5.293986741893329,
+          "location": 0.0020204376382961797,
+          "spread": 0.48832811967507755
+        },
+        {
+          "feature": 6,
+          "slope": 0.9707862977231814,
+          "intercept": 4.854355235720119,
+          "location": 0.0090446347993407,
+          "spread": 0.5497871231116078
+        },
+        {
+          "feature": 7,
+          "slope": 1.1218132969162147,
+          "intercept": 4.849242821881927,
+          "location": 0.0674439245467573,
+          "spread": 0.5088097353755799
+        }
+      ]
+    },
+    {
+      "fold": 4,
+      "n_background": 133,
+      "n_positive": 410,
+      "n_negative": 312,
+      "morphology_choice": "maximum",
+      "validation_choices": {
+        "maximum": 0.3230769230769231,
+        "mean": 0.3230769230769231,
+        "positive_mean": 0.3230769230769231
+      },
+      "calibration": [
+        {
+          "feature": 0,
+          "slope": -0.7061986166940493,
+          "intercept": -5.742699871400654,
+          "location": 0.009115982060692973,
+          "spread": 0.33452342038871985
+        },
+        {
+          "feature": 1,
+          "slope": -0.6649762754119178,
+          "intercept": -5.726100710577469,
+          "location": -0.008401260663537968,
+          "spread": 0.37322995912749224
+        },
+        {
+          "feature": 2,
+          "slope": -0.5523172696469371,
+          "intercept": -5.450941815686509,
+          "location": 0.024134846501145724,
+          "spread": 0.385158909317252
+        },
+        {
+          "feature": 3,
+          "slope": -0.36080525947760195,
+          "intercept": -5.249219105392018,
+          "location": 0.002925262103791848,
+          "spread": 0.43957792876803997
+        },
+        {
+          "feature": 4,
+          "slope": 0.5796637183031091,
+          "intercept": 2.8606852907582594,
+          "location": 0.03772013705905852,
+          "spread": 0.3956571756458747
+        },
+        {
+          "feature": 5,
+          "slope": 0.8031063913425203,
+          "intercept": 4.122189882329039,
+          "location": 0.018062535893664355,
+          "spread": 0.520685225803908
+        },
+        {
+          "feature": 6,
+          "slope": 0.8963338566234957,
+          "intercept": 4.297639348618634,
+          "location": -0.012443580226874529,
+          "spread": 0.5769618385267689
+        },
+        {
+          "feature": 7,
+          "slope": 0.9449677416688995,
+          "intercept": 3.584888277785057,
+          "location": 0.007959919830105466,
+          "spread": 0.5501733269062107
+        }
+      ]
+    }
+  ],
+  "background": "Training-annotation-free full25.6kb contexts; held validation/test contexts purged; per-fold100kb blocks",
+  "forest": "Fixed shallow known-structure control trained on repeat1 only",
+  "repeat2": "Independent contact-count transfer; never chooses recipes",
+  "limitations": [
+    "Retrospective previously observed labels and test positions",
+    "Known-center recall is not novel-structure discovery",
+    "Two repeats are not independent biological studies"
+  ]
+}

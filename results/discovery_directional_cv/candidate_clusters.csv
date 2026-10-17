@@ -1,0 +1,7 @@
+cluster,total_members,independent_members,repeat2_consensus_members,known_context_members,tentative_new_cluster
+0,36,1,1,35,False
+1,1,0,0,1,False
+2,1,0,0,1,False
+3,1,0,0,1,False
+4,1,0,0,1,False
+5,22,3,3,18,False

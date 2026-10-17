@@ -1,0 +1,11 @@
+budget,recipe,jaccard
+64,combined_validation_selected,0.671976304397357
+64,directional_positive_mean,0.7779149784552061
+64,directional_validation_selected,0.671976304397357
+64,forest_known_control,0.7461350345560872
+64,old_morphology,0.8190102707749766
+128,combined_validation_selected,0.7623209568755461
+128,directional_positive_mean,0.803140382509695
+128,directional_validation_selected,0.761878485660171
+128,forest_known_control,0.7494890130824795
+128,old_morphology,0.7894971363336527

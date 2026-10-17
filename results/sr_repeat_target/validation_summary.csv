@@ -1,0 +1,5 @@
+method,objective
+cross_repeat_target,0.011632212049638232
+dense_multiscale,0.01165621440547208
+projected_bicubic,0.012025934411212802
+sparse_matched,0.011669414428373178

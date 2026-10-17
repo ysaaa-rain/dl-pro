@@ -1,0 +1,15 @@
+{
+  "negative_sample": "GSM8950765_NoLig_rep1",
+  "source_sha256": "cae3f100a27c08e0fd99be3af8dbe60e673aca3979bef6f214d5467236592a93",
+  "negative_repeats": 1,
+  "source_library_pairs": 36139128,
+  "source": "Official NoLig Cooler; registered gzip and decompressed SHA256 both verified",
+  "mask": "Identical WTrep1/rep2 common observed support,80%native bin threshold,upper triangle offset>=2",
+  "normalization": "Each library per-million pairs; common fold0 WT training distance expectation",
+  "history_regions_within6400bp": 4,
+  "limitations": [
+    "NoLig has one repeat and different library composition and depth",
+    "Low NoLig similarity does not establish novel biology or causality",
+    "Shifted centers can change known-context eligibility without introducing a new underlying structure"
+  ]
+}

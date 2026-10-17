@@ -1,0 +1,12 @@
+{
+  "purpose": "Count-preserving shrinkage of frozen model toward projected bicubic",
+  "selection": "Original 12 WT repeat1 validation windows, common native plus multiscale O/E objective",
+  "test": "Original 32 spatial test windows; no test-based reselection",
+  "cross_repeat": "Input WT repeat1 40bp, compare to WT repeat2 10bp at 16 matching test loci",
+  "shape_metric": "Masked 100bp O/E SSIM on 10.24kb windows, distinct from prior 25.6kb known-context metric",
+  "limitations": [
+    "Previously observed test positions; retrospective result",
+    "Only two biological repeats and eight test spatial blocks",
+    "Within-repeat target shares reads with low-resolution input"
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "checks": {
+    "original344_labels_and56_spatial_groups_unchanged": true,
+    "both_dense_scan_repeats_exactly_reproduce_original_grid": true,
+    "discovery_oof_unique_and_original_fold_assignments_match": true,
+    "sr64train12val_and8test_blocks_disjoint": true,
+    "all_sr_fixed_arms_complete_finite_and_budget_matched": true,
+    "four_independent_qc_candidates_but_zero_qualified_new_clusters": true,
+    "official_WT_and_NoLig_coolers_match_registered_SHA256": true,
+    "original_sr_array_exactly_matches_all_tracked_shards": true,
+    "train_and_validation_repeat2_targets_match_direct_Cooler_reads": true,
+    "conditional_checkpoints_are_validation_selected_and_count_consistent": true,
+    "canonical_known_plan_bytes_match_original_signature": true,
+    "pytest_passed": true
+  },
+  "baseline_git_revision": "3dcb43d9352a0054f8555f3ae24ec9d5f2400e2b",
+  "source_sha256": {
+    "GSM8950765_NoLig_rep1": "cae3f100a27c08e0fd99be3af8dbe60e673aca3979bef6f214d5467236592a93",
+    "GSE272159_37C_rep1": "0256e10da36abfe0238bf16952bc43bc78365f43c201e6e3ba0c49bd243549a8",
+    "GSE272159_37C_rep2": "ede9b4f7c0c6b40c8f098e43cdd0abbc0a8987f05e8b37051a5e3cbf143ad106"
+  },
+  "code_sha256": {
+    "scripts/audit_directional_nolig.py": "6adf77c6640c2d76e8f5571533baa5dfdd3157959a079f590f6f8c3e3aba45e6",
+    "scripts/discovery_directional_cv.py": "31f12cbb4eb9bb7019e94f31426dc84d4cc2842fd14183a809e3ee5ff41cf553",
+    "scripts/summarize_directional_discovery.py": "dd27dc34eefdf2b7c3c564faf97d30f89de38ad9056269a88648f83b2178a60a",
+    "scripts/train_sr_conditional.py": "f1f2148baf627aa4d398c9dc708cd6d69c50a688f2899eb51e47a05597f1f644",
+    "scripts/audit_dense_candidates.py": "f4e65f6ef48b45f4cb43ea94a1c5e728155acb5016668066bf2fe2c3ea119ddf",
+    "scripts/evaluate_sr_repeat_target.py": "4868cfa373339068438c2dc3f0c547a372b06b113d6613c01fa0ceacc6db3d8e",
+    "scripts/discovery_type_weight_control.py": "00cd39651e12e474b324f2038b8135a0e0c8400bf15f29cb5f3c8284ce34042c",
+    "scripts/audit_task2_task5_iteration.py": "0828137a60d207fcdf9e43c674fba29fb48534b9a75c412635d229d7303ec32c",
+    "src/dlpro/count_allocation.py": "4535956975e5370f14840a8004adc131c6f960a398f9444f8ff39b772531da01",
+    "src/dlpro/ridge_features.py": "d413a95efae8b74e558a7c660a1b5d2971a0fbdb001407cdca267cfb62824e66",
+    "docs/第四轮固定实验协议.md": "2de6d2335f521c5e09915b897486d6a32082fb6e0575eb6442eab3ba9e01376e",
+    "scripts/train_sr_repeat_target.py": "9acb9ef231fdef78716a17c38438faa2ed09c847ef3fd1a21d80554e787eac00",
+    "scripts/prepare_sr_repeat_target.py": "69fe7ab784e6992ca6ff0fe9e09018090bdd991f06150841984b89b7ff4bfd46",
+    "scripts/prepare_dense_scan.py": "81f1aaf2be57b9242cacb3dff9163227c49c2f2835f25a8852c7b8486d9beabc",
+    "scripts/discovery_dense_cv.py": "6a74a0e4ed5c9021ceb0cf6c5375ac711d0948ee13d94c4afb3b84b743508c9b",
+    "scripts/discovery_fine_scale.py": "0cc09ca41edfa0bfd4dc40e97fd25c7c43e42692fa55b8e115c6dccda2a0942f",
+    "scripts/discovery_supervised_ranker.py": "336d6de0c6b3b30bca376c03d9f77fa4998e6a075c0c8680d4b29e8d02553056",
+    "scripts/discovery_repeat_transfer.py": "b09f4d86e286a0abf32f07400a024219c1bfbc8be88342dd3bbf8325ead49890",
+    "scripts/audit_sr_information_limit.py": "0b62657defceb5af47157e019c4b8457042a4ec59544b74042d9f6e2e9b45a3f",
+    "scripts/sr_shrinkage_control.py": "e411d06ab2fcb79b61aed72becec5c2a8fa87443e1ba141416f67ddf9620252d",
+    "scripts/summarize_dense_discovery.py": "79a7af3aba173e12dd8675ee21eea8ecccfad0183218b6fb0c81da4e8ebc3594",
+    "scripts/run_task2_task5_iteration.py": "f2ab6c9ccafa548587a2b8f1c63ac8c972a8e2d7e6a62221151e4d40a8abe4ed",
+    "scripts/restore_wt_sources.py": "c523fd6640682e85aaa90b2a4e354a727bcb02c4a52f96e028dba5e0b502488e",
+    "scripts/restore_nolig_control.py": "20f5fc49a45b0c5d5430e9eb6cb3db60666c3c52d047361bcc3e9622d4f137d3",
+    "scripts/plot_task2_task5_iteration.py": "382a8e45adb30d6a62d2dfcfe1accd9b15f5cdb1df6fc4f6c665784534cc9445"
+  },
+  "count_constraint_probes": [
+    {
+      "recipe": "conditional_rep1",
+      "source_index": 0,
+      "max_relative40bp_error": 4.450480162176973e-07,
+      "symmetry_max_abs": 6.67572021484375e-06
+    },
+    {
+      "recipe": "conditional_rep1",
+      "source_index": 2,
+      "max_relative40bp_error": 4.967977815795166e-07,
+      "symmetry_max_abs": 7.62939453125e-06
+    },
+    {
+      "recipe": "conditional_rep2",
+      "source_index": 0,
+      "max_relative40bp_error": 4.5548623006652633e-07,
+      "symmetry_max_abs": 7.62939453125e-06
+    },
+    {
+      "recipe": "conditional_rep2",
+      "source_index": 2,
+      "max_relative40bp_error": 5.019338686906849e-07,
+      "symmetry_max_abs": 8.58306884765625e-06
+    }
+  ],
+  "model_sha256": {
+    "results/sr_repeat_target/model_seed42.pt": "c48e1f8d3ebdb0205c2d86dc57b87105adc6ee4af4bc8f48c4e2e6b368d48e95",
+    "results/sr_conditional/conditional_rep1_seed42.pt": "cffc92b921b77e28c377d7573343bee7a55f1946a71711d2c93988afa3bd7d28",
+    "results/sr_conditional/conditional_rep2_seed42.pt": "3f904b584403c5e20cd17500da91d52352dfa94445c441058b632b0f792260e3"
+  },
+  "packages": {
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "torch": "2.7.1",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.6.1",
+    "scikit-image": "0.25.0",
+    "cooler": "0.10.4",
+    "pytest": "8.3.4"
+  },
+  "python": "3.13.5",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "limitations": [
+    "All test locations previously observed; retrospective same-study exploration",
+    "Group bootstrap intervals do not account for all accumulated model search",
+    "Known-structure detection is not evidence of a novel biological class"
+  ]
+}

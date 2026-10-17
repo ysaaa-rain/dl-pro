@@ -1,0 +1,26 @@
+{
+  "selected": "dense_multiscale_seed42",
+  "validation_objective": {
+    "adaptive_k1": 0.015683042894427974,
+    "adaptive_k16": 0.015796066882709663,
+    "adaptive_k4": 0.015726610086858273,
+    "blend_025": 0.0158717876765877,
+    "blend_050": 0.0157604799605906,
+    "blend_075": 0.015689411743854482,
+    "dense_multiscale_seed42": 0.0156610580937316,
+    "projected_bicubic": 0.016022408846765757
+  },
+  "selection_only_validation": true,
+  "checkpoint": "dense_multiscale",
+  "recipes": [
+    "projected_bicubic",
+    "dense_multiscale_seed42",
+    "blend_025",
+    "blend_050",
+    "blend_075",
+    "adaptive_k1",
+    "adaptive_k4",
+    "adaptive_k16"
+  ],
+  "test_evaluated": false
+}

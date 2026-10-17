@@ -1,0 +1,5 @@
+budget,recipe,intersection,jaccard
+64,forest_known_control,46.4,0.5694413945642757
+64,morphology,56.6,0.7972318091201933
+128,forest_known_control,92.0,0.5611166352205589
+128,morphology,108.8,0.7429623103459254
