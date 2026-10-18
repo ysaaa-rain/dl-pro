@@ -1,0 +1,32 @@
+{
+  "contrasts": [
+    {
+      "condition": "HNS_mut",
+      "structures": 344,
+      "repeat_noise_cutoff_log2": 0.10075887497174615,
+      "qualified": 9,
+      "weakened": 1,
+      "strengthened": 8,
+      "median_absolute_log2_change": -0.624233063575921,
+      "median_local_log2_change": 0.07329754083197776
+    },
+    {
+      "condition": "FIS_mut",
+      "structures": 344,
+      "repeat_noise_cutoff_log2": 0.10158251859340263,
+      "qualified": 2,
+      "weakened": 2,
+      "strengthened": 0,
+      "median_absolute_log2_change": -0.5303642226292842,
+      "median_local_log2_change": 0.05709671509699673
+    }
+  ],
+  "finite_effects": true,
+  "limitations": [
+    "Retrospective exploratory comparison, not independent confirmation.",
+    "Two unpaired biological repeats per condition; no per-structure p-values or FDR claims.",
+    "Shared/overlapping structures are not independent observations.",
+    "Flank enrichment measures local contrast; it is not proof of loss or gain of a structural class.",
+    "Row-marginal correction is a sensitivity analysis and can remove biological signal."
+  ]
+}
