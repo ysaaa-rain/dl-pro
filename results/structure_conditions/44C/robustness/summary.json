@@ -1,0 +1,58 @@
+{
+  "condition": "44C",
+  "comparison": "44C versus 37C WT",
+  "structures_screened": 344,
+  "context_groups": 81,
+  "robust_candidates": 16,
+  "directional_across_all_sensitivities": 16,
+  "exceed_noise_q99_across_all_sensitivities": 23,
+  "exceed_maximum_repeat_noise_across_all_sensitivities": 20,
+  "top_descriptive_structures": [
+    {
+      "structure_id": "OPCID_65",
+      "type": "OPCID",
+      "w1_clean_effect": 1.2988902044583983
+    },
+    {
+      "structure_id": "OPCID_56",
+      "type": "OPCID",
+      "w1_clean_effect": -1.2235949782444122
+    },
+    {
+      "structure_id": "OPCID_53",
+      "type": "OPCID",
+      "w1_clean_effect": -0.9985389070186761
+    },
+    {
+      "structure_id": "OPCID_60",
+      "type": "OPCID",
+      "w1_clean_effect": 0.8878930031915828
+    },
+    {
+      "structure_id": "CHIN_226",
+      "type": "CHIN",
+      "w1_clean_effect": 0.8707762313091172
+    }
+  ],
+  "robust_candidates_with_target_density_change_in_same_direction": 13,
+  "robust_candidates_with_background_mediated_relative_shift": 3,
+  "primary_sensitivity": {
+    "background": "clean",
+    "flank_width_multiplier": 1.0,
+    "absolute_effect_q95": 0.4162279762781115,
+    "absolute_effect_q99": 0.8841273133774399,
+    "empirical_repeat_noise_q95": 0.20225817537612065,
+    "empirical_repeat_noise_q99": 0.2402990763499299,
+    "largest_group_repeat_noise": 0.2552861533722481,
+    "median_repeat_noise_max_per_context": 0.07968875971897953
+  },
+  "flank_multipliers": [
+    0.5,
+    1.0,
+    2.0
+  ],
+  "backgrounds": [
+    "all",
+    "clean"
+  ]
+}

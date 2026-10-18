@@ -1,0 +1,83 @@
+{
+  "comparison": "44C heat shock versus 37C WT",
+  "structures_screened": 344,
+  "flank_width_multipliers": [
+    0.5,
+    1.0,
+    2.0
+  ],
+  "bin_bp": 100,
+  "distance_support": {
+    "minimum": "200 bp",
+    "maximum": "0.5 times annotated structure length",
+    "same_across_flank_widths": true
+  },
+  "backgrounds": {
+    "all": "all bins in the left and right flanks",
+    "clean": "flank bins not overlapping another known structure annotation"
+  },
+  "normalization": "per-million depth normalization in ContactReader, then target enrichment relative to distance-matched flank contact density",
+  "replicate_design": "two unpaired biological replicates in each condition; evaluate all four cross-condition replicate contrasts",
+  "screening_scope": "all 344 annotations; no prior condition-specific candidate list used",
+  "minimum_effect_log2": 0.25,
+  "empirical_noise": "For each sensitivity, maximum absolute within-condition replicate log2 difference per largest-context overlap group; pooled across WT and 44C. Descriptive threshold, not p-values, FDR, or family-wise error control.",
+  "candidate_rule": "Direction and at least 0.25 absolute log2 effect in all six flank/background settings, all four cross-condition replicate contrasts direction-concordant with minimum absolute contrast of at least 0.25, and every setting's effect larger than both its pooled group-noise 99th percentile and largest observed repeat-noise maximum.",
+  "retrospective": true,
+  "limitations": [
+    "Two biological replicates per condition limit formal inference at individual structures.",
+    "The empirical noise screen is descriptive and does not provide multiplicity-adjusted p-values or FDR control.",
+    "The contact maps and annotated positions have appeared in prior project analyses; this is not an independent validation set.",
+    "GEO lists heat-shock sample records across distinct t1 and t2 sequencing batches/platforms; the series-level 44C Cooler filenames do not identify a GSM accession. This screen can identify stable matrix-level differences but cannot alone rule out residual platform or batch effects."
+  ],
+  "inputs": {
+    "source_samples": [
+      {
+        "sample_id": "GSE272159_37C_rep1",
+        "condition": "37C",
+        "replicate": 1,
+        "path": "data/raw/GSE272159_37C_rep1.mapq_30.10.cool",
+        "sha256": "0256e10da36abfe0238bf16952bc43bc78365f43c201e6e3ba0c49bd243549a8",
+        "bytes": 482254398,
+        "library_pairs": 368695972,
+        "cooler_sha256_verified": true
+      },
+      {
+        "sample_id": "GSE272159_37C_rep2",
+        "condition": "37C",
+        "replicate": 2,
+        "path": "data/raw/GSE272159_37C_rep2.mapq_30.10.cool",
+        "sha256": "ede9b4f7c0c6b40c8f098e43cdd0abbc0a8987f05e8b37051a5e3cbf143ad106",
+        "bytes": 468345755,
+        "library_pairs": 358452621,
+        "cooler_sha256_verified": true
+      },
+      {
+        "sample_id": "GSE272159_44C_rep1",
+        "condition": "44C",
+        "replicate": 1,
+        "path": "data/raw/GSE272159_44C_rep1.mapq_30.10.cool",
+        "sha256": "ee5c0d2c47bc04d3205e489bebc387930e42bbb7769227ad4caca28042ad9574",
+        "bytes": 489178979,
+        "library_pairs": 376329169,
+        "cooler_sha256_verified": true
+      },
+      {
+        "sample_id": "GSE272159_44C_rep2",
+        "condition": "44C",
+        "replicate": 2,
+        "path": "data/raw/GSE272159_44C_rep2.mapq_30.10.cool",
+        "sha256": "003e3e1e899cab965c3ce924bd2ff0c540f0052c24a96d26b9fce31fb378a2b1",
+        "bytes": 474931346,
+        "library_pairs": 352932865,
+        "cooler_sha256_verified": true
+      }
+    ],
+    "source_accession": "GSE272159",
+    "source_urls": {
+      "GSE272159_37C_rep1": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE272nnn/GSE272159/suppl/GSE272159_37C_rep1.mapq_30.10.cool.gz",
+      "GSE272159_37C_rep2": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE272nnn/GSE272159/suppl/GSE272159_37C_rep2.mapq_30.10.cool.gz",
+      "GSE272159_44C_rep1": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE272nnn/GSE272159/suppl/GSE272159_44C_rep1.mapq_30.10.cool.gz",
+      "GSE272159_44C_rep2": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE272nnn/GSE272159/suppl/GSE272159_44C_rep2.mapq_30.10.cool.gz"
+    }
+  }
+}

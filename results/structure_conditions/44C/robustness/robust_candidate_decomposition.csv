@@ -1,0 +1,17 @@
+structure_id,type,context_group,w1_clean_effect,w1_clean_target_density_log2_change,w1_clean_target_density_all_four_same_direction,w1_clean_target_density_minimum_cross_effect,w1_clean_background_density_log2_change,w1_clean_background_density_all_four_same_direction,robust_candidate,interpretation
+OPCID_65,OPCID,72,1.2988902044583983,-0.15355125093592115,True,0.1255649850247753,-1.4524414553943208,True,True,relative enrichment shift is primarily background-mediated
+OPCID_56,OPCID,62,-1.2235949782444122,-1.1757006467208972,True,1.1329880968741364,0.047894331523513856,True,True,target contact density changes in the same direction as local enrichment
+OPCID_53,OPCID,56,-0.9985389070186761,-1.3323437411144834,True,1.1496128351068915,-0.3338048340958082,True,True,target contact density changes in the same direction as local enrichment
+OPCID_60,OPCID,68,0.8878930031915828,0.8338222180608543,True,0.775062391549544,-0.05407078513072605,True,True,target contact density changes in the same direction as local enrichment
+OPCID_47,OPCID,50,-0.8375710514839207,-1.1854863864926521,True,1.0187612267504171,-0.34791533500873406,True,True,target contact density changes in the same direction as local enrichment
+OPCID_45,OPCID,47,0.7660130553727124,0.8161092542749975,True,0.6973454925433877,0.05009619890228567,True,True,target contact density changes in the same direction as local enrichment
+OPCID_59,OPCID,65,-0.6182032006011188,-0.7940054401768926,True,0.7686511689078745,-0.17580223957577346,True,True,target contact density changes in the same direction as local enrichment
+OPCID_26,OPCID,28,0.6031568424446371,0.4926942993657395,True,0.4271951392919089,-0.11046254307889569,True,True,target contact density changes in the same direction as local enrichment
+OPCID_52,OPCID,52,-0.463311278347512,-0.761850582095799,True,0.6987222394260098,-0.29853930374828686,True,True,target contact density changes in the same direction as local enrichment
+CHIN_79,CHIN,20,-0.4489672578341697,-0.14362856921929534,True,0.05683694655187921,0.30533868861487257,True,True,relative enrichment shift is primarily background-mediated
+OPCID_5,OPCID,1,-0.41641256455111575,-0.5092825316725795,True,0.40757410678682415,-0.09286996712146323,True,True,target contact density changes in the same direction as local enrichment
+CHIN_65,CHIN,18,0.41456668182107337,0.2934603622986556,True,0.21635844893019485,-0.12110631952241846,True,True,target contact density changes in the same direction as local enrichment
+OPCID_24,OPCID,20,0.4129503558530552,0.3576724647678864,True,0.3254081723918869,-0.05527789108517034,False,True,target contact density changes in the same direction as local enrichment
+OPCID_61,OPCID,68,0.3916157220727454,0.2603352485527193,True,0.20590499278152485,-0.13128047352002703,True,True,target contact density changes in the same direction as local enrichment
+OPCID_64,OPCID,70,-0.3879767740941139,-0.25875470078158,True,0.24506350199924753,0.12922207331253333,True,True,target contact density changes in the same direction as local enrichment
+CHIN_69,CHIN,19,0.3559876798890623,0.18468889661912247,True,0.07469188180521069,-0.17129878326993797,True,True,relative enrichment shift is primarily background-mediated

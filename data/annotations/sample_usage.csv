@@ -1,6 +1,6 @@
 sample_id,condition,replicate,path,formal_tasks,status,first_used_analysis
-GSE272159_44C_rep1,44C,1.0,data/raw/GSE272159_44C_rep1.mapq_30.10.cool,3,formal_experiment,condition tracks
-GSE272159_44C_rep2,44C,2.0,data/raw/GSE272159_44C_rep2.mapq_30.10.cool,3,formal_experiment,condition tracks
+GSE272159_44C_rep1,44C,1.0,data/raw/GSE272159_44C_rep1.mapq_30.10.cool,3;4,formal_experiment,condition tracks
+GSE272159_44C_rep2,44C,2.0,data/raw/GSE272159_44C_rep2.mapq_30.10.cool,3;4,formal_experiment,condition tracks
 GSE272159_rif25_rep1,rif25,1.0,data/raw/GSE272159_rif25_rep1.MG1655.mapq_30.10.cool,3,formal_experiment,condition tracks
 GSE272159_rif25_rep2,rif25,2.0,data/raw/GSE272159_rif25_rep2.MG1655.mapq_30.10.cool,3,formal_experiment,condition tracks
 GSE272159_rif750_rep1,rif750,1.0,data/raw/GSE272159_rif750_rep1.MG1655.mapq_30.10.cool,,data_audit_only,

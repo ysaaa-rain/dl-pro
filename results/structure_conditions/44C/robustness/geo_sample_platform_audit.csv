@@ -1,0 +1,9 @@
+sample_accession,condition,timepoint_group,replicate,platform_id,instrument_model,official_record,cooler_file_mapping_confirmed
+GSM8394770,37C,t1,1,GPL32081,NextSeq 2000,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8394770,False
+GSM8394772,37C,t1,2,GPL32081,NextSeq 2000,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8394772,False
+GSM8394771,44C,t1,1,GPL32081,NextSeq 2000,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8394771,False
+GSM8394773,44C,t1,2,GPL32081,NextSeq 2000,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8394773,False
+GSM8394774,37C,t2,1,GPL34700,DNBSEQ-T7,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8394774,False
+GSM8394776,37C,t2,2,GPL34700,DNBSEQ-T7,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8394776,False
+GSM8394775,44C,t2,1,GPL34700,DNBSEQ-T7,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8394775,False
+GSM8394777,44C,t2,2,GPL34700,DNBSEQ-T7,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8394777,False
