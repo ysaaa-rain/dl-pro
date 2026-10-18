@@ -1,0 +1,19 @@
+{
+  "previous_manifest_files_verified": 262,
+  "previous_files_unchanged": true,
+  "native_cache_hashes": {
+    "raw_rep1.npy": "3fd39f091264ddd871897481c1c81992a12ce9094eaa52810339674965b38bbc",
+    "raw_rep2.npy": "58e6cb6006b470a35c463a119cbbf5b7aef886db10b4da68a65ab518b43dccfd"
+  },
+  "native_cache_hashes_match": true,
+  "run_records": 25,
+  "no_active_stages": true,
+  "new_unit_tests": "4 passed; runs/test_all_features.log",
+  "exact_application_demo": true,
+  "git_revision": "f44d34892b2786f9804f1d40a5f24b7d9f21b89a",
+  "git_push_performed": false,
+  "formal_deliverables_modified": false,
+  "inventory_script_sha256": "69c503ef7e28557f75ad9368fa5487302e3958e5571f2aa89733aeb25e272706",
+  "large_cache_policy": "Raw Coolers and full per-block/candidate arrays remain local; source and cache SHA256 in noise/conditions protocol",
+  "manifest_self_excluded": true
+}

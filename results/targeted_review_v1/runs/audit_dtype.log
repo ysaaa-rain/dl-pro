@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "D:\大三上小学期\深度学习综合实践\dl-pro-open\scripts\audit_targeted_review.py", line 61, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "D:\大三上小学期\深度学习综合实践\dl-pro-open\scripts\audit_targeted_review.py", line 45, in main
+    difference=float(abs(score-stored).max());assert difference<1e-4,(fold,difference)
+                                                     ^^^^^^^^^^^^^^^
+AssertionError: (4, 0.00016696142314577903)

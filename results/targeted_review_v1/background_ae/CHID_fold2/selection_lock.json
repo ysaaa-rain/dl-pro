@@ -1,0 +1,34 @@
+{
+  "hidden_type": "CHID",
+  "fold": 2,
+  "validation_auc": {
+    "ae": 0.4545454545454546,
+    "morphology": 0.7003367003367003,
+    "joint": 0.6161616161616161
+  },
+  "validation_signal_spearman": 0.4215841061046464,
+  "joint_allowed": false,
+  "joint_fallback": "ae_residual",
+  "checkpoints": {
+    "seed42": "eb12eb4805c7e13e118052b0e95617d38cb2ad6db4b6718f9be18b1f9ba3f368",
+    "seed43": "be62b1845da6965a2c56395698fceb0f601fcc32d8a279ae65d7bc648a9257c2"
+  },
+  "scale": 1.6904517452802363,
+  "seed_diagnostics": [
+    {
+      "seed": 42,
+      "selected_epoch": 30,
+      "train_selected": 0.044726967066526416,
+      "validation_selected": 0.04176511988043785,
+      "elapsed_seconds": 8.669298799999524
+    },
+    {
+      "seed": 43,
+      "selected_epoch": 30,
+      "train_selected": 0.047639526426792145,
+      "validation_selected": 0.04448457434773445,
+      "elapsed_seconds": 8.953080200008117
+    }
+  ],
+  "test_labels_used": false
+}

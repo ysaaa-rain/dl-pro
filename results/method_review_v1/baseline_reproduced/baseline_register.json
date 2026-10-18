@@ -1,0 +1,89 @@
+[
+  {
+    "task": "task2",
+    "method": "support_aware_morphology",
+    "input": "WT100/200bp",
+    "target": "No fitted test labels; fixed fold calibration",
+    "split": "Original344 labels/56 groups/5fold",
+    "training": "Reuse frozen train-only background parameters; recompute morphology from cached raw matrices",
+    "device": "cpu",
+    "seed": 42,
+    "status": "inference_reproduced_not_refitted",
+    "output": "results\\method_review_v1\\baseline_reproduced\\discovery_oof.csv"
+  },
+  {
+    "task": "task5",
+    "method": "conditional_rep1",
+    "input": "40bp mean from native10bp WT count image",
+    "split": "Original8 test100kb blocks;32same/16cross",
+    "device": "cpu",
+    "seed": 42,
+    "training": "Reuse historical validation-selected checkpoint; no historical training repeated",
+    "status": "checkpoint_inference_reproduced",
+    "output": "results\\method_review_v1\\baseline_reproduced\\sr\\test_per_window.csv"
+  },
+  {
+    "task": "task5",
+    "method": "conditional_rep2",
+    "input": "40bp mean from native10bp WT count image",
+    "split": "Original8 test100kb blocks;32same/16cross",
+    "device": "cpu",
+    "seed": 42,
+    "training": "Reuse historical validation-selected checkpoint; no historical training repeated",
+    "status": "checkpoint_inference_reproduced",
+    "output": "results\\method_review_v1\\baseline_reproduced\\sr\\test_per_window.csv"
+  },
+  {
+    "task": "task5",
+    "method": "cross_repeat_target",
+    "input": "40bp mean from native10bp WT count image",
+    "split": "Original8 test100kb blocks;32same/16cross",
+    "device": "cpu",
+    "seed": 42,
+    "training": "Reuse historical validation-selected checkpoint; no historical training repeated",
+    "status": "checkpoint_inference_reproduced",
+    "output": "results\\method_review_v1\\baseline_reproduced\\sr\\test_per_window.csv"
+  },
+  {
+    "task": "task5",
+    "method": "dense_multiscale",
+    "input": "40bp mean from native10bp WT count image",
+    "split": "Original8 test100kb blocks;32same/16cross",
+    "device": "cpu",
+    "seed": 42,
+    "training": "Reuse historical validation-selected checkpoint; no historical training repeated",
+    "status": "checkpoint_inference_reproduced",
+    "output": "results\\method_review_v1\\baseline_reproduced\\sr\\test_per_window.csv"
+  },
+  {
+    "task": "task5",
+    "method": "projected_bicubic",
+    "input": "40bp mean from native10bp WT count image",
+    "split": "Original8 test100kb blocks;32same/16cross",
+    "device": "cpu",
+    "seed": 42,
+    "training": "Reuse historical validation-selected checkpoint; no historical training repeated",
+    "status": "algorithm_reproduced",
+    "output": "results\\method_review_v1\\baseline_reproduced\\sr\\test_per_window.csv"
+  },
+  {
+    "task": "task5",
+    "method": "sparse_matched",
+    "input": "40bp mean from native10bp WT count image",
+    "split": "Original8 test100kb blocks;32same/16cross",
+    "device": "cpu",
+    "seed": 42,
+    "training": "Reuse historical validation-selected checkpoint; no historical training repeated",
+    "status": "checkpoint_inference_reproduced",
+    "output": "results\\method_review_v1\\baseline_reproduced\\sr\\test_per_window.csv"
+  },
+  {
+    "task": "task5",
+    "method": "projected_first_round_cnn",
+    "split": "Original32same-repeat test windows",
+    "seed": 42,
+    "status": "formal_checkpoint_inference_reproduced",
+    "device": "cpu",
+    "output": "results\\method_review_v1\\baseline_reproduced\\formal_sr_native.csv"
+  }
+]

@@ -1,0 +1,33 @@
+ M .gitignore
+ M README.md
+ M docs/进度.md
+ M scripts/audit_task2_task5_iteration.py
+ M scripts/evaluate_sr_repeat_target.py
+ M src/dlpro/coverage_support.py
+ M src/dlpro/refinement.py
+?? configs/
+?? docs/第五轮方法范式审查结论.md
+?? docs/第五轮根本瓶颈与固定协议.md
+?? results/method_review_v1/
+?? scripts/audit_method_review.py
+?? scripts/audit_novelty_candidates.py
+?? scripts/benchmark_novelty.py
+?? scripts/cluster_review_candidates.py
+?? scripts/diagnose_method_review.py
+?? scripts/evaluate_allocation_review.py
+?? scripts/prepare_method_review.py
+?? scripts/reconstruct_review_sr.py
+?? scripts/reproduce_method_baselines.py
+?? scripts/run_method_review.py
+?? scripts/summarize_method_review.py
+?? scripts/train_allocation_review.py
+?? scripts/verify_review_priors.py
+?? scripts/write_method_review_notes.py
+?? src/dlpro/allocation_model.py
+?? src/dlpro/method_review.py
+?? src/dlpro/novelty.py
+?? src/dlpro/sr_review.py
+?? tests/test_allocation_model.py
+?? tests/test_candidate_audit.py
+?? tests/test_method_review.py
+?? tests/test_novelty.py

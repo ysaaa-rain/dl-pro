@@ -1,0 +1,50 @@
+{
+  "authorization": "User explicitly requested GitHub synchronization",
+  "pre_sync_head": "f44d34892b2786f9804f1d40a5f24b7d9f21b89a",
+  "target": "origin/main",
+  "experiment_rounds": [
+    5,
+    6,
+    7,
+    8
+  ],
+  "tests": {
+    "command": ".venv/Scripts/python.exe -m pytest -q",
+    "observed_result": "48 passed in 9.00s",
+    "exit_code": 0
+  },
+  "excluded_local_only": [
+    "results/evidence_review_v1/blind_review/private/",
+    "results/evidence_review_v1/blind_review/blind_review_packet.zip"
+  ],
+  "included_public_files": 1718,
+  "included_bytes": 386861882,
+  "navigation_before_sha256": {
+    ".gitignore": "cdd8cd0ca7e2313050d387e0592192621fc797eb7febe0a6a33d14764d8ee646",
+    "README.md": "f1751c82b5ae116b6245873e21ab136dfa1794c6bd16184e438f7d879e03f5c0",
+    "docs/进度.md": "f116c5543f41ad31db65123883013beebbbaaccc770222164c1c5e159e770047"
+  },
+  "navigation_after_sha256": {
+    ".gitignore": "512a366b87d0405ee0b1c25ca32aec22b756cf6164be69a57955f4710f18f745",
+    "README.md": "4e7c6672d238303a3f1761ae005b2a915266e27f27a8f2ba90fafb52b04e5f53",
+    "docs/进度.md": "649c01dd861a57f77613a712402e593a1174e6633c5ab15162c1305db2659502"
+  },
+  "artifact_bytes_preserved_by_gitattributes": true,
+  "formal_choices_changed": false,
+  "source_format_only_change": {
+    "path": "scripts/summarize_method_review.py",
+    "before_sha256": "ddda2d3f9bf6d2a60457513cf0caff3affa88da6a079be284bf0f8f1e51371ec",
+    "after_sha256": "4c1b5cc5bf2cf7692d5924258fb7531957421a0c7d4a4282a3f41388116fb94b",
+    "reason": "Remove one pre-existing trailing blank rejected by git diff --check; no semantic change"
+  },
+  "source_change_exception": "One trailing blank removed; no semantic change; archived source snapshots retained",
+  "prior_result_files_rewritten": false,
+  "gitattributes_before_sha256": "aa4281d3043594f3b538a4de535d684e4163746941edeac981846398822a7f23",
+  "gitattributes_after_sha256": "ca8d3c092332d2fa540307124cad94483b9e85c9b887a632546caddcfce2b079",
+  "documented_post_experiment_protected_changes": [
+    ".gitignore",
+    "README.md",
+    "docs/进度.md",
+    "scripts/summarize_method_review.py"
+  ]
+}

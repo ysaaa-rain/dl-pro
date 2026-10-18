@@ -1,0 +1,7 @@
+sample_id,condition,replicate,library_pairs,path
+GSE272159_44C_rep1,44C,1,376329169,data/raw/GSE272159_44C_rep1.mapq_30.10.cool
+GSE272159_44C_rep2,44C,2,352932865,data/raw/GSE272159_44C_rep2.mapq_30.10.cool
+GSE272159_rif25_rep1,rif25,1,67457178,data/raw/GSE272159_rif25_rep1.MG1655.mapq_30.10.cool
+GSE272159_rif25_rep2,rif25,2,64526147,data/raw/GSE272159_rif25_rep2.MG1655.mapq_30.10.cool
+GSE272159_37C_rep1,37C,1,368695972,data/raw/GSE272159_37C_rep1.mapq_30.10.cool
+GSE272159_37C_rep2,37C,2,358452621,data/raw/GSE272159_37C_rep2.mapq_30.10.cool

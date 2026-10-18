@@ -1,0 +1,8 @@
+{
+  "repeat2_source_sha256": "ede9b4f7c0c6b40c8f098e43cdd0abbc0a8987f05e8b37051a5e3cbf143ad106",
+  "n_train": 64,
+  "n_val": 12,
+  "split_source": "Original sr_expanded/windows.csv, unchanged",
+  "target": "Raw WT repeat-2 10 bp symmetric integer contact matrices",
+  "existing_test": "Original 16 paired test loci in sr_expanded/raw_counts.npy"
+}

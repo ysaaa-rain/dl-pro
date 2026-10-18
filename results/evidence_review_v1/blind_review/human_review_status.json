@@ -1,0 +1,1709 @@
+{
+  "cases": 243,
+  "reviewed": 0,
+  "independent_blind_validation_completed": false,
+  "independence": "Reviewer independence must be documented externally; tool operation is not independent review",
+  "case_status": [
+    {
+      "case_id": "BR-0063b50ba5e7acf7",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-008767be3f5b0223",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-00a24375ce6ecad1",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-02a328d4dad62823",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-0316f4c71f0b562e",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-03e55793df50b6a6",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-04c6dbab9eb7a3df",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-04c81b4070a39a6f",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-054e3b28b08bccd8",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-061219341fbce276",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-0796d554e66ddaab",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-08279d5f4020ca35",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-082a647e193f4e45",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-095a604d51917805",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-09f5f465380962d9",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-0a7c29ff17bdc851",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-0c4e30dddee2fe4d",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-0d8e032bafa28461",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-0dfc2d048f2c1c42",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-0ec363f91faea160",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-0eef7b3c3fc6547e",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-0fb633f3e2641f68",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-100ed297adc476b9",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-11ad5b598c8feb51",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-13406f14f50f0bce",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-160a712c9f0d4082",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-166e0b9b25a08fa4",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-1849f89e13d260be",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-187f5f4576fd5cd8",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-18b4eacc1f49c92e",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-1bb076986436aa7d",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-1c22b1e87f2fdc63",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-1f33168cc3e9eb8a",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-1f5da17aea0f2de7",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-1fc3e35d7cef6c7e",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-1fcacf5f85d50162",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-21b5aa54c98afec5",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-2219e7244d314347",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-224ed3d0720ddb8a",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-22d86a6868afd18e",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-230f47ae66698e6f",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-23cf8a107972e454",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-288155a838709dee",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-2b19a182d0ebc56e",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-2bec85357bf9f255",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-2e74f391f3dc1bf8",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-2f749a846651b203",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-322f03d4cc3e753a",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-332347900e5e01c4",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-34154b42b5f21335",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-34b7f327e20e4da8",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-36c93b0b6aba28fc",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-38e6e789248c6723",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-3a05dfc6f1f5fd37",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-3a3b5ec1b3a966d6",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-3ab32ddf8c234b0b",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-3bd606832a96bfb7",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-3c97b71d7dff5e78",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-3d8fce21e03ee1c8",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-3e939351fd9af764",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-41c1f83b8bbbd968",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-44e19859c9f36f2c",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-45531017f351787c",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-478f4fe6a655a328",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-4947a3b7af295254",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-4976037b0279ed05",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-4b1d7a5a65944577",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-4b4e2206d84f5c57",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-4c11bdbef5efde4d",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-4c8a16319991863e",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-4cd0e7322037be5c",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-531b46c9cf69cc60",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-539dbf22de310359",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-5461bf0dc2dacee6",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-54fa38823854e146",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-55c2baa6416df80a",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-566bec70b0e93e6c",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-56c8705107cd6c1c",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-580479996f2051e0",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-598ee5ca0489e97f",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-5a29230ee2b8b269",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-5aa01f5e9aeee30a",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-5c1c52693037291b",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-5cb182726ea2a3a1",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-5cbd8968fba27a1a",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-5d691eb536edb70c",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-5f5aebaaaa9d431f",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-5f8b6e05d9515b0a",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-5fe47e4915866dd7",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-6083b61165763bf1",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-610ec5c83bfd5b39",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-61fa5b4874463e90",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-62abd5971e463d58",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-62d119f1e4e00c48",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-6328d3b9cbd717d5",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-632a94e2b1735d22",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-643aac49435a4710",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-65c940fcc5b2c648",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-66d8fba905e1eb9e",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-6815710fc6fc14f3",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-6a8f60fe767e2a05",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-6ab759afbbebff1c",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-6d30345ed216cb39",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-6e4401ee292b7be5",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-6faa705cdd0178ab",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-723ff98edcf98776",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-75abc4c8ad4304e9",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-77c3476545d0e467",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-796534e0913e8a62",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-7982c500bb9f5aed",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-79c72add259f91af",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-7ae206ef3ba26096",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-7b11a4f26350b006",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-7d805feec773d170",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-7d9d5862e096451a",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-7f757a8ba0d0cfd8",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-809a80484ddcacf7",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-81b0593fd0e39fcc",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-82e639ba48c10170",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-82e85f109dc38e7c",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-83e0a300edf6d5cc",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-8631bff3e6d8bbe8",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-8846ddbef67aa28c",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-897a119063f6acb0",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-8a6a5c6ca9a869b2",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-8d1c20fd9f8a7806",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-8f569d06f5bed3a8",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-8fe0289f02554781",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-912a599e9adb8cbe",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-917b886179f0b045",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-9324501b0d6f8630",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-93a24e46158ba11c",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-93b3f79d8ed90b88",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-93fa11364bd20538",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-94fccc32dab54342",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-965dc5cef4822500",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-97a5eea738cc7f70",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-9a2f862fddc2d811",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-9be64d8c5a39bbd4",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-9df22ba55e4c0e16",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-9dfcd208c5ef3ebc",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-a0095a785fccd4fe",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-a19b33c4dd075f13",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-a340738a616c892a",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-a37bbd94e0bf39fb",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-a4b3a7b11b0aeea5",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-a4e56733b4958b2c",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-a5d57cdf10ac3498",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-a60c2cfe113e703f",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-a62422829e93373e",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-a6ad96fe94f4cf96",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-a6eb8dc584a935b0",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-a733214259b691ed",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-a7e1672cbddbbddc",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-a886ed25343ba4ee",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-aa7e88bc3aca75cf",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-abfd738da6deef30",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-ac52efc88507cccd",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-acc61bd04f1e4e4c",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-acdc1c1dccc2395b",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-af77f01fde7a5e08",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-b0c8c47f4764ae26",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-b1456a2e6e860ab6",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-b1d6ac73b14030e4",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-b1ded32947473b5e",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-b3051d3f3aab7cb9",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-b3c30527f171befe",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-b42771e16ccb0965",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-b4f2389715b40a13",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-b53b147e2e1a018a",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-b6d21c0d60e82193",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-b755307a8caf0886",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-b788f3dd26e26348",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-b8037e09b4eae2a7",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-b8274c7f10d9044c",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-b979ce964ee84526",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-b987722be832a5ae",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-bbf89147eb081b12",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-bc97c073c9d190ef",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-bcabb9db8cfb06bb",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-be580c80ed8f2dc2",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-be8cb46471c9cbb0",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-c0bde0f64d1014b3",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-c0c180a2594df0fd",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-c39fdcc2a95024b2",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-c4f852a652170c12",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-c529c5ec467f00da",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-c59fa89ef837007d",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-c778d5d0f36b22be",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-c8e2f27fc8c9a977",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-ca654038621cd107",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-cb2113a8ae10e2c2",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-cba2b144bbb1160f",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-cc4a6b731c4dcdf2",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-cde85a172677ef42",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-ce0160be93dfa8b5",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-d0a9758460002878",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-d0bfc7ae3c2a2e65",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-d262781be44e0ac9",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-d2a40d16fd020b04",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-d2a62bdd9485859f",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-d334fd5ad8f3fcd6",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-d64a9de1f0aa7dcd",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-d702f4a53f5f032e",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-d938b2c9f0f7ea6d",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-d99af4f0bc5b8948",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-da49cdb4ee78ea42",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-de88498ade408815",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-de93113ce6538594",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-df190443dfe3970c",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-df91d1c161165fcc",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-dfc4c51d485bf7c9",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-e1077088846d264c",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-e12c6b62830b567a",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-e130b3d3804f7fe1",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-e1b98b347aa4a0f3",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-e237abcf39eb3dd4",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-e2f520ecd407fbec",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-e458eb3e5bd968dd",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-e4a3f73d21d4fb95",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-e7ccd2a39f3e80b5",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-e8121c9d1726bf6e",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-e8155991ef56a39b",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-e8a4a7ecfdf17fa7",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-e9cbe7d5a691d795",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-ea9ac6d8a23f88fb",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-ed0ff5cfc5fdee38",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-edf8d53309add517",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-f05a939f19a315fb",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-f1c5a8d6cea62f7d",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-f2f1b0ee421492d6",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-f70780c3ea0b98ba",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-f8a11006cedb3c5e",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-f92ba5d45fde060d",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-f993f9020292ccae",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-fad4f55c24c6771d",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-fbfb468dce30649e",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-fc37b044ab0a427f",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-fca71dc494ae7b62",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-fec48c91061b189b",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-fef5bb409bb884a3",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-ff143635760d6aa8",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    },
+    {
+      "case_id": "BR-ff643995af2fb080",
+      "reviewers": 0,
+      "status": "pending",
+      "disagreement": false,
+      "assessments": []
+    }
+  ]
+}

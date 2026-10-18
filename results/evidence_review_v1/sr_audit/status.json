@@ -1,0 +1,18 @@
+{
+  "main_rows": 2240,
+  "stratified_rows": 60480,
+  "predictions_verified_against_frozen_rows": 2016,
+  "all_fixed_strata_included": true,
+  "all_empty_cells_preserved": true,
+  "all_seeds_preserved": true,
+  "all_strata_retrospective": true,
+  "trained_new_models": 0,
+  "raw_interpolation_not_omitted": true,
+  "aligned160bp_constrained_max_method_range": 8.940696716308594e-07,
+  "known_annotations": 19,
+  "count_constraint_is_project_choice_not_teacher_mandate": true,
+  "final_formal_choices_modified": false,
+  "recommended_new_method": null,
+  "reason_not_train": "160bp constrained output is algebraically fixed by source40bp totals; sourcezero targetpositive cannot be recovered under exact conservation. Existing shared/conditional networks show tiny cross-repeat differences. No evidence supports another architecture/loss search.",
+  "caveat": "Conditional proportion error is defined only for common-positive blocks; raw errors retain every block. Effective-pixel strata are paired observed-count diagnostics, not training masks. Stratum MAE/MSE cannot be relabelled as local SSIM."
+}

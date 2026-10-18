@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "D:\大三上小学期\深度学习综合实践\dl-pro-open\scripts\summarize_targeted_review.py", line 183, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "D:\大三上小学期\深度学习综合实践\dl-pro-open\scripts\summarize_targeted_review.py", line 106, in main
+    protections=json.loads((root/'protected_existing_files.json').read_text());protected=all(Path(name).exists() and sha256(name)==value for name,value in protections.items())
+                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Users\36046\anaconda3\Lib\pathlib\_local.py", line 546, in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Users\36046\anaconda3\Lib\pathlib\_abc.py", line 633, in read_text
+    return f.read()
+           ~~~~~~^^
+UnicodeDecodeError: 'gbk' codec can't decode byte 0xac in position 4606: illegal multibyte sequence

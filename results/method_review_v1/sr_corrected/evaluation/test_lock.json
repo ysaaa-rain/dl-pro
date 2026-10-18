@@ -1,0 +1,16 @@
+{
+  "test_inference_started_utc": "2026-10-17T11:34:47.271345+00:00",
+  "validation_selection_sha256": "5fa9e44920c7819e4509c33e2b2038f33b6109d7af200d57de34a5fbfcca41f8",
+  "checkpoint_sha256": {
+    "legacy_sparse_mse_seed42": "66bb9968fbc994fd9dcf42f8362315b48efe11f1fa4d74aebdeb35356b3e7eb0",
+    "legacy_sparse_mse_seed43": "11f10577860741305fd997b488bbbdc83bd850d220e31eb9670ec9e491b6f38a",
+    "context_sparse_shape_seed42": "2b9b75cbbb80f6ca226f758e0f0ae260ded4e556b031419f9f718134b9811336",
+    "context_sparse_shape_seed43": "57162e4083d832d4e50312f6afdc72c7e7727fe171361693c567e8493d660be7",
+    "context_expanded_shape_seed42": "a9553d39068a7c14d7f0230e4aafe40d97c6cb476cdc436a1d1601f38c15c2fc",
+    "context_expanded_shape_seed43": "4adb28fd61dd8355eec872328ad9897aaa5c85f1b1274a800e21e709fbf22bb9",
+    "allocation_expanded_cross_seed42": "0f6d94fbc781a9b005338075c87faeb0d88c77d0305c39929c37b35ee7927780",
+    "allocation_expanded_cross_seed43": "9c14465912cc10e2bacd8e744301aea955a6710258cd9502d5ccd79d70195ac7",
+    "allocation_expanded_mixed_seed42": "7c2d855a34a809188c803c70abbae54c635a21ed0d734b79e9a119c427a8189e",
+    "allocation_expanded_mixed_seed43": "a09318b8913f16fe411dee4315f62b2208c87c38c29740dd284a271b189bcebd"
+  }
+}

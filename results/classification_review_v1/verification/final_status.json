@@ -1,0 +1,21 @@
+{
+  "status": "completed",
+  "exit_code": 0,
+  "completed_utc": "2026-10-17T15:04:07.918134+00:00",
+  "protected_files_verified": 1623,
+  "all_protected_unchanged": true,
+  "source_archives_verified": 8,
+  "failed_attempts_preserved": 1,
+  "outer_spatial_folds_verified": 5,
+  "n_loci_retained": 344,
+  "real_matched_masks_verified": 852,
+  "unit_tests_passed": 5,
+  "real_task3_signal_checks": 30,
+  "targeted_track_images_visually_inspected": 14,
+  "independent_human_cases": 0,
+  "formal_choices_changed": false,
+  "HEAD_changed": false,
+  "remote_pushed": false,
+  "formal_deliverables_modified": false,
+  "no_new_SR_training": true
+}

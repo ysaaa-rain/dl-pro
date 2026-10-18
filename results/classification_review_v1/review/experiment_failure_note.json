@@ -1,0 +1,5 @@
+{
+  "run": "results/classification_review_v1/runs/experiment.json",
+  "failure": "Strict float32 refit-scale tolerance rejected a maximum 2.3841858e-7 difference before model fitting; tolerance changed to1e-6; frozen transform and checkpoint remained untouched; full OOF probabilities independently matched on retry",
+  "source_archive": "results/classification_review_v1/runs/experiment_source.zip"
+}

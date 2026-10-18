@@ -1,0 +1,6 @@
+{
+  "fixed_protocol_sha256": "2b14e55be5f40310369a95bd9dddc783cd1c8455fdb8306671106f0ec361292c",
+  "inherited_partition_fits_sha256": "58afd53986fdbb47a4b5ba4f1f9bdcc49931576a5fdeceda7ef56f67da6ed698",
+  "fit_metadata_note": "fits.json preserves inherited fifth-round partition/reference diagnostics; current AE training is solely background_training_indices and seed_diagnostics/selection_lock, not inherited PCA or paired_training_mse fields",
+  "old_historical_native_rows_reused": true
+}

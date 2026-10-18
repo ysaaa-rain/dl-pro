@@ -1,0 +1,21 @@
+{
+  "seed": 42,
+  "steps": 960,
+  "batch_size": 4,
+  "optimizer": "Adam, cosine 0.001 to 0.0001",
+  "training_loci": 64,
+  "validation_loci": 12,
+  "source": "WT repeat1 observed 40 bp means, original split",
+  "target": "WT repeat2 native 10 bp allocation normalized to repeat1 measured 40 bp block totals",
+  "target_zero_fallback": "Uniform within a 40 bp block when repeat2 has zero counts",
+  "architecture": "Unchanged ContextCountSR",
+  "scale": 2.5649493574615367,
+  "expectations": "Frozen original64 repeat1 training windows",
+  "objective": "Clipped native log MSE + .1 mean 50/100/160bp offdiagonal O/E MSE + .05 mean masked O/E SSIM loss",
+  "checkpoint_selection": "Lowest cross-repeat target validation objective every80 steps",
+  "selected_step": 960,
+  "validation_objective": 0.011632211816807589,
+  "test_used_for_selection": false,
+  "retrospective": true,
+  "device": "cpu"
+}

@@ -1,0 +1,7 @@
+{
+  "exact_training_pixel_log_quantile": 2.5909858316536427,
+  "superseded_grid_scale": 1.3862943611198906,
+  "training_pixels": 484442112,
+  "test_pixels_used": 0,
+  "correction": "Exact integer-count histograms, with separate per-repeat depth conversion"
+}

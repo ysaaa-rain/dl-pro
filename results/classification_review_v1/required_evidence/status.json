@@ -1,0 +1,14 @@
+{
+  "blind_packet_unchanged": true,
+  "real_reviewed_cases": 0,
+  "total_cases": 243,
+  "reviewer_available": false,
+  "engineering_import_disagreement_revision_test": true,
+  "engineering_records_disposed": true,
+  "task3_condition_sets": 2,
+  "task3_targeted_images": 14,
+  "task3_raw_signal_checks": 30,
+  "task3_signal_merge_verified": true,
+  "task3_all_images_visual_checked": false,
+  "task5_formal_choice_unchanged": true
+}

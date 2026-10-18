@@ -1,0 +1,136 @@
+{
+  "seed": 42,
+  "n_trees": 300,
+  "min_leaf_samples": 4,
+  "fold_choices": [
+    {
+      "fold": 0,
+      "selected_depth": 3,
+      "validation_grid": [
+        {
+          "depth": 3,
+          "val_macro_f1": 0.6501067117782678,
+          "val_nll": 0.6167251148469483
+        },
+        {
+          "depth": 6,
+          "val_macro_f1": 0.5801255801255801,
+          "val_nll": 0.4822318091306091
+        },
+        {
+          "depth": null,
+          "val_macro_f1": 0.5773476702508961,
+          "val_nll": 0.47959460269952947
+        }
+      ],
+      "forest_val_macro_f1": 0.6501067117782678,
+      "cnn_val_macro_f1": 0.7045454545454546,
+      "choice": "original_cnn"
+    },
+    {
+      "fold": 1,
+      "selected_depth": 6,
+      "validation_grid": [
+        {
+          "depth": 3,
+          "val_macro_f1": 0.3990590839905908,
+          "val_nll": 0.8450394911441256
+        },
+        {
+          "depth": 6,
+          "val_macro_f1": 0.4605183845690175,
+          "val_nll": 0.6668541227597429
+        },
+        {
+          "depth": null,
+          "val_macro_f1": 0.43950617283950616,
+          "val_nll": 0.6500302496639679
+        }
+      ],
+      "forest_val_macro_f1": 0.4605183845690175,
+      "cnn_val_macro_f1": 0.6436507936507937,
+      "choice": "original_cnn"
+    },
+    {
+      "fold": 2,
+      "selected_depth": 3,
+      "validation_grid": [
+        {
+          "depth": 3,
+          "val_macro_f1": 0.7269772481040087,
+          "val_nll": 0.5532165872128346
+        },
+        {
+          "depth": 6,
+          "val_macro_f1": 0.6813063063063063,
+          "val_nll": 0.4621460266453968
+        },
+        {
+          "depth": null,
+          "val_macro_f1": 0.6141414141414141,
+          "val_nll": 0.45848214789747865
+        }
+      ],
+      "forest_val_macro_f1": 0.7269772481040087,
+      "cnn_val_macro_f1": 0.6557999476302697,
+      "choice": "geometric_forest"
+    },
+    {
+      "fold": 3,
+      "selected_depth": 6,
+      "validation_grid": [
+        {
+          "depth": 3,
+          "val_macro_f1": 0.4959104606112785,
+          "val_nll": 0.6878026956580321
+        },
+        {
+          "depth": 6,
+          "val_macro_f1": 0.5165087568188343,
+          "val_nll": 0.5242680923464571
+        },
+        {
+          "depth": null,
+          "val_macro_f1": 0.4970963995354239,
+          "val_nll": 0.5049183545603791
+        }
+      ],
+      "forest_val_macro_f1": 0.5165087568188343,
+      "cnn_val_macro_f1": 0.5410462008400153,
+      "choice": "original_cnn"
+    },
+    {
+      "fold": 4,
+      "selected_depth": 3,
+      "validation_grid": [
+        {
+          "depth": 3,
+          "val_macro_f1": 0.6027930402930403,
+          "val_nll": 0.6158983222403211
+        },
+        {
+          "depth": 6,
+          "val_macro_f1": 0.5343915343915344,
+          "val_nll": 0.4613344644264878
+        },
+        {
+          "depth": null,
+          "val_macro_f1": 0.5469135802469136,
+          "val_nll": 0.4308786633817727
+        }
+      ],
+      "forest_val_macro_f1": 0.6027930402930403,
+      "cnn_val_macro_f1": 0.6612836438923395,
+      "choice": "original_cnn"
+    }
+  ],
+  "feature_recipe": "Training O/E image full/central4x4 means/std; center radii8/16/32/48 and off-diagonal distance2/8/16/32/64 mean/std/90th quantile, both physical scales",
+  "no_annotation_length_or_boundary_inputs": true,
+  "validation": "Depth3/6/unlimited and forest vs originalCNN selected only on cyclic validation fold",
+  "limitations": [
+    "Existing test locations already observed; retrospective same-study CV",
+    "Nested CHID/CHIN annotations can produce nearly indistinguishable centered images",
+    "Label metadata never used as model input",
+    "Balanced neural and forest recipes evaluated separately; no test-score choice of final model"
+  ]
+}

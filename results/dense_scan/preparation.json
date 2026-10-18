@@ -1,0 +1,22 @@
+{
+  "centers": 1451,
+  "stride_bp": 3200,
+  "group_size": 8,
+  "scales_bp": [
+    100,
+    200
+  ],
+  "widths_bp": [
+    12800,
+    25600
+  ],
+  "source_sha256": {
+    "GSE272159_37C_rep1": "0256e10da36abfe0238bf16952bc43bc78365f43c201e6e3ba0c49bd243549a8",
+    "GSE272159_37C_rep2": "ede9b4f7c0c6b40c8f098e43cdd0abbc0a8987f05e8b37051a5e3cbf143ad106"
+  },
+  "old_grid_max_abs_error": {
+    "1": 0.0,
+    "2": 0.0
+  },
+  "method": "Grouped sparse Cooler reads, exact crop; no interpolation"
+}

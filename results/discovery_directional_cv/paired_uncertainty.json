@@ -1,0 +1,162 @@
+{
+  "budget64_repeat1_directional_positive_mean_minus_old_morphology": {
+    "delta": -0.02616279069767442,
+    "group95": [
+      -0.09677698403839714,
+      0.037241529290970236
+    ],
+    "n_groups": 56
+  },
+  "budget64_repeat1_directional_validation_selected_minus_old_morphology": {
+    "delta": 0.03488372093023256,
+    "group95": [
+      -0.08148526077097507,
+      0.15152191558441555
+    ],
+    "n_groups": 56
+  },
+  "budget64_repeat1_combined_validation_selected_minus_old_morphology": {
+    "delta": 0.03488372093023256,
+    "group95": [
+      -0.08170400914708315,
+      0.15001344086021498
+    ],
+    "n_groups": 56
+  },
+  "budget64_repeat1_forest_known_control_minus_old_morphology": {
+    "delta": 0.12209302325581395,
+    "group95": [
+      0.042843406593406595,
+      0.19282904570844148
+    ],
+    "n_groups": 56
+  },
+  "budget64_repeat1_newforest_minus_oldforest": {
+    "delta": 0.0377906976744186,
+    "group95": [
+      -0.020766166628680353,
+      0.10095435850337416
+    ],
+    "n_groups": 56
+  },
+  "budget64_repeat2_directional_positive_mean_minus_old_morphology": {
+    "delta": 0.00872093023255814,
+    "group95": [
+      -0.09655270376175548,
+      0.12354920564872017
+    ],
+    "n_groups": 56
+  },
+  "budget64_repeat2_directional_validation_selected_minus_old_morphology": {
+    "delta": 0.05232558139534884,
+    "group95": [
+      -0.06343431651267473,
+      0.17135094656122687
+    ],
+    "n_groups": 56
+  },
+  "budget64_repeat2_combined_validation_selected_minus_old_morphology": {
+    "delta": 0.055232558139534885,
+    "group95": [
+      -0.06230393066486197,
+      0.17404129480096325
+    ],
+    "n_groups": 56
+  },
+  "budget64_repeat2_forest_known_control_minus_old_morphology": {
+    "delta": 0.0872093023255814,
+    "group95": [
+      0.01790714605734767,
+      0.15567444526147325
+    ],
+    "n_groups": 56
+  },
+  "budget64_repeat2_newforest_minus_oldforest": {
+    "delta": 0.014534883720930232,
+    "group95": [
+      -0.03979025444542686,
+      0.0712031900138696
+    ],
+    "n_groups": 56
+  },
+  "budget128_repeat1_directional_positive_mean_minus_old_morphology": {
+    "delta": 0.0029069767441860465,
+    "group95": [
+      -0.04956972107935297,
+      0.054381251663196774
+    ],
+    "n_groups": 56
+  },
+  "budget128_repeat1_directional_validation_selected_minus_old_morphology": {
+    "delta": 0.01744186046511628,
+    "group95": [
+      -0.04582685661369537,
+      0.08334627329192539
+    ],
+    "n_groups": 56
+  },
+  "budget128_repeat1_combined_validation_selected_minus_old_morphology": {
+    "delta": 0.01744186046511628,
+    "group95": [
+      -0.04582685661369537,
+      0.08334627329192539
+    ],
+    "n_groups": 56
+  },
+  "budget128_repeat1_forest_known_control_minus_old_morphology": {
+    "delta": 0.06976744186046512,
+    "group95": [
+      0.019319429669537765,
+      0.12147087742297967
+    ],
+    "n_groups": 56
+  },
+  "budget128_repeat1_newforest_minus_oldforest": {
+    "delta": 0.09593023255813954,
+    "group95": [
+      0.02507252867072957,
+      0.16908584169453733
+    ],
+    "n_groups": 56
+  },
+  "budget128_repeat2_directional_positive_mean_minus_old_morphology": {
+    "delta": -0.0029069767441860465,
+    "group95": [
+      -0.10327450353542951,
+      0.08575126508368995
+    ],
+    "n_groups": 56
+  },
+  "budget128_repeat2_directional_validation_selected_minus_old_morphology": {
+    "delta": -0.005813953488372093,
+    "group95": [
+      -0.091651149869734,
+      0.06906336077188847
+    ],
+    "n_groups": 56
+  },
+  "budget128_repeat2_combined_validation_selected_minus_old_morphology": {
+    "delta": -0.005813953488372093,
+    "group95": [
+      -0.091651149869734,
+      0.06906336077188847
+    ],
+    "n_groups": 56
+  },
+  "budget128_repeat2_forest_known_control_minus_old_morphology": {
+    "delta": 0.06976744186046512,
+    "group95": [
+      -0.026231665228645385,
+      0.1526956893130166
+    ],
+    "n_groups": 56
+  },
+  "budget128_repeat2_newforest_minus_oldforest": {
+    "delta": 0.09883720930232558,
+    "group95": [
+      0.0030185758513931933,
+      0.20286592818945753
+    ],
+    "n_groups": 56
+  }
+}

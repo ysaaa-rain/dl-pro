@@ -1,0 +1,14 @@
+{
+  "n_loci": 344,
+  "per_case_rows": 3096,
+  "all_unavailable_retained": true,
+  "equal_area_and_exact_distance_histogram": true,
+  "common_native_support_required": true,
+  "fill_fitted_training_only": true,
+  "model_OOF": true,
+  "annotated_contact_pixel_segmentation_available": false,
+  "interval_square_is_only_proxy": true,
+  "background_mask_scattered_within_distance": true,
+  "not_causal_explanation": true,
+  "formal_choices_unchanged": true
+}

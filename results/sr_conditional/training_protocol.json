@@ -1,0 +1,26 @@
+{
+  "steps": 960,
+  "seed": 42,
+  "batch_size": 4,
+  "train_loci": 64,
+  "val_loci": 12,
+  "recipes": [
+    "conditional_rep1",
+    "conditional_rep2"
+  ],
+  "source_repeat": 1,
+  "architecture": "Unchanged ContextCountSR",
+  "source_bp": 40,
+  "target_bp": 10,
+  "objective": "Equal near<200bp/far count-normalized conditional composite NLL; source-zero or target-zero blocks excluded",
+  "optimizer": "Adam cosine0.001 to0.0001; genome reversal; clip gradient norm1",
+  "selection": "Each arm lowest matching-target validation NLL at fixed80-step intervals",
+  "test_used_for_selection": false,
+  "retrospective": true,
+  "device": "cpu",
+  "limitations": [
+    "Symmetric pixels are not independent counts; composite likelihood only",
+    "Only two biological repeats; previously exposed spatial test positions",
+    "Both loss and target differ from prior multiscale-log-MSE recipe"
+  ]
+}

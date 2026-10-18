@@ -1,0 +1,28 @@
+stage,status,scientific_disposition,exit_code,elapsed_seconds,command
+baseline,completed,see stage checks and limitations,0,350.6900949999981,scripts/reproduce_method_baselines.py --config configs\method_review_v1.json
+candidate_audit,completed,superseded: unassigned partial-tail training inputs,0,42.406574399996316,scripts/audit_novelty_candidates.py --config configs/method_review_v1_corrected.json
+candidate_audit_corrected,completed,see stage checks and limitations,0,41.47627369999827,scripts/audit_novelty_candidates.py --config configs/method_review_final.json
+cluster_audit,completed,superseded: unassigned partial-tail training inputs,0,62.15656950000266,scripts/cluster_review_candidates.py --config configs/candidate_review_v1.json
+cluster_audit_corrected,completed,see stage checks and limitations,0,61.90871030000562,scripts/cluster_review_candidates.py --config configs/method_review_final.json
+conclusion,completed,see stage checks and limitations,0,5.896497900001123,scripts/write_method_review_notes.py --config configs/method_review_final.json
+diagnose,completed,see stage checks and limitations,0,32.51217910001287,scripts/diagnose_method_review.py --config configs/method_review_v1_corrected.json
+diagnose_corrected,completed,see stage checks and limitations,0,33.21943260000262,scripts/diagnose_method_review.py --config configs/method_review_final.json
+evaluate,completed,see stage checks and limitations,0,433.947419300006,scripts/evaluate_allocation_review.py --config configs/method_review_v1_corrected.json
+figures_final,completed,see stage checks and limitations,0,10.334542399999918,scripts/summarize_method_review.py --config configs/method_review_final.json --output results/method_review_v1/review_final --figures-only
+integrity,completed,see stage checks and limitations,0,10.877904399996623,scripts/audit_method_review.py --config configs/method_review_final.json
+legacy_audit_final,completed,see stage checks and limitations,0,38.0127868999989,scripts/audit_task2_task5_iteration.py --run-tests --output results/method_review_v1/legacy_audit_final
+novelty,completed,superseded: unassigned partial-tail training inputs,0,795.7319587000093,scripts/benchmark_novelty.py --config configs\method_review_v1.json
+novelty_corrected,completed,see stage checks and limitations,0,213.09001469999203,scripts/benchmark_novelty.py --config configs/method_review_final.json
+novelty_review,completed,superseded: unassigned partial-tail training inputs,0,15.822220500005642,scripts/summarize_method_review.py --config configs/method_review_v1_corrected.json --novelty-only
+novelty_review_corrected,completed,see stage checks and limitations,0,15.112407599997823,scripts/summarize_method_review.py --config configs/method_review_final.json --novelty-only --output results/method_review_v1/review_final
+prediction_smoke,completed,see stage checks and limitations,0,4.931717900006333,scripts/reconstruct_review_sr.py --config configs/method_review_v1_corrected.json --input-low results/method_review_v1/review_final/demo_low_mean.npy --output results/method_review_v1/review_final/validated_prior_demo.npz
+prepare,completed,see stage checks and limitations,0,82.66648630000418,scripts/prepare_method_review.py --config configs\method_review_v1.json
+prepare_verify_compatible,failed,cache verification failed: manifest variable shadowing; fixed in next attempt,1,5.809345100002247,scripts/prepare_method_review.py --config configs/method_review_final.json
+prepare_verify_compatible_fixed,completed,see stage checks and limitations,0,8.117860300000757,scripts/prepare_method_review.py --config configs/method_review_final.json
+prior_parameter_audit,completed,see stage checks and limitations,0,14.016019600006985,scripts/verify_review_priors.py --config configs/method_review_final.json
+report_final,completed,see stage checks and limitations,0,10.83132480000495,scripts/summarize_method_review.py --config configs/method_review_final.json --output results/method_review_v1/review_final
+summarize_closure,completed,see stage checks and limitations,0,13.358029999988503,scripts/summarize_method_review.py --config configs/method_review_final.json --output results/method_review_v1/review_final
+summarize_final,completed,see stage checks and limitations,0,13.056585199999972,scripts/summarize_method_review.py --config configs/method_review_final.json --output results/method_review_v1/review_final
+test,completed,see stage checks and limitations,0,14.640765300006024,-m pytest -q
+train,failed,superseded: grid quantile bias; stopped before SR test,1,709.2750127000036,scripts/train_allocation_review.py --config configs\method_review_v1.json
+train_corrected,completed,see stage checks and limitations,0,2120.4294474999915,scripts/train_allocation_review.py --config configs/method_review_v1_corrected.json

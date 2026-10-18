@@ -1,0 +1,22 @@
+{
+  "purpose": "50bp shape view with fixed validation-only recipe selection",
+  "data": "WT repeat1 fine scan; repeat2 excluded from score and selection",
+  "expected": "Distance profiles from existing fold-purged training background",
+  "features": "Positive local O/E contrasts at 50/100/200bp; each view density calibrated on training background",
+  "recipes": [
+    "existing",
+    "fine_only",
+    "three_view_median",
+    "fine_old_blend"
+  ],
+  "budgets": [
+    64,
+    128
+  ],
+  "separation_bp": 12800,
+  "limitations": [
+    "Previously observed loci; retrospective comparison",
+    "Existing training background inherits earlier annotation policy",
+    "Center recall does not establish novel structure classes"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "descriptor": "fixed_within_window_distance_detrended",
+  "minimum_cluster_members": 5,
+  "clustering": "Exploratory transductive grouping only; no new biological class validation",
+  "null": "Train-background WT1 versus nearest nuisance-matched different100kb-block WT2;95th percentile descriptive cutoff",
+  "multiple_testing": "No genome-wide significance or FDR claim; correlated windows and post-selection QC prevent interpreting these ranks as p-values",
+  "unchanged_formal_qc": true,
+  "score_models_refitted": false,
+  "algorithms": [
+    "KMeans fixed6 control",
+    "HDBSCAN formal minimum size and min_samples"
+  ],
+  "provisional_shape_clusters": 0
+}

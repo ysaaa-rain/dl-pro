@@ -1,0 +1,38 @@
+[
+  {
+    "method": "symmetric_bias",
+    "decision": "不建议替换正式方案",
+    "macro_f1_delta": 0.0042722877217052,
+    "low": -0.0313628877608158,
+    "high": 0.037042597463234,
+    "folds_improved": 2,
+    "folds_total": 5,
+    "no_class_F1_point_decrease": false,
+    "passed_prespecified_retention": false,
+    "formal_default_changed": false
+  },
+  {
+    "method": "geometric_control",
+    "decision": "不建议替换正式方案",
+    "macro_f1_delta": 0.0148228472697199,
+    "low": -0.0525800047332076,
+    "high": 0.0813517481052167,
+    "folds_improved": 2,
+    "folds_total": 5,
+    "no_class_F1_point_decrease": false,
+    "passed_prespecified_retention": false,
+    "formal_default_changed": false
+  },
+  {
+    "method": "geometric_directional",
+    "decision": "不建议替换正式方案",
+    "macro_f1_delta": 0.0358107591198958,
+    "low": -0.012336900016449,
+    "high": 0.0819094311047595,
+    "folds_improved": 4,
+    "folds_total": 5,
+    "no_class_F1_point_decrease": false,
+    "passed_prespecified_retention": false,
+    "formal_default_changed": false
+  }
+]

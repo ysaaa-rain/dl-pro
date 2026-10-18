@@ -1,0 +1,30 @@
+[
+  {
+    "directory": "multitrack",
+    "committed_png_count": 465,
+    "local_png_count": 0,
+    "index_columns": [
+      "start",
+      "end",
+      "path",
+      "genes",
+      "structures"
+    ],
+    "index_rows": 465,
+    "continuous_genome_coverage": true
+  },
+  {
+    "directory": "multitrack_mutants",
+    "committed_png_count": 465,
+    "local_png_count": 0,
+    "index_columns": [
+      "start",
+      "end",
+      "path",
+      "genes",
+      "structures"
+    ],
+    "index_rows": 465,
+    "continuous_genome_coverage": true
+  }
+]

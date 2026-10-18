@@ -1,0 +1,62 @@
+[
+  {
+    "budget": 64,
+    "recipe": "logistic",
+    "delta_center_recall": 0.05232558139534884,
+    "group95": [
+      0.0,
+      0.109375993956743
+    ],
+    "n_groups": 56
+  },
+  {
+    "budget": 64,
+    "recipe": "forest",
+    "delta_center_recall": 0.08430232558139535,
+    "group95": [
+      0.024973404255319152,
+      0.14692916504437248
+    ],
+    "n_groups": 56
+  },
+  {
+    "budget": 64,
+    "recipe": "validation_selected",
+    "delta_center_recall": 0.029069767441860465,
+    "group95": [
+      -0.015516279069767441,
+      0.08128528532683896
+    ],
+    "n_groups": 56
+  },
+  {
+    "budget": 128,
+    "recipe": "logistic",
+    "delta_center_recall": -0.05813953488372093,
+    "group95": [
+      -0.16317593733497623,
+      0.03922213622291018
+    ],
+    "n_groups": 56
+  },
+  {
+    "budget": 128,
+    "recipe": "forest",
+    "delta_center_recall": -0.02616279069767442,
+    "group95": [
+      -0.07501575630252101,
+      0.024863107292424445
+    ],
+    "n_groups": 56
+  },
+  {
+    "budget": 128,
+    "recipe": "validation_selected",
+    "delta_center_recall": -0.046511627906976744,
+    "group95": [
+      -0.15538716043649872,
+      0.023811102690413026
+    ],
+    "n_groups": 56
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "new_models": 4,
+  "reused_models": 10,
+  "new_rows": 448,
+  "total_rows": 2240,
+  "known_structure_rows": 1520,
+  "known_unique_structures": 19,
+  "new_max_count_error": 4.120794585560361e-07,
+  "new_max_symmetry_error": 4.0454108697277373e-07,
+  "all_nonnegative": true,
+  "downstream_definition": "Complete annotation local100bp OE shape and profile-peak displacement; not full-context classifier accuracy",
+  "selection": "train_distance_prior",
+  "seed_aggregation": "Mean metrics, not an ensemble",
+  "historical_exploration": true
+}

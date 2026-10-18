@@ -1,0 +1,18 @@
+{
+  "fits": 15,
+  "failed_fits": 0,
+  "hidden_types": [
+    "CHID",
+    "CHIN",
+    "OPCID"
+  ],
+  "known_geometrically_eligible": 244,
+  "known_eligible": 243,
+  "known_total": 344,
+  "scan_eligible": 540,
+  "unassigned_tail_inputs_used": false,
+  "complete_evaluation_coverage": true,
+  "full_success_no_missing_folds": true,
+  "repeat2_joint_is_independent_validation": false,
+  "interpretation": "Empirical ranks, no calibrated genome-wide p-values; no confirmed novel biological class"
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/irzhegalova/ecoli_microc/97d61efb980599c93deba6d3c1b651bc2bd4bb60/data/Hp%20newly%20emerged.xlsx",
+    "sha256": "66c163023f29435807a0585f23539cbdc447c22aa2f771d863d3bee3f0acd17b",
+    "sheets": {
+      "Sheet1": {
+        "rows": 26,
+        "columns": [
+          "Hp ID",
+          "Chr",
+          "Start",
+          "End",
+          "Middle",
+          "Strand",
+          "in repeat reg"
+        ]
+      }
+    },
+    "role": "Same-author, condition-specific context only; coordinate and WT-condition compatibility not assumed; not used for scoring or new-class confirmation"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/irzhegalova/ecoli_microc/97d61efb980599c93deba6d3c1b651bc2bd4bb60/data/Hp.xlsx",
+    "sha256": "6da55384a246b67859b0b543b15efbe28b7cc079c81c380b3f3f930de1b6ed47",
+    "sheets": {
+      "Hp": {
+        "rows": 250,
+        "columns": [
+          "Hp ID",
+          "Chr",
+          "Start",
+          "End",
+          "Middle",
+          "Strand",
+          "in repeat reg",
+          "RedC signal 37C",
+          "RedC signal 44C",
+          "Unnamed: 9",
+          "length",
+          "intensity",
+          "TAD emerged"
+        ]
+      }
+    },
+    "role": "Same-author, condition-specific context only; coordinate and WT-condition compatibility not assumed; not used for scoring or new-class confirmation"
+  }
+]

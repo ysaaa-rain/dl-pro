@@ -1,0 +1,44 @@
+[
+  {
+    "directory": "multitrack",
+    "teacher": "p10",
+    "conditions": [
+      "37C",
+      "44C",
+      "rif25"
+    ],
+    "n_figures": 465,
+    "continuous_coverage": true,
+    "genome_bp": 4641652,
+    "four_panels_declared": [
+      "condition curves with gray condition mean",
+      "mean signal",
+      "reference genes",
+      "known structures"
+    ],
+    "input_bin_bp": 100,
+    "missing_local_full_images": "Sparse checkout: pinned Git contains full set; only targeted examples materialized",
+    "all_images_visually_reviewed": false
+  },
+  {
+    "directory": "multitrack_mutants",
+    "teacher": "p10",
+    "conditions": [
+      "37C",
+      "HNS_mut",
+      "FIS_mut"
+    ],
+    "n_figures": 465,
+    "continuous_coverage": true,
+    "genome_bp": 4641652,
+    "four_panels_declared": [
+      "condition curves with gray condition mean",
+      "mean signal",
+      "reference genes",
+      "known structures"
+    ],
+    "input_bin_bp": 100,
+    "missing_local_full_images": "Sparse checkout: pinned Git contains full set; only targeted examples materialized",
+    "all_images_visually_reviewed": false
+  }
+]

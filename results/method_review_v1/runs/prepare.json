@@ -1,0 +1,136 @@
+{
+  "config": {
+    "version": "method_review_v1",
+    "output": "results/method_review_v1",
+    "cache": "data/processed/method_review_v1",
+    "seed": 20261017,
+    "threads": 8,
+    "block_bp": 100000,
+    "bootstrap_draws": 2000,
+    "discovery": {
+      "folds": 5,
+      "max_context_bp": 25600,
+      "known_buffer_bp": 200,
+      "support_fraction": 0.8,
+      "pooled_bins": 16,
+      "input_bins": 128,
+      "input_scales_bp": [
+        100,
+        200
+      ],
+      "pca_components": 12,
+      "ridge_alpha": 10.0,
+      "scale_floor": 0.05,
+      "nuisance_degree": 2,
+      "global_budgets": [
+        64,
+        128
+      ],
+      "nms_bp": 12800,
+      "hit_radius_bp": 6400,
+      "false_positive_rate": 0.05,
+      "cluster_count": 6,
+      "min_cluster_members": 5,
+      "repeat_correlation_min": 0.5,
+      "independent_spacing_bp": 25600
+    },
+    "sr": {
+      "native_bp": 10,
+      "factor": 4,
+      "patch_bins": 1024,
+      "stride_bp": 10240,
+      "new_test_groups": 6,
+      "new_val_groups": 5,
+      "test_patches_per_group": 2,
+      "sparse_patches_per_group": 2,
+      "sample_fractions": [
+        0.25,
+        0.75
+      ],
+      "normalization_sample_stride": 64,
+      "resource_probe_steps": 12,
+      "train_seeds": [
+        42,
+        43
+      ],
+      "steps": 320,
+      "validate_every": 80,
+      "batch_size": 4,
+      "learning_rate": 0.001,
+      "min_learning_rate": 0.0001,
+      "gradient_clip": 1.0,
+      "normalization_quantile": 0.995,
+      "channels": 16,
+      "dilations": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32
+      ],
+      "morphology_scales_bp": [
+        50,
+        100,
+        160
+      ],
+      "distance_bands_bp": [
+        0,
+        200,
+        1000,
+        100000
+      ],
+      "morphology_mse_weight": 0.1,
+      "morphology_ssim_weight": 0.05,
+      "mixed_nll_weight": 0.05,
+      "prior_smoothing_sigma": 1.0,
+      "arms": [
+        "legacy_sparse_mse",
+        "context_sparse_shape",
+        "context_expanded_shape",
+        "allocation_expanded_cross",
+        "allocation_expanded_mixed"
+      ],
+      "primary_arm": "allocation_expanded_mixed",
+      "primary_metric": "oe_100bp_ssim",
+      "primary_comparator": "context_expanded_shape",
+      "max_psnr_drop_db": 0.02,
+      "max_ssim_drop": 0.002
+    }
+  },
+  "git_revision": "f44d34892b2786f9804f1d40a5f24b7d9f21b89a",
+  "code_sha256": {
+    "src/dlpro/allocation_model.py": "94cf572a6e25fc65727489327e94e67833e38acdc5c4d9ca05b168240167dcd5",
+    "src/dlpro/annotation_tool.py": "54d01cc49ca2ab67748e052b50a112d40e552a2f4b0a6d8d2cb5952f1adc79d2",
+    "src/dlpro/classification_models.py": "d0147c7f599f9164ffd07f8473e64cd8d64c6347c517473df22ebfbc4d8c28bb",
+    "src/dlpro/cli.py": "0c08b22f5e59b8640f06027c15739c2fbbddce6c6a97c8a46eb8dcf3edea8d65",
+    "src/dlpro/count_allocation.py": "4535956975e5370f14840a8004adc131c6f960a398f9444f8ff39b772531da01",
+    "src/dlpro/coverage_support.py": "982750a233b39ca3d75580069edcb1ee4b092051c461a1ec033e7c090e00505b",
+    "src/dlpro/data.py": "67484ed8b857175dffb6636b24d25de1457070d0bcf54a9bd2e6ca9d3372500d",
+    "src/dlpro/experiment_core.py": "c584654eaa89a250860903a46b4fedc754f4d8028a49571fbf3463f41cb2cd67",
+    "src/dlpro/method_review.py": "284b01d38f17c4747c649f9a732af7fec4e7f7d666764886ba594d6c9328461e",
+    "src/dlpro/refinement.py": "65ae8aff119dc5f750d74933de5667f572d43f4b85afee3318cc9a82e77fe3ea",
+    "src/dlpro/ridge_features.py": "d413a95efae8b74e558a7c660a1b5d2971a0fbdb001407cdca267cfb62824e66",
+    "src/dlpro/self_supervision.py": "8e23585120af6863312cb8836b6df311a8a9c77b10347c2ce4ecca06bfb01266",
+    "src/dlpro/shape_features.py": "820f549eab40940620c8daa146d5e89908db32350052c54b0ffcbf570ddb51c3",
+    "src/dlpro/structure_losses.py": "66fef34ab7221ecf657cc43d52c907714be0df2af2c5f08d64ab464c401c2a14",
+    "src/dlpro/superresolution.py": "c1445193ff66980218c8c15bf3122ae23c7f72a6d6e1c9b6fcae1107361d9b38",
+    "src/dlpro/__init__.py": "e23bccd1de1f90628af67080157b2dfeb9d1c63c80ac339080fad01374829d8e",
+    "scripts/prepare_method_review.py": "18b15eef1c33d3d3f7944d77cf4a344af44acb70783eb4d81bdfcfad50bcaba3",
+    "scripts/run_method_review.py": "23983395d97ec57b04a3a81f3683b62ed1a44944f7bdb69747e3d9cef7cb29cd",
+    "configs/method_review_v1.json": "a7ecc74a3c135230b72f3509d1fbdb58cf68d317ea015884011ebab1ce6f48fe"
+  },
+  "device": "cpu",
+  "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:37:03) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "command": [
+    "scripts/prepare_method_review.py",
+    "--config",
+    "configs\\method_review_v1.json"
+  ],
+  "started_utc": "2026-10-17T10:41:20.597293+00:00",
+  "status": "completed",
+  "exit_code": 0,
+  "ended_utc": "2026-10-17T10:42:43.263925+00:00",
+  "elapsed_seconds": 82.66648630000418
+}

@@ -1,0 +1,12 @@
+{
+  "method": "train_distance_prior",
+  "seed": null,
+  "input_sha256": "b31240be0d3d4ddcf27678d35dfda70f0dc2c94a8e5aeb26893abe151e14be3d",
+  "frozen_reference_checkpoint_sha256": "66bb9968fbc994fd9dcf42f8362315b48efe11f1fa4d74aebdeb35356b3e7eb0",
+  "normalization_sha256": "45b1eb08dfa7fcafe74af456bad9049c274cff86ee6f5d4821bd58ee85aa02f7",
+  "block_mean_max_relative_error": 3.212376782357751e-07,
+  "symmetry_max_relative_error": 2.4370595497202885e-07,
+  "input_unit": "40bp block mean",
+  "output_unit": "10bp expected image counts in supplied input mass units",
+  "scope": "Experimental branch; existing operational choices unchanged"
+}

@@ -1,0 +1,5 @@
+left_type,right_type,overlapping_pairs,left_contains_right,right_contains_left
+CHID,CHIN,101,78,3
+CHIN,CHIN,152,15,58
+CHIN,OPCID,10,0,2
+OPCID,OPCID,2,0,0

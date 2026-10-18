@@ -1,0 +1,11 @@
+{
+  "regenerated_records": 2682,
+  "all_frozen_candidates_identical": true,
+  "unique_cases": 243,
+  "anonymous_ids_unique": true,
+  "public_has_no_scoring_or_coordinate_keys": true,
+  "zip_has_no_private_members": true,
+  "packet_sha256": "a5779851c7a56e3074c537234828d83511e295bcc27ba13d9bc09f14fc1f8fd5",
+  "all_cases_pending": true,
+  "independent_human_validation_completed": false
+}

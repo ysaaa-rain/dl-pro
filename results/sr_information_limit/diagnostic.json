@@ -1,0 +1,47 @@
+{
+  "n_train_windows": 64,
+  "n_paired_test_locations": 16,
+  "n_test_spatial_groups": 8,
+  "train_10bp_zero_fraction": 0.8808322101831436,
+  "train_offdiagonal_40bp_block_count_histogram_0_to_9_and_10plus": [
+    1099709,
+    420117,
+    179044,
+    85591,
+    45047,
+    26339,
+    16958,
+    11488,
+    8584,
+    6441,
+    124746
+  ],
+  "train_offdiagonal_40bp_zero_fraction": 0.5433173061721368,
+  "train_offdiagonal_nonzero_blocks_with_at_most_one_count": 0.4544974603912999,
+  "pooled_log_count_cross_repeat_pearson": {
+    "10": 0.753796519092794,
+    "40": 0.9710478648738804,
+    "100": 0.9949395375265805,
+    "200": 0.9983382630143075
+  },
+  "within_40bp_block_10bp_pattern_cross_repeat": {
+    "1": {
+      "n_blocks": 155887,
+      "pattern_correlation": 0.0426990452607327
+    },
+    "5": {
+      "n_blocks": 39147,
+      "pattern_correlation": 0.19899113120512757
+    },
+    "10": {
+      "n_blocks": 28518,
+      "pattern_correlation": 0.2938927861070138
+    },
+    "20": {
+      "n_blocks": 22032,
+      "pattern_correlation": 0.3581114716304058
+    }
+  },
+  "scope": "Same-study retrospective diagnostic; only two biological repeats",
+  "interpretation_limit": "Pattern correlation removes each 40 bp block total and excludes <200 bp; it is not a mathematical upper bound on all possible estimators"
+}

@@ -1,0 +1,28 @@
+{
+  "discovery_binary_outcomes_match": true,
+  "sr_max_abs_delta": {
+    "psnr": 0.0,
+    "ssim": 0.0,
+    "oe_100bp_masked_ssim": 0.0
+  },
+  "formal_sr_max_abs_delta": {
+    "psnr": 9.370293057031631e-07,
+    "ssim": 1.5843674150417542e-09
+  },
+  "restored_assets": [
+    {
+      "path": "results/sr_expanded/model_seed42.pt",
+      "git_blob": "bba5832b7a461e31df4fa124d1e59d577ce20069",
+      "bytes": 10321,
+      "sha256": "c9be0cbdc999c7b83ddc770eabd8429a7a132b2b50a92ce92848b08fbc65bdd0"
+    },
+    {
+      "path": "results/sr_refined/projection_ablation_native.csv",
+      "git_blob": "b8602b553e086f404af9db3cec2520ceabac7802",
+      "bytes": 7051,
+      "sha256": "e9dacde4157e52ee5925224bc37ab60c744dc214d53120a1cfdaabff52dd3633"
+    }
+  ],
+  "config_sha256": "a7ecc74a3c135230b72f3509d1fbdb58cf68d317ea015884011ebab1ce6f48fe",
+  "historical_training_rerun": false
+}

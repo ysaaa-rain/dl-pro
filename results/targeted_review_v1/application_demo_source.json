@@ -1,0 +1,4 @@
+{
+  "probe": "results/targeted_review_v1/evaluation/probe_1425000.npz",
+  "selection": "First fixed-random probe in filename order; no selection on performance"
+}

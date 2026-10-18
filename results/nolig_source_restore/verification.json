@@ -1,0 +1,10 @@
+{
+  "sample_id": "GSM8950765_NoLig_rep1",
+  "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8950nnn/GSM8950765/suppl/GSM8950765_NoLig_rep1.MG1655.mapq_30.10.cool.gz",
+  "gzip_bytes": 13020105,
+  "gzip_sha256": "3faf59d4094b65be757e6b76afe88cce96341cfcde1317f3e630d065d95389ff",
+  "gzip_hash_previously_registered": true,
+  "cooler_sha256": "cae3f100a27c08e0fd99be3af8dbe60e673aca3979bef6f214d5467236592a93",
+  "cooler_bytes": 13737267,
+  "registered_cooler_sha256": "cae3f100a27c08e0fd99be3af8dbe60e673aca3979bef6f214d5467236592a93"
+}

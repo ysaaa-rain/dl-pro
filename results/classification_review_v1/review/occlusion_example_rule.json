@@ -1,0 +1,20 @@
+[
+  {
+    "structure_id": "CHID_1",
+    "type": "CHID",
+    "bp": 200,
+    "rule": "lexicographically first available; no correctness filtering"
+  },
+  {
+    "structure_id": "CHIN_1",
+    "type": "CHIN",
+    "bp": 200,
+    "rule": "lexicographically first available; no correctness filtering"
+  },
+  {
+    "structure_id": "OPCID_1",
+    "type": "OPCID",
+    "bp": 200,
+    "rule": "lexicographically first available; no correctness filtering"
+  }
+]

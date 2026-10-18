@@ -1,0 +1,29 @@
+{
+  "conditions": [
+    "37C",
+    "HNS_mut",
+    "FIS_mut"
+  ],
+  "repeats_per_condition": 2,
+  "bin_bp": 100,
+  "contact_radius_bp": 10000,
+  "diagonal_excluded": true,
+  "local_contact_definition": "Sum of symmetric-image contact densities within +/-100 coarse bins, excluding self; per-million library pair normalization",
+  "repeat_aggregation": "Arithmetic mean after depth normalization",
+  "panels": [
+    "condition curves with gray condition mean",
+    "mean signal",
+    "reference genes",
+    "known structures"
+  ],
+  "interval_bp": 10000,
+  "n_figures": 465,
+  "covered_bp": 4641652,
+  "full_genome_covered": true,
+  "circular_origin_supported": true,
+  "limitations": [
+    "local +/-10kb contacts, not total chromosome-wide row coverage",
+    "coarse image bins normalized by their actual area; no ICE balancing",
+    "same-study condition comparison; signals do not establish mechanism"
+  ]
+}

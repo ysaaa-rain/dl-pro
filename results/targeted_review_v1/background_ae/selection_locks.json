@@ -1,0 +1,512 @@
+[
+  {
+    "hidden_type": "CHID",
+    "fold": 0,
+    "validation_auc": {
+      "ae": 0.753,
+      "morphology": 0.833,
+      "joint": 0.846
+    },
+    "validation_signal_spearman": 0.17935237995781833,
+    "joint_allowed": false,
+    "joint_fallback": "ae_residual",
+    "checkpoints": {
+      "seed42": "79f66713687754899fb2cc992ac1a517e61f0a1dcbdc09645dd991070310d26e",
+      "seed43": "93b0b101287534fe73564c6fded5d8340cb2605916386f38e00b2ba4a6b67e9e"
+    },
+    "scale": 1.6744359486214901,
+    "seed_diagnostics": [
+      {
+        "seed": 42,
+        "selected_epoch": 30,
+        "train_selected": 0.043550838716328144,
+        "validation_selected": 0.05036037042737007,
+        "elapsed_seconds": 8.009264299995266
+      },
+      {
+        "seed": 43,
+        "selected_epoch": 30,
+        "train_selected": 0.04611094016581774,
+        "validation_selected": 0.05305701494216919,
+        "elapsed_seconds": 8.216248799988534
+      }
+    ],
+    "test_labels_used": false
+  },
+  {
+    "hidden_type": "CHID",
+    "fold": 1,
+    "validation_auc": {
+      "ae": 0.4883333333333333,
+      "morphology": 0.6316666666666666,
+      "joint": 0.565
+    },
+    "validation_signal_spearman": 0.3841534829910357,
+    "joint_allowed": false,
+    "joint_fallback": "ae_residual",
+    "checkpoints": {
+      "seed42": "9339127fe6fbf5c5aa29e75ca402c6bf1fe6f9320cf10dce0daa3659555b2c06",
+      "seed43": "2cef1074b2d3f9f4d28fb424d2fd9a20fbd8eaacc4a5ea82efd65302ddadb568"
+    },
+    "scale": 1.6535575451909421,
+    "seed_diagnostics": [
+      {
+        "seed": 42,
+        "selected_epoch": 30,
+        "train_selected": 0.0429449550807476,
+        "validation_selected": 0.041473276913166046,
+        "elapsed_seconds": 10.191566900000907
+      },
+      {
+        "seed": 43,
+        "selected_epoch": 30,
+        "train_selected": 0.04705324321985245,
+        "validation_selected": 0.04550323262810707,
+        "elapsed_seconds": 11.245204100006958
+      }
+    ],
+    "test_labels_used": false
+  },
+  {
+    "hidden_type": "CHID",
+    "fold": 2,
+    "validation_auc": {
+      "ae": 0.4545454545454546,
+      "morphology": 0.7003367003367003,
+      "joint": 0.6161616161616161
+    },
+    "validation_signal_spearman": 0.4215841061046464,
+    "joint_allowed": false,
+    "joint_fallback": "ae_residual",
+    "checkpoints": {
+      "seed42": "eb12eb4805c7e13e118052b0e95617d38cb2ad6db4b6718f9be18b1f9ba3f368",
+      "seed43": "be62b1845da6965a2c56395698fceb0f601fcc32d8a279ae65d7bc648a9257c2"
+    },
+    "scale": 1.6904517452802363,
+    "seed_diagnostics": [
+      {
+        "seed": 42,
+        "selected_epoch": 30,
+        "train_selected": 0.044726967066526416,
+        "validation_selected": 0.04176511988043785,
+        "elapsed_seconds": 8.669298799999524
+      },
+      {
+        "seed": 43,
+        "selected_epoch": 30,
+        "train_selected": 0.047639526426792145,
+        "validation_selected": 0.04448457434773445,
+        "elapsed_seconds": 8.953080200008117
+      }
+    ],
+    "test_labels_used": false
+  },
+  {
+    "hidden_type": "CHID",
+    "fold": 3,
+    "validation_auc": {
+      "ae": 0.3451178451178451,
+      "morphology": 0.6186868686868686,
+      "joint": 0.3602693602693603
+    },
+    "validation_signal_spearman": 0.37709925422058216,
+    "joint_allowed": false,
+    "joint_fallback": "ae_residual",
+    "checkpoints": {
+      "seed42": "ce35b4ccf1aa495a8fc47a4082d8bc9accd3c989d947450d7bae7dee2dfab37a",
+      "seed43": "62548e8e48a530f9dd7d86d16ff8c61334ebb6a4619dcaa59ed7e2565223374c"
+    },
+    "scale": 1.6758369394749666,
+    "seed_diagnostics": [
+      {
+        "seed": 42,
+        "selected_epoch": 30,
+        "train_selected": 0.04654822312295437,
+        "validation_selected": 0.046825047582387924,
+        "elapsed_seconds": 7.4875030999974115
+      },
+      {
+        "seed": 43,
+        "selected_epoch": 30,
+        "train_selected": 0.04906189255416393,
+        "validation_selected": 0.04998210445046425,
+        "elapsed_seconds": 9.946190099988598
+      }
+    ],
+    "test_labels_used": false
+  },
+  {
+    "hidden_type": "CHID",
+    "fold": 4,
+    "validation_auc": {
+      "ae": 0.65,
+      "morphology": 0.6494736842105262,
+      "joint": 0.6652631578947368
+    },
+    "validation_signal_spearman": 0.03311515494066966,
+    "joint_allowed": false,
+    "joint_fallback": "ae_residual",
+    "checkpoints": {
+      "seed42": "641ee47b768faf9f3f26763eb93c6107647b06a58015b2e9ce816ef1f561adcd",
+      "seed43": "ab15d41de27b6753bc9ad3a4816c595d07cf3489c1b01c951ed0cf9ee418c0c6"
+    },
+    "scale": 1.6938086097598497,
+    "seed_diagnostics": [
+      {
+        "seed": 42,
+        "selected_epoch": 30,
+        "train_selected": 0.04600630234926939,
+        "validation_selected": 0.045313760638237,
+        "elapsed_seconds": 7.843912300013471
+      },
+      {
+        "seed": 43,
+        "selected_epoch": 30,
+        "train_selected": 0.046651202253997326,
+        "validation_selected": 0.04603702202439308,
+        "elapsed_seconds": 7.776885800005402
+      }
+    ],
+    "test_labels_used": false
+  },
+  {
+    "hidden_type": "CHIN",
+    "fold": 0,
+    "validation_auc": {
+      "ae": 0.925,
+      "morphology": 0.9500000000000001,
+      "joint": 0.9500000000000001
+    },
+    "validation_signal_spearman": 0.12485897836726594,
+    "joint_allowed": false,
+    "joint_fallback": "ae_residual",
+    "checkpoints": {
+      "seed42": "504790a2e1d6bbb2da665c4e6d79962b94e30356fdd7263e1795e0ba345bd09a",
+      "seed43": "c897782e139bcaa9c4ab8dba39e533fa97e02d7d208b3929b2c9f1a096c751a2"
+    },
+    "scale": 1.655026218604432,
+    "seed_diagnostics": [
+      {
+        "seed": 42,
+        "selected_epoch": 30,
+        "train_selected": 0.04665673027435938,
+        "validation_selected": 0.05395076796412468,
+        "elapsed_seconds": 6.8018070999969495
+      },
+      {
+        "seed": 43,
+        "selected_epoch": 30,
+        "train_selected": 0.047219340999921165,
+        "validation_selected": 0.05457809567451477,
+        "elapsed_seconds": 6.299819699997897
+      }
+    ],
+    "test_labels_used": false
+  },
+  {
+    "hidden_type": "CHIN",
+    "fold": 1,
+    "validation_auc": {
+      "ae": 0.75,
+      "morphology": 0.87,
+      "joint": 0.7400000000000001
+    },
+    "validation_signal_spearman": 0.28049301932678794,
+    "joint_allowed": false,
+    "joint_fallback": "ae_residual",
+    "checkpoints": {
+      "seed42": "343c57e491a85b0d267025a39c664f70cb51e0b9ed189e07be680ce20ab9839f",
+      "seed43": "2e5d8647122a042501f0231f7aa1ca51e2f573487e9a7c2ca942884ecb6d73d6"
+    },
+    "scale": 1.6293395482315973,
+    "seed_diagnostics": [
+      {
+        "seed": 42,
+        "selected_epoch": 30,
+        "train_selected": 0.04420256335288286,
+        "validation_selected": 0.043661151081323624,
+        "elapsed_seconds": 6.329269100009697
+      },
+      {
+        "seed": 43,
+        "selected_epoch": 30,
+        "train_selected": 0.047697884030640125,
+        "validation_selected": 0.04711651802062988,
+        "elapsed_seconds": 5.678831600002013
+      }
+    ],
+    "test_labels_used": false
+  },
+  {
+    "hidden_type": "CHIN",
+    "fold": 2,
+    "validation_auc": {
+      "ae": 0.763888888888889,
+      "morphology": 0.8796296296296298,
+      "joint": 0.7870370370370371
+    },
+    "validation_signal_spearman": 0.4149618514054827,
+    "joint_allowed": false,
+    "joint_fallback": "ae_residual",
+    "checkpoints": {
+      "seed42": "4defee7b277c22a84b353553c8e3168ea60ec348f2739a05616b87358a42a266",
+      "seed43": "d5552e54597cfeb1a4bc79790854cb935ab691a676a5331cf815a55409a9d2ab"
+    },
+    "scale": 1.6497036432316745,
+    "seed_diagnostics": [
+      {
+        "seed": 42,
+        "selected_epoch": 29,
+        "train_selected": 0.04861289511124293,
+        "validation_selected": 0.047073133289813995,
+        "elapsed_seconds": 5.111279399992782
+      },
+      {
+        "seed": 43,
+        "selected_epoch": 30,
+        "train_selected": 0.04924384877085686,
+        "validation_selected": 0.047453563660383224,
+        "elapsed_seconds": 5.0672623999998905
+      }
+    ],
+    "test_labels_used": false
+  },
+  {
+    "hidden_type": "CHIN",
+    "fold": 3,
+    "validation_auc": {
+      "ae": 0.6666666666666667,
+      "morphology": 0.8333333333333334,
+      "joint": 0.7037037037037037
+    },
+    "validation_signal_spearman": 0.26524079341180434,
+    "joint_allowed": false,
+    "joint_fallback": "ae_residual",
+    "checkpoints": {
+      "seed42": "606fa8ea7e534081847964fcc4d4226b6e31469ef5bba7728e76e285830b8acd",
+      "seed43": "a67950f28ca73a3edc15e015fe70adfdf9cf3e2049f89b5cf0faf3a5d6fddadf"
+    },
+    "scale": 1.6336754772471467,
+    "seed_diagnostics": [
+      {
+        "seed": 42,
+        "selected_epoch": 30,
+        "train_selected": 0.051226234063506126,
+        "validation_selected": 0.0520394966006279,
+        "elapsed_seconds": 4.1622377000021515
+      },
+      {
+        "seed": 43,
+        "selected_epoch": 30,
+        "train_selected": 0.05195584334433079,
+        "validation_selected": 0.05294903740286827,
+        "elapsed_seconds": 4.290766799997073
+      }
+    ],
+    "test_labels_used": false
+  },
+  {
+    "hidden_type": "CHIN",
+    "fold": 4,
+    "validation_auc": {
+      "ae": 0.12,
+      "morphology": 0.86,
+      "joint": 0.19999999999999996
+    },
+    "validation_signal_spearman": -0.04734412488321741,
+    "joint_allowed": false,
+    "joint_fallback": "ae_residual",
+    "checkpoints": {
+      "seed42": "fa653704278c70196dae96e24502d4fbb0a544525e8362688122444520e36d97",
+      "seed43": "34efe5624802788c6f030cc770d82cb942515de156a9ba195c931f301b8d6f91"
+    },
+    "scale": 1.651567032643053,
+    "seed_diagnostics": [
+      {
+        "seed": 42,
+        "selected_epoch": 30,
+        "train_selected": 0.04942093975841999,
+        "validation_selected": 0.048098307102918625,
+        "elapsed_seconds": 4.321859600007883
+      },
+      {
+        "seed": 43,
+        "selected_epoch": 30,
+        "train_selected": 0.050205688923597336,
+        "validation_selected": 0.048907436430454254,
+        "elapsed_seconds": 4.17860670000664
+      }
+    ],
+    "test_labels_used": false
+  },
+  {
+    "hidden_type": "OPCID",
+    "fold": 0,
+    "validation_auc": {
+      "ae": 0.6749999999999999,
+      "morphology": 0.7845238095238095,
+      "joint": 0.8202380952380952
+    },
+    "validation_signal_spearman": 0.20308388047687828,
+    "joint_allowed": true,
+    "joint_fallback": "ae_residual",
+    "checkpoints": {
+      "seed42": "64dee272082526d57a5d653122c4356d27baed28bde978d39a71fdcea851b86c",
+      "seed43": "9b0456506d6ae3c819579e5254815f6b504078acf984cc23ed5e7309bb0eade3"
+    },
+    "scale": 1.6804425468803996,
+    "seed_diagnostics": [
+      {
+        "seed": 42,
+        "selected_epoch": 30,
+        "train_selected": 0.045237491528193154,
+        "validation_selected": 0.053027987480163574,
+        "elapsed_seconds": 5.245554399996763
+      },
+      {
+        "seed": 43,
+        "selected_epoch": 30,
+        "train_selected": 0.04577242583036423,
+        "validation_selected": 0.05355841666460037,
+        "elapsed_seconds": 5.354527900009998
+      }
+    ],
+    "test_labels_used": false
+  },
+  {
+    "hidden_type": "OPCID",
+    "fold": 1,
+    "validation_auc": {
+      "ae": 0.580952380952381,
+      "morphology": 0.6690476190476191,
+      "joint": 0.7238095238095239
+    },
+    "validation_signal_spearman": 0.41818181818181815,
+    "joint_allowed": true,
+    "joint_fallback": "ae_residual",
+    "checkpoints": {
+      "seed42": "faa41730e50f59d2c39f5d1ff7fb70b9b5f71ad653a879bb7a8cb4b2df4a4cc0",
+      "seed43": "bad4e776546bdc94811274c7955411a4d215726739b405ff3064e3358498ed35"
+    },
+    "scale": 1.663251388349674,
+    "seed_diagnostics": [
+      {
+        "seed": 42,
+        "selected_epoch": 30,
+        "train_selected": 0.04641356598585844,
+        "validation_selected": 0.0441557839512825,
+        "elapsed_seconds": 4.675835200003348
+      },
+      {
+        "seed": 43,
+        "selected_epoch": 30,
+        "train_selected": 0.04741596803069115,
+        "validation_selected": 0.045178141444921494,
+        "elapsed_seconds": 4.672784099995624
+      }
+    ],
+    "test_labels_used": false
+  },
+  {
+    "hidden_type": "OPCID",
+    "fold": 2,
+    "validation_auc": {
+      "ae": 0.38657407407407407,
+      "morphology": 0.8240740740740742,
+      "joint": 0.6774691358024691
+    },
+    "validation_signal_spearman": 0.444037304185432,
+    "joint_allowed": false,
+    "joint_fallback": "ae_residual",
+    "checkpoints": {
+      "seed42": "00ca8db24f32200a965b40b7955cc46a80a5451805268dd6a44a807cff039f1f",
+      "seed43": "b22a2bb6165cdd9d47911dd93e3c0bc71a24ae4966ab11dad0fef49a7d4ab4c0"
+    },
+    "scale": 1.6801443954658837,
+    "seed_diagnostics": [
+      {
+        "seed": 42,
+        "selected_epoch": 30,
+        "train_selected": 0.04878182616084814,
+        "validation_selected": 0.04534950479865074,
+        "elapsed_seconds": 3.995226899991394
+      },
+      {
+        "seed": 43,
+        "selected_epoch": 30,
+        "train_selected": 0.04940224438905716,
+        "validation_selected": 0.04576833173632622,
+        "elapsed_seconds": 4.546499200005201
+      }
+    ],
+    "test_labels_used": false
+  },
+  {
+    "hidden_type": "OPCID",
+    "fold": 3,
+    "validation_auc": {
+      "ae": 0.6225749559082893,
+      "morphology": 0.828042328042328,
+      "joint": 0.6199294532627867
+    },
+    "validation_signal_spearman": 0.25862596625492557,
+    "joint_allowed": false,
+    "joint_fallback": "ae_residual",
+    "checkpoints": {
+      "seed42": "19d6340424f7c7aec8adb6c775e223a5c19d787a6c7668d1ea431cb031f8d22c",
+      "seed43": "0a71611fd0aa7b0cf864899079a186c59776309355883f4ba8e7db504e54e53c"
+    },
+    "scale": 1.6346943709163813,
+    "seed_diagnostics": [
+      {
+        "seed": 42,
+        "selected_epoch": 30,
+        "train_selected": 0.050565049052238464,
+        "validation_selected": 0.05137702450156212,
+        "elapsed_seconds": 3.058224099993822
+      },
+      {
+        "seed": 43,
+        "selected_epoch": 30,
+        "train_selected": 0.05110742524266243,
+        "validation_selected": 0.05210888758301735,
+        "elapsed_seconds": 3.022684499999741
+      }
+    ],
+    "test_labels_used": false
+  },
+  {
+    "hidden_type": "OPCID",
+    "fold": 4,
+    "validation_auc": {
+      "ae": 0.5260869565217391,
+      "morphology": 0.7730434782608696,
+      "joint": 0.6660869565217391
+    },
+    "validation_signal_spearman": 0.22705410748558252,
+    "joint_allowed": false,
+    "joint_fallback": "ae_residual",
+    "checkpoints": {
+      "seed42": "eb1939c1bffcd51aba25935f69c0098b7ed82f243667bc6716e8d93ef5b59f45",
+      "seed43": "72696bfc6c5950657c6645b2b95228aca0871b9c4eb1ed4b6ee14e4f4638a843"
+    },
+    "scale": 1.6437594686368209,
+    "seed_diagnostics": [
+      {
+        "seed": 42,
+        "selected_epoch": 30,
+        "train_selected": 0.048820462077856064,
+        "validation_selected": 0.048346005380153656,
+        "elapsed_seconds": 3.0585837999969954
+      },
+      {
+        "seed": 43,
+        "selected_epoch": 30,
+        "train_selected": 0.04933982466657957,
+        "validation_selected": 0.04894132539629936,
+        "elapsed_seconds": 3.0204489000025205
+      }
+    ],
+    "test_labels_used": false
+  }
+]

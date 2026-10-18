@@ -1,0 +1,10 @@
+{
+  "all_folds_retained": true,
+  "per_fold_rows": 240,
+  "annotation_overlap_pairs": 265,
+  "new_scoring_model_trained": false,
+  "old_formal_rules_unchanged": true,
+  "geometry_categories_are_not_biological_labels": true,
+  "independent_blind_review_completed": false,
+  "most_defensible_novelty": "Reference-distance signal limited to one held class; AE residual has no all-class robust improvement"
+}

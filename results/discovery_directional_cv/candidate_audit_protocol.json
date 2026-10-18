@@ -1,0 +1,19 @@
+{
+  "selection": "combined_validation_selected 64-budget center selected in >=3 of 5 folds, nearby centers within6400bp merged",
+  "repeat2_consensus": "Same rule applied to independent WT repeat2 count image, center within6400bp",
+  "support": "Both WT repeats >=80% native support rows; >=50% common offdiagonal upper triangle; O/E Pearson >=.5",
+  "known_exclusion": "No annotation overlap with full25.6kb candidate context plus200bp buffer",
+  "independent_member_rule": "Genome-order greedy separation >=25600bp",
+  "clustering": "KMeans six fixed shape-feature groups on all consensus candidates if >=6; tentative cluster needs >=5 independent members, all repeat2 consensus and no known-context members",
+  "total_consensus": 62,
+  "repeat_supported": 44,
+  "full_context_unannotated": 4,
+  "independent_members": 4,
+  "tentative_new_clusters": 0,
+  "limitations": [
+    "Candidate audit is exploratory and uses previously observed loci",
+    "Fold fits share the same biological counts",
+    "Two WT repeats are not external biological confirmation",
+    "NoLig and perturbation controls have not been repeated for newly located candidates"
+  ]
+}

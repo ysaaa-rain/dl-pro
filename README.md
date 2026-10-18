@@ -1,4 +1,4 @@
-> 当前实验状态（2026-10-16）：报告暂停编写，已有Word为暂存草稿。最新数值与限制见 [实验状态](docs/进度.md) 和 `results/model_validation/`；下方较早结果保留作为对照。
+> 当前实验状态（2026-10-17）：第八轮完成，见[分类定向优化与必做证据报告](results/classification_review_v1/REPORT.md)及[第七轮审计](results/evidence_review_v1/REPORT.md)。方向特征分支Accuracy为0.8081，但CHID召回降至7/26、Macro-F1增益区间跨零，未替换正式CNN。任务二仍0个合格新簇、人工复核0/243；任务三核心要求已核验；任务五冻结大规模搜索。正式报告/PPT/视频仍待整理，下方历史结果保留作对照。[本次同步范围与复现边界](docs/GitHub同步说明.md)。
 
 # Micro-C 接触矩阵深度学习实验
 

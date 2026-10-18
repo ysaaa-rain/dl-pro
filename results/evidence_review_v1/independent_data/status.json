@@ -1,0 +1,16 @@
+{
+  "local_samples": 29,
+  "local_complete_samples": 11,
+  "historical_wt_repeats": 2,
+  "already_reviewed_conditions": 243,
+  "remote_metadata_samples": 99,
+  "metadata_only": true,
+  "large_data_downloaded": false,
+  "independent_validation_performed": false,
+  "external_compatibility_not_assumed": true,
+  "reviewer_available": false,
+  "author_label_lookup": {
+    "status": "verified_small_labels",
+    "latest_commit": "97d61efb980599c93deba6d3c1b651bc2bd4bb60"
+  }
+}

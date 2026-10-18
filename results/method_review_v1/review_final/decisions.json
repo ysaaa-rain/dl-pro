@@ -1,0 +1,159 @@
+{
+  "novelty_gate": false,
+  "sr": {
+    "validation_selected": "train_distance_prior",
+    "selected_passes_spatial_cross_gate": true,
+    "primary_hypothesis_passes": true,
+    "primary_interval": [
+      {
+        "split": "new_test",
+        "comparison": "cross_repeat",
+        "method": "allocation_expanded_mixed",
+        "reference": "context_expanded_shape",
+        "metric": "oe_100bp_ssim",
+        "aggregation": "mean_of_seed_metrics",
+        "delta": 0.003631184498469,
+        "low": 0.0029283141096433,
+        "high": 0.0045019475122292,
+        "groups": 6
+      }
+    ],
+    "selected_evidence": [
+      {
+        "split": "new_test",
+        "comparison": "cross_repeat",
+        "method": "train_distance_prior",
+        "reference": "legacy_sparse_mse",
+        "metric": "oe_100bp_ssim",
+        "aggregation": "mean_of_seed_metrics",
+        "delta": 0.0035322432716687,
+        "low": 0.0027904286980628,
+        "high": 0.0044465437531471,
+        "groups": 6
+      },
+      {
+        "split": "historical_test",
+        "comparison": "cross_repeat",
+        "method": "train_distance_prior",
+        "reference": "legacy_sparse_mse",
+        "metric": "oe_100bp_ssim",
+        "aggregation": "mean_of_seed_metrics",
+        "delta": 0.0037763761356472,
+        "low": 0.0028337831143289,
+        "high": 0.0047410763800144,
+        "groups": 8
+      }
+    ],
+    "selected_same_repeat50bp_effects": [
+      {
+        "split": "historical_test",
+        "comparison": "same_repeat",
+        "method": "train_distance_prior",
+        "reference": "legacy_sparse_mse",
+        "metric": "oe_50bp_ssim",
+        "aggregation": "mean_of_seed_metrics",
+        "delta": -0.0061370898038148,
+        "low": -0.0079061568947508,
+        "high": -0.0043395992834121,
+        "groups": 8
+      },
+      {
+        "split": "new_test",
+        "comparison": "same_repeat",
+        "method": "train_distance_prior",
+        "reference": "legacy_sparse_mse",
+        "metric": "oe_50bp_ssim",
+        "aggregation": "mean_of_seed_metrics",
+        "delta": -0.0054966062307357,
+        "low": -0.007120831310749,
+        "high": -0.0041330357392628,
+        "groups": 6
+      }
+    ],
+    "recommendation_scope": "Optional shared-cross-repeat reconstruction branch; full same-repeat local fidelity not established",
+    "count_checks": {
+      "selected_checkpoints": [
+        {
+          "arm": "legacy_sparse_mse",
+          "seed": 42,
+          "step": 320,
+          "sha256": "66bb9968fbc994fd9dcf42f8362315b48efe11f1fa4d74aebdeb35356b3e7eb0"
+        },
+        {
+          "arm": "legacy_sparse_mse",
+          "seed": 43,
+          "step": 320,
+          "sha256": "11f10577860741305fd997b488bbbdc83bd850d220e31eb9670ec9e491b6f38a"
+        },
+        {
+          "arm": "context_sparse_shape",
+          "seed": 42,
+          "step": 320,
+          "sha256": "2b9b75cbbb80f6ca226f758e0f0ae260ded4e556b031419f9f718134b9811336"
+        },
+        {
+          "arm": "context_sparse_shape",
+          "seed": 43,
+          "step": 320,
+          "sha256": "57162e4083d832d4e50312f6afdc72c7e7727fe171361693c567e8493d660be7"
+        },
+        {
+          "arm": "context_expanded_shape",
+          "seed": 42,
+          "step": 320,
+          "sha256": "a9553d39068a7c14d7f0230e4aafe40d97c6cb476cdc436a1d1601f38c15c2fc"
+        },
+        {
+          "arm": "context_expanded_shape",
+          "seed": 43,
+          "step": 320,
+          "sha256": "4adb28fd61dd8355eec872328ad9897aaa5c85f1b1274a800e21e709fbf22bb9"
+        },
+        {
+          "arm": "allocation_expanded_cross",
+          "seed": 42,
+          "step": 320,
+          "sha256": "0f6d94fbc781a9b005338075c87faeb0d88c77d0305c39929c37b35ee7927780"
+        },
+        {
+          "arm": "allocation_expanded_cross",
+          "seed": 43,
+          "step": 320,
+          "sha256": "9c14465912cc10e2bacd8e744301aea955a6710258cd9502d5ccd79d70195ac7"
+        },
+        {
+          "arm": "allocation_expanded_mixed",
+          "seed": 42,
+          "step": 320,
+          "sha256": "7c2d855a34a809188c803c70abbae54c635a21ed0d734b79e9a119c427a8189e"
+        },
+        {
+          "arm": "allocation_expanded_mixed",
+          "seed": 43,
+          "step": 320,
+          "sha256": "a09318b8913f16fe411dee4315f62b2208c87c38c29740dd284a271b189bcebd"
+        }
+      ],
+      "output_count_semantics": "Expected symmetric image counts; low is block mean",
+      "model_count": 10,
+      "test_locations": 28,
+      "rows": 1792,
+      "numeric_floor": 1e-08,
+      "relative_tolerance": 1e-05,
+      "constrained_max_block_relative_error": 6.953840170353942e-07,
+      "constrained_max_symmetry_relative_error": 8.706624142685152e-07,
+      "all_nonnegative": true,
+      "scale": 2.5909858316536427,
+      "same_and_cross_both_directions": true,
+      "bootstrap": "100kb spatial groups; mean of metrics over seeds, not an ensemble",
+      "limitations": [
+        "Six new reserved groups within previously observed genome",
+        "Raw targets remain noisy",
+        "Stabilized deviance uses a numerical floor at impossible zero-source predictions",
+        "Both repeats used at training locations; cross-repeat tests are spatially isolated, not a wholly unseen replicate"
+      ]
+    }
+  },
+  "production_choices_modified": false,
+  "biological_validation_available": false
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "original_path": "results/classification_fine/fine_consistent_ensemble_report.json",
+    "local_path": "results/evidence_review_v1/course_audit/committed_evidence/results/classification_fine/fine_consistent_ensemble_report.json",
+    "git_blob": "db6005b3a717338048e5a66e3cdc0b48d791549f",
+    "sha256": "0fac51bf08311dc91a85d1757dd4c1d90917b4a588d71ff1c3a27dc348d18acb"
+  },
+  {
+    "original_path": "results/classification_fine/explanations/protocol.json",
+    "local_path": "results/evidence_review_v1/course_audit/committed_evidence/results/classification_fine/explanations/protocol.json",
+    "git_blob": "69a2e539765dbbf0a690191496259e6bbef8dc85",
+    "sha256": "3ebc388f4bfb7e9c33a4ea086cefd9653579e1885d4e2e66e56bb4eac0de06bc"
+  },
+  {
+    "original_path": "results/classification_fine/explanations/occlusion_summary.csv",
+    "local_path": "results/evidence_review_v1/course_audit/committed_evidence/results/classification_fine/explanations/occlusion_summary.csv",
+    "git_blob": "11946794209134dabd850e7ca051be66ac5917d1",
+    "sha256": "fac5ffadb0afd67a3f6d29f5d2d2aa7dce0b10a10ece213b7ea3066ffcab80fe"
+  },
+  {
+    "original_path": "results/multitrack/index.csv",
+    "local_path": "results/evidence_review_v1/course_audit/committed_evidence/results/multitrack/index.csv",
+    "git_blob": "29ba53504a9ff1bdf5a3a00ebd1876e94706b1a9",
+    "sha256": "92bc2eeee350d9a85a6ab397159890d0ab3a4e7ef4469a5761e61a6c6265982a"
+  },
+  {
+    "original_path": "results/multitrack/protocol.json",
+    "local_path": "results/evidence_review_v1/course_audit/committed_evidence/results/multitrack/protocol.json",
+    "git_blob": "598361956cf4dbc7bad1626dc7e84d356a04f951",
+    "sha256": "18a9250016358b628cf09350d9f513de2b0035d9d1d7f2858198e79fb904b3e6"
+  },
+  {
+    "original_path": "results/multitrack_mutants/index.csv",
+    "local_path": "results/evidence_review_v1/course_audit/committed_evidence/results/multitrack_mutants/index.csv",
+    "git_blob": "82061a6d4343f5e31f2e4dc362e5f8e2589a21ad",
+    "sha256": "f5ca84a33e12d669ceed24dd0e535c36135a1e526887f6a4d71be96b15395eb3"
+  },
+  {
+    "original_path": "results/multitrack_mutants/protocol.json",
+    "local_path": "results/evidence_review_v1/course_audit/committed_evidence/results/multitrack_mutants/protocol.json",
+    "git_blob": "c7b76db5bc1cd443ddd0007c91675dcf060f4102",
+    "sha256": "f1c9cc4c280ca535d7fba03c35f8a571121891a2357316345946c9ad5a687efc"
+  },
+  {
+    "original_path": "results/experiment/reference_resolution.json",
+    "local_path": "results/evidence_review_v1/course_audit/committed_evidence/results/experiment/reference_resolution.json",
+    "git_blob": "32112c19f1c8f8431ee4b42ce8514a996a59d5d7",
+    "sha256": "05adab98a532770a74ecb14df5c97eb4cc3345e06d1833c097c80545320dbb86"
+  }
+]

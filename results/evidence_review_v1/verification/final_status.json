@@ -1,0 +1,22 @@
+{
+  "completed_utc": "2026-10-17T14:34:25.693207+00:00",
+  "status": "completed",
+  "exit_code": 0,
+  "protected_files_verified": 915,
+  "all_protected_unchanged": true,
+  "source_archives_verified": 10,
+  "sr_spatial_groups_disjoint": true,
+  "AE_spatial_fits_verified": 15,
+  "private_background_controls_verified": 243,
+  "frozen_predictions_verified": 2016,
+  "unit_test_success": true,
+  "real_browser_success": true,
+  "independent_human_review_completed": false,
+  "new_models_trained": 0,
+  "confirmed_new_clusters": 0,
+  "formal_choices_unchanged": true,
+  "HEAD_unchanged": true,
+  "pushed_to_remote": false,
+  "formal_deliverables_modified": false,
+  "raw_large_input_hashes": "Reuse historical provenance; no claim of rehashing all large raw inputs in this round"
+}

@@ -1,0 +1,134 @@
+{
+  "metadata_rows": 99,
+  "unique_geo_accessions": 64,
+  "super_series_duplicates_not_independent": true,
+  "wt_library_records": [
+    {
+      "accession": "GSM8394770",
+      "title": "WT_MicroC_t1_biol_rep1",
+      "characteristics": [
+        "cell line: MG1655",
+        "cell type: bacteria",
+        "genotype: WT",
+        "treatment: none"
+      ],
+      "processing": [
+        "The raw reads were processed with distiller-nf pipeline using NC_000913.3 E.coli reference genome and BWA as an aligner.",
+        "Assembly: NC_000913.3",
+        "Supplementary files format and content: cooler (.cool, a contact matrix) file for each sample"
+      ],
+      "files": [
+        "NONE"
+      ]
+    },
+    {
+      "accession": "GSM8394772",
+      "title": "WT_MicroC_t1_biol_rep2",
+      "characteristics": [
+        "cell line: MG1655",
+        "cell type: bacteria",
+        "genotype: WT",
+        "treatment: none"
+      ],
+      "processing": [
+        "The raw reads were processed with distiller-nf pipeline using NC_000913.3 E.coli reference genome and BWA as an aligner.",
+        "Assembly: NC_000913.3",
+        "Supplementary files format and content: cooler (.cool, a contact matrix) file for each sample"
+      ],
+      "files": [
+        "NONE"
+      ]
+    },
+    {
+      "accession": "GSM8394774",
+      "title": "WT_MicroC_t2_biol_rep1",
+      "characteristics": [
+        "cell line: MG1655",
+        "cell type: bacteria",
+        "genotype: WT",
+        "treatment: none"
+      ],
+      "processing": [
+        "The raw reads were processed with distiller-nf pipeline using NC_000913.3 E.coli reference genome and BWA as an aligner.",
+        "Assembly: NC_000913.3",
+        "Supplementary files format and content: cooler (.cool, a contact matrix) file for each sample"
+      ],
+      "files": [
+        "NONE"
+      ]
+    },
+    {
+      "accession": "GSM8394776",
+      "title": "WT_MicroC_t2_biol_rep2",
+      "characteristics": [
+        "cell line: MG1655",
+        "cell type: bacteria",
+        "genotype: WT",
+        "treatment: none"
+      ],
+      "processing": [
+        "The raw reads were processed with distiller-nf pipeline using NC_000913.3 E.coli reference genome and BWA as an aligner.",
+        "Assembly: NC_000913.3",
+        "Supplementary files format and content: cooler (.cool, a contact matrix) file for each sample"
+      ],
+      "files": [
+        "NONE"
+      ]
+    }
+  ],
+  "series_supplementary_files": [
+    {
+      "series": "GSE272159",
+      "url": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE272nnn/GSE272159/suppl/GSE272159_37C_rep1.mapq_30.10.cool.gz"
+    },
+    {
+      "series": "GSE272159",
+      "url": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE272nnn/GSE272159/suppl/GSE272159_37C_rep2.mapq_30.10.cool.gz"
+    },
+    {
+      "series": "GSE272159",
+      "url": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE272nnn/GSE272159/suppl/GSE272159_44C_rep1.mapq_30.10.cool.gz"
+    },
+    {
+      "series": "GSE272159",
+      "url": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE272nnn/GSE272159/suppl/GSE272159_44C_rep2.mapq_30.10.cool.gz"
+    },
+    {
+      "series": "GSE272159",
+      "url": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE272nnn/GSE272159/suppl/GSE272159_RAW.tar"
+    },
+    {
+      "series": "GSE272159",
+      "url": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE272nnn/GSE272159/suppl/GSE272159_rif25_rep1.MG1655.mapq_30.10.cool.gz"
+    },
+    {
+      "series": "GSE272159",
+      "url": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE272nnn/GSE272159/suppl/GSE272159_rif25_rep2.MG1655.mapq_30.10.cool.gz"
+    },
+    {
+      "series": "GSE272159",
+      "url": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE272nnn/GSE272159/suppl/GSE272159_rif750_rep1.MG1655.mapq_30.10.cool.gz"
+    },
+    {
+      "series": "GSE272159",
+      "url": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE272nnn/GSE272159/suppl/GSE272159_rif750_rep2.MG1655.mapq_30.10.cool.gz"
+    },
+    {
+      "series": "GSE272158",
+      "url": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE272nnn/GSE272158/suppl/GSE272158_wt_rep1.MG1655.mapq_30.10.cool.gz"
+    },
+    {
+      "series": "GSE272158",
+      "url": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE272nnn/GSE272158/suppl/GSE272158_wt_rep2.MG1655.mapq_30.10.cool.gz"
+    },
+    {
+      "series": "GSE272161",
+      "url": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE272nnn/GSE272161/suppl/GSE272161_RAW.tar"
+    }
+  ],
+  "conclusion": "No unused independent matched WT contact matrix established. t1/t2 library titles alone do not prove independence from the two already-used series-level rep1/rep2 matrices; per-library processed WT files are NONE in the fetched metadata. Raw-read provenance/merging would need explicit verification before reuse.",
+  "HiC": "GSE272158 is same-study Hi-C modality; not a deeper Micro-C native10bp target",
+  "RNA_RedC": "Gene-expression/RNA-DNA assays are potential functional context, not native DNA-contact ground truth",
+  "author_labels": "Latest author BED content is identical to the currently pinned344 labels; not independent labels",
+  "large_files_downloaded": false
+}

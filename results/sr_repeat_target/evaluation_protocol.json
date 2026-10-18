@@ -1,0 +1,23 @@
+{
+  "source": "Frozen original WT repeat1 and repeat2 test windows, 8 spatial 100kb blocks",
+  "methods": [
+    "projected_bicubic",
+    "sparse_matched",
+    "dense_multiscale",
+    "cross_repeat_target"
+  ],
+  "n_same_repeat": 32,
+  "n_cross_repeat": 16,
+  "cross_repeat_native": "Compare source repeat1 40bp prediction to depth-normalized repeat2 native10bp",
+  "cross_repeat_projected": "Compare to repeat2 native detail projected onto source repeat1 measured40bp totals",
+  "measure": "Native clipped log PSNR/SSIM and masked 100bp log O/E SSIM, 10.24kb patches",
+  "count_conservation": "Exact by construction for all methods",
+  "validation_zero_target_fallback_mean": 0.3500949963927269,
+  "validation_comparison": "Same 12 validation loci, repeat2 native allocation projected to repeat1 measured40bp totals",
+  "comparison": "Fixed seed42; 2000 100kb-block bootstrap draws; all test positions previously observed",
+  "limitations": [
+    "Two biological repeats only",
+    "Test results retrospective, no new hyperparameter selection",
+    "Projected cross-repeat target shares the source 40bp total by construction"
+  ]
+}

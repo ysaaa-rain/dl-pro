@@ -1,0 +1,82 @@
+{
+  "budget64_dense_repeat1_morphology_minus_old_morphology": {
+    "delta": 0.014534883720930232,
+    "group95": [
+      -0.04972587371139476,
+      0.07764400272074747
+    ],
+    "n_groups": 56
+  },
+  "budget64_dense_repeat2_morphology_minus_old_morphology": {
+    "delta": 0.0,
+    "group95": [
+      -0.05678252911165635,
+      0.059407780926791554
+    ],
+    "n_groups": 56
+  },
+  "budget64_dense_repeat1_forest_known_control_minus_old_morphology": {
+    "delta": 0.05232558139534884,
+    "group95": [
+      -0.014668396120009024,
+      0.11765573486031576
+    ],
+    "n_groups": 56
+  },
+  "budget64_dense_repeat2_forest_known_control_minus_old_morphology": {
+    "delta": 0.061046511627906974,
+    "group95": [
+      0.0,
+      0.12500851498637597
+    ],
+    "n_groups": 56
+  },
+  "budget64_dense_repeat1_morphology_minus_dense_repeat2_morphology": {
+    "delta": 0.014534883720930232,
+    "group95": [
+      -0.006544962812711291,
+      0.04025339083001619
+    ],
+    "n_groups": 56
+  },
+  "budget128_dense_repeat1_morphology_minus_old_morphology": {
+    "delta": -0.04941860465116279,
+    "group95": [
+      -0.11084428024083197,
+      0.013855820518906143
+    ],
+    "n_groups": 56
+  },
+  "budget128_dense_repeat2_morphology_minus_old_morphology": {
+    "delta": -0.01744186046511628,
+    "group95": [
+      -0.07291666666666667,
+      0.0429042904290429
+    ],
+    "n_groups": 56
+  },
+  "budget128_dense_repeat1_forest_known_control_minus_old_morphology": {
+    "delta": -0.005813953488372093,
+    "group95": [
+      -0.0761193780862138,
+      0.06920815248914933
+    ],
+    "n_groups": 56
+  },
+  "budget128_dense_repeat2_forest_known_control_minus_old_morphology": {
+    "delta": -0.046511627906976744,
+    "group95": [
+      -0.11438064326548057,
+      0.017244372605363968
+    ],
+    "n_groups": 56
+  },
+  "budget128_dense_repeat1_morphology_minus_dense_repeat2_morphology": {
+    "delta": -0.03197674418604651,
+    "group95": [
+      -0.08108108108108109,
+      0.010036845983787748
+    ],
+    "n_groups": 56
+  }
+}

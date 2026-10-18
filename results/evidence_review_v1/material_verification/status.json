@@ -1,0 +1,16 @@
+{
+  "cases_checked": 243,
+  "packet_members_exact": true,
+  "png_and_npz_valid": true,
+  "edge_offline_ui_tested": true,
+  "browser_errors": [],
+  "temporary_export_test_not_human_review": true,
+  "real_review_records_created": 0,
+  "screenshots": [
+    "results/evidence_review_v1/material_verification/offline_case_000.png",
+    "results/evidence_review_v1/material_verification/offline_case_121.png",
+    "results/evidence_review_v1/material_verification/offline_case_242.png"
+  ],
+  "course_track_samples": 6,
+  "track_selection": "first, middle, last in each frozen genome index; six samples, not full visual validation"
+}

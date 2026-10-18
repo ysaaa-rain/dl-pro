@@ -1,0 +1,8 @@
+{
+  "extends": "method_review_v1.json",
+  "discovery": {
+    "kmeans_n_init": 20,
+    "cluster_descriptor": "fixed_within_window_distance_detrended",
+    "density_min_samples_rule": "formal_min_cluster_members"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "checks": {
+    "native_inputs_spatially_disjoint_by_complete_block": true,
+    "all_sources_cache_hashes_and_direct_test_windows_match": true,
+    "frozen_annotations_original_splits_and_operational_choices_unchanged": true,
+    "novelty_every_expected_case_scored_once_no_tail_default_training": true,
+    "hidden_type_and_spatial_context_purged_from_all_fits": true,
+    "all_models_and_validation_choice_locked_before_test_inference": true,
+    "every_fixed_method_seed_repeat_and_location_evaluated_completely": true,
+    "count_symmetry_nonnegativity_and_aligned160bp_control_hold": true,
+    "recorded_run_source_archives_exactly_match_recorded_hashes": true,
+    "baseline_subprocess_and_executed_test_sources_preserved": true,
+    "historical_integrity_audit_and_tests_passed": true
+  },
+  "direct_test_window_probes": [
+    {
+      "source_repeat": 1,
+      "split": "new_test",
+      "sample_index": 28,
+      "exact_equal": true
+    },
+    {
+      "source_repeat": 1,
+      "split": "historical_test",
+      "sample_index": 0,
+      "exact_equal": true
+    },
+    {
+      "source_repeat": 2,
+      "split": "new_test",
+      "sample_index": 28,
+      "exact_equal": true
+    },
+    {
+      "source_repeat": 2,
+      "split": "historical_test",
+      "sample_index": 0,
+      "exact_equal": true
+    }
+  ],
+  "novel_case_count": 243,
+  "actual_novelty_fits": 15,
+  "constrained_max_block_error": 6.953840170353942e-07,
+  "constrained_max_symmetry_relative_error": 8.706624142685152e-07,
+  "aligned160bp_max_method_range": 8.940696716308594e-07,
+  "archived_stages": [
+    "baseline",
+    "candidate_audit",
+    "candidate_audit_corrected",
+    "cluster_audit",
+    "cluster_audit_corrected",
+    "diagnose",
+    "diagnose_corrected",
+    "evaluate",
+    "integrity",
+    "legacy_audit_final",
+    "novelty",
+    "novelty_corrected",
+    "novelty_review",
+    "novelty_review_corrected",
+    "prepare",
+    "prepare_verify_compatible",
+    "prepare_verify_compatible_fixed",
+    "summarize_final",
+    "test",
+    "train",
+    "train_corrected"
+  ],
+  "selected_method": "train_distance_prior",
+  "interpretation": "Integrity of the recorded experiment, not proof of superior performance or biological novelty"
+}

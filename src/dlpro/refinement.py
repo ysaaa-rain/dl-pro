@@ -53,9 +53,9 @@ class DilatedResidual(nn.Module):
 
 
 class ContextCountSR(nn.Module):
-    def __init__(self,scale):
-        super().__init__();self.scale=float(scale);self.encoder=nn.Sequential(nn.Conv2d(1,16,3,padding=1),nn.ReLU(),*[DilatedResidual(16,d) for d in [1,2,4,8,16,32]])
-        self.output=nn.Sequential(nn.Conv2d(16,16,3,padding=1),nn.PixelShuffle(4));nn.init.zeros_(self.output[0].weight);nn.init.zeros_(self.output[0].bias)
+    def __init__(self,scale,channels=16,dilations=(1,2,4,8,16,32)):
+        super().__init__();self.scale=float(scale);self.encoder=nn.Sequential(nn.Conv2d(1,channels,3,padding=1),nn.ReLU(),*[DilatedResidual(channels,d) for d in dilations])
+        self.output=nn.Sequential(nn.Conv2d(channels,16,3,padding=1),nn.PixelShuffle(4));nn.init.zeros_(self.output[0].weight);nn.init.zeros_(self.output[0].bias)
     def forward(self,low):
         counts=torch.expm1(low*self.scale);prior=F.interpolate(counts,scale_factor=4,mode='bicubic',align_corners=False).clamp_min(1e-5);correction=self.output(self.encoder(low));correction=(correction+correction.transpose(-1,-2))/2
         result=project_counts(prior*torch.exp(correction.clamp(-4,4)),counts);return torch.log1p(result)/self.scale

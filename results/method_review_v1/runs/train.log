@@ -1,0 +1,20 @@
+resource probe {'arm': 'legacy_sparse_mse', 'seconds_per_step': 0.09556461666700973, 'estimated_training_seconds': 61.161354666886226, 'parameters': 1832}
+resource probe {'arm': 'context_sparse_shape', 'seconds_per_step': 0.744459541667311, 'estimated_training_seconds': 476.45410666707903, 'parameters': 30320}
+resource probe {'arm': 'context_expanded_shape', 'seconds_per_step': 0.7156787416667308, 'estimated_training_seconds': 458.0343946667077, 'parameters': 30320}
+resource probe {'arm': 'allocation_expanded_cross', 'seconds_per_step': 0.6616823916665453, 'estimated_training_seconds': 423.476730666589, 'parameters': 30320}
+resource probe {'arm': 'allocation_expanded_mixed', 'seconds_per_step': 0.7587011166663918, 'estimated_training_seconds': 485.5687146664908, 'parameters': 30320}
+validation {'arm': 'legacy_sparse_mse', 'seed': 42, 'step': 80, 'train_loss': 0.018982270162086933, 'validation_objective': 0.021891448087990283, 'elapsed_seconds': 10.228940900007728}
+validation {'arm': 'legacy_sparse_mse', 'seed': 42, 'step': 160, 'train_loss': 0.017748808860778807, 'validation_objective': 0.02150440183468163, 'elapsed_seconds': 20.452384300006088}
+validation {'arm': 'legacy_sparse_mse', 'seed': 42, 'step': 240, 'train_loss': 0.017650508764199914, 'validation_objective': 0.02132951938547194, 'elapsed_seconds': 30.759341800003313}
+validation {'arm': 'legacy_sparse_mse', 'seed': 42, 'step': 320, 'train_loss': 0.017576427652966232, 'validation_objective': 0.021285417163744567, 'elapsed_seconds': 40.816612599999644}
+completed legacy_sparse_mse 42 selected 320
+validation {'arm': 'context_sparse_shape', 'seed': 42, 'step': 80, 'train_loss': 0.027657325263135135, 'validation_objective': 0.03073580814525485, 'elapsed_seconds': 62.001741500003845}
+validation {'arm': 'context_sparse_shape', 'seed': 42, 'step': 160, 'train_loss': 0.02661285507492721, 'validation_objective': 0.030646661948412656, 'elapsed_seconds': 123.36484890000429}
+validation {'arm': 'context_sparse_shape', 'seed': 42, 'step': 240, 'train_loss': 0.02664174875244498, 'validation_objective': 0.03057520678266883, 'elapsed_seconds': 192.94427959999302}
+validation {'arm': 'context_sparse_shape', 'seed': 42, 'step': 320, 'train_loss': 0.026717808353714644, 'validation_objective': 0.030545157194137574, 'elapsed_seconds': 262.91455960000167}
+completed context_sparse_shape 42 selected 320
+validation {'arm': 'context_expanded_shape', 'seed': 42, 'step': 80, 'train_loss': 0.028225690661929547, 'validation_objective': 0.030740329809486867, 'elapsed_seconds': 71.27410860000236}
+validation {'arm': 'context_expanded_shape', 'seed': 42, 'step': 160, 'train_loss': 0.028391544451005758, 'validation_objective': 0.030658471025526525, 'elapsed_seconds': 147.97353940000175}
+validation {'arm': 'context_expanded_shape', 'seed': 42, 'step': 240, 'train_loss': 0.027176720509305596, 'validation_objective': 0.030590863060206176, 'elapsed_seconds': 235.40832239999145}
+validation {'arm': 'context_expanded_shape', 'seed': 42, 'step': 320, 'train_loss': 0.027957982709631325, 'validation_objective': 0.030574303399771453, 'elapsed_seconds': 332.7460524999915}
+completed context_expanded_shape 42 selected 320

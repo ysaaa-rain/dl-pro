@@ -7,3 +7,12 @@ __pycache__/
 .env
 
 .qa/
+
+# Rebuildable native counts and optimizer state for the fixed method review.
+data/processed/method_review_v1/*.npy
+results/method_review_v1/**/resume_*.pt
+
+# Keep candidate identities private; publish the complete public directory instead.
+results/evidence_review_v1/blind_review/private/
+# Duplicate archive exceeds GitHub's 100 MiB single-file limit; retained locally.
+results/evidence_review_v1/blind_review/blind_review_packet.zip

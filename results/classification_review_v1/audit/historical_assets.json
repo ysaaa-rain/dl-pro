@@ -1,0 +1,128 @@
+[
+  {
+    "original_path": "results/classification/protocol.json",
+    "local_path": "results/classification_review_v1/audit/historical_assets/results/classification/protocol.json",
+    "sha256": "e8c8bc5afb2ea8830bf43c3d174dd22f8d4afd0deb15f3e60919110455c1af5e",
+    "git_blob": "208ecabbdfc4cbe21ff14681e9f013f8700b7caa"
+  },
+  {
+    "original_path": "results/classification_balanced/out_of_fold_predictions.csv",
+    "local_path": "results/classification_review_v1/audit/historical_assets/results/classification_balanced/out_of_fold_predictions.csv",
+    "sha256": "73e5f3a54eb00c87e42768a55261b4f0a0e032c585c8919f5921a6a1e2d3f5ba",
+    "git_blob": "0d4f6f3267d937e2f472244b734994548402e883"
+  },
+  {
+    "original_path": "results/classification_balanced/protocol.json",
+    "local_path": "results/classification_review_v1/audit/historical_assets/results/classification_balanced/protocol.json",
+    "sha256": "6450bb7ed6c9f49e06c08bfcbb0901cef1552d35f87baf4d7428832eca92dac6",
+    "git_blob": "94764f6224d5a887200fcc463e5f5e265376f785"
+  },
+  {
+    "original_path": "results/classification_balanced/summary.csv",
+    "local_path": "results/classification_review_v1/audit/historical_assets/results/classification_balanced/summary.csv",
+    "sha256": "a434542cb353302342203db002920b4b192bc34ee8202be2e7c20968451fc3c9",
+    "git_blob": "73f5a581265414ddc94f2e3c3414bdf23542e467"
+  },
+  {
+    "original_path": "results/classification_cv/out_of_fold_predictions.csv",
+    "local_path": "results/classification_cv/out_of_fold_predictions.csv",
+    "sha256": "057c927e0cd2f28836ccf61c1f0336a1b1991f701377265af9bbaa57ef71cd0f",
+    "git_blob": "99b1bcb0fc3b00c066e3f85063a62ff06fc6622b"
+  },
+  {
+    "original_path": "results/classification_fine/explanations/protocol.json",
+    "local_path": "results/classification_review_v1/audit/historical_assets/results/classification_fine/explanations/protocol.json",
+    "sha256": "3ebc388f4bfb7e9c33a4ea086cefd9653579e1885d4e2e66e56bb4eac0de06bc",
+    "git_blob": "69a2e539765dbbf0a690191496259e6bbef8dc85"
+  },
+  {
+    "original_path": "results/classification_fine/out_of_fold_predictions.csv",
+    "local_path": "results/classification_fine/out_of_fold_predictions.csv",
+    "sha256": "71f856c4a94e07b81de179530edb77834105c365b9b1a7c669536f83ca77987c",
+    "git_blob": "9078d1e9dfb640c2c144a35c1b557fa239d0bd1c"
+  },
+  {
+    "original_path": "results/classification_fine/protocol.json",
+    "local_path": "results/classification_review_v1/audit/historical_assets/results/classification_fine/protocol.json",
+    "sha256": "f53875a36d062201e6dd68d75634798ef5e347889acf0398a5557d93411054d2",
+    "git_blob": "86fda0d4626b1da5a99c101fda67d7678cc95400"
+  },
+  {
+    "original_path": "results/classification_fine/summary.csv",
+    "local_path": "results/classification_review_v1/audit/historical_assets/results/classification_fine/summary.csv",
+    "sha256": "f7f0b56dad042b4365745094db7c6b0e087b0c6fbda148536631bce8fbb15ecc",
+    "git_blob": "73e2a4741c68970742d61da02d81b580e2a6f025"
+  },
+  {
+    "original_path": "results/classification_hybrid/out_of_fold_predictions.csv",
+    "local_path": "results/classification_review_v1/audit/historical_assets/results/classification_hybrid/out_of_fold_predictions.csv",
+    "sha256": "b078bc782832a7f1b1ee5f5605efb9283330e2c21f8c5c387d02462c80089db4",
+    "git_blob": "6ba8e228cd06738009a976d957867d8c67dd7c72"
+  },
+  {
+    "original_path": "results/classification_hybrid/protocol.json",
+    "local_path": "results/classification_review_v1/audit/historical_assets/results/classification_hybrid/protocol.json",
+    "sha256": "9673d6d5bd7b22e4fb9864520c9768a74b0a4765e30b7cd8ba874faf6ac73a23",
+    "git_blob": "b0b930ea7c2dfd4b080080c8de5532ba39f668fa"
+  },
+  {
+    "original_path": "results/classification_kernel/out_of_fold_predictions.csv",
+    "local_path": "results/classification_review_v1/audit/historical_assets/results/classification_kernel/out_of_fold_predictions.csv",
+    "sha256": "dfd138c374a5bc0cacb479be93dcdacc4d5585bb3eea2e0e5059f3433272f761",
+    "git_blob": "978091d04ab24892bbb390538f076226b16a7962"
+  },
+  {
+    "original_path": "results/classification_kernel/protocol.json",
+    "local_path": "results/classification_review_v1/audit/historical_assets/results/classification_kernel/protocol.json",
+    "sha256": "180ce43b5119286383b66cb957f9f6c4d886ad6083e751928a4351a323283123",
+    "git_blob": "3b39c3a87eec8ed4886b549669313e1eab103c7f"
+  },
+  {
+    "original_path": "results/classification_repeat_ssl/out_of_fold_predictions.csv",
+    "local_path": "results/classification_review_v1/audit/historical_assets/results/classification_repeat_ssl/out_of_fold_predictions.csv",
+    "sha256": "be6f8348d1502b09b6f557242f6ed4cf8eeface1a795c283bcb952aae80ece3b",
+    "git_blob": "8186448443265cb73a73cf94fda39cbbe7a2a223"
+  },
+  {
+    "original_path": "results/classification_repeat_ssl/summary.csv",
+    "local_path": "results/classification_review_v1/audit/historical_assets/results/classification_repeat_ssl/summary.csv",
+    "sha256": "ad34e5727926a9c7338bea8804d1efe66e9eadac6e0bb9ca46c2ce46475a1343",
+    "git_blob": "bb35daadc470bf2ea10b60de1a44a89258495d7a"
+  },
+  {
+    "original_path": "results/classification_shape/out_of_fold_predictions.csv",
+    "local_path": "results/classification_review_v1/audit/historical_assets/results/classification_shape/out_of_fold_predictions.csv",
+    "sha256": "9f9ce2b9a03740805f23ed5dbc528ea424f6ad6eac5854ca0a49198711998b78",
+    "git_blob": "a7d5524bbe466dd314e35c009ea3864e28ffb406"
+  },
+  {
+    "original_path": "results/classification_shape/protocol.json",
+    "local_path": "results/classification_review_v1/audit/historical_assets/results/classification_shape/protocol.json",
+    "sha256": "1e73da3ed9a09a7ee5086a2a743e6f97de7af88df97fef7f4257e4b9ae4b72b5",
+    "git_blob": "69cf5b3825681a04e94aa7570ca64d0dfb1369d3"
+  },
+  {
+    "original_path": "results/classification_shape/summary.csv",
+    "local_path": "results/classification_review_v1/audit/historical_assets/results/classification_shape/summary.csv",
+    "sha256": "68897e970981480deb0edb066e0239ee96c3e5cf8f18d9dc1ce9e52b3def106a",
+    "git_blob": "9b2b04c7d68d6a7ac3d1d3c7a5796a6dfcd22bdd"
+  },
+  {
+    "original_path": "results/classification_span/out_of_fold_predictions.csv",
+    "local_path": "results/classification_review_v1/audit/historical_assets/results/classification_span/out_of_fold_predictions.csv",
+    "sha256": "7221f88690b6a2c8a8635e5fee77af042582954aed19be652b156c66d696af90",
+    "git_blob": "a9667a94499e1bacf900c113bd235c17edf2059c"
+  },
+  {
+    "original_path": "results/classification_span/protocol.json",
+    "local_path": "results/classification_review_v1/audit/historical_assets/results/classification_span/protocol.json",
+    "sha256": "6c583a615631a7f7615d3760b38a2834463255e9d07a57096af1b47ed6b4f2af",
+    "git_blob": "c84a5815bfd978a7a4c32a00ccd34eae37644429"
+  },
+  {
+    "original_path": "results/classification_span/summary.csv",
+    "local_path": "results/classification_review_v1/audit/historical_assets/results/classification_span/summary.csv",
+    "sha256": "59a1da70430725b050e8fc20fcafa7e55f36392e58910437cddb569eb6d2938b",
+    "git_blob": "5a277738a0cb08d9397c4bfca69ba7c662cd3a6d"
+  }
+]

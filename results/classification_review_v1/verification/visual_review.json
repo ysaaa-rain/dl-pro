@@ -1,0 +1,27 @@
+{
+  "reviewed_by": "Codex technical visual inspection; not independent biological review",
+  "track_sheets": [
+    "required_evidence/track_review_sheet_1.png",
+    "required_evidence/track_review_sheet_2.png",
+    "required_evidence/track_review_sheet_3.png",
+    "required_evidence/track_review_sheet_4.png"
+  ],
+  "track_images": 14,
+  "full_size_additional_views": [
+    "multitrack 3790000-3800000",
+    "multitrack_mutants 1640000-1650000"
+  ],
+  "observations": [
+    "Shared axes, three condition legends, gray mean, blue genes, orange nested structure lanes readable",
+    "Background without annotations intentionally has empty structure panel",
+    "Near570kb common low signal does not prove a condition effect",
+    "Original classification plot label overflow corrected without changing data; draft retained",
+    "CHID50bp missing explanation shown as NA, not silently inferred"
+  ],
+  "classification_figures": [
+    "review/classification_paired_effects.png",
+    "review/specificity_by_fill.png",
+    "review/occlusion_mask_examples.png"
+  ],
+  "all930_track_images_reviewed": false
+}

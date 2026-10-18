@@ -1,0 +1,7 @@
+{
+  "extends": "method_review_v1.json",
+  "sr": {
+    "result_subdir": "sr_corrected",
+    "normalization_method": "exact_count_histogram"
+  }
+}

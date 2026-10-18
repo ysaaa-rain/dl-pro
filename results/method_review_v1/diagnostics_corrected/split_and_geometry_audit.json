@@ -1,0 +1,60 @@
+{
+  "split_counts": [
+    {
+      "split": "historical_test",
+      "windows": 16,
+      "groups": 8,
+      "no_input_crosses_block": true
+    },
+    {
+      "split": "new_test",
+      "windows": 12,
+      "groups": 6,
+      "no_input_crosses_block": true
+    },
+    {
+      "split": "train",
+      "windows": 231,
+      "groups": 21,
+      "no_input_crosses_block": true
+    },
+    {
+      "split": "val",
+      "windows": 10,
+      "groups": 5,
+      "no_input_crosses_block": true
+    }
+  ],
+  "direct_cooler_probes": [
+    {
+      "split": "train",
+      "sample_index": 4,
+      "repeat": 1,
+      "exact_direct_cooler_match": true
+    },
+    {
+      "split": "val",
+      "sample_index": 15,
+      "repeat": 1,
+      "exact_direct_cooler_match": true
+    },
+    {
+      "split": "train",
+      "sample_index": 4,
+      "repeat": 2,
+      "exact_direct_cooler_match": true
+    },
+    {
+      "split": "val",
+      "sample_index": 15,
+      "repeat": 2,
+      "exact_direct_cooler_match": true
+    }
+  ],
+  "context_receptive_field_bp": 5720,
+  "whole_input_guard_bp": 10240,
+  "raw_output_unit": "expected symmetric image counts, not integer reads",
+  "source_low_unit": "mean of16 native image pixels; multiply by16 for image mass",
+  "historical_test_kept": true,
+  "new_test_is_external": false
+}

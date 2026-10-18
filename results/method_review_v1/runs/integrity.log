@@ -1,0 +1,13 @@
+{
+  "native_inputs_spatially_disjoint_by_complete_block": true,
+  "all_sources_cache_hashes_and_direct_test_windows_match": true,
+  "frozen_annotations_original_splits_and_operational_choices_unchanged": true,
+  "novelty_every_expected_case_scored_once_no_tail_default_training": true,
+  "hidden_type_and_spatial_context_purged_from_all_fits": true,
+  "all_models_and_validation_choice_locked_before_test_inference": true,
+  "every_fixed_method_seed_repeat_and_location_evaluated_completely": true,
+  "count_symmetry_nonnegativity_and_aligned160bp_control_hold": true,
+  "recorded_run_source_archives_exactly_match_recorded_hashes": true,
+  "baseline_subprocess_and_executed_test_sources_preserved": true,
+  "historical_integrity_audit_and_tests_passed": true
+}

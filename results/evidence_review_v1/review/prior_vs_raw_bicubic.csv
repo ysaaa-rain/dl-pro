@@ -1,0 +1,10 @@
+split,comparison,method,reference,metric,paired_windows,empty_pairs,delta,low,high,groups
+new_test,cross_repeat,train_distance_prior,bicubic_unprojected,psnr,24,0,0.0129631704989695,0.002100800997974,0.02386798341585,6
+new_test,cross_repeat,train_distance_prior,bicubic_unprojected,ssim,24,0,0.0001769142276422,-0.0003113336824449,0.0006973501203513,6
+new_test,cross_repeat,train_distance_prior,bicubic_unprojected,raw_mae,24,0,-0.0024502100422978,-0.0027104367812474,-0.002163433159391,6
+new_test,cross_repeat,train_distance_prior,bicubic_unprojected,raw_nrmse,24,0,2.260642387975446e-06,-0.000319848885378,0.0003255134177566,6
+new_test,cross_repeat,train_distance_prior,bicubic_unprojected,log_mse,24,0,-1.5128956874820766e-05,-2.893415512516657e-05,-6.97381134745897e-07,6
+new_test,cross_repeat,train_distance_prior,bicubic_unprojected,stabilized_poisson_deviance_per_count,24,0,0.5389099132069418,0.4896045176923778,0.5889199205689571,6
+new_test,cross_repeat,train_distance_prior,bicubic_unprojected,oe_50bp_ssim,24,0,0.0018701379497845,0.0013439704974492,0.0023616168648004,6
+new_test,cross_repeat,train_distance_prior,bicubic_unprojected,oe_100bp_ssim,24,0,-0.0006910363833109,-0.0013716419537861,-4.805624485001991e-06,6
+new_test,cross_repeat,train_distance_prior,bicubic_unprojected,oe_160bp_ssim,24,0,-0.0104769691824913,-0.0116490015139182,-0.0090925440813104,6

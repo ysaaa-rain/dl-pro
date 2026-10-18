@@ -1,0 +1,218 @@
+{
+  "same_repeat_psnr_versus_projected_bicubic": {
+    "delta": 0.1434332204894555,
+    "interval95": [
+      0.13691860338540865,
+      0.14949661985668194
+    ],
+    "groups": 8
+  },
+  "same_repeat_psnr_versus_sparse_matched": {
+    "delta": -0.007283878216717055,
+    "interval95": [
+      -0.010666374989942084,
+      -0.004196068891090591
+    ],
+    "groups": 8
+  },
+  "same_repeat_psnr_versus_dense_multiscale": {
+    "delta": 0.0004017559682651939,
+    "interval95": [
+      -0.001956466489797709,
+      0.002821486508453441
+    ],
+    "groups": 8
+  },
+  "same_repeat_ssim_versus_projected_bicubic": {
+    "delta": 0.005117140649345759,
+    "interval95": [
+      0.003997070483260408,
+      0.006365905442807595
+    ],
+    "groups": 8
+  },
+  "same_repeat_ssim_versus_sparse_matched": {
+    "delta": 0.0007840349127269854,
+    "interval95": [
+      0.0006243626387110734,
+      0.0009352589433250253
+    ],
+    "groups": 8
+  },
+  "same_repeat_ssim_versus_dense_multiscale": {
+    "delta": -0.00020717241119111267,
+    "interval95": [
+      -0.00031685178550813157,
+      -0.00010092076053108169
+    ],
+    "groups": 8
+  },
+  "same_repeat_oe_100bp_masked_ssim_versus_projected_bicubic": {
+    "delta": 0.0021288953721523285,
+    "interval95": [
+      0.001449510082602501,
+      0.002865336835384369
+    ],
+    "groups": 8
+  },
+  "same_repeat_oe_100bp_masked_ssim_versus_sparse_matched": {
+    "delta": 0.0006284601986408234,
+    "interval95": [
+      0.00034659942612051963,
+      0.0009730495512485504
+    ],
+    "groups": 8
+  },
+  "same_repeat_oe_100bp_masked_ssim_versus_dense_multiscale": {
+    "delta": -0.0001250430941581726,
+    "interval95": [
+      -0.00021968474611639978,
+      -1.685069873929025e-05
+    ],
+    "groups": 8
+  },
+  "cross_repeat_native_psnr_versus_projected_bicubic": {
+    "delta": 0.12470806401163825,
+    "interval95": [
+      0.11984719355548769,
+      0.1294706587771282
+    ],
+    "groups": 8
+  },
+  "cross_repeat_native_psnr_versus_sparse_matched": {
+    "delta": 0.00045248931760166755,
+    "interval95": [
+      -0.0026457941017647368,
+      0.003663791368182734
+    ],
+    "groups": 8
+  },
+  "cross_repeat_native_psnr_versus_dense_multiscale": {
+    "delta": 0.007373455386308292,
+    "interval95": [
+      0.005482660471565498,
+      0.009274001763147632
+    ],
+    "groups": 8
+  },
+  "cross_repeat_native_ssim_versus_projected_bicubic": {
+    "delta": 0.0045101448084275166,
+    "interval95": [
+      0.0035200397084273805,
+      0.005656019613317999
+    ],
+    "groups": 8
+  },
+  "cross_repeat_native_ssim_versus_sparse_matched": {
+    "delta": 0.0008044778859248626,
+    "interval95": [
+      0.0005720830519940143,
+      0.0010435650419485794
+    ],
+    "groups": 8
+  },
+  "cross_repeat_native_ssim_versus_dense_multiscale": {
+    "delta": 0.00024252538745770345,
+    "interval95": [
+      0.00015986748963887042,
+      0.0003374677737770296
+    ],
+    "groups": 8
+  },
+  "cross_repeat_native_oe_100bp_masked_ssim_versus_projected_bicubic": {
+    "delta": 0.002107001841068268,
+    "interval95": [
+      0.0013181650079786777,
+      0.0030035712756216514
+    ],
+    "groups": 8
+  },
+  "cross_repeat_native_oe_100bp_masked_ssim_versus_sparse_matched": {
+    "delta": -0.0012941323220729828,
+    "interval95": [
+      -0.0017651895061135292,
+      -0.0009380370378494264
+    ],
+    "groups": 8
+  },
+  "cross_repeat_native_oe_100bp_masked_ssim_versus_dense_multiscale": {
+    "delta": 0.0005613416433334351,
+    "interval95": [
+      0.00039659980684518813,
+      0.0007302155718207358
+    ],
+    "groups": 8
+  },
+  "cross_repeat_projected_psnr_versus_projected_bicubic": {
+    "delta": 0.16247595238379997,
+    "interval95": [
+      0.1543556840100586,
+      0.17014681167584547
+    ],
+    "groups": 8
+  },
+  "cross_repeat_projected_psnr_versus_sparse_matched": {
+    "delta": -0.00018671393097280387,
+    "interval95": [
+      -0.0040644315561313375,
+      0.0037744459472472676
+    ],
+    "groups": 8
+  },
+  "cross_repeat_projected_psnr_versus_dense_multiscale": {
+    "delta": 0.008921232066817497,
+    "interval95": [
+      0.006543785973941635,
+      0.011313589905951105
+    ],
+    "groups": 8
+  },
+  "cross_repeat_projected_ssim_versus_projected_bicubic": {
+    "delta": 0.00801615084220007,
+    "interval95": [
+      0.006662265472465076,
+      0.009333954674341031
+    ],
+    "groups": 8
+  },
+  "cross_repeat_projected_ssim_versus_sparse_matched": {
+    "delta": 0.00045697962474770815,
+    "interval95": [
+      0.00019856082913842897,
+      0.0007513369431986909
+    ],
+    "groups": 8
+  },
+  "cross_repeat_projected_ssim_versus_dense_multiscale": {
+    "delta": 0.0017611929066909324,
+    "interval95": [
+      0.00152105297574473,
+      0.001992982727495508
+    ],
+    "groups": 8
+  },
+  "cross_repeat_projected_oe_100bp_masked_ssim_versus_projected_bicubic": {
+    "delta": 0.0021426118910312653,
+    "interval95": [
+      0.0015507867559790612,
+      0.0028356164693832397
+    ],
+    "groups": 8
+  },
+  "cross_repeat_projected_oe_100bp_masked_ssim_versus_sparse_matched": {
+    "delta": 0.0005187280476093292,
+    "interval95": [
+      0.0002629123628139496,
+      0.0008137552067637444
+    ],
+    "groups": 8
+  },
+  "cross_repeat_projected_oe_100bp_masked_ssim_versus_dense_multiscale": {
+    "delta": 8.702278137207031e-05,
+    "interval95": [
+      -0.00012493133544921875,
+      0.00023972094058990473
+    ],
+    "groups": 8
+  }
+}
