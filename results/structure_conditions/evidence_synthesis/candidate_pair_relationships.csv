@@ -1,0 +1,6 @@
+structure_a,condition_a,structure_b,condition_b,context_group_a,context_group_b,overlap_bp,same_annotation,same_expanded_context_group,relationship
+OPCID_24,44C,CHIN_79,44C,20,20,0,False,True,distinct annotations share the expanded context group
+OPCID_60,44C,OPCID_61,44C,68,68,0,False,True,distinct annotations share the expanded context group
+OPCID_65,44C,CHIN_229,HNS_mut,72,72,0,False,True,distinct annotations share the expanded context group
+OPCID_10,FIS_mut,OPCID_10,HNS_mut,3,3,3800,True,True,same annotated interval tested in multiple conditions
+CHIN_236,HNS_mut,CHIN_240,HNS_mut,79,79,0,False,True,distinct annotations share the expanded context group

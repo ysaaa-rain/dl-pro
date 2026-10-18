@@ -1,0 +1,5 @@
+sample_id,condition,replicate,path,cooler_sum,binsize,chromosome,chromosome_length,metadata_check
+GSE272159_44C_rep1,44C,1,data/raw/GSE272159_44C_rep1.mapq_30.10.cool,376329169,10,NC_000913.3,4641652,PASS
+GSE272159_44C_rep2,44C,2,data/raw/GSE272159_44C_rep2.mapq_30.10.cool,352932865,10,NC_000913.3,4641652,PASS
+GSE272159_37C_rep1,37C,1,data/raw/GSE272159_37C_rep1.mapq_30.10.cool,368695972,10,NC_000913.3,4641652,PASS
+GSE272159_37C_rep2,37C,2,data/raw/GSE272159_37C_rep2.mapq_30.10.cool,358452621,10,NC_000913.3,4641652,PASS

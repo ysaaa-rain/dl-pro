@@ -23,7 +23,9 @@ The decomposition prevents a relative enrichment change from being described aut
 
 ## Data comparability and limits
 
-The series-level Cooler files have condition-and-replicate names, but do not identify a specific GSM accession. NCBI's sample records list heat-shock and WT samples in two groups: t1 on NextSeq 2000 and t2 on DNBSEQ-T7. The exact mapping between those GSM records and the downloaded series-level Cooler matrices is not specified in the local series-file names; the platform audit is in `robustness/geo_sample_platform_audit.csv`. Thus, matching reference, resolution, format, and matrix sums do not rule out remaining sequencing-platform or batch effects. The observed differences should remain exploratory until this mapping is resolved or they are corroborated in a technically matched sample set.
+The series-level Cooler files have condition-and-replicate names but no explicit GSM accession. GEO records include two WT/heat-shock replicate pairs in each of two groups: t1 on NextSeq 2000 and t2 on DNBSEQ-T7. The Cooler sums (353–376 million contacts) are 5.3–9.1 times the SRA spot counts for corresponding t1 samples, ruling out t1 as their one-to-one source. For t2 samples, Cooler sums are 0.55–0.61 of the SRA spot counts, and replicate labels align. This strongly supports the series-level WT and 44C matrices being the t2 replicate pairs on the same DNBSEQ-T7 platform. GEO does not explicitly connect each series-level Cooler file to a GSM, so this remains a high-confidence inference rather than a file-level confirmation. The metadata and count comparison are in `../evidence_synthesis/44c_geo_sample_platform_audit.csv`.
+
+The likely same-platform pairing reduces the principal instrument-confounding concern for 44C versus WT. It does not prove that every other batch effect is absent. HNS_mut and FIS_mut are supplied as GSM-specific Coolers from different platforms than the inferred T7 WT reference (DNBSEQ-G400 and DNBSEQ-G50, respectively); those comparisons therefore carry a stronger platform-confounding limitation. See `../evidence_synthesis/condition_platform_comparability.csv` for the accession-level comparison.
 
 Only two matrices are available per condition, so individual-structure inference is weak. The empirical noise thresholds are descriptive and are not permutation p-values, family-wise error control, or FDR. The same annotations and genomic positions were used in prior project analyses, so this is a retrospective robustness screen rather than independent validation.
 
@@ -33,6 +35,7 @@ Only two matrices are available per condition, so individual-structure inference
 - `robustness/robust_candidates.csv`: structures passing the frozen robustness rule.
 - `robustness/robust_candidate_decomposition.csv`: target-versus-flank density changes for the robust candidates.
 - `robustness/within_condition_repeat_noise.csv` and `robustness/empirical_noise_summary.csv`: repeat-noise reference values.
+- `evidence_synthesis/44c_geo_sample_platform_audit.csv`: GEO/SRA run metadata and the Cooler-to-sample count comparison.
 - `robustness/OPCID_65_candidate.png` and related images: matched 37C/44C repeat heatmaps with annotation boundaries.
 - `robustness/candidate_montage.png`: overview of the retained candidates.
 - `robustness/protocol.json` and `robustness/integrity.json`: fixed protocol, source hashes, and output checksums.

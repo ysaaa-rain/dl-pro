@@ -1,0 +1,55 @@
+{
+  "comparison_count": 26,
+  "unique_annotation_count": 25,
+  "unique_candidate_context_groups": 21,
+  "context_groups_with_multiple_comparison_rows": 5,
+  "candidate_comparison_rows_overlapping_other_known_intervals": 8,
+  "candidate_pair_relationship_count": 5,
+  "distinct_candidate_interval_overlap_pairs": 0,
+  "condition_comparisons": {
+    "44C": {
+      "comparisons": 16,
+      "unique_structures": 16,
+      "context_groups": 14,
+      "target_directionally_consistent_all_four_pairs": 16,
+      "target_support_ge_0_25_log2_and_same_direction": 13,
+      "target_centered": 13,
+      "flank_dominant_or_background_driven": 3,
+      "mixed_with_larger_flank_contribution": 0
+    },
+    "FIS_mut": {
+      "comparisons": 2,
+      "unique_structures": 2,
+      "context_groups": 2,
+      "target_directionally_consistent_all_four_pairs": 2,
+      "target_support_ge_0_25_log2_and_same_direction": 2,
+      "target_centered": 2,
+      "flank_dominant_or_background_driven": 0,
+      "mixed_with_larger_flank_contribution": 0
+    },
+    "HNS_mut": {
+      "comparisons": 8,
+      "unique_structures": 8,
+      "context_groups": 7,
+      "target_directionally_consistent_all_four_pairs": 5,
+      "target_support_ge_0_25_log2_and_same_direction": 2,
+      "target_centered": 1,
+      "flank_dominant_or_background_driven": 3,
+      "mixed_with_larger_flank_contribution": 1
+    }
+  },
+  "structures_repeated_across_conditions": {
+    "OPCID_10": [
+      "FIS_mut",
+      "HNS_mut"
+    ]
+  },
+  "target_threshold_log2": 0.25,
+  "decomposition_check": {
+    "identity": "local enrichment log2 change = target density log2 change - flank density log2 change",
+    "maximum_absolute_error": 2.6645352591003757e-15,
+    "all_rows_within_2e-5": true
+  },
+  "independence_note": "Condition-structure comparisons are not independent discoveries; annotations can share expanded genomic context and conditions share WT matrices.",
+  "sample_mapping_note": "44C and WT series-level Coolers are strongly consistent with the t2 DNBSEQ-T7 replicates by SRA spot-count scale and replicate labels, but the series files do not provide explicit GSM links."
+}
