@@ -1,0 +1,16 @@
+{
+  "candidates": 294,
+  "clusters": 6,
+  "mixed_clusters": 6,
+  "quality_supported": 118,
+  "evidence_counts": {
+    "insufficient": 176,
+    "known_associated": 84,
+    "unannotated_known_like": 28,
+    "unusual_shape": 6
+  },
+  "quality_unannotated": 34,
+  "spatial_representatives": 75,
+  "tentative_new_shapes": 0,
+  "source": "Frozen original 294 scan candidates and six AE/PCA clusters; candidate acquisition unchanged"
+}

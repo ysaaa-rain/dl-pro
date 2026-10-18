@@ -1,0 +1,15 @@
+cluster,nearest_known_shape_type,members,known_associated,unannotated,member_ids,interpretation
+0,CHIN,3,2,1,C0040;C0170;C0206,Reference-resemblance subgroup; not a newly discovered biological class
+0,OPCID,1,1,0,C0128,Reference-resemblance subgroup; not a newly discovered biological class
+1,CHIN,8,6,2,C0048;C0055;C0062;C0073;C0101;C0208;C0209;C0245,Reference-resemblance subgroup; not a newly discovered biological class
+1,OPCID,1,1,0,C0088,Reference-resemblance subgroup; not a newly discovered biological class
+2,CHIN,20,15,5,C0013;C0017;C0019;C0027;C0034;C0035;C0049;C0070;C0104;C0113;C0114;C0135;C0165;C0200;C0242;C0249;C0253;C0270;C0283;C0284,Reference-resemblance subgroup; not a newly discovered biological class
+2,OPCID,8,7,1,C0064;C0192;C0197;C0212;C0223;C0271;C0272;C0288,Reference-resemblance subgroup; not a newly discovered biological class
+3,CHIN,19,14,5,C0022;C0031;C0039;C0042;C0053;C0069;C0146;C0148;C0159;C0163;C0176;C0181;C0190;C0196;C0205;C0216;C0230;C0267;C0285,Reference-resemblance subgroup; not a newly discovered biological class
+3,OPCID,6,4,2,C0068;C0085;C0094;C0178;C0218;C0262,Reference-resemblance subgroup; not a newly discovered biological class
+4,CHID,1,1,0,C0214,Reference-resemblance subgroup; not a newly discovered biological class
+4,CHIN,22,15,7,C0001;C0010;C0020;C0023;C0030;C0045;C0059;C0075;C0144;C0161;C0164;C0168;C0172;C0186;C0189;C0198;C0219;C0236;C0250;C0252;C0275;C0292,Reference-resemblance subgroup; not a newly discovered biological class
+4,OPCID,9,8,1,C0015;C0032;C0038;C0108;C0131;C0235;C0243;C0293;C0294,Reference-resemblance subgroup; not a newly discovered biological class
+5,CHID,1,0,1,C0011,Reference-resemblance subgroup; not a newly discovered biological class
+5,CHIN,9,3,6,C0051;C0061;C0093;C0098;C0099;C0210;C0226;C0239;C0279,Reference-resemblance subgroup; not a newly discovered biological class
+5,OPCID,10,7,3,C0014;C0103;C0143;C0150;C0152;C0188;C0225;C0246;C0286;C0287,Reference-resemblance subgroup; not a newly discovered biological class

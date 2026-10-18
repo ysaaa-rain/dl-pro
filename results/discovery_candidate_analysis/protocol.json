@@ -1,0 +1,41 @@
+{
+  "all_scan_candidates_retained": true,
+  "minimum_cluster_size_for_analysis": null,
+  "known_members_veto": false,
+  "candidate_source": "results/discovery/candidates.csv",
+  "cluster_source": "results/discovery/embedding.npz",
+  "quality_rule": "common native-support upper triangle >=0.5 and supported O/E Pearson >=0.5",
+  "native_row_support": 0.8,
+  "distance_exclusion_bp": 200,
+  "known_buffer_bp": 200,
+  "spatial_representative_spacing_bp": 25600,
+  "shape_reference": "Whole-window geometric descriptors (three scales); descriptive nearest known reference, not a calibrated type prediction",
+  "novelty": "Distance95 is an evidence flag only, never a row/cluster exclusion; no candidate automatically called novel",
+  "backgrounds": "Same local-search outputs for density/support/diagonal-offset matched backgrounds; >=25.6kb from query; descriptive, not end-to-end selection-adjusted p values",
+  "evidence_categories": {
+    "known_associated": "已知结构关联候选",
+    "unannotated_known_like": "未注释且接近已知形态的候选",
+    "unusual_shape": "形态异常待验证候选",
+    "insufficient": "重复或信号质量不足的候选"
+  },
+  "heatmap": {
+    "bin_bp": 100,
+    "vmin": 0,
+    "vmax": 2,
+    "transform": "amplitude-normalized log(1+O/E)",
+    "panels": [
+      "candidate rep1",
+      "candidate rep2",
+      "nearest known geometry rep1",
+      "nearest known geometry rep2"
+    ]
+  },
+  "coordinate_system": "0-based half-open; wrapped intervals given by genomic_segments; terminal chromosome bin has actual 52bp width",
+  "limitations": [
+    "Retrospective same-study analysis",
+    "Shape resemblance is not reliable subtype classification",
+    "Mixed-cluster subgroups defined by known-reference similarity, not new biological labels",
+    "Local bounds can refer to different objects at different scales",
+    "No biological new class established"
+  ]
+}

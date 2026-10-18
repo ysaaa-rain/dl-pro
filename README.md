@@ -14,7 +14,7 @@
 | 任务 | 方法及范围 | 核心结果 | 结果入口 |
 | --- | --- | --- | --- |
 | 一：已知结构分类 | 344 条注释、56 个空间重叠组、5 折折外预测；三尺度重复一致性集成 CNN | Accuracy 0.7471，Macro-F1 0.6161；CHID 召回 10/26 | [分类结果](results/classification_fine/fine_consistent_ensemble_report.json) |
-| 二：未知结构候选发现 | 距离背景校正、形态评分、固定候选预算、跨重复验证与已知注释排除 | 64 候选预算的折外中心召回约 0.2965；未确认合格的新结构簇 | [候选发现协议](results/discovery_refined/protocol.json) |
+| 二：未知结构候选发现 | 全量候选分层、逐成员注释与形态分析、跨重复证据及混合簇分析 | 294条候选完整输出，118条基础质量通过；6个混合簇；未确认新形态类别。另行固定64预算检测评价的折外中心召回约0.2965 | [全量候选分析](results/discovery_candidate_analysis/README.md) |
 | 三：多条件可视化 | WT/44℃/rif25 与 WT/HNS_mut/FIS_mut 两组条件，接触信号、平均信号、基因和已知结构四轨 | 两套图组各 465 张，连续覆盖全基因组 | [温度及药物轨道](results/multitrack/) · [突变轨道](results/multitrack_mutants/) |
 | **四：已知结构的条件差异（选做）** | 对 344 条结构分别比较 44℃、HNS_mut、FIS_mut 与 WT；两重复、六种侧翼/背景敏感性 | **26 项稳健“结构 × 条件”比较，涉及 25 条不同注释、21 个扩展上下文组** | [条件差异证据汇总](results/structure_conditions/evidence_synthesis/README.md) |
 
@@ -44,7 +44,8 @@ GEO 样本数据量与重复编号**强烈支持**当前 WT 与 44℃系列 Cool
 - [项目进度及交付检查](docs/进度.md)
 - [任务四综合结果](results/structure_conditions/evidence_synthesis/)
 - [任务一分类解释图](results/classification_fine/explanations/)
-- [任务二候选图](results/discovery_refined/heatmaps/)
+- [任务二全量候选与证据](results/discovery_candidate_analysis/README.md)
+- [任务二逐候选对照图](results/discovery_candidate_analysis/heatmaps/)
 - [任务三轨道图](results/multitrack/tracks/)
 
 任务四的主要实现位于 `scripts/structure_conditions.py`、`scripts/structure_condition_shape.py`、`scripts/robustness_structure_conditions.py` 与 `scripts/summarize_structure_condition_evidence.py`。现有证据汇总可通过下列入口重新生成，原始矩阵相关分析须先确认本地 `data/raw/` 文件齐全：
