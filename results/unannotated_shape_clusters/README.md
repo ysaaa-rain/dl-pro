@@ -21,3 +21,5 @@
 运行：`.venv/bin/python scripts/cluster_unannotated_shapes.py`。
 
 候选与背景在同一基因组中，且部分背景窗口参与过表征拟合；这些结果为回顾性探索，不能描述为独立测试。已知结构与背景的空间隔离表征评价见`results/discovery/representation_check.json`（balanced accuracy 0.723、AUC 0.789）；全基因组窗口评分与已知召回保留在`results/discovery/all_windows.csv`及`known_recall.csv`。全基因组高召回排序、新颖性检验和形态簇证据仍需联合改进，当前不能宣称完整发现目标已经实现。
+
+逐候选的多尺度局部定位、具体几何差异与已知类型留出验证，见[局部接触形态分析](../local_contact_morphology/README.md)。该分析保留估计边界和不利对照，未建立新的形态类别。

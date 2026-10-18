@@ -1,0 +1,56 @@
+{
+  "known_structures": 344,
+  "scan_windows": 726,
+  "candidates": 16,
+  "estimated_lengths_bp": [
+    800,
+    1600,
+    2400,
+    3200,
+    6400
+  ],
+  "median_candidate_repeat_boundary_iou": 1.0,
+  "median_candidate_local_shape_repeat_correlation": 0.9356997089589715,
+  "candidate_clusters": 1,
+  "tentative_new_shape_clusters": 0,
+  "candidate_local_evidence_qualified": 0,
+  "classification": [
+    {
+      "method": "aligned_image",
+      "repeat": 1,
+      "accuracy": 0.7034883720930233,
+      "macro_f1": 0.4261308025727069
+    },
+    {
+      "method": "aligned_image",
+      "repeat": 2,
+      "accuracy": 0.6918604651162791,
+      "macro_f1": 0.4276618669801156
+    },
+    {
+      "method": "fixed_geometry",
+      "repeat": 1,
+      "accuracy": 0.8313953488372093,
+      "macro_f1": 0.5615708855519175
+    },
+    {
+      "method": "fixed_geometry",
+      "repeat": 2,
+      "accuracy": 0.8255813953488372,
+      "macro_f1": 0.5741808245315482
+    },
+    {
+      "method": "localized_geometry",
+      "repeat": 1,
+      "accuracy": 0.7383720930232558,
+      "macro_f1": 0.47336097036695834
+    },
+    {
+      "method": "localized_geometry",
+      "repeat": 2,
+      "accuracy": 0.7412790697674418,
+      "macro_f1": 0.5253053728400241
+    }
+  ],
+  "known_normalization_leakage_note": "Old globally fitted background expectation reused; fold geometry/PCA/classifiers refit locally; retrospective sensitivity evaluation"
+}

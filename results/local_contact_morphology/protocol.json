@@ -1,0 +1,59 @@
+{
+  "seed": 42,
+  "scales_bp": [
+    50,
+    100,
+    200
+  ],
+  "localization_width_bins": [
+    8,
+    16,
+    24,
+    32,
+    48,
+    64,
+    96
+  ],
+  "localization_stride_bins": 4,
+  "localization": "Support-aware positive Gaussian-bandpass energy / valid-pair-count^0.75; independent localization in each repeat; exhaustive same search for known/candidate/background",
+  "normalization": "Per-scale WT rep1 distance expectation from unannotated background; window amplitude normalized; no class labels used for localization",
+  "representation": {
+    "geometric_features": [
+      "centroid_axis",
+      "centroid_separation",
+      "principal_cos2",
+      "principal_sin2",
+      "elongation",
+      "axis_spread",
+      "separation_spread",
+      "row_peak_fraction",
+      "column_peak_fraction",
+      "anti_diagonal_peak_fraction",
+      "diagonal_peak_fraction",
+      "entropy",
+      "positive_area_fraction",
+      "largest_component_fraction",
+      "component_count",
+      "edge_mass_fraction",
+      "interior_mass_fraction",
+      "peak_to_mean",
+      "boundary_gradient",
+      "positive_negative_balance"
+    ],
+    "aligned_pixels": [
+      32,
+      32
+    ],
+    "fixed_control": "same geometry on entire input"
+  },
+  "evaluation": "Existing spatial five folds; train WT rep1, evaluate both repeats; fold-specific scaler and image PCA; whole normalization fit globally on old background, so evaluation is retrospective and not fully purged preprocessing",
+  "novelty": "Leave one known type out of reference set; nearest allowed-type distance; assess held spatial fold against allowed types and eligible background separately",
+  "candidate_selection": "Existing 16 independent candidates frozen before local analysis",
+  "interpretation": "Window footprint bounds are estimated not validated true biological boundaries; density/support/distance matched controls run same exhaustive localization",
+  "limitations": [
+    "No independent new data",
+    "Known annotations can be nested",
+    "Same repeats observed previously",
+    "Matched background reference is descriptive, not a significance claim"
+  ]
+}

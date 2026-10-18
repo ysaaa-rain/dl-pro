@@ -1,0 +1,2 @@
+cluster,members,candidate_ids,rep2_pairwise_max_distance,fixed_radius,rep2_within_fixed_radius,all_members_local_evidence_qualified,tentative_new_shape_cluster
+0,2,C0144;C0152,2.2924230502410077,2.2845571624731624,False,False,False
