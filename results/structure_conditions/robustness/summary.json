@@ -1,0 +1,38 @@
+{
+  "flank_multipliers": [
+    0.5,
+    1.0,
+    2.0
+  ],
+  "backgrounds": [
+    "all flanking bins",
+    "exclude bins overlapping any other known structure"
+  ],
+  "groups": 81,
+  "condition_summary": [
+    {
+      "condition": "HNS_mut",
+      "all_initial_candidates": 9,
+      "all_widths_both_backgrounds": 84,
+      "exceed_empirical_q99": 169,
+      "robust_candidates": 8,
+      "at_least_one_spatial_group": 7
+    },
+    {
+      "condition": "FIS_mut",
+      "all_initial_candidates": 2,
+      "all_widths_both_backgrounds": 26,
+      "exceed_empirical_q99": 92,
+      "robust_candidates": 2,
+      "at_least_one_spatial_group": 2
+    }
+  ],
+  "empirical_null": "For each flank/background, take the maximum absolute replicate log2 difference within each adaptive-context overlap group and each of WT, HNS_mut, FIS_mut; pool these group maxima as a descriptive repeat-noise reference. This is not a permutation test or formal p-value.",
+  "selection": "An initial candidate must maintain direction and at least 0.25 log2 magnitude across all three flank widths and both background definitions; all four unpaired cross-condition contrasts must agree; and each sensitivity effect must exceed both its pooled within-repeat group-maximum 99th-percentile threshold and the largest observed within-repeat group maximum.",
+  "limitations": [
+    "Only two biological replicates per condition.",
+    "Condition-internal replicate differences are one observed realization per structure; spatial groups are dependent despite overlap clustering.",
+    "The empirical null is a conservative descriptive noise benchmark, not formal family-wise error control or FDR.",
+    "The coordinate data and loci have been examined previously; this is retrospective robustness analysis."
+  ]
+}

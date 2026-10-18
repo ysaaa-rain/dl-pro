@@ -1,0 +1,63 @@
+{
+  "extends": "results/structure_conditions/protocol.json",
+  "conditions": [
+    "37C",
+    "HNS_mut",
+    "FIS_mut"
+  ],
+  "structures": 344,
+  "flank_width_multipliers": [
+    0.5,
+    1.0,
+    2.0
+  ],
+  "bin_bp": 100,
+  "common_target_distance_range": "200bp through 0.5 times annotated structure length for all flank widths",
+  "backgrounds": {
+    "all": "all flank pixels",
+    "clean": "exclude bins overlapping any other known annotated structure"
+  },
+  "repeat_design": "two unpaired biological replicates per condition; evaluate all four cross-condition contrasts",
+  "overlap_groups": 81,
+  "empirical_null": "Within-condition replicate absolute log2 enrichment differences; maximum per largest-context overlap group and condition, pooled across WT, HNS_mut, FIS_mut; 243 group maxima per sensitivity setting",
+  "multiple_screening": "Threshold comparison against empirical repeat-noise q99 at each flank/background setting; descriptive filter, not formal FDR or family-wise error control",
+  "candidate_rule": "previous criteria plus every sensitivity exceeding its own pooled empirical-noise q99 and the largest observed within-repeat group maximum",
+  "input_samples": [
+    {
+      "sample_id": "GSE272159_37C_rep1",
+      "path": "data/raw/GSE272159_37C_rep1.mapq_30.10.cool",
+      "sha256": "0256e10da36abfe0238bf16952bc43bc78365f43c201e6e3ba0c49bd243549a8",
+      "library_pairs": 368695972
+    },
+    {
+      "sample_id": "GSE272159_37C_rep2",
+      "path": "data/raw/GSE272159_37C_rep2.mapq_30.10.cool",
+      "sha256": "ede9b4f7c0c6b40c8f098e43cdd0abbc0a8987f05e8b37051a5e3cbf143ad106",
+      "library_pairs": 358452621
+    },
+    {
+      "sample_id": "GSM9078280_FIS_mut_rep1",
+      "path": "data/raw/GSM9078280_FIS_mut_rep1.MG1655.mapq_30.10.cool",
+      "sha256": "7f4b5bfbbb1e18aae63d2cb5444115030d646c714e40a34143c24b5d3f1892ed",
+      "library_pairs": 390725834
+    },
+    {
+      "sample_id": "GSM9078281_FIS_mut_rep2",
+      "path": "data/raw/GSM9078281_FIS_mut_rep2.MG1655.mapq_30.10.cool",
+      "sha256": "af6680949302c200e5e5c9609d7ab2fd2820aec5d0b1d364f791a354ea6ebd68",
+      "library_pairs": 424968792
+    },
+    {
+      "sample_id": "GSM9678478_HNS_mut_rep1",
+      "path": "data/raw/GSM9678478_HNS_mut_rep1.MG1655.mapq_30.10.cool",
+      "sha256": "8f9ac631df2228edd75ac8d984e8e88a106c2bbd81cd43deebc1b8367cce6d9a",
+      "library_pairs": 450716303
+    },
+    {
+      "sample_id": "GSM9678479_HNS_mut_rep2",
+      "path": "data/raw/GSM9678479_HNS_mut_rep2.MG1655.mapq_30.10.cool",
+      "sha256": "224b27e6f3cef71c0c3d20058674567f406c7fa9de9c451bca113c26277a5515",
+      "library_pairs": 395758867
+    }
+  ]
+}
