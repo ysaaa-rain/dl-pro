@@ -1,0 +1,28 @@
+{
+  "conditions": [
+    {
+      "condition": "FIS_mut",
+      "shape_separated": 36,
+      "supported_local_change": 2,
+      "both": 2,
+      "by_type": {
+        "CHID": 0,
+        "CHIN": 0,
+        "OPCID": 2
+      }
+    },
+    {
+      "condition": "HNS_mut",
+      "shape_separated": 134,
+      "supported_local_change": 9,
+      "both": 7,
+      "by_type": {
+        "CHID": 0,
+        "CHIN": 8,
+        "OPCID": 1
+      }
+    }
+  ],
+  "definition": "Core log1p O/E vectors normalized by their mean amplitude; each sample expected is its own distance-matched flank mean. All four cross-condition RMSE must exceed 1.25 times the larger within-condition RMSE; both repeat correlations >=0.5.",
+  "limitations": "Descriptive shape separation, not a hypothesis test. Observed row support is not independently measured mappability. Flank means are local and can be noisy or contain structures."
+}

@@ -1,0 +1,65 @@
+{
+  "structure_condition_rows": 688,
+  "unique_structures": 344,
+  "conditions": [
+    "FIS_mut",
+    "HNS_mut"
+  ],
+  "robust_comparisons": 10,
+  "robust_unique_structures": 9,
+  "robust_context_groups": 8,
+  "all_candidates_exceed_all_sensitivity_q99": true,
+  "all_candidates_exceed_largest_observed_noise": true,
+  "largest_context_groups": 81,
+  "input_sample_count": 6,
+  "output_files": {
+    "CHIN_229_HNS_mut.png": {
+      "bytes": 99213,
+      "sha256": "3750ca75cc40480a0b8324f9bfcdf7f3d8cfcaf3822680a300d77c4a7ef52137"
+    },
+    "OPCID_10_FIS_mut.png": {
+      "bytes": 364845,
+      "sha256": "1df330833294934358e076baedcb712760cd4d09a1cfdc17910e89f99ace7aae"
+    },
+    "OPCID_10_HNS_mut.png": {
+      "bytes": 356029,
+      "sha256": "7af84419f29347fe704ee5d686aa95b4384829173bfa1a4dc05f1159b5bfc0ac"
+    },
+    "OPCID_15_FIS_mut.png": {
+      "bytes": 467901,
+      "sha256": "2287310e400ea145d0a16a2a0b805d695782d4feb6ca72ac1b807d18a64347b3"
+    },
+    "README.md": {
+      "bytes": 3527,
+      "sha256": "d8264254aad43863bd6d3db8f967b268ca2c5cca55bbd6ab68165e495bd92dbe"
+    },
+    "all_structure_sensitivities.csv": {
+      "bytes": 606318,
+      "sha256": "07176b265a8022631cee48e369cacfc728ad529684eaa1969605a07a89b1c12b"
+    },
+    "empirical_noise_summary.csv": {
+      "bytes": 1279,
+      "sha256": "9c640afa6f14dd712595385cb76a2c2617e48dcfc225a440169be7dc17e9cf86"
+    },
+    "focal_cases.csv": {
+      "bytes": 5326,
+      "sha256": "2d27d12844c3753940872007e52c62570b5fed1f133ab5c007beba4effc4010b"
+    },
+    "protocol.json": {
+      "bytes": 2655,
+      "sha256": "a26eb8a8874a5f6e99538227a38cbc21b42f0617fd3fd7f7d4c76ccc290148ec"
+    },
+    "robust_candidates.csv": {
+      "bytes": 10624,
+      "sha256": "786b6b5d7b68ecc79fb65488c3caa3803b3d3a78d4472edf2d9e08fbefd9256f"
+    },
+    "summary.json": {
+      "bytes": 1779,
+      "sha256": "64ed652c06a5bf1f75b73a046777d53cd0838d809b0984f82b0285d0b956b1e4"
+    },
+    "within_condition_repeat_noise.csv": {
+      "bytes": 374432,
+      "sha256": "571acb8e26af8131dd83abf225071be4fe0fd68c15f571f3c93a48f4d88f30c4"
+    }
+  }
+}

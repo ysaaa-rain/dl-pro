@@ -22,9 +22,9 @@ GSM8950775_net20,net20,,data/raw/GSM8950775_net20.MG1655.mapq_30.10.cool,,data_a
 GSM8950776_net200,net200,,data/raw/GSM8950776_net200.MG1655.mapq_30.10.cool,,data_audit_only,
 GSM8950777_muk_rep1,muk,1.0,data/raw/GSM8950777_muk_rep1.MG1655.mapq_30.10.cool,,data_audit_only,
 GSM8950778_muk_rep2,muk,2.0,data/raw/GSM8950778_muk_rep2.MG1655.mapq_30.10.cool,,data_audit_only,
-GSM9078280_FIS_mut_rep1,FIS_mut,1.0,data/raw/GSM9078280_FIS_mut_rep1.MG1655.mapq_30.10.cool,3,formal_experiment,mutant condition tracks
-GSM9078281_FIS_mut_rep2,FIS_mut,2.0,data/raw/GSM9078281_FIS_mut_rep2.MG1655.mapq_30.10.cool,3,formal_experiment,mutant condition tracks
-GSM9678478_HNS_mut_rep1,HNS_mut,1.0,data/raw/GSM9678478_HNS_mut_rep1.MG1655.mapq_30.10.cool,3,formal_experiment,mutant condition tracks
-GSM9678479_HNS_mut_rep2,HNS_mut,2.0,data/raw/GSM9678479_HNS_mut_rep2.MG1655.mapq_30.10.cool,3,formal_experiment,mutant condition tracks
-GSE272159_37C_rep1,37C,1.0,data/raw/GSE272159_37C_rep1.mapq_30.10.cool,1;2;3;5,formal_experiment,WT classification and reconstruction
-GSE272159_37C_rep2,37C,2.0,data/raw/GSE272159_37C_rep2.mapq_30.10.cool,1;2;3;5,formal_experiment,WT classification and reconstruction
+GSM9078280_FIS_mut_rep1,FIS_mut,1.0,data/raw/GSM9078280_FIS_mut_rep1.MG1655.mapq_30.10.cool,3;4,formal_experiment,mutant condition tracks
+GSM9078281_FIS_mut_rep2,FIS_mut,2.0,data/raw/GSM9078281_FIS_mut_rep2.MG1655.mapq_30.10.cool,3;4,formal_experiment,mutant condition tracks
+GSM9678478_HNS_mut_rep1,HNS_mut,1.0,data/raw/GSM9678478_HNS_mut_rep1.MG1655.mapq_30.10.cool,3;4,formal_experiment,mutant condition tracks
+GSM9678479_HNS_mut_rep2,HNS_mut,2.0,data/raw/GSM9678479_HNS_mut_rep2.MG1655.mapq_30.10.cool,3;4,formal_experiment,mutant condition tracks
+GSE272159_37C_rep1,37C,1.0,data/raw/GSE272159_37C_rep1.mapq_30.10.cool,1;2;3;4;5,formal_experiment,WT classification and reconstruction
+GSE272159_37C_rep2,37C,2.0,data/raw/GSE272159_37C_rep2.mapq_30.10.cool,1;2;3;4;5,formal_experiment,WT classification and reconstruction
