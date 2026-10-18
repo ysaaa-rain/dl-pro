@@ -64,3 +64,7 @@
 ```
 
 依赖的几何测量由`scripts/analyze_local_contact_morphology.py`和`scripts/summarize_local_scale_consistency.py`生成。`results/discovery/novel_candidates.csv`保留原始严格簇规则的历史结果，不作为当前全量候选入口。当前分析不调用其最低5成员或整簇已知成员排除规则。
+
+## 未注释结构发现汇总
+
+`findings/README.md`给出六条形态异常发现的操作性定义及逐条形态结论，同时通过独立CSV保留28条未注释已知样候选。操作性新增位置与新生物学形态类型分别表述。

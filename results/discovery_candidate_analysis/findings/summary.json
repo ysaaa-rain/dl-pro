@@ -1,0 +1,9 @@
+{
+  "morphology_candidates": 6,
+  "retained": 6,
+  "directly_disqualified": 0,
+  "unannotated_known_like": 28,
+  "confirmed_new_structure_types": 0,
+  "review_scope": "Existing measurements and paired 100 bp visual review; no new matrix experiment",
+  "source_sha256": "22a2d213de754b4b1e96a696bde4082602100a359995f45de43640271c65cb13"
+}
