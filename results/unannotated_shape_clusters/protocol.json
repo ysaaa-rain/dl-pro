@@ -1,0 +1,38 @@
+{
+  "seed": 42,
+  "source_candidates": "results/discovery/unannotated_reproducible.csv",
+  "input_scales_bp": [
+    100,
+    200
+  ],
+  "pooled_bins": 16,
+  "pca_components": 12,
+  "representation_fit": "WT rep1 unannotated training backgrounds only",
+  "repeat_threshold": 0.5,
+  "common_supported_triangle_min": 0.5,
+  "native_support_fraction": 0.8,
+  "known_exclusion_context_bp": 25600,
+  "known_buffer_bp": 200,
+  "independent_spacing_bp": 25600,
+  "cluster_method": "DBSCAN",
+  "eps_quantiles": [
+    0.05,
+    0.1,
+    0.2
+  ],
+  "minimum_members": [
+    2,
+    3
+  ],
+  "primary_setting": "q10_m2",
+  "novelty_rule": "Every member in both repeats exceeds 95th percentile held-out known-to-training-known distance",
+  "control": "200 density-matched spatially separated background sets; maximum cluster size across all six settings",
+  "heatmap_vmin": 0,
+  "heatmap_vmax": 2,
+  "limitations": [
+    "Retrospective exploratory comparison, not independent validation",
+    "Background may contain unannotated structures",
+    "Cluster-size background tail is a diagnostic for this search, not a biological discovery p-value",
+    "Window coordinates are scan extents, not inferred structural boundaries"
+  ]
+}

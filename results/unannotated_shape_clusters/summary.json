@@ -1,0 +1,10 @@
+{
+  "input_candidates": 37,
+  "quality_pass": 34,
+  "unannotated_full_context": 21,
+  "independent_candidates": 16,
+  "cluster_tests": 4,
+  "qualified_cluster_tests": 0,
+  "background_draws": 200,
+  "known_reference_distance_threshold": 3.4332463779066016
+}

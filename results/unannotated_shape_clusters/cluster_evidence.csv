@@ -1,0 +1,5 @@
+setting,cluster,members,member_ids,repeat_cluster_consistent,all_members_beyond_known_reference,search_adjusted_background_tail,tentative_new_shape_cluster,representative_id
+q10_m2,0,2,C0075;C0279,True,False,1.0,False,C0075
+q20_m2,0,3,C0045;C0186;C0198,False,False,1.0,False,C0045
+q20_m2,1,2,C0075;C0279,True,False,1.0,False,C0075
+q20_m3,0,3,C0045;C0186;C0198,False,False,1.0,False,C0045
