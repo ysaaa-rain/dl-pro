@@ -24,7 +24,7 @@ assert len(g)==688 and not g.duplicated(['structure_id','condition']).any()
 assert np.isfinite(g.select_dtypes('number')).all().all()
 length=f.end-f.start;ext=f[['chrom']].copy();ext['start']=((f.start-length)//200)*200;ext['end']=((f.end+length+199)//200)*200
 f['context_group']=overlap_groups(ext)
-g=g.merge(f[['structure_id','context_group']],on='structure_id',validate='many_to_one')
+g=g.drop(columns=['context_group'],errors='ignore').merge(f[['structure_id','context_group']],on='structure_id',validate='many_to_one')
 g.to_csv(out/'structure_changes.csv',index=False)
 selected=g[g.supported_local_change].copy();selected.to_csv(out/'repeat_consistent_changes.csv',index=False)
 save_json(out/'integrity.json',dict(input_and_cache_checks=checks,contrasts=len(g),structures=len(f),adaptive_context_groups=int(f.context_group.nunique()),selected_unique_structures=int(selected.structure_id.nunique()),selected_context_groups=int(selected.context_group.nunique()),all_numeric_fields_finite=True,all_windows_symmetric_nonnegative=True))

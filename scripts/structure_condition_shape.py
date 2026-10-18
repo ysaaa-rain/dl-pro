@@ -32,7 +32,8 @@ for r in f.itertuples():
         within=max(rmse(*wt),rmse(*mut));cross=[rmse(a,b) for a in wt for b in mut]
         rows.append(dict(structure_id=r.structure_id,condition=condition,wt_shape_repeat_correlation=corr(*wt),mutant_shape_repeat_correlation=corr(*mut),maximum_within_shape_rmse=within,minimum_cross_shape_rmse=min(cross),mean_cross_shape_rmse=float(np.mean(cross)),shape_repeat_separation=bool(min(cross)>1.25*within and min(corr(*wt),corr(*mut))>=.5),minimum_core_observed_row_fraction=min(support[(c,i)] for c in ['37C',condition] for i in [1,2])))
 a=pd.DataFrame(rows);a.to_csv(OUT/'shape_and_support.csv',index=False)
-g=pd.read_csv(OUT/'structure_changes.csv').merge(a,on=['structure_id','condition'],validate='one_to_one')
+g=pd.read_csv(OUT/'structure_changes.csv')
+g=g.drop(columns=[c for c in a.columns if c not in ['structure_id','condition']],errors='ignore').merge(a,on=['structure_id','condition'],validate='one_to_one')
 g['supported_local_change']=g.evidence_qualified & (g.minimum_core_observed_row_fraction>=.8)
 g.to_csv(OUT/'structure_changes.csv',index=False)
 g[g.supported_local_change].sort_values('log2_enrichment_change').to_csv(OUT/'repeat_consistent_changes.csv',index=False)
