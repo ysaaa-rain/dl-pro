@@ -1,6 +1,6 @@
 # 大肠杆菌 Micro-C 接触矩阵分析
 
-本课程项目使用大肠杆菌 *E. coli* K-12 MG1655 的 Micro-C 接触矩阵，完成已知结构分类、未知结构候选发现、全基因组多条件可视化，以及**选做任务四方向二：已知结构在不同实验条件下的变化分析**。当前正式成果采用任务一至四。实验报告、答辩 PPT 和讲解视频均围绕这四项任务组织。
+本项目基于大肠杆菌 *E. coli* K-12 MG1655 的 Micro-C 接触矩阵，开展已知结构分类、未注释结构候选发现、全基因组多条件可视化，以及不同实验条件下已知结构接触变化的分析。
 
 ## 数据与实验范围
 
@@ -9,14 +9,20 @@
 - 条件差异分析：37℃ WT、44℃热应激、HNS_mut、FIS_mut，每种条件 2 个生物学重复，共 8 份矩阵。
 - 大型原始 Cooler 文件主要保留在本地，GitHub 存储已提交的代码、注释、运行协议、评价表及代表性图像。文件来源与哈希见 [samples.csv](data/annotations/samples.csv)。
 
-## 正式实验结果
+## 实验结果
 
 | 任务 | 方法及范围 | 核心结果 | 结果入口 |
 | --- | --- | --- | --- |
 | 一：已知结构分类 | 344 条注释、56 个空间重叠组、5 折折外预测；三尺度重复一致性集成 CNN | Accuracy 0.7471，Macro-F1 0.6161；CHID 召回 10/26 | [分类结果](results/classification_fine/fine_consistent_ensemble_report.json) |
-| 二：未知结构候选发现 | 全量候选分层、逐成员注释与形态分析、跨重复证据及混合簇分析 | 294条候选完整输出，118条基础质量通过；6个混合簇；未确认新形态类别。另行固定64预算检测评价的折外中心召回约0.2965 | [全量候选分析](results/discovery_candidate_analysis/README.md) |
+| 二：未注释结构候选发现 | 全基因组形态检测、六簇分组、已知注释排除、跨重复几何对照 | 294条初始候选、118条质量合格、34条未注释；**按操作性判据发现6处候选新结构**，另有28条未注释已知样候选；未确立新的形态类型 | [发现结果与判据](results/discovery_candidate_analysis/findings/README.md) · [全量证据](results/discovery_candidate_analysis/README.md) |
 | 三：多条件可视化 | WT/44℃/rif25 与 WT/HNS_mut/FIS_mut 两组条件，接触信号、平均信号、基因和已知结构四轨 | 两套图组各 465 张，连续覆盖全基因组 | [温度及药物轨道](results/multitrack/) · [突变轨道](results/multitrack_mutants/) |
 | **四：已知结构的条件差异（选做）** | 对 344 条结构分别比较 44℃、HNS_mut、FIS_mut 与 WT；两重复、六种侧翼/背景敏感性 | **26 项稳健“结构 × 条件”比较，涉及 25 条不同注释、21 个扩展上下文组** | [条件差异证据汇总](results/structure_conditions/evidence_synthesis/README.md) |
+
+### 任务二：未注释结构候选发现
+
+37℃ WT两个生物学重复用于发现与复核。候选新结构的操作性判据为：扫描窗口及200 bp缓冲不与344条已知结构注释重叠；公共有效上三角像素比例≥0.50且两重复O/E相关≥0.50；两重复整窗几何距离均超出已知参考95%分位界限；三项主要几何差异至少两项跨重复同向。**C0011、C0059、C0144、C0186、C0216和C0230**均满足。
+
+C0144呈块状富集伴边界条带（重复相关0.971）；C0230呈十字形条带伴中心富集（相关0.807），但形态与CHIN参考相似。这六处是相对于现有注释的**候选新结构位置**，不是六种全新形态类别；六个AE/PCA簇仍为混合簇。固定64候选预算下已知结构折外中心召回约0.2965，为独立的检测能力评价。[逐条坐标、几何差异与归一化热图](results/discovery_candidate_analysis/findings/README.md)。
 
 ### 选做任务四：主要发现
 
@@ -41,9 +47,9 @@ GEO 样本数据量与重复编号**强烈支持**当前 WT 与 44℃系列 Cool
 ## 方法、图表和复现入口
 
 - [实验方案及正式交付范围](docs/实验计划.md)
-- [项目进度及交付检查](docs/进度.md)
 - [任务四综合结果](results/structure_conditions/evidence_synthesis/)
 - [任务一分类解释图](results/classification_fine/explanations/)
+- [任务二候选新结构与判据](results/discovery_candidate_analysis/findings/README.md)
 - [任务二全量候选与证据](results/discovery_candidate_analysis/README.md)
 - [任务二逐候选对照图](results/discovery_candidate_analysis/heatmaps/)
 - [任务三轨道图](results/multitrack/tracks/)
@@ -55,4 +61,3 @@ GEO 样本数据量与重复编号**强烈支持**当前 WT 与 44℃系列 Cool
 .venv/bin/python -m pytest -q
 ```
 
-**正式实验报告、PPT、讲解视频和提交包尚未制作**。交付前需要重新运行当前环境的测试、核实表格与图片引用，并补充成员及贡献信息。

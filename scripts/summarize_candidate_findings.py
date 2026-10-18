@@ -1,4 +1,4 @@
-"""Export retained unannotated findings and explicit per-candidate interpretations."""
+"""Export unannotated structure candidates and their morphology evidence."""
 from pathlib import Path
 import hashlib
 import json
@@ -22,8 +22,13 @@ def main():
     OUT.mkdir(exist_ok=True)
     source = SOURCE / 'candidate_inventory.csv'
     frame = pd.read_csv(source)
-    selected = frame[frame.candidate_id.isin(INTERPRETATIONS)].copy()
-    assert set(selected.candidate_id) == set(INTERPRETATIONS)
+    selected = frame.loc[
+        frame.quality_pass
+        & ~frame.known_buffer_overlap
+        & frame.both_repeats_beyond_known_distance
+        & frame.top3_geometry_difference_directions_agree.ge(2)
+    ].copy()
+    assert set(selected.candidate_id) == set(INTERPRETATIONS), 'Operational candidate set differs from documented interpretations'
     selected['observed_morphology'] = selected.candidate_id.map(lambda x: INTERPRETATIONS[x][0])
     selected['finding_conclusion'] = selected.candidate_id.map(lambda x: INTERPRETATIONS[x][1])
     selected['interpretation'] = selected.candidate_id.map(lambda x: INTERPRETATIONS[x][2])
