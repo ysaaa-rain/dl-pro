@@ -1,0 +1,17 @@
+candidate_id,minimum_cross_scale_interval_iou,median_cross_scale_interval_iou,maximum_cross_scale_center_shift_bp,interpretation
+C0011,0.25,0.25,2000.0,Independently localized scales; low overlap can indicate scale-dependent extent or selection of another nearby feature
+C0013,0.17647058823529413,0.25,2800.0,Independently localized scales; low overlap can indicate scale-dependent extent or selection of another nearby feature
+C0031,0.0,0.0,6800.0,Independently localized scales; low overlap can indicate scale-dependent extent or selection of another nearby feature
+C0045,0.0,0.0,11600.0,Independently localized scales; low overlap can indicate scale-dependent extent or selection of another nearby feature
+C0055,0.0,0.0,10800.0,Independently localized scales; low overlap can indicate scale-dependent extent or selection of another nearby feature
+C0075,0.5,0.5,1200.0,Independently localized scales; low overlap can indicate scale-dependent extent or selection of another nearby feature
+C0085,0.0,0.0,8200.0,Independently localized scales; low overlap can indicate scale-dependent extent or selection of another nearby feature
+C0144,0.3333333333333333,0.3333333333333333,1200.0,Independently localized scales; low overlap can indicate scale-dependent extent or selection of another nearby feature
+C0152,0.5,0.6666666666666666,200.0,Independently localized scales; low overlap can indicate scale-dependent extent or selection of another nearby feature
+C0176,0.0,0.0,4600.0,Independently localized scales; low overlap can indicate scale-dependent extent or selection of another nearby feature
+C0186,0.0,0.0,14000.0,Independently localized scales; low overlap can indicate scale-dependent extent or selection of another nearby feature
+C0198,0.0,0.2,7600.0,Independently localized scales; low overlap can indicate scale-dependent extent or selection of another nearby feature
+C0225,0.0,0.4901960784313726,5200.0,Independently localized scales; low overlap can indicate scale-dependent extent or selection of another nearby feature
+C0230,0.6,0.7777777777777778,400.0,Independently localized scales; low overlap can indicate scale-dependent extent or selection of another nearby feature
+C0245,0.0,0.0,3600.0,Independently localized scales; low overlap can indicate scale-dependent extent or selection of another nearby feature
+C0279,0.42857142857142855,0.44,3200.0,Independently localized scales; low overlap can indicate scale-dependent extent or selection of another nearby feature

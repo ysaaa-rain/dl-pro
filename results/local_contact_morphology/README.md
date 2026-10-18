@@ -20,6 +20,8 @@
 
 局部化未获得总体分类优势。50 bp下OPCID估计区间与原注释的中位IoU为0.779（rep1）、0.755（rep2），CHID约0.499；CHIN仅约0.399和0.435。100/200 bp下，CHIN容易被邻近更强信号吸引，其中200 bp的中位注释IoU为0。重复定位一致不能替代与注释位置的正确对应。
 
+独立检查跨尺度物理区间后，16条候选中只有C0075、C0152、C0230在全部尺度对、两个重复中的最小区间IoU均至少0.5。许多窗口在不同尺度下选中另一邻近富集区域，导致拼接的多尺度特征可能指向不同局部对象；这是当前局部表征的重要限制，不能将它解释成同一结构的尺度稳定性。
+
 隐藏CHIN时，局部几何对其他已知类型的AUC为0.721/0.707，超过整窗的0.616/0.635；但隐藏CHID时约0.521/0.523，隐藏OPCID时约0.441/0.454。因此该表征没有证明能够普遍识别未知类型。所有类别与方法，包括不利结果，保留于`held_type_novelty_summary.csv`。
 
 ## 候选形态证据
@@ -43,6 +45,7 @@
 - `localization_stability.csv`、`known_localization_summary.csv`：跨重复边界、有效像素形态相关与已知边界参照。
 - `known_classification_predictions.csv`、`known_classification_summary.csv`：三种表征的空间折外分类对照。
 - `held_type_novelty_scores.csv`、`held_type_novelty_summary.csv`：逐位置与类别留出新颖性验证。
+- `cross_scale_localization.csv`、`candidate_scale_consistency.csv`：跨尺度物理位置与边界一致性，显示是否可能选到邻近不同信号。
 - `localized_clusters.csv`、`candidate_cluster_centers.npz`：局部几何簇与中心。
 - `heatmaps/C*.png`：16份三尺度双重复定位热图；`heatmaps/C*_known_comparison.png`：16份三尺度双重复最近已知形态对照。全图色标0至2，均排除不足200 bp接触及未充分支持像素。
 - `geometry_validation.png`：分类、定位正确性和候选边界复现的合并视图。
@@ -53,6 +56,7 @@
 ```bash
 .venv/bin/python scripts/analyze_local_contact_morphology.py
 .venv/bin/python scripts/plot_local_contact_morphology.py
+.venv/bin/python scripts/summarize_local_scale_consistency.py
 .venv/bin/python scripts/verify_local_contact_morphology.py
 .venv/bin/python -m pytest tests/test_local_morphology.py tests/test_novelty.py -q
 ```

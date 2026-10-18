@@ -11,19 +11,28 @@
     "src/dlpro/local_morphology.py": "7326f467395e11669a4f1c221f81893929387e0686953e4262c0a17f01a9f0d0",
     "scripts/analyze_local_contact_morphology.py": "629cafbeb84441746ad5262f40b58fe7e4b2704f4f7e4b9589953e6c43072efd",
     "scripts/plot_local_contact_morphology.py": "54b93221c99fadd38b5c8e076d6dacfcbbddebd5e49d13e99312b654d95de329",
-    "scripts/verify_local_contact_morphology.py": "71aac3433f4aef91cf7c6d1093d64fe2b147600bcd00c6623bfb5861d778c13f",
+    "scripts/verify_local_contact_morphology.py": "28d4b27e7569b6d5a11e7108996a46ea4deff14e476bdda1fd4d55144a8c3b15",
+    "scripts/summarize_local_scale_consistency.py": "87d38857893a8dc2a5d6bab07a6a51cfb19903127aa241af82e70ac9a4a1b4cd",
     "data/processed/known_windows.csv": "557b05e49858277222f9ddced5aa4ed020a9fc39cddde8f00238622f043f6e77",
     "data/processed/scan_windows.csv": "a898c138144d51cc9aed76162938b068a498283424fc1727accec15599d71cb8",
     "results/unannotated_shape_clusters/candidate_new_structures.csv": "2cf2248831d49b380767599535e5ba21407009002970d749c5b2feec22122ee2"
   },
   "files": {
     "README.md": {
-      "bytes": 6837,
-      "sha256": "d73e3f7c6e4a3378afc622fe542fe7dcb40ced2b4f2b2c8559ea4a01388bfb05"
+      "bytes": 7431,
+      "sha256": "af5f155306883dd445c605343e366cd5a6a814e9e2eaed1379565d422c259959"
     },
     "candidate_cluster_centers.npz": {
       "bytes": 705,
       "sha256": "f6a8f3dbc11abf396bdb40600dfa86aa0c8ed7b06c76f33705888d769d977b2a"
+    },
+    "candidate_scale_consistency.csv": {
+      "bytes": 2481,
+      "sha256": "986031accc342de0631acc947326f43f798a6ddc8d90dad0942b432d04d9887c"
+    },
+    "cross_scale_localization.csv": {
+      "bytes": 270394,
+      "sha256": "35e64ae759a6299d637d133c1ffa144be6700a3a8873d5ea32d7a2f82ccd94de"
     },
     "direct_cooler_checks.csv": {
       "bytes": 101,

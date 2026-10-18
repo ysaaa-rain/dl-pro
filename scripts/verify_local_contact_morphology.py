@@ -39,7 +39,7 @@ pd.DataFrame(checks).to_csv(p/'direct_cooler_checks.csv',index=False)
 files={str(f.relative_to(p)):{'bytes':f.stat().st_size,'sha256':hashlib.sha256(f.read_bytes()).hexdigest()}
  for f in sorted(p.rglob('*')) if f.is_file() and f.name!='integrity.json'}
 source_paths=['src/dlpro/local_morphology.py','scripts/analyze_local_contact_morphology.py','scripts/plot_local_contact_morphology.py',
- 'scripts/verify_local_contact_morphology.py','data/processed/known_windows.csv','data/processed/scan_windows.csv',
+ 'scripts/verify_local_contact_morphology.py','scripts/summarize_local_scale_consistency.py','data/processed/known_windows.csv','data/processed/scan_windows.csv',
  'results/unannotated_shape_clusters/candidate_new_structures.csv']
 source_hashes={name:hashlib.sha256(Path(name).read_bytes()).hexdigest() for name in source_paths}
 report=dict(status='PASS',geometry_rows=len(a),candidate_rows=len(c),localization_pngs=len(c),known_comparison_pngs=len(c),
