@@ -4,7 +4,7 @@
 
 ## 数据与实验范围
 
-- 数据来源：[GSE272159](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE272159)；登记 29 份 Cooler 矩阵、19 种条件标签，参考基因组为 \`NC_000913.3\`，原生分辨率 10 bp。
+- 数据来源：[GSE272159](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE272159)；登记 29 份 Cooler 矩阵、19 种条件标签，参考基因组为 `NC_000913.3`，原生分辨率 10 bp。
 - 已知结构：344 条，其中 CHIN 250 条、OPCID 68 条、CHID 26 条。坐标及来源见 [data/annotations/README.md](data/annotations/README.md)、[structures.csv](data/annotations/structures.csv)。
 - 条件差异分析：37℃ WT、44℃热应激、HNS_mut、FIS_mut，每种条件 2 个生物学重复，共 8 份矩阵。
 - 大型原始 Cooler 文件主要保留在本地，GitHub 存储已提交的代码、注释、运行协议、评价表及代表性图像。文件来源与哈希见 [samples.csv](data/annotations/samples.csv)。
@@ -47,11 +47,11 @@ GEO 样本数据量与重复编号**强烈支持**当前 WT 与 44℃系列 Cool
 - [任务二候选图](results/discovery_refined/heatmaps/)
 - [任务三轨道图](results/multitrack/tracks/)
 
-任务四的主要实现位于 \`scripts/structure_conditions.py\`、\`scripts/structure_condition_shape.py\`、\`scripts/robustness_structure_conditions.py\` 与 \`scripts/summarize_structure_condition_evidence.py\`。现有证据汇总可通过下列入口重新生成，原始矩阵相关分析须先确认本地 \`data/raw/\` 文件齐全：
+任务四的主要实现位于 `scripts/structure_conditions.py`、`scripts/structure_condition_shape.py`、`scripts/robustness_structure_conditions.py` 与 `scripts/summarize_structure_condition_evidence.py`。现有证据汇总可通过下列入口重新生成，原始矩阵相关分析须先确认本地 `data/raw/` 文件齐全：
 
-\`\`\`bash
+```bash
 .venv/bin/python scripts/summarize_structure_condition_evidence.py
 .venv/bin/python -m pytest -q
-\`\`\`
+```
 
 目前旧版 Word 文件仅作为早期计算记录，**正式实验报告、PPT、讲解视频和提交包尚未制作**。交付前需要重新运行当前环境的测试、核实表格与图片引用，并补充成员及贡献信息。
